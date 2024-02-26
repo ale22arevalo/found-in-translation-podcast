@@ -2,21 +2,22 @@ import * as React from "react"
 import guruillo from '../images/about/guruillo.webp'
 import aleillo from '../images/about/aleillo.webp'
 import Navbar from "../components/navbar"
+import "../styles.css"
 
 const About = () => {
 
-  const handleScroll = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  // const handleScroll = () => {
+  //   window.scrollTo({ top: 0, behavior: "smooth" });
+  // };
 
-  const scrolled = () => {
-    const backToTop = document.querySelector(".back-to-top");
-    if (window.scrollY > 10) {
-      backToTop.classList.add("visible");
-    } else {
-      backToTop.classList.remove("visible");
-    }
-  }
+  // const scrolled = () => {
+  //   const backToTop = document.querySelector(".back-to-top");
+  //   if (window.scrollY > 10) {
+  //     backToTop.classList.add("visible");
+  //   } else {
+  //     backToTop.classList.remove("visible");
+  //   }
+  // }
 
   return (
     <main className="page-style">
@@ -27,7 +28,7 @@ const About = () => {
       </div>
 
       {/* Back to top */}
-      {scrolled && (
+      {/* {scrolled && (
         <svg
           onClick={handleScroll}
           xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +47,7 @@ const About = () => {
             <textPath xlinkHref="#textcircle">backtotop</textPath>
           </text>
         </svg>
-      )}
+      )} */}
 
       {/* Episodes */}
       <div className="episode-wrapper left">
