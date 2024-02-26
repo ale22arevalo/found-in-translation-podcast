@@ -29,13 +29,15 @@ const Navbar =  () => {
     progressBar.style.top = '60px'; // Position it at the top of the page
     progressBar.style.background = 'linear-gradient(to right, #f249d6, #FFC000, #4992f2)';
 
-    window.addEventListener('scroll', () => {
-        const windowHeight = window.innerHeight;
-        const documentHeight = document.documentElement.scrollHeight;
-        const scrollTop = window.scrollY || document.documentElement.scrollTop;
-        const scrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
-        progressBar.style.width = scrollPercent + '%';
-    });
+    if (typeof window !== 'undefined') {
+        window.addEventListener('scroll', () => {
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.documentElement.scrollHeight;
+            const scrollTop = window.scrollY || document.documentElement.scrollTop;
+            const scrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
+            progressBar.style.width = scrollPercent + '%';
+        });
+    }
 
     // Append the progress bar to the navbar
     navbar.appendChild(progressBar);
