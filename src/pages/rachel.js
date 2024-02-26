@@ -7,6 +7,7 @@ import dads_family from '../images/rachel/dads_family.webp';
 import rachel_hanbok from '../images/rachel/rachel_hanbok.webp';
 import korean_dance from '../images/rachel/korean_dance.webp';
 import rachel_sarah from '../images/rachel/rachel_sarah.webp';
+import "../styles.css"
 
 const Rachel = () => {
 
