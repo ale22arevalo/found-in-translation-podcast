@@ -37,6 +37,9 @@ const Navbar =  () => {
             const scrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
             progressBar.style.width = scrollPercent + '%';
         });
+    } else {
+        // Handle server-side rendering
+        progressBar.style.width = '0%';
     }
 
     // Append the progress bar to the navbar
