@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
 const Navbar =  () => {
-    const [scrollPercent, setScrollPercent] = useState(0);
+        const [scrollPercent, setScrollPercent] = useState(0);
 
-    useEffect(() => {
+        useEffect(() => {
         if (typeof window !== 'undefined') {
             const handleScroll = () => {
                 const windowHeight = window.innerHeight;
@@ -12,14 +12,11 @@ const Navbar =  () => {
                 const newScrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
                 setScrollPercent(newScrollPercent);
             };
-
             window.addEventListener('scroll', handleScroll);
-
-            return () => {
-                window.removeEventListener('scroll', handleScroll);
-            };
-        }
-    }, []);
+        } else {
+            setScrollPercent(0);
+        } 
+        } , []);
 
     return (
         <>
