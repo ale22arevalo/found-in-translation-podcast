@@ -63,7 +63,7 @@ const IndexPage = () => {
   //   }
   // }
 
-  window.addEventListener("scroll", scrolled);
+  // window.addEventListener("scroll", scrolled);
   // window.addEventListener("resize", resize);
 
   // React.useEffect(() => {
@@ -97,7 +97,7 @@ const IndexPage = () => {
             </div>
       </div>
 
-    {/* Back to top */}
+    {/* Back to top
      {scrolled && <svg onClick={handleScroll} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" className="back-to-top">
         <title>Back to top button</title>
         <defs>
@@ -107,7 +107,7 @@ const IndexPage = () => {
         <text dy="70" textLength="1220">
           <textPath xlinkHref="#textcircle">backtotop</textPath>
         </text>
-      </svg>}
+      </svg>} */}
 
       {/* Episodes */}
       <div id="rachel" className="episode-wrapper left">
