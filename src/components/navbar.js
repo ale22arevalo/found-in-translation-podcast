@@ -1,6 +1,19 @@
+import React, { useEffect, useState } from 'react';
+
 const Navbar =  () => {
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return null; // Return null during server-side rendering
+    }
+
+    // Code that depends on the document object
     const navbar = document.createElement('nav');
-    navbar.style.position = 'fixed'; // Position the navbar as fixed
+    navbar.style.position = 'fixed';
     navbar.style.top = '0'; // Position it at the top of the page
     navbar.style.height = '60px'; // Set the height to 50px
     navbar.style.width = '100%'; // Set the width to 100%
@@ -53,6 +66,12 @@ const Navbar =  () => {
     document.body.appendChild(navbar);
     homeLink.href = '/#topper';
 
+    return (
+        <>
+            {/* Render the navbar on the client-side */}
+            {navbar}
+        </>
+    );
 };
 
 export default Navbar;
