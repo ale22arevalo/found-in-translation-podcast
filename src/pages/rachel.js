@@ -172,8 +172,8 @@ const Rachel = () => {
 
             <div className="section-wrapper">
                <div className="name-wrapper">
-               <div className='bolded-name'>Guru</div>
-              </div>
+                  <div className='bolded-name'>Guru</div>
+               </div>
               <div className="p-wrapper side">
                   <p ref={pRef} className="right-in">I feel like, at least I can speak for this in my experience, when you&#x27;re around that age, I have definitely been in situations where I kind of just openly said &quot;I don&#x27;t want to be learning this&quot; or &quot;I don&#x27;t want to do that.&quot; </p>
                   <p ref={pRef} className="right-in">Given how steadfast you were early on about not wanting to venture into learning Korean or sort of embracing that side of yourself: <b className="bolded">how did that then bleed into your direct relationship with your mom and dad?</b></p>
