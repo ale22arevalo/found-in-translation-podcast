@@ -41,7 +41,7 @@ const Rachel = () => {
         {/* Podcast Intro */}
             <section className="section-wrapper">
               <div className="name-wrapper">
-                <h3>The Host<br /> <span className="first-name">Guru Ramanathan</span></h3>
+                <h3>The Host<br/><span className="first-name">Guru Ramanathan</span></h3>
               </div>
               <div className="p-wrapper side">
                   <p ref={pRef}> Hello and welcome to <b className="bolded">Found in Translation</b>. I&#x27;m your host Guru Ramanathan.</p>
