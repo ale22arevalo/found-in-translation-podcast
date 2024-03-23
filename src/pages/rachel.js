@@ -25,7 +25,39 @@ const Rachel = () => {
                   setText(words[currentIndex]);
                 }, 2000);
                 return () => clearInterval(interval);
-              }, []);              
+              }, []);  
+              
+              useEffect(() => {
+                // Get all elements with class 'section-wrapper'
+                const parentDivs = document.querySelectorAll('.section-wrapper');
+            
+                // Iterate over each 'section-wrapper' element
+                parentDivs.forEach(parentDiv => {
+                    // Get the corresponding 'p-wrapper' element within each 'section-wrapper'
+                    const fadeDiv = parentDiv.querySelector('.p-wrapper');
+            
+                    // Check if both elements are found in the DOM
+                    if (parentDiv && fadeDiv) {
+                        // Set up the Intersection Observer for the current 'section-wrapper'
+                        const observer = new IntersectionObserver(entries => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting) {
+                                    fadeDiv.classList.add('fade');
+                                } else {
+                                    fadeDiv.classList.remove('fade');
+                                }
+                            });
+                        });
+            
+                        // Start observing the current 'section-wrapper'
+                        observer.observe(parentDiv);
+            
+                        // Clean up observer when component unmounts
+                        return () => observer.disconnect();
+                    }
+                });
+            }, []);
+            
               
   return (
     <main className="page-style"> 
@@ -40,16 +72,18 @@ const Rachel = () => {
       <section className="main-body">
         {/* Podcast Intro */}
             <section className="section-wrapper">
-              <div className="name-wrapper">
-                <h3>The Host<br/><span className="first-name">Guru Ramanathan</span></h3>
+              <div className='name-wrapper'>
+                <div>
+                  <h3>The Host<br/><span className="first-name">Guru Ramanathan</span></h3>
+                </div>
               </div>
               <div className="p-wrapper side">
-                  <p ref={pRef}> Hello and welcome to <b className="bolded">Found in Translation</b>. I&#x27;m your host Guru Ramanathan.</p>
-                  <p ref={pRef}>This is a podcast where first/second generation and immigrant youth come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.</p>
+                  <p> Hello and welcome to <b className="bolded">Found in Translation</b>. I&#x27;m your host Guru Ramanathan.</p>
+                  <p>This is a podcast where first/second generation and immigrant youth come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.</p>
                   <p> This week&#x27;s guest and our first guest ever is the lovely and endlessly talented <a href="https://www.rachelhaeunlee.com/" target='_blank' className="hoverable-link">RACHEL LEE</a>, who is one of my best friends and an incredible Korean American dancer, marketer photographer, podcast, artist, extraordinaire. I&#x27;m the head of her <b className="bolded">fan club</b>.</p>
                   <div className='text-photo'>
                     <div className='text-arrow'>
-                      <p ref={pRef} className='handwriting'>This is Rachel</p>
+                      <p className='handwriting'>This is Rachel</p>
                       <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
                         <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
                           <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
@@ -60,10 +94,10 @@ const Rachel = () => {
                     </div>
                     <img className="vertical-photo" src={rachel_headshot} alt="" loading="lazy" />
                   </div>
-                  <p ref={pRef}>Well, kidding, but she should definitely have her own fan club at this point. Rachel and I met each other at NYU and actually, some of the conversations we&#x27;ve had with each other over the years about our respective relationships to Korean and Tamil have inspired this podcast.</p>
-                  <p ref={pRef}>Very grateful that she can be the inaugural episode and that we can share her story of:</p>
-                  <p ref={pRef}><b className="list">A) </b>what it was like to navigate, coming around to learning Korean while growing up in Dallas‍ <br /><b className="list">B) </b>how that affected her relationship with her relatives and peers, including her grandmother, her church group‍ <br /><b className="list">C)</b> how artistic identity was influenced by the journey she was going on with the Korean language and culture. </p>
-                  <p ref={pRef}>Hope you enjoy!</p>
+                  <p>Well, kidding, but she should definitely have her own fan club at this point. Rachel and I met each other at NYU and actually, some of the conversations we&#x27;ve had with each other over the years about our respective relationships to Korean and Tamil have inspired this podcast.</p>
+                  <p>Very grateful that she can be the inaugural episode and that we can share her story of:</p>
+                  <p><b className="list">A) </b>what it was like to navigate, coming around to learning Korean while growing up in Dallas‍ <br /><b className="list">B) </b>how that affected her relationship with her relatives and peers, including her grandmother, her church group‍ <br /><b className="list">C)</b> how artistic identity was influenced by the journey she was going on with the Korean language and culture. </p>
+                  <p>Hope you enjoy!</p>
               </div>
             </section>
 

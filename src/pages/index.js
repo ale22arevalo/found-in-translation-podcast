@@ -62,7 +62,7 @@ const IndexPage = () => {
             <div className="static-title">in Translation</div>
           </h1>
           <div className="subhead">
-            <h2>A Visual Podcast Experience</h2>
+            <h2>A Visual Podcast</h2>
             <a href="#about">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               {/* <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--> */}
