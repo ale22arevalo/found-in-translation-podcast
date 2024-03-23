@@ -72,7 +72,7 @@ b {
 
 @media (max-width: 1080px) {
     h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-bottom: 1rem;
     }
     h2 {
@@ -145,6 +145,13 @@ b {
 }
 
 @media (max-width: 1080px) {
+    .topper-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+    }
     .link-wrapper {
         display: flex;
         flex-direction: column;

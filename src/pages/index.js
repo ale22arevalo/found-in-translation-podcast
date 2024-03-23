@@ -54,22 +54,6 @@ const IndexPage = () => {
                 return () => clearInterval(interval);
               }, []);
 
-  // const resize = () => {
-  //   if (window.innerWidth > 1200) {
-  //     const episodeWrappers = document.querySelectorAll(".episode-wrapper, #topper");
-  //     episodeWrappers.forEach(wrapper => {
-  //       wrapper.style.height = window.innerHeight + "px";
-  //     });
-  //   }
-  // }
-
-  // window.addEventListener("scroll", scrolled);
-  // window.addEventListener("resize", resize);
-
-  // React.useEffect(() => {
-  //   resize();
-  // }, []);
-
   return (
     <main className="page-style">
       <div id="topper">
