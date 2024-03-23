@@ -1,22 +1,32 @@
 import React, { useEffect, useState } from 'react';
 
-const Navbar =  () => {
-        // const [scrollPercent, setScrollPercent] = useState(0);
+const Navbar = () => {
+    const [scrollPercent, setScrollPercent] = useState(0);
 
-        // useEffect(() => {
-        // if (typeof window !== 'undefined') {
-        //     const handleScroll = () => {
-        //         const windowHeight = window.innerHeight;
-        //         const documentHeight = document.documentElement.scrollHeight;
-        //         const scrollTop = window.scrollY || document.documentElement.scrollTop;
-        //         const newScrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
-        //         setScrollPercent(newScrollPercent);
-        //     };
-        //     window.addEventListener('scroll', handleScroll);
-        // } else {
-        //     setScrollPercent(0);
-        // } 
-        // } , []);
+    useEffect(() => {
+        let isMounted = true;
+
+        const handleScroll = () => {
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.documentElement.scrollHeight;
+            const scrollTop = window.scrollY || document.documentElement.scrollTop;
+            const newScrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
+            if (isMounted) {
+                setScrollPercent(newScrollPercent);
+            }
+        };
+
+        if (typeof window !== 'undefined') {
+            window.addEventListener('scroll', handleScroll);
+        }
+
+        return () => {
+            isMounted = false;
+            if (typeof window !== 'undefined') {
+                window.removeEventListener('scroll', handleScroll);
+            }
+        };
+    }, []);
 
     return (
         <>
@@ -31,7 +41,7 @@ const Navbar =  () => {
                     paddingTop: '10px',
                 }}
             >
-                {/* <div
+                <div
                     style={{
                         height: '10px',
                         width: `${scrollPercent}%`,
@@ -39,7 +49,7 @@ const Navbar =  () => {
                         top: '60px',
                         background: 'linear-gradient(to right, #f249d6, #FFC000, #4992f2)',
                     }}
-                /> */}
+                />
                 <a
                     href="/#topper"
                     style={{

@@ -72,15 +72,13 @@ b {
 
 @media (max-width: 728px) {
     h1 {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
+        font-size: 3rem;
     }
     h2 {
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
+        font-size: 1.8rem;
     }
     h3 {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         margin-bottom: 1rem;
         text-align: left;
     }
@@ -99,37 +97,41 @@ b {
 .topper-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 1rem;
-}
 
-.link-wrapper {
-    margin: 2rem;
-    padding: 0.8rem 1rem 0.8rem 1rem;
-    background-color: #FFC107; /* Amber */
-    border-radius: 0.5rem;
-    font-family: 'Contrail One', sans-serif;
-    border: solid #121212 3px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-}
+    .link-wrapper {
+        margin: 2rem;
+        padding: 0.8rem 1rem 0.8rem 1rem;
+        background-color: #FFC107;
+        border-radius: 0.5rem;
+        font-family: 'Contrail One', sans-serif;
+        border: solid #121212 3px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
 
-.link-wrapper .waveform {
-    display: block;
-    margin-top: 10px;
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-}
+        .waveform {
+            display: block;
+            margin-top: 10px;
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+        }
 
-.link-wrapper .links {
-    text-decoration: none;
-    color: #121212;
-    font-weight: bold;
-    font-size: 1.2rem;
-    text-align: center;
-    letter-spacing: 2px;
+        .links {
+            text-decoration: none;
+            color: #121212;
+            font-weight: bold;
+            font-size: 1.2rem;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+    }
+
+    @media (max-width: 1080px){
+        display: ruby;
+    }
 }
 
 .social-links{
@@ -141,32 +143,6 @@ b {
     }
     svg:hover{
         fill: #3737ba;
-    }
-}
-
-@media (max-width: 728px) {
-    .topper-links {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 1rem;
-    }
-    .link-wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0.5rem;
-        padding: 0.3rem;
-        font-size: 12px;
-    }
-    .link-wrapper .waveform {
-        width: 50px;
-        height: 15px;
-    }
-    .link-wrapper .links {
-        font-size: 12px;
     }
 }
 
@@ -200,7 +176,7 @@ b {
 
 /* Pages styling */
 .main-body {
-    padding: 0 5rem 0 5rem;
+    padding: 0 8rem 0 8rem;
 }
 
 .home-intro {
@@ -208,11 +184,6 @@ b {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
-    @media (max-width: 728px) {
-        height: 20vh;
-        padding-bottom: 0;
-    }
 }
 
 .section-wrapper {
@@ -266,18 +237,6 @@ b {
     width: 100%;
 }
 
-.home-intro {
-    height: 200px;
-    width: 100%;
-    z-index: 10;
-    padding-top: 5rem;
-
-@media (max-width: 728px) {
-        height: 120px;
-        padding-top: 8rem;
-    }
-}
-
 .side {
     width: 70%;
 
@@ -285,7 +244,7 @@ b {
 
 @media (max-width: 728px) {
     .main-body {
-        padding: 0 2rem 0 2rem;
+        padding: 0 1.5rem 0 1.5rem;
     }
     .section-wrapper {
         flex-direction: column;
@@ -375,19 +334,22 @@ a:hover {
 
 /* Components styling */
 #topper {
-    padding: 3rem 0.5rem 2rem 0.5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 728px){
+        heigth: 300px;
+    }
 }
 
 .episode-wrapper {
-    width: 80%;
-    margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
 
-    @media (max-width: 728px) {
+    @media (max-width: 1080px) {
         flex-direction: column;
-        padding: 1rem 0 1rem 0;
     }
 }
 
@@ -395,7 +357,7 @@ a:hover {
     padding: 2rem;
     width: fit-content;
 
-    @media (max-width: 728px) {
+    @media (max-width: 1080px) {
         padding: 0;
     }
 }
@@ -406,7 +368,7 @@ a:hover {
 
 .right {
     text-align: right;
-    @media (max-width: 728px) {
+    @media (max-width: 1080px) {
         text-align: left;
         display: flex;
         flex-direction: column-reverse;

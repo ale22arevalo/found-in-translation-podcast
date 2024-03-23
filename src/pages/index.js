@@ -6,6 +6,7 @@ import rachelillo from "../images/rachel/rachel.webp"
 import michaelillo from "../images/michael/michael.webp"
 import cynthiaillo from "../images/cynthia/cynthia.webp"
 import fareehaillo from "../images/fareeha/fareeha.webp"
+import BackTop from "../components/backtop"
 
 const links = [
   {
@@ -28,34 +29,21 @@ const links = [
 
 const IndexPage = () => {
 
-  const handleScroll = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+      const [text, setText] = useState("Found");
 
-  const scrolled = () => {
-    const backToTop = document.querySelector(".back-to-top");
-    if (window.scrollY > 10) {
-      backToTop.classList.add("visible");
-    } else {
-      backToTop.classList.remove("visible");
-    }
-  }
+                  useEffect(() => {
+                    const words = ["Found", "Encontrado", "পাইলাম", "찾았다", "Ri"];
+                    let currentIndex = 0;
 
-  const [text, setText] = useState("Found");
-
-              useEffect(() => {
-                const words = ["Found", "Encontrado", "পাইলাম", "찾았다", "Ri"];
-                let currentIndex = 0;
-
-                const interval = setInterval(() => {
-                  currentIndex = (currentIndex + 1) % words.length;
-                  setText(words[currentIndex]);
-                }, 2000);
-                return () => clearInterval(interval);
-              }, []);
+                    const interval = setInterval(() => {
+                      currentIndex = (currentIndex + 1) % words.length;
+                      setText(words[currentIndex]);
+                    }, 2000);
+                    return () => clearInterval(interval);
+                  }, []);
 
   return (
-    <main className="page-style">
+    <main className="main-body">
       <div id="topper">
           <h1 className="site-hero">
             <div className="changing-word">{text}</div> 
@@ -81,17 +69,7 @@ const IndexPage = () => {
             </div>
       </div>
 
-    {/* Back to top
-     {scrolled && <svg onClick={handleScroll} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" className="back-to-top">
-        <title>Back to top button</title>
-        <defs>
-          <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
-          </path>
-        </defs>
-        <text dy="70" textLength="1220">
-          <textPath xlinkHref="#textcircle">backtotop</textPath>
-        </text>
-      </svg>} */}
+      <BackTop />
 
       {/* Episodes */}
       <div id="rachel" className="episode-wrapper left">

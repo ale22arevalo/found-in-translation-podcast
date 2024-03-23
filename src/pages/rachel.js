@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Navbar from '../components/navbar';
+import BackTop from '../components/backtop';
 import rachel_headshot from '../images/rachel/rachel_headshot.webp';
 import parents from '../images/rachel/parents.webp';
 import preschool_rachel from '../images/rachel/preschool_rachel.webp';
@@ -60,10 +61,10 @@ const Rachel = () => {
             
               
   return (
-    <main className="page-style"> 
+    <main> 
       <Navbar />
-      <section id="topper" className="home-intro" style={{ position: "relative" }}>
-        <h1 className="site-hero">
+      <section id="topper" className="home-intro">
+        <h1>
           <div className="changing-word">{text}</div>
           <div className="static-title">Whispers</div>
         </h1>
@@ -100,6 +101,8 @@ const Rachel = () => {
                   <p>Hope you enjoy!</p>
               </div>
             </section>
+          
+          <BackTop />
 
           {/* Interview Begins */}
             <section className="section-wrapper">

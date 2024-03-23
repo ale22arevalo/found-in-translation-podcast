@@ -6,6 +6,38 @@ import michael_birthday from '../images/michael/michael_birthday.webp';
 import "../styles.css"
 
 const Michael = () => {
+  
+  useEffect(() => {
+    // Get all elements with class 'section-wrapper'
+    const parentDivs = document.querySelectorAll('.section-wrapper');
+
+    // Iterate over each 'section-wrapper' element
+    parentDivs.forEach(parentDiv => {
+        // Get the corresponding 'p-wrapper' element within each 'section-wrapper'
+        const fadeDiv = parentDiv.querySelector('.p-wrapper');
+
+        // Check if both elements are found in the DOM
+        if (parentDiv && fadeDiv) {
+            // Set up the Intersection Observer for the current 'section-wrapper'
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        fadeDiv.classList.add('fade');
+                    } else {
+                        fadeDiv.classList.remove('fade');
+                    }
+                });
+            });
+
+            // Start observing the current 'section-wrapper'
+            observer.observe(parentDiv);
+
+            // Clean up observer when component unmounts
+            return () => observer.disconnect();
+        }
+    });
+}, []);
+
     return (
       <main className="page-style">  
         <Navbar />
