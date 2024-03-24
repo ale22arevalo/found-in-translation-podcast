@@ -136,7 +136,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="episode-wrapper left">
+        <div className="episode-wrapper left" id='special-thanks'>
           <div className="text-wrapper">
             <h3>Special thanks</h3>
             <h4>Lux the Lightbulb</h4>
@@ -145,6 +145,7 @@ const About = () => {
             <p>Contributed to the art direction and illustrations on this website</p>
           </div>
         </div>
+
       </div>
     </main>
   );

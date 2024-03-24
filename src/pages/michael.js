@@ -80,9 +80,9 @@ const Michael = () => {
                 </div>
               </section>
               <div className="section-wrapper">
-                <div className="p-wrapper full">
-                  <h3 data-w-id="5bc7f160-43c1-530a-c3f4-65b9f4219b8f" className="cue">~ interview begins ~</h3>
-                  <b data-w-id="5bc7f160-43c1-530a-c3f4-65b9f4219b9c" className='bolded'>How does it feel to be a guest and to be one of the hosts?</b>
+                <div className="p-wrapper full center">
+                  <h3 className="cue">~ interview begins ~</h3>
+                  <b className='bolded'>How does it feel to be a guest and not to be one of the hosts?</b>
                 </div>
               </div>
               
@@ -165,20 +165,15 @@ const Michael = () => {
                   <p >Because I&#x27;ve definitely had some of those parties But then there&#x27;s a bit of a hierarchy as to who can communicate in the multiple languages. The parents always talk about like, oh, your kid does so well here, but I wish mine could too. I was wondering, was there that sort of internal prejudice around those who were better at Yoruba than others?</p>
                 </div>
               </div>
-              <section className="section-quote">
-                <div className="page-padding">
-                  <div className="container-medium"></div>
-                </div>
-              </section>
               <div className="section-wrapper">
                 <div className="name-wrapper">
-              <div className='bolded-name'>Michael</div>
-              </div>
+                  <div className='bolded-name'>Michael</div>
+                </div>
                 <div className="p-wrapper side">
                     <p>Yeah, to an extent. I wouldn&#x27;t say it was ever super bad, but it would always kind of come out in the...<br /></p>
-                    <p className="info-p right-in quote-text">&quot;Oh, you don&#x27;t know you were supposed to do this?&quot;<br /></p>
-                    <p className="info-p right-in quote-text">or, &quot;oh, you said that so American. wow, you really aren&#x27;t Nigerian.&quot;<br /></p>
-                    <p className="info-p right-in quote-text">or, &quot;oh, you said that so American. wow, you really aren&#x27;t Nigerian.&quot;<br /></p>
+                    <p>&quot;Oh, you don&#x27;t know you were supposed to do this?&quot;<br /></p>
+                    <p>or, &quot;oh, you said that so American. wow, you really aren&#x27;t Nigerian.&quot;<br /></p>
+                    <p>or, &quot;oh, you said that so American. wow, you really aren&#x27;t Nigerian.&quot;<br /></p>
                     <p>It was almost kinda club-type exclusionary. And then, we weren&#x27;t primed on the speaking so it was us, American children, in front of this panel of judgmental Nigerians. <br /></p>
                     <p>We&#x27;re going up and we&#x27;re like, happy birthday, grandma. You know, we&#x27;re saying our last name wrong. And then cousins come up and they&#x27;re saying their names perfectly pronounced.<br /></p>
                     <p>But it was always like that was kind of the experience of you&#x27;re walking into a situation where you&#x27;re like &#x27;this is gonna be fine&#x27; and then something happens and you&#x27;re like, &#x27;oh, it&#x27;s not fine, I&#x27;m confused.&#x27; You&#x27;re looking to your parent like, &#x27;why didn&#x27;t you tell me?&#x27; There&#x27;s obviously something not being communicated.<br /></p>
@@ -197,19 +192,19 @@ const Michael = () => {
                   </div>
                     <p>I remember one time we went to an aunt&#x27;s house and like there&#x27;s a custom with certain Nigerians where you&#x27;re supposed to bow upon entry. That&#x27;s a custom in a lot of different cultures.<br /></p>
                     <p>Most Nigerians usually don&#x27;t adhere to it, but some are very, stringent about that. And we had one aunt in particular who was really stringent about that. But you know, all of us as children didn&#x27;t know that. And the phrase for you to bow is &quot;dobale.&quot; We show up to the house and we&#x27;re just like,<br /></p>
-                    <p className="info-p right-in quote-text">Oh, hey what&#x27;s up Auntie?<br /></p>
+                    <p>Oh, hey what&#x27;s up Auntie?<br /></p>
                     <p>Her name is Jok, and she&#x27;s just like,<br /></p>
-                    <p className="info-p right-in quote-text">&quot;dobale&quot; <br /></p>
+                    <p>&quot;dobale&quot; <br /></p>
                     <p>And we&#x27;re like,<br /></p>
-                    <p className="info-p right-in quote-text">&quot;huh?&quot;<br /></p>
+                    <p>&quot;huh?&quot;<br /></p>
                     <p>She&#x27;s like,<br /></p>
-                    <p className="info-p right-in quote-text">&quot;dobale&quot; <br /></p>
+                    <p>&quot;dobale&quot; <br /></p>
                     <p>And then my mom&#x27;s like,<br /></p>
-                    <p className="info-p right-in quote-text">&quot;oh, you&#x27;re supposed to bow.&quot;<br /></p>
+                    <p>&quot;oh, you&#x27;re supposed to bow.&quot;<br /></p>
                     <p>I must have been no older than eight or nine. I&#x27;m just like, <br /></p>
-                    <p className="info-p right-in quote-text">&quot;what?&quot;<br /></p>
-                    <p className="info-p right-in quote-text">&quot;Get on your knees.&quot;<br /></p>
-                    <p className="info-p right-in quote-text">&quot;ok...&quot;<br /></p>
+                    <p>&quot;what?&quot;<br /></p>
+                    <p>&quot;Get on your knees.&quot;<br /></p>
+                    <p>&quot;ok...&quot;<br /></p>
                     <p>You can react to it in two different ways. You can kind of look at it, but it&#x27;s like that was kind of crazy at the moment, but isn&#x27;t that a funny story? I feel like sometimes people can kind of get a chip on their shoulder because of that. It&#x27;s funny, my mom herself, who grew up in Nigeria, she&#x27;s always like, these Nigerians! She always phrases it like that. I&#x27;m like, you know, you&#x27;re a Nigerian too.<br /></p>
                   </div>
               </div>
@@ -276,11 +271,9 @@ const Michael = () => {
                   <b data-w-id="75d5c71e-e504-c440-8d14-df90d053bd97" className="bolded">I&#x27;m curious, like what was your mom&#x27;s reaction when you decided you were gonna take this Yoruba classes?</b>
                 </div>
               </div>
-              <div className="section-wrapper">
-                <div className="quote">
+              <div className="section-wrapper quote">
                   <div className="bolded-name">Michael</div>
-                  <p>She was definitely really happy. She&#x27;s like, your grandma&#x27;s gonna be really happy about this because my grandma still speaks a lot of yoruba and I feel Yoruba is a very like personal language for her and my mom. It was like, oh, like be able to say a few words of it together. It made her smile, you know?</p>
-                </div>
+                  <p><span>She was definitely really happy. She&#x27;s like, your grandma&#x27;s gonna be really happy about this because my grandma still speaks a lot of yoruba and I feel Yoruba is a very like personal language for her and my mom. It was like, oh, like be able to say a few words of it together. It made her smile, you know?</span></p>
               </div>
               <div className="section-wrapper">
                <div className='name-wrapper'>
@@ -291,11 +284,9 @@ const Michael = () => {
                     <p>Let me try to do X, Y, and Z. More and more and more like going to Nigerian restaurants and ordering in Yoruba. I&#x27;m sure throughout the className you also touched on some of those historical cultural moments, <b className="bolded">did that change the way you perceived your Nigerian identity or did it kind of like evolve you forward in any way?</b><br /></p>
                 </div>
               </div>
-              <div className="section-wrapper">
-                <div className="quote">
+              <div className="section-wrapper quote">
                   <div data-w-id="2272ff3e-653f-19d8-0222-0a15c7790b4e" className="bolded-name">Michael</div>
-                  <p>I definitely think it did evolve me forward. it&#x27;s okay to not know yoruba because it doesn&#x27;t make you any less Nigerian than others. <br /><br />Especially when I was younger, I always had that chip on my shoulder. My mom&#x27;s Nigerian, but I don&#x27;t feel like I can really consider myself Nigerian cause I don&#x27;t speak the language, I&#x27;ve never been to Nigeria.</p>
-                </div>
+                  <p><span>I definitely think it did evolve me forward. it&#x27;s okay to not know yoruba because it doesn&#x27;t make you any less Nigerian than others. <br /><br />Especially when I was younger, I always had that chip on my shoulder. My mom&#x27;s Nigerian, but I don&#x27;t feel like I can really consider myself Nigerian cause I don&#x27;t speak the language, I&#x27;ve never been to Nigeria.</span></p>
               </div>
               <div className="section-wrapper">
                <div className='name-wrapper'>
@@ -332,9 +323,11 @@ const Michael = () => {
                 </div>
               </div>
               <div className="section-wrapper">
-                <div className="p-wrapper">
-                  <div data-w-id="58e69624-95ae-647c-b0b9-82e4a7d1d8ff" className="bolded-name">Guru</div>
-                  <b data-w-id="58e69624-95ae-647c-b0b9-82e4a7d1d901" className="bolded">Have you found other ways to like continue learning?</b>
+                <div className="name-wrapper">
+                  <div className='bolded-name'>Guru</div>
+                </div>
+                <div className="p-wrapper side">
+                  <b className="bolded">Have you found other ways to like continue learning?</b>
                 </div>
               </div>
               <div className="section-wrapper">
