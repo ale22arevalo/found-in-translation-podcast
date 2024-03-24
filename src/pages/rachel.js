@@ -12,8 +12,6 @@ import "../styles.css"
 
 const Rachel = () => {
 
-  const pRef = useRef();
-
   // Changing title word
   const [text, setText] = useState("Korean");
 
@@ -63,14 +61,14 @@ const Rachel = () => {
   return (
     <main> 
       <Navbar />
-      <section id="topper" className="home-intro">
+      <section id="topper" className="topper">
         <h1>
-          <div className="changing-word">{text}</div>
-          <div className="static-title">Whispers</div>
+          <span className="changing-word">{text}</span>
+          <span className="static-title">Whispers</span>
         </h1>
       </section>
 
-      <section className="main-body">
+      <div className="main-body">
         {/* Podcast Intro */}
             <section className="section-wrapper">
               <div className='name-wrapper'>
@@ -109,10 +107,10 @@ const Rachel = () => {
               <div className="p-wrapper full">
                 <h3 data-w-id="5bc7f160-43c1-530a-c3f4-65b9f4219b8f" className="cue">~ interview begins ~</h3>
                 <p data-w-id="5bc7f160-43c1-530a-c3f4-65b9f4219b91">Thank you Rachel, for coming onto the podcast. We really appreciate it. </p>
-                <p ref={pRef} data-w-id="5bc7f160-43c1-530a-c3f4-65b9f4219b93" >I just wanna begin at the beginning of your life,</p>
-                <p ref={pRef} data-w-id="5bc7f160-43c1-530a-c3f4-65b9f4219b96" >your <b className="bolded">life&#x27;s journey </b>with this language. </p>
-                <p ref={pRef} data-w-id="5bc7f160-43c1-530a-c3f4-65b9f4219b98" >I feel like anytime we think about our connection to our <b className="bolded">language</b>,</p>
-                <p ref={pRef} data-w-id="5bc7f160-43c1-530a-c3f4-65b9f4219b9a" > it&#x27;s a <b className="bolded">rollercoaster</b> of a relationship when you&#x27;re in the American context. </p>
+                <p data-w-id="5bc7f160-43c1-530a-c3f4-65b9f4219b93" >I just wanna begin at the beginning of your life,</p>
+                <p data-w-id="5bc7f160-43c1-530a-c3f4-65b9f4219b96" >your <b className="bolded">life&#x27;s journey </b>with this language. </p>
+                <p data-w-id="5bc7f160-43c1-530a-c3f4-65b9f4219b98" >I feel like anytime we think about our connection to our <b className="bolded">language</b>,</p>
+                <p data-w-id="5bc7f160-43c1-530a-c3f4-65b9f4219b9a" > it&#x27;s a <b className="bolded">rollercoaster</b> of a relationship when you&#x27;re in the American context. </p>
                 {/* Q1 */}
                 <b data-w-id="5bc7f160-43c1-530a-c3f4-65b9f4219b9c" className="extra-bolded">What was your connection with Korean in your childhood?</b>
               </div>
@@ -126,7 +124,7 @@ const Rachel = () => {
               <div className="p-wrapper side">
                   <div className='text-photo'>
                     <div className='text-arrow'>
-                      <p ref={pRef} className='handwriting'>Rachel's parents when they were young</p>
+                      <p className='handwriting'>Rachel's parents when they were young</p>
                       <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
                           <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
                             <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
@@ -137,11 +135,11 @@ const Rachel = () => {
                     </div>
                     <img className="horizontal-photo" src={parents} alt="" loading="lazy" />
                   </div>
-                  <p ref={pRef}>Both of my parents are from South Korea. My dad had moved to the States when he was 11 or 12 and my mom came by herself when she was 18 or so. My dad had gone through ESL and grew up in the American schooling system so he had a bit more of a grasp on English than my mother did. </p>
-                  <p ref={pRef} className="right-in">When I was born, my parents pretty much only spoke Korean at home and to each other. That was almost my first language in a way. And then, I went to preschool and the Korean language disappeared from me.</p>
+                  <p>Both of my parents are from South Korea. My dad had moved to the States when he was 11 or 12 and my mom came by herself when she was 18 or so. My dad had gone through ESL and grew up in the American schooling system so he had a bit more of a grasp on English than my mother did. </p>
+                  <p className="right-in">When I was born, my parents pretty much only spoke Korean at home and to each other. That was almost my first language in a way. And then, I went to preschool and the Korean language disappeared from me.</p>
                   <div className='text-photo'>
                     <div className='text-arrow'>
-                      <p ref={pRef} className='handwriting'>Pre-school-age Rachel</p>
+                      <p className='handwriting'>Pre-school-age Rachel</p>
                       <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
                             <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
                               <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
@@ -152,22 +150,22 @@ const Rachel = () => {
                     </div>
                     <img className="vertical-photo" src={preschool_rachel} alt="" loading="lazy" />
                   </div>
-                  <p ref={pRef} className="right-in">I think my dad was very persistent because he had trouble growing up in the American schooling system with English as a second language. So, he did implement English language books a lot for me to read and get that going while all I really heard though was Korean. </p>
-                  <p ref={pRef} className="right-in">A lot of my peers did attend hangul hakgyo (한글 학교), which is like Korean school. It was usually on a weekend and they learned to read and write and speak, et cetera. But, my parents never forced me to attend. I don&#x27;t even remember if it was necessarily offered to me in that way.</p>
+                  <p className="right-in">I think my dad was very persistent because he had trouble growing up in the American schooling system with English as a second language. So, he did implement English language books a lot for me to read and get that going while all I really heard though was Korean. </p>
+                  <p className="right-in">A lot of my peers did attend hangul hakgyo (한글 학교), which is like Korean school. It was usually on a weekend and they learned to read and write and speak, et cetera. But, my parents never forced me to attend. I don&#x27;t even remember if it was necessarily offered to me in that way.</p>
               </div>
             </section>
  
             <section className="section-wrapper">
               <div className="p-wrapper">
                 <b data-w-id="869e026c-7fae-d570-381b-544bf71c2700" className="bolded">I wouldn&#x27;t have wanted to go anyway,</b>
-                <p ref={pRef} data-w-id="869e026c-7fae-d570-381b-544bf71c2702">because I was so set on being as <b className="bolded">American</b> as possible</p>
-                <p ref={pRef} data-w-id="869e026c-7fae-d570-381b-544bf71c2707">and <b className="bolded">no trace of Korean</b> in Rachel Lee.</p>
-                <p ref={pRef} data-w-id="869e026c-7fae-d570-381b-544bf71c270c">So, yeah, I think I grew up mostly just understanding,</p>
-                <p ref={pRef} data-w-id="869e026c-7fae-d570-381b-544bf71c270e">but as I got older, I could understand <b className="smaller">less and less</b>.</p>
+                <p data-w-id="869e026c-7fae-d570-381b-544bf71c2702">because I was so set on being as <b className="bolded">American</b> as possible</p>
+                <p data-w-id="869e026c-7fae-d570-381b-544bf71c2707">and <b className="bolded">no trace of Korean</b> in Rachel Lee.</p>
+                <p data-w-id="869e026c-7fae-d570-381b-544bf71c270c">So, yeah, I think I grew up mostly just understanding,</p>
+                <p data-w-id="869e026c-7fae-d570-381b-544bf71c270e">but as I got older, I could understand <b className="smaller">less and less</b>.</p>
                 {/* Parents photo */}
                 <div className='text-photo'>
                   <div className='text-arrow'>
-                    <p ref={pRef} className='handwriting'>Rachel's family from her dad's side</p>
+                    <p className='handwriting'>Rachel's family from her dad's side</p>
                         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
                               <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
                                 <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
@@ -200,10 +198,10 @@ const Rachel = () => {
               <div className='bolded-name'>Rachel</div>
               </div>
               <div className="p-wrapper side">
-                  <p ref={pRef}>I feel like I really didn&#x27;t break away and decide that I wasn&#x27;t going to be Korean. In elementary school, I dealt with some bullying. In the first grade, two third graders would push me and tease me and stuff. </p>
-                  <p ref={pRef}>And so I think that&#x27;s when I realized that, oh, I had something different about me. And if my appearance is one way, but everything else is not Asian, then maybe I won&#x27;t be Asian or be considered &quot;normal in their eyes&quot; and that kind of stuff will stop.</p>
-                  <p ref={pRef}>My mom actually, part of the reason, I wonder if she didn&#x27;t send me to hangul hakgyo is because she told me once that she witnessed those two boys bully me.</p>
-                  <p ref={pRef}>I had lived in the house right across the street from my elementary school. And I guess she was passing the playground and she saw me get pushed or something. And then like saw me cry at the park. I wonder too, if that influenced my parents&#x27; decision as well to not force me to learn the language.</p>
+                  <p>I feel like I really didn&#x27;t break away and decide that I wasn&#x27;t going to be Korean. In elementary school, I dealt with some bullying. In the first grade, two third graders would push me and tease me and stuff. </p>
+                  <p>And so I think that&#x27;s when I realized that, oh, I had something different about me. And if my appearance is one way, but everything else is not Asian, then maybe I won&#x27;t be Asian or be considered &quot;normal in their eyes&quot; and that kind of stuff will stop.</p>
+                  <p>My mom actually, part of the reason, I wonder if she didn&#x27;t send me to hangul hakgyo is because she told me once that she witnessed those two boys bully me.</p>
+                  <p>I had lived in the house right across the street from my elementary school. And I guess she was passing the playground and she saw me get pushed or something. And then like saw me cry at the park. I wonder too, if that influenced my parents&#x27; decision as well to not force me to learn the language.</p>
               </div>
             </div>
 
@@ -212,8 +210,8 @@ const Rachel = () => {
                   <div className='bolded-name'>Guru</div>
                </div>
               <div className="p-wrapper side">
-                  <p ref={pRef} className="right-in">I feel like, at least I can speak for this in my experience, when you&#x27;re around that age, I have definitely been in situations where I kind of just openly said &quot;I don&#x27;t want to be learning this&quot; or &quot;I don&#x27;t want to do that.&quot; </p>
-                  <p ref={pRef} className="right-in">Given how steadfast you were early on about not wanting to venture into learning Korean or sort of embracing that side of yourself: <b className="bolded">how did that then bleed into your direct relationship with your mom and dad?</b></p>
+                  <p className="right-in">I feel like, at least I can speak for this in my experience, when you&#x27;re around that age, I have definitely been in situations where I kind of just openly said &quot;I don&#x27;t want to be learning this&quot; or &quot;I don&#x27;t want to do that.&quot; </p>
+                  <p className="right-in">Given how steadfast you were early on about not wanting to venture into learning Korean or sort of embracing that side of yourself: <b className="bolded">how did that then bleed into your direct relationship with your mom and dad?</b></p>
               </div>
             </div>
 
@@ -227,13 +225,13 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
               <p className="right-in">Korean food was the one that my parents wouldn&#x27;t budge, especially like my mom was the type of mom that woke up at 5:00 AM every day to make me some gourmet Korean meal. </p>
-                  <p ref={pRef} className="right-in">And of course I&#x27;m like <b className="bolded">&quot;I don&#x27;t want this for lunch. How dare you pack this for me?&quot; </b></p>
-                  <p ref={pRef} className="right-in">And she never changed. I was too young to comprehend that all the hard work that she puts in to create food for me in the morning. </p>
-                  <p ref={pRef} className="right-in">Of course I understand that now, but as a kid, I was like <b className="bolded">&quot;she&#x27;s letting people get to me.&quot;</b></p>
-                  <p ref={pRef} className="right-in"> But when it came to the language itself, my parents were pretty supportive. I remember distinctly one time we were visiting my grandparents in Texas who were on my dad&#x27;s side. </p>
-                  <p ref={pRef} className="right-in">And I remember my grandma was yelling at me like <b className='bolded'>&quot;you&#x27;re Korean, you need to learn Korean,&quot; </b>blah, blah, blah, all that stuff.</p>
-                  <p ref={pRef} className="right-in">And my mom stepped in and be like <b className='bolded'>&quot;well, how about you learn English? You&#x27;re living in America and if you wanna talk to her, that&#x27;s the way to do it.&quot; </b></p>
-                  <p ref={pRef} className="right-in">I remember being like shocked  about that. In a way I feel I&#x27;ve always been supported language wise.</p>
+                  <p className="right-in">And of course I&#x27;m like <b className="bolded">&quot;I don&#x27;t want this for lunch. How dare you pack this for me?&quot; </b></p>
+                  <p className="right-in">And she never changed. I was too young to comprehend that all the hard work that she puts in to create food for me in the morning. </p>
+                  <p className="right-in">Of course I understand that now, but as a kid, I was like <b className="bolded">&quot;she&#x27;s letting people get to me.&quot;</b></p>
+                  <p className="right-in"> But when it came to the language itself, my parents were pretty supportive. I remember distinctly one time we were visiting my grandparents in Texas who were on my dad&#x27;s side. </p>
+                  <p className="right-in">And I remember my grandma was yelling at me like <b className='bolded'>&quot;you&#x27;re Korean, you need to learn Korean,&quot; </b>blah, blah, blah, all that stuff.</p>
+                  <p className="right-in">And my mom stepped in and be like <b className='bolded'>&quot;well, how about you learn English? You&#x27;re living in America and if you wanna talk to her, that&#x27;s the way to do it.&quot; </b></p>
+                  <p className="right-in">I remember being like shocked  about that. In a way I feel I&#x27;ve always been supported language wise.</p>
               </div>
             </div>
 
@@ -734,7 +732,7 @@ const Rachel = () => {
                 <p data-w-id="96ee040b-b379-b87d-1827-8d9d2bc025a8" className="right-in">And that&#x27;s a wrap on episode one. Thank you so so much again for listening and embarking on this journey with us. Please like, share, comment, etc and stay tuned to episode two. We greatly appreciate your support.</p>
               </div>
             </div>
-      </section>
+      </div>
     </main>
   )
 }

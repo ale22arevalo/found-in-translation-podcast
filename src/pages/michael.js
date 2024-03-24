@@ -1,9 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Navbar from '../components/navbar';
+import "../styles.css"
+import BackTop from '../components/backtop';
 import michael_headshot from '../images/michael/michael_headshot.webp';
 import michael_family from '../images/michael/michael_family.webp';
 import michael_birthday from '../images/michael/michael_birthday.webp';
-import "../styles.css"
 
 const Michael = () => {
   
@@ -46,6 +47,8 @@ const Michael = () => {
               A Comedy of errors (and education in Yoruba)
             </h1>
           </section>
+        
+        <BackTop />
 
         <section className="main-body">
               <section className="section-wrapper">
