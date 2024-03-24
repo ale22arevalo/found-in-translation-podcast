@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../components/navbar';
 import BackTop from '../components/backtop';
 import rachel_headshot from '../images/rachel/rachel_headshot.webp';

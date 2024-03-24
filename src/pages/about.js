@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, {useEffect} from 'react'
 import guruillo from '../images/about/guruillo.webp'
 import aleillo from '../images/about/aleillo.webp'
 import Navbar from "../components/navbar"
@@ -6,13 +6,45 @@ import BackTop from "../components/backtop"
 import "../styles.css"
 
 const About = () => {
+         
+  useEffect(() => {
+    // Get all elements with class 'section-wrapper'
+    const parentDivs = document.querySelectorAll('.episode-wrapper');
+
+    // Iterate over each 'section-wrapper' element
+    parentDivs.forEach(parentDiv => {
+        // Get the corresponding 'p-wrapper' element within each 'section-wrapper'
+        const fadeDiv = parentDiv.querySelector('.text-wrapper');
+
+        // Check if both elements are found in the DOM
+        if (parentDiv && fadeDiv) {
+            // Set up the Intersection Observer for the current 'section-wrapper'
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        fadeDiv.classList.add('fade');
+                    } else {
+                        fadeDiv.classList.remove('fade');
+                    }
+                });
+            });
+
+            // Start observing the current 'section-wrapper'
+            observer.observe(parentDiv);
+
+            // Clean up observer when component unmounts
+            return () => observer.disconnect();
+        }
+    });
+}, []);
+
 
   return (
     <main>
       <Navbar />
 
       <div className="main-body">
-        <div id="topper">
+        <div id="topper" className="topper">
           <h1 className="site-hero">About</h1>
           <h2>The story behind the podcast and the team</h2>
         </div>
