@@ -68,6 +68,8 @@ const Rachel = () => {
         </h1>
       </section>
 
+      <BackTop />
+
       <div className="main-body">
         {/* Podcast Intro */}
             <section className="section-wrapper">

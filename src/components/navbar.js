@@ -36,11 +36,21 @@ const Navbar = () => {
                     top: '0',
                     height: '60px',
                     width: '100%',
-                    backgroundColor: 'white',
+                    backgroundColor: '#FCF5E5',
+                    opacity: '1',
                     zIndex: '1000',
                     paddingTop: '10px',
                 }}
             >
+                <div
+                    style={{
+                        height: '10px',
+                        width: '100%',
+                        position: 'fixed',
+                        top: '60px',
+                        borderBottom: '3px solid black',
+                    }}
+                />
                 <div
                     style={{
                         height: '10px',

@@ -13,7 +13,7 @@ const BackTop = () => {
         const scrollListener = () => {
             if (isMounted && typeof window !== 'undefined') {
                 const backToTop = document.querySelector(".back-to-top");
-                if (window.scrollY > 10) {
+                if (window.scrollY > 10 && window.innerWidth > 1080) {
                     backToTop.classList.add("visible");
                 } else {
                     backToTop.classList.remove("visible");

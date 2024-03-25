@@ -1,12 +1,12 @@
 import * as React from "react"
 import { useState, useEffect } from "react"
 import "../styles.css"
+import BackTop from "../components/backtop"
 import soundwave4 from "../images/soundwave4.gif"
 import rachelillo from "../images/rachel/rachel.webp"
 import michaelillo from "../images/michael/michael.webp"
 import cynthiaillo from "../images/cynthia/cynthia.webp"
 import fareehaillo from "../images/fareeha/fareeha.webp"
-import BackTop from "../components/backtop"
 
 const links = [
   {
@@ -117,9 +117,9 @@ const IndexPage = () => {
             <div id="g-rachel-Artboard_1" className="g-artboard" style={{maxWidth: "569px", maxHeight: "809px"}} data-aspect-ratio="0.754" data-min-width="0">
                 <img id="g-rachel-Artboard_1-img" className="g-rachel-Artboard_1-img g-aiImg" alt="" src={cynthiaillo}/>
             </div>
-            {/* <a href="./cynthia#topper"> */}
+           <a href="./cy#topper">
                 <button className="ep-btn">Coming soon</button>
-            {/* </a> */}
+           </a>
           </div>
         </div>
 
