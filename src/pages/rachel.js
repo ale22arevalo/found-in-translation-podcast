@@ -79,7 +79,7 @@ const Rachel = () => {
                 </div>
               </div>
               <div className="p-wrapper side">
-                  <p> Hello and welcome to <b>Found in Translation</b>. I&#x27;m your host Guru Ramanathan.</p>
+                  <p> Hello and welcome to <b>Found in Translation</b>. I'm your host Guru Ramanathan.</p>
                   <p>This is a podcast where first/second generation and immigrant youth come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.</p>
                   <p> This week&#x27;s guest and our first guest ever is the lovely and endlessly talented <a href="https://www.rachelhaeunlee.com/" target='_blank' className="hoverable-link">RACHEL LEE</a>, who is one of my best friends and an incredible Korean American dancer, marketer photographer, podcast, artist, extraordinaire. I&#x27;m the head of her <b>fan club</b>.</p>
                   <div className='text-photo'>
