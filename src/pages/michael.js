@@ -51,7 +51,7 @@ const Michael = () => {
         <BackTop />
 
         <section className="main-body">
-              <section className="section-wrapper">
+            <section className="section-wrapper">
               <div className="name-wrapper">
                 <h3>The Host<br /> <span className="first-name">Guru Ramanathan</span></h3>
               </div>
@@ -78,7 +78,7 @@ const Michael = () => {
                     <p><b>A)</b> navigating his Nigerian identity<br />‍<b>B)</b> hilariously uncovering Nigerian customs at family parties<br /><b>C)</b> learning the language Yoruba in college<br /><b>D)</b> how this journey has shaped his writing performances<br/></p>
                     <p>Hope you enjoy!<br /></p>
                 </div>
-              </section>
+            </section>
               <div className="section-wrapper">
                 <div className="p-wrapper full center">
                   <h3 className="cue">~ interview begins ~</h3>
