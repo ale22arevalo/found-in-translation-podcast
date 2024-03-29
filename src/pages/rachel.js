@@ -79,9 +79,9 @@ const Rachel = () => {
                 </div>
               </div>
               <div className="p-wrapper side">
-                  <p> Hello and welcome to <b>Found in Translation</b>. I&#x27;m your host Guru Ramanathan.</p>
-                  <p>This is a podcast where first/second generation and immigrant youth come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.</p>
-                  <p> This week&#x27;s guest and our first guest ever is the lovely and endlessly talented <a href="https://www.rachelhaeunlee.com/" target='_blank' className="hoverable-link">RACHEL LEE</a>, who is one of my best friends and an incredible Korean American dancer, marketer photographer, podcast, artist, extraordinaire. I&#x27;m the head of her <b>fan club</b>.</p>
+                  <p> Hello and welcome to <b>Found in Translation</b>. I'm your host Guru Ramanathan.</p>
+                  <p> And this is a podcast where first/second generation and immigrant come on to talk about their relationship with their cultural language and how that has influenced their connection to their culture, family, friends, and more.</p>
+                  <p> This week&#x27;s guest and our first guest ever is the lovely and endlessly talented <a href="https://www.rachelhaeunlee.com/" target='_blank' className="hoverable-link">RACHEL LEE</a>, who is one of my best friends and an incredible Korean American dancer, marketer, photographer, podcast, artist, extraordinaire. I&#x27;m the head of her <b>fan club</b>.</p>
                   <div className='text-photo'>
                     <div className='text-arrow'>
                       <p className='handwriting'>This is Rachel</p>
@@ -95,10 +95,10 @@ const Rachel = () => {
                     </div>
                     <img className="vertical-photo" src={rachel_headshot} alt="" loading="lazy" />
                   </div>
-                  <p>Well, kidding, but she should definitely have her own fan club at this point. Rachel and I met each other at NYU and actually, some of the conversations we&#x27;ve had with each other over the years about our respective relationships to Korean and Tamil have inspired this podcast.</p>
-                  <p>Very grateful that she can be the inaugural episode and that we can share her story of:</p>
-                  <p><b className="list">A) </b>what it was like to navigate, coming around to learning Korean while growing up in Dallas‍ <br /><b className="list">B) </b>how that affected her relationship with her relatives and peers, including her grandmother, her church group‍ <br /><b className="list">C)</b> how artistic identity was influenced by the journey she was going on with the Korean language and culture. </p>
-                  <p>Hope you enjoy!</p>
+                  <p>--kidding, but she should definitely have her own fan club at this point. Rachel and I actually met each other at NYU and actually, some of the conversations we&#x27;ve had with each other over the years about our respective relationships to Korean and Tamil have inspired this podcast.</p>
+                  <p>So, we're very grateful that she can be the inaugural episode and that we can share her story of:</p>
+                  <p><b className="list">A) </b>what it was like to navigate, coming around to learning Korean while growing up in Dallas‍ <br /><b className="list">B) </b>how that affected her relationship with her relatives, school peers, and church <br /><b className="list">C)</b> how artistic identity was influenced by this journey she was going on. </p>
+                  <p>And so much more. Hope you enjoy!</p>
               </div>
             </section>
           
@@ -108,7 +108,7 @@ const Rachel = () => {
             <section className="section-wrapper">
               <div className="p-wrapper full">
                 <h3 className="cue">~ interview begins ~</h3>
-                <p>Thank you Rachel, for coming onto the podcast. We really appreciate it. I just wanna begin at the beginning of your life, your <b>life&#x27;s journey </b>with this language. I feel like anytime we think about our connection to our <b>language</b>, it&#x27;s a <b>rollercoaster</b> of a relationship when you&#x27;re in the American context. <b className="extra-bolded">What was your connection with Korean in your childhood?</b></p>
+                <p>Thank you Rachel, for coming onto the podcast. We really appreciate it. But I just wanna begin at the beginning of your life, your <b>life&#x27;s journey </b>with this language. What was your connection with Korean in your childhood?</b></p>
               </div>
             </section>
 
@@ -131,7 +131,7 @@ const Rachel = () => {
                     </div>
                     <img className="horizontal-photo" src={parents} alt="" loading="lazy" />
                   </div>
-                  <p>Both of my parents are from South Korea. My dad had moved to the States when he was 11 or 12 and my mom came by herself when she was 18 or so. My dad had gone through ESL and grew up in the American schooling system so he had a bit more of a grasp on English than my mother did. </p>
+                  <p>Both of my parents are from South Korea. And my dad had moved to the States when he was 11 or 12, and my mom came by herself when she was 18 or so. So, my dad had gone through ESL and grew up in the American schooling system, so had a bit more of a grasp on English than my mother did. </p>
                   <p>When I was born, my parents pretty much only spoke Korean at home and to each other. That was almost my first language in a way. And then, I went to preschool and the Korean language disappeared from me.</p>
                   <div className='text-photo'>
                     <div className='text-arrow'>
@@ -146,14 +146,14 @@ const Rachel = () => {
                     </div>
                     <img className="vertical-photo" src={preschool_rachel} alt="" loading="lazy" />
                   </div>
-                  <p>I think my dad was very persistent because he had trouble growing up in the American schooling system with English as a second language. So, he did implement English language books a lot for me to read and get that going while all I really heard though was Korean. </p>
-                  <p>A lot of my peers did attend hangul hakgyo (한글 학교), which is like Korean school. It was usually on a weekend and they learned to read and write and speak, et cetera. But, my parents never forced me to attend. I don&#x27;t even remember if it was necessarily offered to me in that way.</p>
+                  <p>My grandma on my mom's side also was living with us in Texas in my early years and she doesn't speak any English. I think my dad was very persistent because he had trouble growing up in the American schooling system with English as a second language. So, he did implement English language books a lot for me to read and get that going while all I really heard though was Korean. </p>
+                  <p>A lot of my peers did attend hangul hakgyo (한글 학교), which is like Korean school. It was usually on a weekend and they learned to read and write and speak, et cetera. But, my parents never forced me to attend.</p>
               </div>
             </section>
  
             <section className="section-wrapper">
               <div className="p-wrapper">
-                <p><b data-w-id="869e026c-7fae-d570-381b-544bf71c2700">I wouldn&#x27;t have wanted to go anyway,</b> because I was so set on being as <b>American</b> as possible and <b>no trace of Korean</b> in Rachel Lee. So, yeah, I think I grew up mostly just understanding, but as I got older, I could understand <b className="smaller">less and less</b>.</p>
+                <p><b data-w-id="869e026c-7fae-d570-381b-544bf71c2700">I wouldn&#x27;t have wanted to go anyway,</b> because I was so set on being as <b>American</b> as possible and <b>no trace of Korean</b> in Rachel Lee. And so, yeah, I think I grew up mostly just understanding, but as I got older, I could understand <b className="smaller">less and less</b>.</p>
                 {/* Parents photo */}
                 <div className='text-photo'>
                   <div className='text-arrow'>
@@ -168,8 +168,8 @@ const Rachel = () => {
                   </div>
                   <img className="horizontal-photo" src={dads_family} alt="" loading="lazy" />
                 </div>
-                <p data-w-id="6d9f42b5-881b-a786-a979-2276424e0947">It broke a lot of like possible relationships for me because I would visit my grandparents on my dad&#x27;s side and that family who were always speaking Korean and I couldn&#x27;t understand them. That really:</p>
-                <p data-w-id="6d9f42b5-881b-a786-a979-2276424e0945">A) disappointed them because in their minds I was Korean and <b>didn&#x27;t know how to speak</b><b> the language.</b></p>
+                <p data-w-id="6d9f42b5-881b-a786-a979-2276424e0947">It broke a lot of like possible relationships for me because my whole dad's side was in Texas, so I would visit my grandparents on my dad&#x27;s side and that family who were always speaking Korean, and I couldn&#x27;t understand them. That really:</p>
+                <p data-w-id="6d9f42b5-881b-a786-a979-2276424e0945">A) disappointed them, because in their minds I was Korean and <b>didn&#x27;t know how to speak</b><b> the language.</b></p>
                 <p data-w-id="747f1589-4e84-684b-b3c6-cc731b826bd6">B) it had me resent them because I was <b>not a good enough</b> <b>Korean granddaughter.</b></p>
               </div>
             </section>
@@ -180,7 +180,7 @@ const Rachel = () => {
             </div>
               <div className="p-wrapper side">
                 {/* Q2 */}
-                <p>I&#x27;m curious, when you were beginning school, <b className="extra-bolded">what made you choose English over Korean?</b></p>
+                <p>I&#x27;m curious, when you were beginning school, <b className="extra-bolded">what made you choose English over Korean, or made that shift more aggressive?</b></p>
               </div>
             </div>
 
