@@ -108,7 +108,7 @@ const Rachel = () => {
             <section className="section-wrapper">
               <div className="p-wrapper full">
                 <h3 className="cue">~ interview begins ~</h3>
-                <p>Thank you Rachel, for coming onto the podcast. We really appreciate it. But I just wanna begin at the beginning of your life, your <b>life&#x27;s journey </b>with this language. What was your connection with Korean in your childhood?</b></p>
+                <p>Thank you Rachel, for coming onto the podcast. We really appreciate it. But I just wanna begin at the beginning of your life, your <b>life&#x27;s journey </b>with this language. What was your connection with Korean in your childhood?</p>
               </div>
             </section>
 
