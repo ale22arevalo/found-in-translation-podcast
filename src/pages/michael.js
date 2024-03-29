@@ -57,9 +57,9 @@ const Michael = () => {
               </div>
                 <div className="p-wrapper side">
                     <p>Hello and welcome to <b className="bolded">Found in Translation</b>. <br />I&#x27;m your host Guru Ramanathan. <br /></p>
-                    <p>This is a podcast where first/second generation and immigrant youth come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.<br /></p>
+                    <p>And this is a podcast where first/second generation and immigrants come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.<br /></p>
                     <p>
-                      <a href="https://www.Michaelhaeunlee.com/" target="_blank" className="hoverable-link">‍</a>This week&#x27;s guest is Michael Oluokun close friend and one of the funniest writers from comedians that I know. Michael and I were in the same program at NYU and even co-hosted a podcast for a few years with some other friends of ours.<br />
+                      <a href="https://www.Michaelhaeunlee.com/" target="_blank" className="hoverable-link">‍</a>This week&#x27;s guest is Michael Oluokun close friend and one of the funniest writers and comedians that I know. Michael and I were in the same program at NYU and even co-hosted a podcast for a few years with some other friends of ours.<br />
                     </p>
                     <div className='text-photo'>
                     <div className='text-arrow'>
@@ -114,7 +114,7 @@ const Michael = () => {
                 </div>
                 <div className="p-wrapper side">
                     <p>When I was younger it was the language that my mom and my Nigerian relatives would speak, but we just would never really be in on it.<br /></p>
-                    <p>My mom very deliberately decided not to teach me or any of my siblings Yoruba, which was an interesting choice. I respect it, but you know, sometimes I kind of wish I would&#x27;ve been taught it. <br /></p>
+                    <p>My mom very deliberately decided not to teach me or any of my siblings Yoruba, which was an interesting choice. But I respect it, but you know, sometimes I kind of wish I would&#x27;ve been taught it. <br /></p>
                     <p>There were different points where my grandma lived with us when I was younger, so they would speak it to each other, but none of my siblings were ever taught it.<br /></p>
                     <p>I felt like I got familiar with the sounds of it, but I never learned the vocabulary or diction, or grammar of it. And then, getting older and older, I even learned like, oh, my name wasn&#x27;t pronounced the way I think it was pronounced. But then that was also an intentional thing on my mom&#x27;s part.</p>
                 </div>
