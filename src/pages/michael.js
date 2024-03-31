@@ -57,9 +57,9 @@ const Michael = () => {
               </div>
                 <div className="p-wrapper side">
                     <p>Hello and welcome to <b className="bolded">Found in Translation</b>. <br />I&#x27;m your host Guru Ramanathan. <br /></p>
-                    <p>And this is a podcast where first/second generation and immigrants come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.<br /></p>
+                    <p>And this is a podcast where first/second generation and immigrants come on to talk about their relationship with their cultural language and how that has influenced their connection to their culture, family, friends, and more.<br /></p>
                     <p>
-                      <a href="https://www.Michaelhaeunlee.com/" target="_blank" className="hoverable-link">‍</a>This week&#x27;s guest is Michael Oluokun close friend and one of the funniest writers and comedians that I know. Michael and I were in the same program at NYU and even co-hosted a podcast for a few years with some other friends of ours.<br />
+                      <a href="https://www.Michaelhaeunlee.com/" target="_blank" className="hoverable-link">‍</a>This week&#x27;s guest is Michael Oluokun, a close friend and one of the funniest writers and comedians that I know. Michael and I were in the same program at NYU and even co-hosted a podcast for a few years with some other friends of ours.<br />
                     </p>
                     <div className='text-photo'>
                     <div className='text-arrow'>
@@ -74,9 +74,9 @@ const Michael = () => {
                     </div>
                     <img className="vertical-photo" src={michael_headshot} alt="" loading="lazy" />
                   </div>
-                    <p> Now, he&#x27;s on the other side of the mic, and here to talk about <br /></p>
-                    <p><b>A)</b> navigating his Nigerian identity<br />‍<b>B)</b> hilariously uncovering Nigerian customs at family parties<br /><b>C)</b> learning the language Yoruba in college<br /><b>D)</b> how this journey has shaped his writing performances<br/></p>
-                    <p>Hope you enjoy!<br /></p>
+                    <p> And now, he&#x27;s on the other side of the mic, and here to talk about <br /></p>
+                    <p><b>A)</b> navigating his Nigerian identity<br />‍<b>B)</b> hilariously uncovering Nigerian customs at family parties<br /><b>C)</b> learning the language Yoruba in college<br /><b>D)</b> and how his writing and performances have been shaped by this journey<br/></p>
+                    <p>So, hope you enjoy!<br /></p>
                 </div>
             </section>
               <div className="section-wrapper">
@@ -93,7 +93,7 @@ const Michael = () => {
                   <div className="p-wrapper side">
                     <div>
                       <p>
-                        <a href="https://www.Michaelhaeunlee.com/" target="_blank" className="hoverable-link">‍</a>I feel like it&#x27;s pretty chill cuz now I don&#x27;t have to think about like, oh no, am I asking enough questions? Am I giving the guest enough space to talk? I can talk for as long as I want.<br />
+                        <a href="https://www.Michaelhaeunlee.com/" target="_blank" className="hoverable-link">‍</a>It's pretty chill. 'Cause now I don&#x27;t have to think about, oh no, am I asking enough questions? Am I giving the guest enough space to talk? I can talk for as long as I want.<br />
                       </p>
                     </div>
                   </div>
@@ -104,8 +104,8 @@ const Michael = () => {
                 <div className='bolded-name'>Guru</div>
                </div>
                 <div className="p-wrapper side">
-                    <p>Well, yeah, this entire episode, it&#x27;s your space, it&#x27;s your time to shine. Similar to past projects, we&#x27;re also gonna start this one at the very beginning. I always feel like it&#x27;s interesting to think about what your connection to your language was right when you were pretty young and see how that&#x27;s evolved over time.<br /></p>
-                    <p>I&#x27;m so curious to hear from your perspective as the youngest of four siblings, and I know your mom also came from Nigeria, but just to begin, <b className="bolded">what was your connection with Yoruba in your childhood and how did it kind of play out when you were growing up?</b><br /></p>
+                    <p>It&#x27;s your time to shine. We&#x27;re also gonna start this one at the very beginning. It&#x27;s interesting to think about what your connection to your language was right when you were pretty young and kind of see how that&#x27;s evolved over time.<br /></p>
+                    <p>I&#x27;m so curious to hear, from your perspective, being the youngest of four siblings, and I know your mom also came from Nigeria, but just to begin, <b className="bolded">what was your connection with Yoruba in your childhood and how did it kind of play out when you were growing up?</b><br /></p>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -113,10 +113,10 @@ const Michael = () => {
                   <div className='bolded-name'>Michael</div>
                 </div>
                 <div className="p-wrapper side">
-                    <p>When I was younger it was the language that my mom and my Nigerian relatives would speak, but we just would never really be in on it.<br /></p>
-                    <p>My mom very deliberately decided not to teach me or any of my siblings Yoruba, which was an interesting choice. But I respect it, but you know, sometimes I kind of wish I would&#x27;ve been taught it. <br /></p>
+                    <p>Yeah, when I was younger it was the language that my mom and my Nigerian relatives would speak, but that we just would never really be in on.<br /></p>
+                    <p>Because my mom kind of very deliberately decided not to teach me or any of my siblings Yoruba, which was an interesting choice. But, you know I respect it, but you know, sometimes I kind of wish I would&#x27;ve been taught it. <br /></p>
                     <p>There were different points where my grandma lived with us when I was younger, so they would speak it to each other, but none of my siblings were ever taught it.<br /></p>
-                    <p>I felt like I got familiar with the sounds of it, but I never learned the vocabulary or diction, or grammar of it. And then, getting older and older, I even learned like, oh, my name wasn&#x27;t pronounced the way I think it was pronounced. But then that was also an intentional thing on my mom&#x27;s part.</p>
+                    <p>I got familiar with the sounds of it, but I never learned the vocabulary or diction, or grammar of it. And then, getting older and older, I even learned like, oh, my name wasn&#x27;t pronounced the way I think it was pronounced. But then that was also an intentional thing on my mom&#x27;s part.</p>
                 </div>
               </div>
 
