@@ -149,7 +149,7 @@ const IndexPage = () => {
                   <b className="bolded">“FOUND IN TRANSLATION”</b>
                   <p style={{fontStyle:'italic'}}>noun</p>
                   <p>
-                  1. A visual podcast experience co-created by Alejandra Arevalo and Guru Ramanathan where first/second generation Americans and immigrants discuss their relationship with their cultural language and how that has influenced their connection to their culture, family, friends, and more. Ex: “Found in Translation is the worst podcast ever”; “My life was changed after being a guest on Found in Translation.”
+                  1. A visual podcast co-created by Alejandra Arevalo and Guru Ramanathan where first/second generation Americans and immigrants discuss their relationship with their cultural language and how that has influenced their connection to their culture, family, friends, and more. Ex: “Found in Translation is the worst podcast ever”; “My life was changed after being a guest on Found in Translation.”
                   </p>
             </div>
             <a href="./about#topper">

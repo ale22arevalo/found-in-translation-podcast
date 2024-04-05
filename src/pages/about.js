@@ -74,7 +74,7 @@ const About = () => {
           <div className="text-wrapper">
             <h3>Written in Spanglish</h3>
             <p>
-              <b className="bolded">Alejandra Arevalo</b> is a multimedia storyteller who has written about everything and anything, from lifestyle trends to politics and social justice, for major American media publications including USA Today and Latina Magazine. A self-taught coder, she currently works as a developer at Hearst Newspapers where she focuses on data visualization and interactive storytelling. Previously, she worked as a podcast producer for award-nominated women in sports podcast "Sweat the Details" with iHeartMedia and Under Armour. She graduated cum laude from NYU's Arthur L. Carter Journalism Institute undergraduate program.
+              <b className="bolded">Alejandra Arevalo</b> is a multimedia storyteller who has covered everything and anything, from lifestyle trends to politics and social justice, for major American publications including Latina Magazine and USA Today. A self-taught coder, she currently works as a developer at Hearst Newspapers where she focuses on interactive storytelling. Previously, she worked as a podcast producer at iHeartMedia as part of award-nominated sports podcast "Sweat the Details." She graduated cum laude from NYU's Arthur L. Carter Journalism Institute undergraduate program.
             </p>
             <div className="social-links">
               <a href="https://twitter.com/alejandrareval_" target="blank">
@@ -142,7 +142,7 @@ const About = () => {
             <h4>Lux the Lightbulb</h4>
             <p>Composed the show's theme song</p>
             <h4>Romina Arevalo</h4>
-            <p>Contributed to the art direction and illustrations on this website</p>
+            <p>Contributed to creative direction and illustrations on this website</p>
           </div>
         </div>
 
