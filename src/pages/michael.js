@@ -159,8 +159,10 @@ const Michael = () => {
                 </div>
               </div>
               <div className="section-wrapper">
-                <div className="p-wrapper">
-                  <div data-w-id="5b60de1a-8120-6443-1b42-9b299f9be6dd" className="bolded-name">Guru</div>
+                <div className="name-wrapper">
+                  <div className='bolded-name'>Guru</div>
+                </div>
+                <div className="p-wrapper side">
                   <b data-w-id="5b60de1a-8120-6443-1b42-9b299f9be6df" className="bolded">What was the culture around English versus Yoruba in those circles?</b>
                   <p >Because I&#x27;ve definitely had some of those parties But then there&#x27;s a bit of a hierarchy as to who can communicate in the multiple languages. The parents always talk about like, oh, your kid does so well here, but I wish mine could too. I was wondering, was there that sort of internal prejudice around those who were better at Yoruba than others?</p>
                 </div>
