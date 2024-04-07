@@ -47,7 +47,6 @@ const Cy = () => {
       <BackTop />
 
     <div className="main-body">
-      <section className="section-bodytext">
             <section className='section-wrapper'>
               <div className="name-wrapper">
                 <h3>The Host<br/><span className="first-name">Guru Ramanathan</span></h3>
@@ -104,11 +103,9 @@ const Cy = () => {
                 <p>When you had to, let&#x27;s say like take your parents to a parent teacher conference at school, or having friends over and stuff like that.</p>
               </div>
             </section>
-            <section className="section-wrapper">
-              <div className='p-wrapper quote'>
+            <section className="section-wrapper quote">
                 <div className='bolded-name'>Cynthia</div>
                 <p><span>In terms of translating, I feel like it&#x27;s a lot of similarities to a lot of immigrant family households. My mom herself is an immigrant from the Dominican Republic.</span></p>
-              </div>
             </section>
             <section className="section-wrapper">
               <div className='p-wrapper full'>
@@ -143,11 +140,9 @@ const Cy = () => {
                 <b className="extra-bolded">And is there a reason for that?</b>
               </div>
             </section>
-            <section className="section-wrapper">
-              <div className='p-wrapper quote'>
+            <section className="section-wrapper quote">
                 <div className='bolded-name'>Cynthia</div>
                 <p><span>I think if I were to explain it to my childhood self, it was probably some semblance of shame and it was mainly because the world isn&#x27;t as accommodating than the circles that were created by my family, by my by my school&#x27;s community and integrated very diverse population.</span></p>
-              </div>
             </section>
             <section className="section-wrapper">
               <div className="p-wrapper full">
@@ -230,7 +225,7 @@ const Cy = () => {
                 <div className='bolded-name'>Guru</div>
               </div>
               <div className='p-wrapper side'>
-                  <p>Sorry, before you go on, when you say weird, did it make you uncomfortable or are you just like, not sure how to accept?</p>
+                  <p>Sorry, before you go on, when you say weird, <b className='extra-bolded'> did it make you uncomfortable or are you just not sure how to accept?</b></p>
               </div>
             </section>
             <section className="section-wrapper">
@@ -286,7 +281,7 @@ const Cy = () => {
             </section>
             <section className="section-wrapper">
               <div className="p-wrapper full">
-                <b className='bolded'>I grew up with a misconception and I, and I fought myself for saying this for the longest time. I was like, oh yeah. How can people think that? Like, I don&#x27;t know English, like I have to know English, no ASL. That&#x27;s not true. ASL is like an entire entity in itself.</b>
+                <b className='bolded'>I grew up with a misconception and I fought myself for saying this for the longest time. I was like, oh yeah. How can people think that? Like, I don&#x27;t know English, like I have to know English, no ASL. That&#x27;s not true. ASL is like an entire entity in itself.</b>
                 <p>You have to throw away the English language to understand ASL. English definitely helps obviously, but you have to throw away sentence structure entirely. Grammar, throw it out the window. The structure of, of, of just like how you say a simple sentence. Totally different.</p>
                 <p>You don&#x27;t say every single word in a sentence, you could say two signs and that&#x27;s like two sentences. So it&#x27;s so much more than just doing gestures. So I would say that&#x27;s another fundamental of ASL.</p>
               </div>
@@ -419,9 +414,7 @@ const Cy = () => {
               </div>
             </section>
             <section className="section-wrapper quote">
-              <div className="name-wrapper">
                 <div className='bolded-name'>Cynthia</div>
-              </div>
                 <p><span>I dread this question so much because I forgot to even mention it. First of all, like, yeah. That&#x27;s another part of the culture. Everyone has a sign name because no one is gonna spell your name every single time.</span></p>
             </section>
             <section className="section-wrapper">
@@ -509,7 +502,6 @@ const Cy = () => {
                 </div>
               </div>
             </section>
-        </section>
       </div>
     </main>
   )
