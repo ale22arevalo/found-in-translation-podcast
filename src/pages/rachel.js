@@ -97,7 +97,7 @@ const Rachel = () => {
                   </div>
                   <p>--kidding, but she should definitely have her own fan club at this point. Rachel and I actually met each other at NYU and actually, some of the conversations we&#x27;ve had with each other over the years about our respective relationships to Korean and Tamil have inspired this podcast.</p>
                   <p>So, we're very grateful that she can be the inaugural episode and that we can share her story of:</p>
-                  <p><b className="list">A) </b>what it was like to navigate, coming around to learning Korean while growing up in Dallas‍ <br /><b className="list">B) </b>how that affected her relationship with her relatives, school peers, and church <br /><b className="list">C)</b> how artistic identity was influenced by this journey she was going on. </p>
+                  <p><b className="list">A) </b>what it was like to navigate, coming around to learning Korean while growing up in Dallas‍<br /><b className="list">B) </b>how that affected her relationship with her relatives, school peers, and church <br /><b className="list">C)</b> how artistic identity was influenced by this journey she was going on. </p>
                   <p>And so much more. Hope you enjoy!</p>
               </div>
             </section>
