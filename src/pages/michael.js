@@ -57,9 +57,9 @@ const Michael = () => {
               </div>
                 <div className="p-wrapper side">
                     <p>Hello and welcome to <b className="bolded">Found in Translation</b>. <br />I&#x27;m your host Guru Ramanathan. <br /></p>
-                    <p>And this is a podcast where first/second generation and immigrants come on to talk about their relationship with their cultural language and how that has influenced their connection to their culture, family, friends, and more.<br /></p>
+                    <p>And this is a podcast where first/second generation and immigrants come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.<br /></p>
                     <p>
-                      <a href="https://www.Michaelhaeunlee.com/" target="_blank" className="hoverable-link">‍</a>This week&#x27;s guest is Michael Oluokun, a close friend and one of the funniest writers and comedians that I know. Michael and I were in the same program at NYU and even co-hosted a podcast for a few years with some other friends of ours.<br />
+                      <a href="https://www.Michaelhaeunlee.com/" target="_blank" className="hoverable-link">‍</a>This week&#x27;s guest is Michael Oluokun close friend and one of the funniest writers and comedians that I know. Michael and I were in the same program at NYU and even co-hosted a podcast for a few years with some other friends of ours.<br />
                     </p>
                     <div className='text-photo'>
                     <div className='text-arrow'>
@@ -74,9 +74,9 @@ const Michael = () => {
                     </div>
                     <img className="vertical-photo" src={michael_headshot} alt="" loading="lazy" />
                   </div>
-                    <p> And now, he&#x27;s on the other side of the mic, and here to talk about <br /></p>
-                    <p><b>A)</b> navigating his Nigerian identity<br />‍<b>B)</b> hilariously uncovering Nigerian customs at family parties<br /><b>C)</b> learning the language Yoruba in college<br /><b>D)</b> and how his writing and performances have been shaped by this journey<br/></p>
-                    <p>So, hope you enjoy!<br /></p>
+                    <p> Now, he&#x27;s on the other side of the mic, and here to talk about <br /></p>
+                    <p><b>A)</b> navigating his Nigerian identity<br />‍<b>B)</b> hilariously uncovering Nigerian customs at family parties<br /><b>C)</b> learning the language Yoruba in college<br /><b>D)</b> how this journey has shaped his writing performances<br/></p>
+                    <p>Hope you enjoy!<br /></p>
                 </div>
             </section>
               <div className="section-wrapper">
@@ -93,7 +93,7 @@ const Michael = () => {
                   <div className="p-wrapper side">
                     <div>
                       <p>
-                        <a href="https://www.Michaelhaeunlee.com/" target="_blank" className="hoverable-link">‍</a>It's pretty chill. 'Cause now I don&#x27;t have to think about, oh no, am I asking enough questions? Am I giving the guest enough space to talk? I can talk for as long as I want.<br />
+                        <a href="https://www.Michaelhaeunlee.com/" target="_blank" className="hoverable-link">‍</a>I feel like it&#x27;s pretty chill cuz now I don&#x27;t have to think about like, oh no, am I asking enough questions? Am I giving the guest enough space to talk? I can talk for as long as I want.<br />
                       </p>
                     </div>
                   </div>
@@ -104,8 +104,8 @@ const Michael = () => {
                 <div className='bolded-name'>Guru</div>
                </div>
                 <div className="p-wrapper side">
-                    <p>It&#x27;s your time to shine. We&#x27;re also gonna start this one at the very beginning. It&#x27;s interesting to think about what your connection to your language was right when you were pretty young and kind of see how that&#x27;s evolved over time.<br /></p>
-                    <p>I&#x27;m so curious to hear, from your perspective, being the youngest of four siblings, and I know your mom also came from Nigeria, but just to begin, <b className="bolded">what was your connection with Yoruba in your childhood and how did it kind of play out when you were growing up?</b><br /></p>
+                    <p>Well, yeah, this entire episode, it&#x27;s your space, it&#x27;s your time to shine. Similar to past projects, we&#x27;re also gonna start this one at the very beginning. I always feel like it&#x27;s interesting to think about what your connection to your language was right when you were pretty young and see how that&#x27;s evolved over time.<br /></p>
+                    <p>I&#x27;m so curious to hear from your perspective as the youngest of four siblings, and I know your mom also came from Nigeria, but just to begin, <b className="bolded">what was your connection with Yoruba in your childhood and how did it kind of play out when you were growing up?</b><br /></p>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -113,18 +113,18 @@ const Michael = () => {
                   <div className='bolded-name'>Michael</div>
                 </div>
                 <div className="p-wrapper side">
-                    <p>Yeah, when I was younger it was the language that my mom and my Nigerian relatives would speak, but that we just would never really be in on.<br /></p>
-                    <p>Because my mom kind of very deliberately decided not to teach me or any of my siblings Yoruba, which was an interesting choice. But, you know I respect it, but you know, sometimes I kind of wish I would&#x27;ve been taught it. <br /></p>
+                    <p>When I was younger it was the language that my mom and my Nigerian relatives would speak, but we just would never really be in on it.<br /></p>
+                    <p>My mom very deliberately decided not to teach me or any of my siblings Yoruba, which was an interesting choice. But I respect it, but you know, sometimes I kind of wish I would&#x27;ve been taught it. <br /></p>
                     <p>There were different points where my grandma lived with us when I was younger, so they would speak it to each other, but none of my siblings were ever taught it.<br /></p>
-                    <p>I got familiar with the sounds of it, but I never really learned the vocab or diction or grammar of it. I even learned my name wasn&#x27;t pronounced the way I think it was pronounced. But then that was also an intentional thing on my mom&#x27;s part.</p>
+                    <p>I felt like I got familiar with the sounds of it, but I never learned the vocabulary or diction, or grammar of it. And then, getting older and older, I even learned like, oh, my name wasn&#x27;t pronounced the way I think it was pronounced. But then that was also an intentional thing on my mom&#x27;s part.</p>
                 </div>
               </div>
 
               <div className="section-wrapper">
                 <div className="p-wrapper full">
-                  <b data-w-id="869e026c-7fae-d570-381b-544bf71c2700" className="bolded">So it's interesting that my mom almost chose not to teach it to us</b>
-                  <p data-w-id="869e026c-7fae-d570-381b-544bf71c2702">so that we would... for lack of a better term, <b className="bolded">assimilate better, you know</b>.</p>
-                  <p data-w-id="869e026c-7fae-d570-381b-544bf71c2707">She wanted us to be <b className="bolded">fully American</b>.</p>
+                  <b data-w-id="869e026c-7fae-d570-381b-544bf71c2700" className="bolded">I feel like my mom almost chose not to teach it to us</b>
+                  <p data-w-id="869e026c-7fae-d570-381b-544bf71c2702">so that we would... for lack of a better term, <b className="bolded">assimilate better</b>.</p>
+                  <p data-w-id="869e026c-7fae-d570-381b-544bf71c2707">You know, she wanted us to be <b className="bolded">fully American</b>.</p>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -132,7 +132,7 @@ const Michael = () => {
                   <div className='bolded-name'>Guru</div>
                 </div>
                 <div className="p-wrapper side">
-                  <b data-w-id="16be7753-1d53-6079-1551-2086453af0b1" className="bolded">To begin with your relatives, did you ever talk with them growing up a lot?</b>
+                  <b data-w-id="16be7753-1d53-6079-1551-2086453af0b1" className="bolded">To begin with your relatives, did you ever talk with them growing up?</b>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -140,9 +140,9 @@ const Michael = () => {
                   <div className='bolded-name'>Michael</div>
                 </div>
                 <div className="p-wrapper side">
-                    <p>We had a lot of relatives who were in the States, so a lot of them kind of congregated in the D.C. area. There&#x27;s a pretty big Nigerian community in the Maryland-D.C. area, and so, I had a lot of aunts and uncles who lived there. <br /></p>
-                    <p>We would go to Maryland for a week for holiday. It would always be some kind of occasion. And then, there would be a big party where there&#x27;s a bunch of Nigerians invited. <br /></p>
-                    <p>And you know, there's two levels of the party, where the adults who are, you know, usually from Nigeria and then their children. Some might have been born in Nigeria and then moved to the States at a young age. And then some were born in the States, but then, you know, they might have had some level of fluency in Yoruba. So it&#x27;s interesting, each person&#x27;s experience was a little different.<br /></p>
+                    <p>We had a lot of relatives who were in the States, so a lot of them kind of congregated in the DC area. There&#x27;s a pretty big Nigerian community in the Maryland-DC area, and so I had a lot of aunts and uncles who lived there. <br /></p>
+                    <p>We would go to Maryland for a week for holiday, it would always be some kind of occasion. And then there would be a big party where there&#x27;s a bunch of Nigerians invited. <br /></p>
+                    <p>There are two levels of the party, one where the adults are usually from Nigeria and then their children... some might have been born in Nigeria and then moved to the States at a young age. And then some were born in the States but they had some level of fluency in Yoruba. So it&#x27;s interesting, each person&#x27;s experience was a little different.<br /></p>
                   <div className='text-photo'>
                     <div className='text-arrow'>
                       <p className='handwriting'>This is Michael's Family</p>
@@ -159,10 +159,12 @@ const Michael = () => {
                 </div>
               </div>
               <div className="section-wrapper">
-                <div className="p-wrapper">
-                  <div data-w-id="5b60de1a-8120-6443-1b42-9b299f9be6dd" className="bolded-name">Guru</div>
-                  <b data-w-id="5b60de1a-8120-6443-1b42-9b299f9be6df" className="bolded">And what was the culture around English versus Yoruba in those circles?</b>
-                  <p >Because I&#x27;ve definitely had some of those family friends', whatever, parties come around. But then there&#x27;s a bit of a hierarchy as to who can communicate in the multiple languages. Or the parents always talk about, oh, your kid does so well here, but I wish mine could, too. Was there that sort of internal prejudice around those who were better at Yoruba than others?</p>
+                <div className="name-wrapper">
+                  <div className='bolded-name'>Guru</div>
+                </div>
+                <div className="p-wrapper side">
+                  <b data-w-id="5b60de1a-8120-6443-1b42-9b299f9be6df" className="bolded">What was the culture around English versus Yoruba in those circles?</b>
+                  <p >Because I&#x27;ve definitely had some of those parties But then there&#x27;s a bit of a hierarchy as to who can communicate in the multiple languages. The parents always talk about like, oh, your kid does so well here, but I wish mine could too. I was wondering, was there that sort of internal prejudice around those who were better at Yoruba than others?</p>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -170,12 +172,13 @@ const Michael = () => {
                   <div className='bolded-name'>Michael</div>
                 </div>
                 <div className="p-wrapper side">
-                    <p>To an extent. I wouldn&#x27;t say it was ever super, super bad, but it would always kind of come out in...<br /></p>
+                    <p>Yeah, to an extent. I wouldn&#x27;t say it was ever super bad, but it would always kind of come out in the...<br /></p>
                     <p>&quot;Oh, you don&#x27;t know you were supposed to do this?&quot;<br /></p>
-                    <p>or, &quot;oh, you said that so American.&quot; They're like &quot;wow, you really aren&#x27;t Nigerian.&quot;<br /></p>
-                    <p>It was almost kinda club-type exclusionary. At my grandma's 80th birthday celebration and we had this big, huge event in D.C.-Maryland. We had a hole bunch of relatives and family members, and there was this big party and, you know, all of her children spoke. And then they were like &quot;we gotta have all the grandchildren speak, too.&quot; And so it was basically American children in front of this panel of judgmental Nigerians. <br /></p>
-                    <p>And you know we&#x27;re going up and we&#x27;re like, yeah happy birthday, grandma like we're saying our last name wrong. And then cousins come up and they&#x27;re saying their names perfectly pronounced.<br /></p>
-                    <p>We got set up here! But it was always that kind of the experience of you&#x27;re walking into a situation where you&#x27;re like &quot;oh, this is gonna be fine&quot; and then something happens and you&#x27;re like, &quot;oh, it&#x27;s not fine, I&#x27;m confused.&quot; You&#x27;re looking to your parent like, &#x27;why didn&#x27;t you tell...&quot; There&#x27;s obviously something not being communicated.<br /></p>
+                    <p>or, &quot;oh, you said that so American. wow, you really aren&#x27;t Nigerian.&quot;<br /></p>
+                    <p>or, &quot;oh, you said that so American. wow, you really aren&#x27;t Nigerian.&quot;<br /></p>
+                    <p>It was almost kinda club-type exclusionary. And then, we weren&#x27;t primed on the speaking so it was us, American children, in front of this panel of judgmental Nigerians. <br /></p>
+                    <p>We&#x27;re going up and we&#x27;re like, happy birthday, grandma. You know, we&#x27;re saying our last name wrong. And then cousins come up and they&#x27;re saying their names perfectly pronounced.<br /></p>
+                    <p>But it was always like that was kind of the experience of you&#x27;re walking into a situation where you&#x27;re like &#x27;this is gonna be fine&#x27; and then something happens and you&#x27;re like, &#x27;oh, it&#x27;s not fine, I&#x27;m confused.&#x27; You&#x27;re looking to your parent like, &#x27;why didn&#x27;t you tell me?&#x27; There&#x27;s obviously something not being communicated.<br /></p>
                     <div className='text-photo'>
                     <div className='text-arrow'>
                       <p className='handwriting'>Michael and his family at his grandma's 80th birthday party</p>
@@ -189,34 +192,35 @@ const Michael = () => {
                     </div>
                     <img className="horizontal-photo" src={michael_birthday} alt="" loading="lazy" />
                   </div>
-                    <p>I remember one time we went to an aunt&#x27;s house and like, there&#x27;s a custom with like certain Nigerians where you&#x27;re supposed to bow upon entry. That&#x27;s a custom in a lot of different cultures.<br /></p>
-                    <p>And we had one aunt in particular who was really stringent about that. But you know, all of us as children didn&#x27;t know that. And the phrase for you to bow is called &quot;dobale.&quot; And it's like, you know, we, we show up to the house and we&#x27;re just like,<br /></p>
-                    <p>&quot;Oh, hey what&#x27;s up Auntie?&quot;<br /></p>
-                    <p>Her name is Joké, and we were like &quot;hey what's up Auntie Joké?&quot; and she&#x27;s just like,<br /></p>
+                    <p>I remember one time we went to an aunt&#x27;s house and like there&#x27;s a custom with certain Nigerians where you&#x27;re supposed to bow upon entry. That&#x27;s a custom in a lot of different cultures.<br /></p>
+                    <p>Most Nigerians usually don&#x27;t adhere to it, but some are very, stringent about that. And we had one aunt in particular who was really stringent about that. But you know, all of us as children didn&#x27;t know that. And the phrase for you to bow is &quot;dobale.&quot; We show up to the house and we&#x27;re just like,<br /></p>
+                    <p>Oh, hey what&#x27;s up Auntie?<br /></p>
+                    <p>Her name is Jok, and she&#x27;s just like,<br /></p>
                     <p>&quot;dobale&quot; <br /></p>
                     <p>And we&#x27;re like,<br /></p>
-                    <p>&quot;huh???&quot;<br /></p>
+                    <p>&quot;huh?&quot;<br /></p>
                     <p>She&#x27;s like,<br /></p>
-                    <p>&quot;dobale!&quot; <br /></p>
-                    <p>And we're like &quot;Ahhhh&quot; and then my mom&#x27;s like,<br /></p>
+                    <p>&quot;dobale&quot; <br /></p>
+                    <p>And then my mom&#x27;s like,<br /></p>
                     <p>&quot;oh, you&#x27;re supposed to bow.&quot;<br /></p>
-                    <p>I&#x27;m just like, <br /></p>
-                    <p>&quot;Bow? Like what?&quot;<br /></p>
-                    <p>And she's like &quot;Get on your knees!&quot;<br /></p>
-                    <p>I'm like &quot;ok...&quot;<br /></p>
-                    <p>But it was like...I know you can kind of react to it in two different ways. You can kind of look at it this like, oh like that was kind of crazy in the moment, but isn&#x27;t that a funny story? But I feel like sometimes people can kind of get a chip on their shoulder because of that. It&#x27;s funny, my mom herself, who grew up in Nigeria, she&#x27;s always like, &quot;These Nigerians!&quot; She always phrases it like that.<br /></p>
+                    <p>I must have been no older than eight or nine. I&#x27;m just like, <br /></p>
+                    <p>&quot;what?&quot;<br /></p>
+                    <p>&quot;Get on your knees.&quot;<br /></p>
+                    <p>&quot;ok...&quot;<br /></p>
+                    <p>You can react to it in two different ways. You can kind of look at it, but it&#x27;s like that was kind of crazy at the moment, but isn&#x27;t that a funny story? I feel like sometimes people can kind of get a chip on their shoulder because of that. It&#x27;s funny, my mom herself, who grew up in Nigeria, she&#x27;s always like, these Nigerians! She always phrases it like that. I&#x27;m like, you know, you&#x27;re a Nigerian too.<br /></p>
                   </div>
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
                   <div data-w-id="35a57260-3313-32da-a27f-071029f4a8ce" className="bolded-name">Guru</div>
-                  <p data-w-id="35a57260-3313-32da-a27f-071029f4a8d3">It&#x27;s interesting because I&#x27;ve heard my parents talk in that third person perspective of all Indians are like this, all Desis are like this. And then growing up I didn&#x27;t really understand, but like you&#x27;re also that, so you&#x27;re hating yourself.<b className="bolded"><br /></b></p>
+                  <p data-w-id="35a57260-3313-32da-a27f-071029f4a8d3">Yeah, it&#x27;s interesting because I&#x27;ve heard my parents talk in the third person perspective of all Indians are like this, all Desis are like this. And then growing up I didn&#x27;t really understand, but like you&#x27;re also that, so you&#x27;re hating yourself.<b className="bolded"><br /></b></p>
                   <div data-w-id="139a822a-a1cc-953b-640b-ba8346535f9b" className="bolded-name">Michael</div>
-                  <p data-w-id="35a57260-3313-32da-a27f-071029f4a8d5">I think I get it more now that I&#x27;m older 'cause it&#x27;s like... I feel like people just love to be able to talk shit about a group as a whole 'cause they&#x27;re like, &quot;Man, I&#x27;ve seen at least three people do this. So I&#x27;ve got the data set I need, you know.&quot; Part of me thinks one of the reasons she decided to move from Maryland-D.C. was almost to get away from, like, large numbers of Nigerians.</p>
-                  <p data-w-id="2f5b1aef-98b4-5487-4592-128c4f13574a">'Cause, she&#x27;s expressed this to me that like, you know, sometimes being around very traditional Nigerians can be very frustrating to her. And especially if you like really, really grew up with it, you just want something different, you know. My two oldest siblings have been in Nigeria, but me and my brother closest to me have never been.</p>
-                  <p data-w-id="782a4ec6-4d4b-e2aa-97a3-6fac320adb66">They actually spent like a whole year in Nigeria and went to school there for a year, and like came back. I&#x27;ve never actually, like, asked my two oldest siblings about, like, how that experience was for them. Sometimes my mom would talk about it and it was like, they came back with a chip on their shoulder.</p>
+                  <p data-w-id="35a57260-3313-32da-a27f-071029f4a8d5">I think I get it more now, but I&#x27;m older cuz it&#x27;s like, yeah. I feel like people just love to be able to talk shit about a group as a whole, cuz they&#x27;re like, I&#x27;ve seen at least three people do this. So I&#x27;ve got the data. Part of me thinks one of the reasons she decided to move from Maryland, DC was almost to get away from large numbers of Nigerians.</p>
+                  <p data-w-id="2f5b1aef-98b4-5487-4592-128c4f13574a">She&#x27;s expressed this to me, you know, sometimes being around very traditional Nigerians can be very frustrating to her. And especially if you like really, really grew up with it, you just want something different, you know. My two oldest siblings have been in Nigeria, but me and my brother closest to me have never been.</p>
+                  <p data-w-id="782a4ec6-4d4b-e2aa-97a3-6fac320adb66">They actually spent a whole year in Nigeria and went to school there and then came back. I&#x27;ve never actually asked my two oldest siblings about how that experience was for them. Sometimes my mom would talk about it and it was like they came back with a chip on their shoulder. Now, they&#x27;re not Black, they&#x27;re Nigerians, you know.</p>
                   <div data-w-id="3cb94a05-5cdc-0a10-7601-f09c52554c33" className="bolded-name">Guru</div>
-                  <p data-w-id="b6636ab2-870b-1c09-a98b-f416e69bbc1e">And then, when you were growing up, were there other Nigerians in school or were you, like, predominantly just around, like, American Black kids?</p>
+                  <p data-w-id="b6636ab2-870b-1c09-a98b-f416e69bbc1e">And then when you were growing up, going to school and such... were there other Nigerians in school or were you predominantly around American Black kids?</p>
+                  <p data-w-id="06a76919-61b8-a39c-8048-ac2a3bbbe1e2">And so going back to what you were saying about having that resentment with some of your relatives, <b className="bolded">was part of it also their level of ownership over the language or the culture that you weren&#x27;t necessarily able to tap into at a young age?</b><b className="bolded"><br /></b></p>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -225,7 +229,7 @@ const Michael = () => {
               </div>
                 <div className="p-wrapper side">
                     <p>In my most recent Arkansas church, there were a few other Nigerians there, just like out of the blue, which was interesting. But my school was really white, wasn&#x27;t great.<br /></p>
-                    <p>Even just Black people at the school. You could count on two hands the number of Black people in my grade, you know?<br /></p>
+                    <p>Even just black people at the school, you could count on two hands. A number of black people in my grade, you know?<br /></p>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -233,7 +237,7 @@ const Michael = () => {
               <div className='bolded-name'>Guru</div>
             </div>
                 <div className="p-wrapper side">
-                    <p>What were your feelings about not knowing Yoruba, given the fact that your mom wasn&#x27;t really pressuring you, your siblings didn&#x27;t know it either, and then you weren&#x27;t around a lot of Nigerians in school, ever. <b className="bolded">Was it something that you thought about, not knowing the language, or was it something that was more of like a distant connection?</b><br /></p>
+                    <p>What were your feelings about not knowing Yoruba, given the fact that your mom wasn&#x27;t really pressuring you? Your siblings didn&#x27;t know it either, and then you weren&#x27;t around a lot of Nigerians in school. <b className="bolded">Was it something that you thought about not knowing the language or was it something that was more of like a distant connection?</b><br /></p>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -241,14 +245,14 @@ const Michael = () => {
               <div className='bolded-name'>Michael</div>
               </div>
                 <div className="p-wrapper side">
-                    <p>It kind of was a distant thing of like, this is this thing my mom does. 'Cause when I was a kid, especially being the youngest kid when you have a lot of siblings, there are a lot of people telling you don&#x27;t ask a question about this. And I&#x27;m like, okay.<br /></p>
-                    <p>Since the only person that knew it was my mom and like, you know, my mom was kind of someone that like, &quotwhy are you asking me questions?&quot; Unless you were like, &quot;I need to go to the hospital.&quot; <br /></p>
+                    <p>Yeah, kind of was a distant thing of like, this is this thing my mom does. Cuz when I was a kid, especially being the youngest kid when you have a lot of siblings, there are a lot of people telling you don&#x27;t ask a question about this. And I&#x27;m like, okay, I just won&#x27;t.<br /></p>
+                    <p>It was like oh, I don&#x27;t know this, but like I don&#x27;t need to know this since the only person that knew it was my mom and like, you know, my mom was kind of someone that like, why are you asking me questions? Unless you were like, I need to go to the hospital she&#x27;s like, don&#x27;t ask me, you know. And even then she would be like, I&#x27;m a doctor. Let me see, you know.<br /></p>
                 </div>
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
                   <div data-w-id="0436a4f7-f99e-b047-90f6-645879cff33e" className="bolded-name">Guru</div>
-                  <b data-w-id="0436a4f7-f99e-b047-90f6-645879cff340" className="bolded">I guess that was going on for most of your life. What caused that shift in you to want to learn Yoruba? 'Cause I know you ended up taking some classes in college.</b>
+                  <b data-w-id="0436a4f7-f99e-b047-90f6-645879cff340" className="bolded">I guess that was going on for most of your life. What caused that shift in you to want to learn Yoruba? Cause I know you ended up taking some classes in college...</b>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -256,9 +260,9 @@ const Michael = () => {
                   <div className='bolded-name'>Michael</div>
                 </div>
                 <div className="p-wrapper side">
-                    <p>I&#x27;ve always been interested in learning languages. I was always really fascinated by linguistics and I would always try and look at the IPA pronunciation guides and you&#x27;re trying to learn how to pronounce the word in another language, and then you click on it and it&#x27;s like an upside down G and a S with a slash through it. Like how am I pronouncing this word, you know?<br /></p>
-                    <p>And like, you know, from there, like learning just like about like, you know, the origins of different languages. I always wanted to learn more languages, but when I was in school, the only foreign language they really offered was Spanish. There&#x27;s a point where we had a French teacher and then the French teacher left and then they were just like, &quot;yeah we just don&#x27;t have French anymore.&quot; Like, like, they just, they&#x27;re like, &quot;You can take French 1 online.&quot; Coming to college, I really wanted to learn French. French is always such a chic language. It&#x27;s the language of love. And you know, I even justified it because so many African countries speak French. French is one of their top three languages, especially in West Africa, it could even kind of serve me there.<br /></p>
-                    <p>But then I was looking at French courses, and I&#x27;d almost signed up for this six-credit French intensive. And I was like, you know, I&#x27;m just gonna like really learn French. And then, then I saw that they offered a Yoruba class and I was like, Hmm. Yeah. I never even had the idea that I would even be able to take like an elementary Yoruba.<br /></p>
+                    <p>I think it&#x27;s because like I&#x27;ve always been interested in learning languages and even just linguistics in general, when I was younger, I was always really fascinated by linguistics and I would always try and look at the IPA pronunciation guides and you&#x27;re trying to learn how to pronounce the word in another language, and then you click on it and it&#x27;s like an upside down G and an S with a slash through it. How am I pronouncing this word?<br /></p>
+                    <p>From there, like learning just like about like, you know, the origins of different languages. I always wanted to learn more languages, but when I was in school, the only foreign language they really offered was Spanish. Like there&#x27;s a point where we had a French teacher and then the French teacher left and then they were we don&#x27;t have French anymore.  like they just, they&#x27;re like, you can take French one online.  coming to college, I really wanted to learn French. French is always such a chic language, and it&#x27;s like, oh, it&#x27;s the language of love. And you know, I even justified it because so many African countries speak French. French as one of their top three languages, especially in West Africa, could even serve me there.<br /></p>
+                    <p>But then I was looking at French courses and I&#x27;d even almost signed up for this six-credit French intensive. And I was like, you know, I&#x27;m just gonna like really learn French. And then, then I saw that they offered a Yoruba class and I was like, Hmm. Yeah. I never even had the idea that I would even be able to take like an elementary Yoruba.<br /></p>
                     <p>I looked at it and like it fit with my schedule and it was four credits, so it was like, oh, I wouldn&#x27;t have to like really randomly kill myself to take this foreign language. But like the six credit one, it would&#x27;ve been like every Monday through Friday we had to meet for this.<br /></p>
                     <p>I was like, you know what? When am I ever gonna get the chance again to just like take an elementary Yoruba classes? So I decided to sign up for the Yoruba one and it was cool. It was cool to have like a className of mostly Nigerians, but there were also a few non-Nigerians. Interestingly enough, there is a Yoruba diaspora in Latin America, and so there was a non-Black Latino in the className who was from the Yoruba diaspora, which was interesting.<br /></p>
                 </div>
