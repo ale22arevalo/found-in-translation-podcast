@@ -58,14 +58,14 @@ const Fa = () => {
                     This week&#x27;s guest is ajhbcjajnjkcnajncja.<br />
                   </p>
                   <p> bcsahjjcajk<br /></p>
-                  <p><b className="list">A </b>s‍<br /><b className="list">B </b>bcxhkabjkca<br /><b className="list">C </b> kjnckajncja<br /><b className="list">D)</b> acjbajnkva<br /></p>
+                  <p><b className="list">A)</b><br /><b className="list">B)</b>bcxhkabjkca<br /><b className="list">C)</b> kjnckajncja<br /><b className="list">D)</b> acjbajnkva<br /></p>
                   <p>Hope you enjoy!<br /></p>
               </div>
             </section>
             <div className='section-wrapper'>
-              <div className='p-wrapper side'>
-                <p>~ interview begins ~</p>
-                <b className="bolded">Going back to your early childhood, growing up in Dhaka, what was your connection to Bengali or how did it play out when you were growing up?</b>
+              <div className='p-wrapper full'>
+                <h3 className="cue">~ interview begins ~</h3>
+                <p>Going back to your early childhood, growing up in Dhaka, <b className="extra-bolded">what was your connection to Bengali or how did it play out when you were growing up?</b></p>
               </div>
             </div>
             <section className='section-wrapper'>
@@ -88,7 +88,7 @@ const Fa = () => {
                   <div className='bolded-name'>Guru</div>
                 </div>
               <div class="p-wrapper side">
-                  <p>I guess first moving to Jakarta. <b>What was that initial transition when you had to enter a new environment? </b><br /></p>
+                  <p>I guess first moving to Jakarta. <b className='extra-bolded'>What was that initial transition when you had to enter a new environment? </b><br /></p>
                   <p>Sorry, literally a new country, I should say, where the primary language of your people, the first language you ever knew, suddenly wasn&#x27;t anymore.<br /></p>
                 </div>
             </div>
@@ -106,11 +106,9 @@ const Fa = () => {
                 </div>
             </div>
             <div className='section-wrapper'>
-              <div className='p-wrapper side'>
-                <b className="bolded">I lost that after like second grade when I moved to Jakarta.</b>
-                <p>And I didn&#x27;t really like separately study Bengali with my parents or anything like that.</p>
-                <p>Basically my knowledge of Bengali was pretty much at a second grade level. </p>
-                <p>And I think it still kind of is.</p>
+              <div className='p-wrapper full'>
+                <p><b className="bolded">I lost that after like second grade when I moved to Jakarta.</b> And I didn&#x27;t really like separately study Bengali with my parents or anything like that.</p>
+                <p>Basically my knowledge of Bengali was pretty much at a second grade level. And I think it still kind of is.</p>
                 <p>But we still spoke Bengali at home and I spoke English at school and with my friends, but I think the, you know, my relationship with my mother tongue definitely changed and made me feel bit of like an outsider which is also funny to think about, because it was an international school.</p>
                 <p>And so we literally had like kids from all over the world, but I still felt different and I&#x27;m still trying to figure out like why that was the case, even though everyone around me spoke different languages and you know, had like various ethnic backgrounds, et cetera. But yeah, I think that&#x27;s kind of where it started to change for me in terms of my how I think about Bengali and how it relates to me.</p>
               </div>
@@ -121,8 +119,8 @@ const Fa = () => {
                 </div>
               <div class="p-wrapper side">
                   <p>Going back to the Bangla medium and English medium schools, I&#x27;m also just curious, <b>was there any stratification?</b><br /></p>
-                  <p>I guess when it came to who was able to attend those kinds of schools or I guess another way of saying is like, someone&#x27;s gonna know English and Bangla, was that kind of something where it&#x27;s like, oh, if you&#x27;re middle, upper middle class or higher, those kids are getting that. <br /></p>
-                  <p>And then, <b>what was the role of English in Dhaka, in the societal role it was playing?</b><br /></p>
+                  <p>I guess when it came to who was able to attend those kinds of schools or I guess another way of saying is like, someone&#x27;s gonna know English and Bangla, was that kind of something where it&#x27;s like, oh, if you&#x27;re middle, upper middle class or higher, those kids are getting that.</p>
+                  <p>And then, <b className='extra-bolded'>what was the role of English in Dhaka, in the societal role it was playing?</b><br /></p>
               </div>
             </div>
             <div className='section-wrapper'>
@@ -131,13 +129,13 @@ const Fa = () => {
                 </div>
               <div class="p-wrapper side">
                   <p>Yeah, totally. I mean, for the most part, I think you&#x27;re spot on. Maybe it&#x27;s different now and because I haven&#x27;t lived in Bangladesh, I might not be as aware of how it&#x27;s playing out currently, but at least when I was growing up I think mostly middle class, upper middle class kids, you&#x27;d see them going to English medium schools.<br /></p>
-                  <p>And for the most part, these schools were private schools. And so you had to pay a tuition and that&#x27;s kind of the group of people that would be able to afford it. Whereas with Bangla medium schools I&#x27;m pretty sure there were private schools and a lot of government schools as well. <br /></p>
-                  <p>And so I think the difference between being funded by the government versus being a private school, definitely played a role in the demographics or like the students that I would be, you know, spending my time with during the day.<br /></p>
-                  <p>Even though we have that stratification at the school level you know, from like elementary to high school as far as I&#x27;m aware, most universities they&#x27;re like English medium. So all of your classes are gonna be taught in English. <br /></p>
-      
-                  <p>And like, I know in the past maybe like even some of my cousins who might have gone to like a big a Bangla medium school that transition to university might have been like a little harder to them because I mean, now they&#x27;re like being taught in like a completely different language.<br /></p>
-                  <p>Obviously they, you know, might have been aware of English and they did speak it, but I think they would&#x27;ve been more confident in Bengali. And you could say the same for me. Like if all of a sudden I was just, yes, I speak Bengali at home, but all my life I&#x27;ve been going to English, medium schools.<br /></p>
-                  <p>And if I, all of a sudden had to go to a Bangla medium, like taught university, then it would it would not be good  it would be super hard. But I guess, like that&#x27;s not necessarily as applicable to me because anyways, I was going to an English medium school in Dhaka. I mean the primary language spoken in my school in Jakarta and Dubai were English. And so yeah, I feel like I didn&#x27;t have to, especially cuz I was younger. I wasn&#x27;t like as aware of yeah, of like what was really going on.<br /></p><img class="image-414 phot-fader" src="images/elementaryschool.jpg" alt="" sizes="100vw" data-w-id="cd763c7d-168b-8c3d-2337-439a025af0b4" loading="lazy" srcset="images/elementaryschool-p-500.jpg 500w, images/elementaryschool-p-800.jpg 800w, images/elementaryschool.jpg 1024w" />
+                  <p>And for the most part, these schools were private schools. And so you had to pay a tuition and that&#x27;s kind of the group of people that would be able to afford it. Whereas with Bangla medium schools I&#x27;m pretty sure there were private schools and a lot of government schools as well.</p>
+                  <p>And so I think the difference between being funded by the government versus being a private school, definitely played a role in the demographics or like the students that I would be, you know, spending my time with during the day.</p>
+                  <p>Even though we have that stratification at the school level you know, from like elementary to high school as far as I&#x27;m aware, most universities they&#x27;re like English medium. So all of your classes are gonna be taught in English.</p>
+                  <p>And like, I know in the past maybe like even some of my cousins who might have gone to like a big a Bangla medium school that transition to university might have been like a little harder to them because I mean, now they&#x27;re like being taught in like a completely different language.</p>
+                  <p>Obviously they, you know, might have been aware of English and they did speak it, but I think they would&#x27;ve been more confident in Bengali. And you could say the same for me. Like if all of a sudden I was just, yes, I speak Bengali at home, but all my life I&#x27;ve been going to English, medium schools.</p>
+                  <p>And if I, all of a sudden had to go to a Bangla medium, like taught university, then it would it would not be good  it would be super hard. But I guess, like that&#x27;s not necessarily as applicable to me because anyways, I was going to an English medium school in Dhaka. I mean the primary language spoken in my school in Jakarta and Dubai were English. And so yeah, I feel like I didn&#x27;t have to, especially cuz I was younger. I wasn&#x27;t like as aware of yeah, of like what was really going on.</p>
+                  {/* <img class="image-414 phot-fader" src="images/elementaryschool.jpg" alt="" sizes="100vw" data-w-id="cd763c7d-168b-8c3d-2337-439a025af0b4" loading="lazy" srcset="images/elementaryschool-p-500.jpg 500w, images/elementaryschool-p-800.jpg 800w, images/elementaryschool.jpg 1024w" /> */}
                 </div>
             </div>
             <div className='section-wrapper'>
@@ -147,9 +145,9 @@ const Fa = () => {
               <div class="p-wrapper side">
                   <p>Yeah. I mean, I don&#x27;t think anyone would expect a six year old to know about the working class, unless you&#x27;re Greta Thunberg or something.<br /></p>
                   <p>Well, it&#x27;s funny that you mentioned that for like Bangladesh, cuz I&#x27;ve seen it play out in Tamil Nadu and other Indian states.<br /></p>
-                  <p>And I&#x27;m thinking of like two movies that are about like Tamil films and like one of them is called <strong>Pariyerum Perumal</strong> and it&#x27;s about a lower cast guy who ends up going to law school and on his first day of school, he doesn&#x27;t know English, but the whole university is just taught in English and then he asks his professor if they can teach in Tamil.<br /></p>
+                  <p>And I&#x27;m thinking of like two movies that are about like Tamil films and like one of them is called <b className='bolded'>Pariyerum Perumal</b> and it&#x27;s about a lower cast guy who ends up going to law school and on his first day of school, he doesn&#x27;t know English, but the whole university is just taught in English and then he asks his professor if they can teach in Tamil.<br /></p>
                   <p>I mean it&#x27;s a Tamil university. So he thinks it&#x27;s a very obvious question and everyone just erupts and laughter around him. And then, the teacher gives him... this is like a recurring thing throughout the movie, but the teacher gives him this assignment where he has to write an apology letter, but he has to do it in English.<br /></p>
-                  <p>And then there&#x27;s another film called <strong>Kattradhu Thamizh</strong> which was like the main character. He wants to be a Tamil teacher. And it&#x27;s sort about his like societal frustrations of the appreciation of the Tamil language eroding and the sort of how globalization&#x27;s affecting everything.<br /></p>
+                  <p>And then there&#x27;s another film called <b className='bolded'>Kattradhu Thamizh</b> which was like the main character. He wants to be a Tamil teacher. And it&#x27;s sort about his like societal frustrations of the appreciation of the Tamil language eroding and the sort of how globalization&#x27;s affecting everything.<br /></p>
                   <p>And I dunno, it&#x27;s just so interesting when you think about languages like Tamil or Bangladesh or Hindi and like all these kind of things that have like just huge... Tamil is like one of the oldest languages in the world, you know?<br /></p>
                   <p>And like, there are so many languages that are derived from like Sanskrit and other stuff, like so many languages, like in that part of the world especially, go back like thousands of years or, or something, or even hundreds of years.<br /></p>
                   <p>And so it&#x27;s just kind of crazy to me when you actually sit down and think about how despite having such intense roots, they&#x27;re not considered like the primary thing in our home countries. I also get it because at this point, English is just the norm everywhere.<br /></p>
@@ -158,13 +156,13 @@ const Fa = () => {
             </div>
             <div className='section-wrapper'>
               <div className='p-wrapper full'>
-                <b className="bolded">Fareeha</b>
+                 <div className='bolded-name'>Fareeha</div>
                 <p>It would be a lot of essays.</p>
-                <b className="bolded">Guru</b>
+                <div className='bolded-name'>Guru</div>
                 <p>Yeah. But that was my whole other tangent. I just thought it was very interesting though.</p>
-                <b className="bolded">Fareeha</b>
+                 <div className='bolded-name'>Fareeha</div>
                 <p>No, for sure. I think the other interesting thing about Bengali is, I mean when you look back at history, so basically after, you know, partition and basically us being divided by like majority Muslim or majority Hindu in terms of like India being majority Hindu and then west Pakistan and east Pakistan being majority Muslim.<b><br /></b></p>
-                <b className="bolded">Guru</b>
+                <div className='bolded-name'>Guru</div>
                 <p>Sorry, not to interrupt me, but I also just wanted to say I can&#x27;t I&#x27;m so happy you said that because I know I I&#x27;m just gonna say this right now. I&#x27;m betting 99% of the people listening to this podcast don&#x27;t even know that Bangladesh at one point was East Pakistan.<b><br /></b></p>
               </div>
             </div>
@@ -236,7 +234,7 @@ const Fa = () => {
                 </div>
             </div>
             <div className='section-wrapper'>
-            <div className='name-wrapper'>
+              <div className='name-wrapper'>
                   <div className='bolded-name'>Guru</div>
                 </div>
               <div class="p-wrapper side">
@@ -256,9 +254,11 @@ const Fa = () => {
                 </div>
             </div>
             <div className='section-wrapper'>
+              <div className='name-wrapper'>
+                  <div className='bolded-name'>Guru</div>
+                </div>
               <div className='p-wrapper side'>
-                <p>Guru</p>
-                <b className="bolded">Going back to, when you were saying you wanted to invest yourself more now with learning Bengali or Bangla. <br /><br />how much have you immersed yourself with Bengali media and if so, has that helped with your understanding, reading, writing, comprehension...</b>
+                <p>Going back to, when you were saying you wanted to invest yourself more now with learning Bengali or Bangla,<b className="extra-bolded"> how much have you immersed yourself with Bengali media and if so, has that helped with your understanding, reading, writing, comprehension...</b></p>
               </div>
             </div>
             <div className='section-wrapper'>
@@ -269,7 +269,7 @@ const Fa = () => {
                   <p>Yeah. I remember when I used to go back for some of my breaks to Bangladesh when my aunt and uncle and like my grandparents used to live and talk at the time you know, they had like a bunch of story books in Bengali. And so sometimes I would try and read it. It would take me ages to like, get through like a super short novel.<br /></p>
                   <p>And so I recognize it was hard and like, you know, Bengali is like a very beautiful language. Like if you hear any of the poetry and like Robin not talks you know, songs and like poems that he&#x27;s written or like Kano Islam, it&#x27;s very nice. And like, I really do want to learn that and understand it because the way that I speak Bengali it&#x27;s super informal.<br /></p>
                   <p>So when I&#x27;m reading something like, you know, like a news article or like a novel, it&#x27;ll be a more like formal version of Bengali, which I&#x27;m not as familiar with. I think sometimes, like I just got like a little frustrated because I thought like, <br /></p>
-                  <p><b>This is my own language. <br />I should just know it.<br />Why do I have to search up every other word?</b>‍<br /></p>
+                  <p><b>This is my own language. I should just know it. Why do I have to search up every other word?</b>‍</p>
                   <p>So there were some, you know, one-off efforts of me, like trying to read books and stuff here and there to like, understand the language but it definitely hasn&#x27;t been like something continued like on my behalf.<br /></p>
                   <p>Like you mentioned, like maybe film and TV or music. I remember I was coming back from a wedding with some of my extended relatives and they started playing Bengali songs in their car. So, I was sitting next to one of my other younger cousins. She&#x27;s 10 or something, maybe 12, you know, like in her teens I guess. <br /></p>
                   <p>I was like, oh, I&#x27;ve like, never heard this before. And she was like, oh, how come? You&#x27;ve never heard, heard this before? Like, you&#x27;re not even Bengali, you know, like, it was just like a fun, small comment. And I was like, oh, yikes. Like a 13 year old girl who  grew up in the us, knew this Bengali song and I didn&#x27;t. And like, I literally lived in Bangladesh, you know? <br /></p>
@@ -302,9 +302,11 @@ const Fa = () => {
               </div>
             </div>
             <div className='section-wrapper'>
+              <div className='name-wrapper'>
+                  <div className='bolded-name'>Guru</div>
+                </div>
               <div className='p-wrapper side'>
-                <p>Guru</p>
-                <b className="bolded">When you came to NYU, did you go to any kind of Bengali student association?</b>
+                <b className="extra-bolded">When you came to NYU, did you go to any kind of Bengali student association?</b>
               </div>
             </div>
             <div className='section-wrapper'>
@@ -326,60 +328,90 @@ const Fa = () => {
                 <div className='name-wrapper'>
                   <div className='bolded-name'>Guru</div>
                 </div>
+              <div className='p-wrapper side'>
                 <p>I&#x27;m not gonna lie. Like my eternal quest in life is to meet them people like, for some reason, everyone else I know Tamil people. Every time I&#x27;m saying like, oh Tamil, and then they&#x27;re like, oh, I know like 10 of those. I&#x27;m like, where are they? where have they been?<br /></p>
                 <p>So yeah, at NYU, I did meet other Indian students who are Indian American or just from like India itself. I feel like the difference there was more so that they were from different parts of India. So, like that was an even greater chasm, because it&#x27;s like, okay, you&#x27;re not only speaking a different language than me, cuz I mean, obviously you go from one state to the next India, it&#x27;s a different world.<br /></p>
                 <p>So, they&#x27;re speaking different languages. They&#x27;re also speaking different customs. It&#x27;s like a whole other thing. So I feel like that&#x27;s kind of the reason why I didn&#x27;t like see, or I just didn&#x27;t have like as many Indian friends in college. <br /></p>
                 <p>I feel like like at least in your case, like, even if you came from different backgrounds, there&#x27;s like a language similarity, or there are some like customs that are like similar, but then it&#x27;s like between like a south Indian and north Indian, like there&#x27;s a lot of us that are just like, yes, we are Indian but then when you get into the really nitty gritty, it&#x27;s like, there are definitely gonna be some more differences.<br /></p>
                 <p>But then yeah, growing up, I knew like a few like Indian kids and we all kind of spoke something completely different from one another, but I feel like it was so like, I don&#x27;t know when you get to NYU, like, yeah, it is a lot more diverse, but like growing up predominantly a white town, it&#x27;s so much more blatant how much of a minority we are.<br /></p>
                 <p>I definitely had like a lot more Asian friends, like leading into like high school and everything. But yeah, college was Introducing time. I I&#x27;m still waiting to, to find the, the population in America. I have so much to tell them.<br /></p>
-                <p><b>Have you been back to Bangladesh, in the last few years, are you like looking forward to like doing that sometimes soon?</b><br /></p>
+                <p><b className='extra-bolded'>Have you been back to Bangladesh, in the last few years, are you like looking forward to like doing that sometimes soon?</b><br /></p>
+              </div>
             </div>
             <div className='section-wrapper'>
                 <div className='name-wrapper'>
                   <div className='bolded-name'>Fareeha</div>
                 </div>
+              <div className='p-wrapper side'>
                 <p>I actually went back a couple months ago. And that was kind of like the first time in like more than two years cuz you know, I couldn&#x27;t go, like I mentioned, we used to go back pretty often like winters and summers. But when I started college in the us, that was a little less frequent cuz it&#x27;s so far inexpensive and then COVID happened.<br /></p>
                 <p>So, I basically didn&#x27;t see my parents or my brother for a little over two years. And so I went back earlier in the year and yeah, it was really nice. We still live in that. So after we moved back, we went back to that apartment that I essentially grew up in, in like the same apartment building with my other, you know, family members.<br /></p>
                 <p>The number of family members in that building has definitely kind of waned and like died down. So, it&#x27;s a little more quiet, but yeah, it was nice being back. Especially like after a while.<br /></p>
+              </div>
             </div>
             <div className='section-wrapper'>
               <div className='p-wrapper full'>
-                <b className="bolded">Guru</b>
+                <div className='bolded-name'>Guru</div>
                 <p>Nice. And I forget if we asked a similar question already, but the last question I would pose to you is do you have a favorite word in Bengali or a favorite term or phrase?</p>
-                <b className="bolded">Fareeha</b>
+                 <div className='bolded-name'>Fareeha</div>
                 <p>That&#x27;s such a good question. Wouldn&#x27;t even know what that would be in like English. There&#x27;s like some random Bengali words, I just like how they sound. Like Br̥ṣṭi. Br̥ṣṭi means rain. And I was just thinking about it the other day. Cuz like it was like a little overcast or maybe it rained, honestly, I don&#x27;t remember.</p>
                 <p>But I just like one of my favorite things about being back home is like the way that it feels and smells after it rains. Cause Bangladesh is so like, there&#x27;s like so much greenery and like nature everywhere. It&#x27;s just like. It&#x27;s like a different feeling after it rains, especially like when we have like our monsoon season, obviously, like sometimes it&#x27;s actually bad because there&#x27;s like serious flooding, et cetera. I always remember like those summers those like rainy summers I just loved it when it rained and Br̥ṣṭi is definitely one of those random little words that I like. </p>
                 <p>But, you know, I might even like ask this question to my parents and see if they have a favorite Bengali word. I feel like it might even be hard for them to come up with an answer, but yeah, maybe like if I, you know, start watching the Bengali movies and shows and music maybe I&#x27;ll have an actual answer.</p>
               </div>
             </div>
             <div className='section-wrapper'>
+              <div className='name-wrapper'>
+                  <div className='bolded-name'>Guru</div>
+                </div>
               <div className='p-wrapper side'>
-                <b className="bolded">Guru</b>
-                <b className="bolded">All right. Cool. Well as we&#x27;re wrapping up, if you just wanna plug your socials or anything else you&#x27;re like working on.</b>
+                <p>All right. Cool. Well as we&#x27;re wrapping up, if you just wanna plug your socials or anything else you&#x27;re like working on.</p>
               </div>
             </div>
             <div className='section-wrapper'>
               <div className='p-wrapper full'>
-                <b className="bolded">Fareeha</b>
+                <div className='bolded-name'>Fareeha</div>
                 <p>Yeah, totally. I had a chance to work on was actually writing a book and having it published. So it was, it&#x27;s actually like been more than a year, which is crazy to think about. But I wrote a book on social impact where I spoke to a bunch of people in the industry, you know, creating a tangible, positive impact in different ways, whether that be through impact investing or through nonprofits or government, et cetera.</p>
                 <p> And I kind of compile it all into my book the impact mind, and it basically looks at how we as individuals can you know, make a difference with the resources that we have at hand. And I feel like because it covers so many different stories and people from so many different walks of life hopefully a story resonates with you and you can see how, you know, you have the power to you know, not necessarily change the whole world, but make a change in the world.</p>
                 <p>And so that&#x27;s definitely something I was really excited to work on and still very passionate about. So it would be awesome if you check that out, it&#x27;s called <b>&quot;The Impact Mind&quot; by Fareeha Mahmood.</b></p>
-                <b className="bolded">Guru</b>
-                <p>Is it on Amazon or where can people find it?</p>
-                <b className="bolded">Fareeha</b>
-                <p>Yeah, it&#x27;s on the Barnes &amp;Noble website, Amazon. I think it should be on all the major sites,<b><br /></b></p>
-                <b className="bolded">Guru</b>
-                <p>Well, I hope everyone checks out your book. I&#x27;ll have to check out your book now as well. Thank you again for coming on our, our little podcast here. And also you are closing out season one.</p>
-                <b className="bolded">Fareeha</b>
-                <p>I feel so special. What an honor.</p>
-                <b className="bolded">Guru</b>
-                <p>But yeah. Thank you again.</p>
               </div>
             </div>
             <div className='section-wrapper'>
+              <div className='name-wrapper'>
+                  <div className='bolded-name'>Guru</div>
+                </div>
+              <div class="p-wrapper side">
+                <p>Is it on Amazon or where can people find it?</p>
+              </div>
+            </div>
+            <div className='section-wrapper'>
+                <div className='name-wrapper'>
+                  <div className='bolded-name'>Fareeha</div>
+                </div>
+              <div class="p-wrapper side">
+                <p>Yeah, it&#x27;s on the Barnes &amp;Noble website, Amazon. I think it should be on all the major sites,<b><br /></b></p>
+              </div>
+            </div>
+            <div className='section-wrapper'>
+              <div className='name-wrapper'>
+                  <div className='bolded-name'>Guru</div>
+                </div>
+              <div class="p-wrapper side">
+                <p>Well, I hope everyone checks out your book. I&#x27;ll have to check out your book now as well. Thank you again for coming on our, our little podcast here. And also you are closing out season one.</p>
+              </div>
+            </div>
+            <div className='section-wrapper'>
+              <div className='name-wrapper'>
+                  <div className='bolded-name'>Fareeha</div>
+              </div>
               <div className='p-wrapper side'>
-                <b className="bolded">Guru</b>
-                <b className="bolded">Thank you so much again for listening. and as always, please like, share, comment, eTC, and whatever else will help us go viral.</b>
+                <p>I feel so special. What an honor.</p>
+              </div>
+            </div>
+            <div className='section-wrapper'>
+              <div className='name-wrapper'>
+                  <div className='bolded-name'>Guru</div>
+                </div>
+              <div className='p-wrapper side'>
+                <b className="bolded">Thank you so much again for listening. and as always, please like, share, comment, etc, and whatever else will help us go viral.</b>
               </div>
         </div>
       </div>
