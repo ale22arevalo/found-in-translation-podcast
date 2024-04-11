@@ -422,6 +422,7 @@ const Rachel = () => {
                               </marker></defs>
                     </svg>
                   </div>
+              </div>
                   <img className="horizontal-photo" src={rachel_sarah} loading="lazy" />
               </div>
               </div>
