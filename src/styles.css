@@ -561,6 +561,14 @@ text {
         height: 200px;
     }
 }
+
+/* .home-intro-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
 /* illos */
 #g-box {
     display: flex;
