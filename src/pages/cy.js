@@ -271,18 +271,18 @@ const Cy = () => {
                 <div className='bolded-name'>Cynthia</div>
               </div>
                 <div className="p-wrapper side">
-                  <p>I took ASL one at NYU because I wanted the easy credits, but also because I wanted to refresh my memory of basic vocabulary, and it did help me a lot, but it also helps me observe the class.</p>
-                  <p>Because when I went into the class and you know, it&#x27;s like ASL only, but like at one point, you know, we get breaks or, you know, you can step outside and talk to other people. And when I actually engaged with other people in the class, outside of the classroom, they&#x27;re like, I thought this was gonna be easy, but it&#x27;s so hard.</p>
-                  <p>It&#x27;s like, I didn&#x27;t know that it was like super grammar intensive and there&#x27;s a structure. And you can&#x27;t speak and you have to show your expressions. And, and I would say a fundamental part of the language is using your face and that is something that I have polished to the point where I can&#x27;t even talk without being super expressible.</p>
-                  <p>It&#x27;s stuck in my head, like actually on my head, on my face. I definitely think that&#x27;s one thing like facial expressions is an indicator of tone, an indicator of grammar. It tells you whether or not you&#x27;re asking a question, you&#x27;re making an exclamation or just a statement.</p>
+                  <p>I took ASL one at NYU because I wanted the easy credits, but also because I wanted to refresh my memory of basic vocabulary. And it did help me a lot, but it also helps me observe the class.</p>
+                  <p>Because when I went into the class and it&#x27;s like ASL only, but at one point, you know, we get breaks or, you know, you can step outside and talk to other people. And when I actually engaged with other people in the class, outside of the classroom, they&#x27;re like, I thought this was gonna be easy, but it&#x27;s so hard.</p>
+                  <p>It&#x27;s like, I didn&#x27;t know that it was super grammar intensive and there&#x27;s a structure. And you can&#x27;t speak and you have to show your expressions. And, and I would say a fundamental part of the language is using your face. And that is something that I have polished to the point where I can&#x27;t even talk without being super expressible.</p>
+                  <p>It&#x27;s like stuck in my head, on my face. I definitely think that&#x27;s one thing, like facial expressions is an indicator of tone, it's an indicator of grammar. It tells you whether or not you&#x27;re asking a question, you&#x27;re making an exclamation or just a statement.</p>
                   <p>The way you position yourself, the way you look at people, the way you enter a space where two people are signing, is important. There&#x27;s so many different, like physical, directional things that matter that I feel like is obviously very unique.</p>
                 </div>
             </section>
             <section className="section-wrapper">
               <div className="p-wrapper full">
-                <b className='bolded'>I grew up with a misconception and I fought myself for saying this for the longest time. I was like, oh yeah. How can people think that? Like, I don&#x27;t know English, like I have to know English, no ASL. That&#x27;s not true. ASL is like an entire entity in itself.</b>
-                <p>You have to throw away the English language to understand ASL. English definitely helps obviously, but you have to throw away sentence structure entirely. Grammar, throw it out the window. The structure of, of, of just like how you say a simple sentence. Totally different.</p>
-                <p>You don&#x27;t say every single word in a sentence, you could say two signs and that&#x27;s like two sentences. So it&#x27;s so much more than just doing gestures. So I would say that&#x27;s another fundamental of ASL.</p>
+                <b className='bolded'>I grew up with a misconception and I, and I fought myself for saying this for the longest time. I was like, oh yeah, how can people think that like, I don&#x27;t know English, like I have to know English to know ASL. That&#x27;s not true. ASL is like an entire entity in itself.</b>
+                <p>You have to throw away the English language to understand ASL. Like English definitely helps, obviously, but you have to throw away sentence structure entirely. Grammar, throw it out the window. The structure of, of, of just like how you say a simple sentence. Totally different.</p>
+                <p>You don&#x27;t say every single word in a sentence. You could say two signs and that&#x27;s like two sentences. It&#x27;s so much more than just doing gestures. So I would say that&#x27;s another fundamental part of ASL.</p>
               </div>
             </section>
             <section className="section-wrapper">
@@ -291,7 +291,7 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p>The facial expression, I think is really interesting. And in that className, that 1-1 class I&#x27;m curious, like, did they, I guess, how did they teach that?</p>
+                  <p>The facial expression, I think is really interesting. And in that clas, that 101 class, I&#x27;m curious, like, did they, I guess, how did they teach that?</p>
                   <div className="image-414 phot-fader"></div>
                 </div>
               </div>
@@ -302,8 +302,8 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p>I mean, in class it was a lot more hands on. There would be no talking at all. The instructor was always a deaf person, so there was no need to talk at all. In terms of facial expressions, God, I mean, I&#x27;m no teacher, so it&#x27;s really hard to even explain it, but they teach you how to move your eyebrows a certain way. You have to, I think I would picture, like, if you&#x27;re an actor, you don&#x27;t say lines with a straight face.</p>
-                  <p>There&#x27;s no reason in ASL for you to be just talking on a straight face because then you&#x27;ll, they&#x27;ll always think you&#x27;re mad. It won&#x27;t make sense in a lot of contexts, cuz again, it displays tone, it displays grammar, it displays all these different things.</p>
+                  <p>I mean, in class it was a lot more hands on. There would be no talking at all. The instructor was always a deaf person, so there was no need to talk at all. In terms of facial expressions... God, I mean, I&#x27;m no teacher, so it&#x27;s really hard to even explain it, but they teach you how to move your eyebrows a certain way. You have to-- I think I would picture if you&#x27;re an actor, you don&#x27;t say lines with a straight face.</p>
+                  <p>There&#x27;s no reason in ASL for you to be just talking with a straight face because then you&#x27;ll, they&#x27;ll always think you&#x27;re mad. It won&#x27;t make sense in a lot of contexts, 'cause again, it displays tone, it displays grammar, it displays all these different things.</p>
                 </div>
               </div>
             </section>
@@ -313,8 +313,8 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p>I feel like even for people who have a surface level awareness of ASL, they probably won&#x27;t consider the facial expression portion. And like, I&#x27;ll be the first to admit, I&#x27;m only more familiar with it cuz you&#x27;ve explained it to me cuz we&#x27;re friends.</p>
-                  <p>Have you kind of ever thought about that or talked to your parents or other deaf friends about almost the like, I don&#x27;t know what the right word is like the, like how ASL can in and up itself be generalized or they kind of reduce it to just like hand gestures, as opposed to thinking about all the complexities.</p>
+                  <p>Yeah, yeah, yeah, I feel like even for people who have a surface level awareness of ASL, they probably won&#x27;t consider the facial expression portion. And like, I&#x27;m only more familiar with it 'cause you&#x27;ve explained it to me 'cause we&#x27;re friends.</p>
+                  <p>Have you kind of ever thought about that or talked to your parents or other deaf friends about people who don't know the language, they kind of reduce it to just like hand gestures as opposed to thinking about all the complexities of it.</p>
                 </div>
               </div>
             </section>
@@ -324,13 +324,13 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p>Part of the positive experience of taking that ASL class was that the fact that they acknowledged that it&#x27;s a language and it has a culture, there&#x27;s a history, there&#x27;s a culture, there&#x27;s different dialects, there&#x27;s different ways to say different words, just like any other language.</p>
-                  <p>If you&#x27;re thinking of ASL as oh, you know, some fun tricks here and there. Oh, Hey, I can, a lot of, a lot of times when people are like, oh yeah, I learned ASL for a bit. The most common thing that I get is like that. I only know how to spell my name. Maybe like please. And thank you. Hi goodbye. And it&#x27;s like that kind of perspective that I get from other people is it&#x27;s usually pretty telling to me is that usually when they learn ASL, they just think it&#x27;s some really cool.</p>
-                  <p>That&#x27;s why, whenever I go to the store and the cashier is like, oh yeah, I know little sign. I do feel appreciative because it, it tells me that, you know, you could use that when you&#x27;re, you&#x27;re on the job and, you know, some deaf person comes in and they ask you a question and you&#x27;ll be able to help them. And that makes me happier.</p>
+                  <p>Part of the positive experience of taking that ASL class was that they acknowledged that it&#x27;s a language and it has a culture. There&#x27;s a history, there&#x27;s a culture, there&#x27;s different dialects, there&#x27;s different ways to say different words, just like any other language.</p>
+                  <p>A lot of times when people are like, oh yeah, I learned ASL for a bit. The most common thing that I get is like that. I only know how to spell my name. Maybe like please and thank you. Hi. Goodbye. And it&#x27;s like that kind of perspective that I get from other people is, it&#x27;s usually pretty telling to me, is that usually when they learn ASL, they just think it&#x27;s some really cool trick.</p>
+                  <p>That&#x27;s why whenever I go to the store and the cashier is like, oh yeah, I know a little sign. I do feel appreciative because it, it tells me that, you know, you could use that when you&#x27;re, you&#x27;re on the job and, you know, some deaf person comes in and they ask you a question and you&#x27;ll be able to help them. And that makes me happier.</p>
                   <p>That doesn&#x27;t mean you should sign to every deaf person that you see. They may not need the actual assistance. Obviously you should learn how to ask if they need the help. If they say no, then be respectful about it.</p>
-                  <p>I think for ASL, especially, it&#x27;s one thing to be like, I&#x27;m learning the language, but if you&#x27;re not actually immersing yourself and talking to deaf people and being in the community and learning more about their experiences, then I don&#x27;t think you&#x27;re really utilizing the language at all.</p>
-                  <p>I&#x27;ve looked into some disabled activists and creators and stuff who have said that it&#x27;s one thing to advocate for disabled people, but to not know anyone who&#x27;s disabled, to not be friends with people who are disabled, to not really associate yourselves with people who are disabled, it just feels lackluster.</p>
-                  <p>It feels performative almost. So that&#x27;s how I feel similarly to people who are learning ASL. On one hand, the purpose is to really utilize it, to understand and better clear up any, stereotypes or misconceptions, I guess about deaf people and maybe advocate for a more accessible world, you know, as allies.</p>
+                  <p>But if you&#x27;re not actually immersing yourself and talking to deaf people and being in the community and learning more about their experiences, then I don&#x27;t think you&#x27;re really utilizing the language at all.</p>
+                  <p>This goes for the disabled community as a whole. Some disabled activists and creators and stuff who have said that it&#x27;s one thing to advocate for disabled people, but to not know anyone who&#x27;s disabled, to not be friends with people who are disabled, to not associate yourselves with people who are disabled, it just feels performative.</p>
+                  <p>So that&#x27;s how I feel similarly to people who are learning ASL. The purpose is to really utilize it, to understand and better clear up any stereotypes or misconceptions about deaf people, and maybe advocate for a more accessible world, you know, as allies.</p>
                 </div>
               </div>
             </section>
@@ -339,7 +339,7 @@ const Cy = () => {
                 <div className='bolded-name'>Guru</div>
               </div>
               <div className="p-wrapper side">
-                <p>I know we were talking about this off air, but you did mention a little bit before of Acknowledging ASL as a language. And so I actually thought that was a very interesting thread. you could talk a little bit more about, I didn&#x27;t even realize there was a debate if I&#x27;m gonna be honest, so are there actual people who don&#x27;t consider it a legit language.</p>
+                <p>I know we were talking about this off air, but you did mention acknowledging ASL as a language. And so, I actually thought that was a very interesting thread and I was wondering if you could talk a little bit more about... I didn&#x27;t even realize there was a debate if I&#x27;m gonna be honest with you. So are there actual people who don&#x27;t consider it a legit language?</p>
               </div>
             </section>
             <section className="section-wrapper">
@@ -347,11 +347,10 @@ const Cy = () => {
                 <div className='bolded-name'>Cynthia</div>
               </div>
               <div className='p-wrapper side'>
-                  <p>Maybe it&#x27;s just me being biased, but I have a very distinct memory in my childhood where I spoke to maybe it was like a lawyer or something. It was like some grown up. And I was speaking about the fact that I knew ASL and he literally looked at me like what?</p>
-                  <p>That&#x27;s a language that counts what, I don&#x27;t think that counts does that count. And it literally stunned me. I was like yeah, it&#x27;s a language. And after I remember actively looking on London and be like, is it really a language, you know, fully immersed in the language and culture.</p>
-                  <p>I think my mom also started texting me in Korean as well. I still respond in English because the spelling part is hard, but now I can read pretty well.</p>
-                  <p>But because of that one person, that one person outside of the community being like, is this even? So to answer the question that I was asked in the past for so many years, like, yes, but for the longest time, I was stumped by this sudden fake debate. That&#x27;s like, but I think now whenever I tell this to people like you, when I&#x27;m like, oh yeah, people used to think that it wasn&#x27;t a language. I&#x27;m glad to hear the, that the, for the most part, the response is like, what? That&#x27;s so dumb. Of course it&#x27;s a language.</p>
-                  <p>Is it officially recognized as a language in other countries? Every country has their own sign language. That&#x27;s another misconception too, that I got often is like, oh yeah, it&#x27;s ASL universal. Maybe read the acronym,</p>
+                  <p>Maybe it&#x27;s just me being biased, but I have a very distinct memory in my childhood where I spoke to, maybe it was like a lawyer or something. And I was speaking about the fact that I knew ASL and he literally looked at me like what?</p>
+                  <p>That&#x27;s a language that counts? What, I don&#x27;t think that counts. Does that count? It literally stunned me. I was like yeah, it&#x27;s a language. After I remember actively looking online and be like, is it really a language? You know, fully immersed in the language and culture.</p>
+                  <p>But because of that one person, that one person outside of the community being like, is this even real? So, to answer the question that I was asked in the past for so many years, yes. But for the longest time, I was stumped by this sudden fake debate. But I think now whenever I tell this to people like you, when I&#x27;m like, oh yeah, people used to think that it wasn&#x27;t a language. I&#x27;m glad to hear the response is like, what? That&#x27;s so dumb. Because of course it&#x27;s a language.</p>
+                  <p>Is it officially recognized as a language in other countries? Every country has their own sign language. That&#x27;s another misconception, too, that I got often is like, oh yeah, is ASL universal? Maybe read the acronym.</p>
                 </div>
             </section>
             <section className="section-wrapper">
@@ -360,8 +359,8 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p>Exactly. One of my old mentors, he&#x27;s working on a short film right now and it basically centers around a kid who knows black American sign language. I didn&#x27;t even have awareness of specific dialects.</p><img src="images/RachelAtNYUNotTisch.jpg" loading="lazy" sizes="(max-width: 479px) 89vw, 45vw" srcset="images/RachelAtNYUNotTisch-p-500.jpg 500w, images/RachelAtNYUNotTisch-p-800.jpg 800w, images/RachelAtNYUNotTisch-p-1080.jpg 1080w, images/RachelAtNYUNotTisch.jpg 1170w" alt="" className="image-414 phot-fader right-in" />
-                  <p>I knew obviously different countries would have their own sign language, but I guess I hadn&#x27;t really thought about, I&#x27;m just saying how ignorant I was for many years. Which I&#x27;m fine to admit, cuz I think a lot of people are, but I hadn&#x27;t really considered the number of dialects or Subec of ASL that would exist even in this country, let alone all over the world.</p>
+                  <p>Exactly. One of my old mentors, he&#x27;s working on a short film right now and it basically centers around a kid who knows Black American Sign Language. I didn&#x27;t even have awareness that a specific subsect of that would exist, or you were mentioning earlier there would be like dialects.</p>
+                  <p>I knew obviously different countries would have their own sign language, but I guess I hadn&#x27;t really thought about -- I&#x27;m just saying how ignorant I was for many years, which I&#x27;m fine to admit, 'cause I think a lot of people are. But even I hadn&#x27;t really considered the number of dialects or subsects of ASL that would exist even in this country, let alone all over the world.</p>
                   <b className="extra-bolded">Have you seen more conversation or exposure around that?</b>
                 </div>
               </div>
@@ -371,9 +370,9 @@ const Cy = () => {
                 <div className='bolded-name'>Cynthia</div>
               </div>
               <div className='p-wrapper side'>
-                  <p>No, this is funny because I didn&#x27;t even know about BASL until recently too.</p>
-                  <p>Looking back at it, if you ever look into the history of ASL, it&#x27;s predominantly white. So being able to look at it in a new lens, in a more intersectional lens is something that I definitely feel more inclined to look into BS a L is very interesting because I can&#x27;t even say if the way I sign has put fundamentally like BS a L ASL or like just regular ASL, because black people are the blueprint essentially for a lot of things in America. But it only was open until recently where I was like, oh yeah, that makes so much sense that, you know, black ASL exists because we had segregation, there were segregated schools in America.</p>
-                  <p>So of course, the way that they learned ASL was different than the deaf children in like white schools. So it has a historical context to it and it just reminds people that it&#x27;s not just this universal, one way easy language.</p>
+                  <p>No, this is funny because I didn&#x27;t even know about BASL until recently, too.</p>
+                  <p>Which says a lot because, looking back at it, if you ever look into the history of ASL, it&#x27;s predominantly white. So, being able to look at it in a new lens, in a more intersectional lens, is something that I definitely feel more inclined to look into. BASL is very interesting because I can&#x27;t even say if the way I sign has been fundamentally like BSAL-- BASL, or like just regular ASL, because Black people are the blueprint essentially for like a lot of things in America. It only was open until recently where I was like, oh yeah, that makes so much sense that, you know, Black ASL exists because we had segregation. There were segregated schools in America.</p>
+                  <p>So of course, the way that they learned ASL was different than the deaf children in like white schools. So, it has a historical context to it.</p>
               </div>
             </section>
             <section className="section-wrapper">
@@ -382,26 +381,26 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p>The intersectionality thing you mentioned is super interesting. And I won&#x27;t speak for the rest of the world because I&#x27;m not as knowledgeable about how deaf culture manifests itself in other parts of the world. So if we&#x27;re just talking about America right now, I feel like American doesn&#x27;t lend itself for people with disabilities, broadly speaking, but you were pointing out there, even in disabled culture, there is a spectrum of in accessibility to accessibility.</p>
-                  <p>And obviously I feel like that spectrum exists in a lot of different marginalized communities. I feel like there&#x27;s strata, everywhere you go, which is awful. But, in your, like, the classes you may have taken in college, or even just, your own general research and immersion in this culture, what are the conversations like around this kind of issues of deaf children not having equity when it comes to educational resources or financial resources or the lack of history or lack of teaching around the history of the various kinds of ASL.</p>
+                  <p>The intersectionality thing you mentioned is super interesting. And I won&#x27;t speak for the rest of the world because I&#x27;m not as knowledgeable about how deaf culture manifests itself in other parts of the world. So if we&#x27;re just talking about America right now, I feel like American society in and of itself doesn&#x27;t lend itself to be accessible for people with disabilities. But you were pointing out there, even in disabled culture, there is a spectrum of inaccessibility to accessibility, which I'd love to unpack a little bit.</p>
+                  <p>I feel like that spectrum exists in a lot of different marginalized communities. There&#x27;s strata everywhere you go, which is awful. But, what are the conversations like around this kind of, issues of deaf children not having equity when it comes to educational resources or financial resources, or the lack of history or lack of teaching around the history of the various kinds of ASL?</p>
                 </div>
               </div>
             </section>
             <section className="section-wrapper">
               <div className="p-wrapper full">
-                <b className='bolded'>I think it&#x27;s an ongoing conversation. I know I did research in high school in college about the kind of divide between deaf children and parents who ultimately want to do what&#x27;s best for their kids, but may not actually realize that what they&#x27;re doing may actually harm them.</b>
-                <p>So what I mean by that is when children, when parents give birth to a deaf child, especially if they&#x27;re hearing themselves, they commonly in research, it says that they go through a period of grief and that in itself is a lot, you know, very telling to, what could happen if you know, a child could recognize that period of grief that they go through, but that&#x27;s usually early on in the, in the child would afterwards, they have to make a choice.</p>
-                <p>They either try to fix their child or they try to help them adapt around their identity as a disabled or a deaf individual deaf part of hearing, whatever it&#x27;s the spectrum. So oftentimes parents would go towards the fixing route, which is usually like the medical model of disability that you may have heard in books or like theories and stuff.</p>
-                <p>And it&#x27;s basically like our goal is to help you be as close to a hearing person as possible, which means surgeries as young as a baby to get the cochlear implant, forcing these kids to go into only hearing schools and never touching a lick of sign language.</p>
+                <b className='bolded'>I think it&#x27;s an ongoing conversation. I know I did research in college about the kind of divide between deaf children and parents, you know, who ultimately want to do what&#x27;s best for their kids, but may not actually realize that what they&#x27;re doing may actually harm them.</b>
+                <p>So what I mean by that is when parents give birth to a deaf child, especially if they&#x27;re hearing themselves, they commonly, in research, it says that they go through a period of grief and that in itself is a lot, you know, very telling to what could happen if, you know, a child could recognize that period of grief that they go through. But that&#x27;s usually early on.</p>
+                <p>They either try to fix their child or they try to help them adapt around their identity as a disabled or a deaf individual. Deaf, hard of hearing, whatever, it&#x27;s the spectrum. So parents would go towards the fixing route, which is usually like the medical model of disability that you may have heard in books or in theories.</p>
+                <p>And it&#x27;s basically like, our goal is to help you be as close to a hearing person as possible. Which means surgeries, as young as a baby to get the cochlear implant, forcing these kids to go into only hearing schools, and never touching a lick of sign language. They never fully adapt.</p>
               </div>
             </section>
             <section className="section-wrapper">
             <div className="p-wrapper full">
                 <b className="bolded">They never fully adapt.</b>
-                <p>I will say though, one thing that I was surprised in my research is that even within those communities, let&#x27;s say a parent decides to go through that identity route and they say, you know what, I&#x27;m gonna let my kid immerse themselves in the culture, but I also want them to immerse themselves in everyday non deaf spaces.</p>
-                <p>Because they dabble in both worlds they create that disconnect that you were trying to, you know, ask me earlier where it&#x27;s like, am I really a part of this community or not? Because within the deaf community, there&#x27;s a spectrum. As I mentioned, there are deaf children whose parents told them, you&#x27;re not learning sign language at all.</p>
-                <p>You&#x27;re just gonna adapt and figure it out when you&#x27;re older. And then there&#x27;s deaf children that are like, my parents are deaf too. So we&#x27;re all deaf. That&#x27;s all I know. I don&#x27;t know, lick of English, I don&#x27;t care. And that&#x27;s, and that&#x27;s how I identify as, and then you have a whole group of people that are like, there&#x27;s a whole debate in like the disabled community where it&#x27;s like, some people don&#x27;t want to identify themselves as disabled because it&#x27;s not very beneficial.</p>
-                <p>They don&#x27;t see themselves as their disability. And then there&#x27;s some people who they&#x27;re like, yeah, I&#x27;m disabled. And I use that as an identity, and that is important to me. I think my parents would be considered the latter, they do acknowledge themselves as disabled and they recognize that they do need the assistance.</p>
+                <p>I will say though, one thing that I was surprised in my research is that even within those communities, let&#x27;s say a parent decides to go through that identity route and they say, you know what, I&#x27;m gonna let my kid immerse themselves in the culture, but I also want them to immerse themselves in everyday non-deaf spaces.</p>
+                <p>Because they dabble in both worlds, they create that disconnect that you were trying to, you know, ask me earlier where it&#x27;s like, am I really a part of this community or not? Because within the deaf community, there&#x27;s a spectrum, as I mentioned. There are deaf children whose parents told them, you&#x27;re not learning sign language at all. You&#x27;re just gonna adapt and figure it out when you&#x27;re older. </p>
+                <p>And then there&#x27;s deaf children that are like, my parents are deaf too. So, we&#x27;re all deaf. That&#x27;s all I know. I don&#x27;t know a lick of English, I don&#x27;t care. And that&#x27;s how I identify as. And then you have a whole group of people that are like, there&#x27;s a whole debate in like the disabled community where it&#x27;s like, some people don&#x27;t want to identify themselves as disabled because it&#x27;s not very beneficial.</p>
+                <p>They don&#x27;t see themselves as their disability. And then there&#x27;s some people who they&#x27;re like, yeah, I&#x27;m disabled. And I use that as an identity, and that is important to me.</p>
               </div>
             </section>
             <section className="section-wrapper">
@@ -409,19 +408,19 @@ const Cy = () => {
                 <div className='bolded-name'>Guru</div>
               </div>
               <div className="p-wrapper side">
-                <b className='bolded'>I guess just to wrap it up, do you have a specific name sign, and Could you tell us how you got it or what it means and such</b>
+                <b className='bolded'>I guess just to wrap it up, do you have a specific name sign? Could you tell us how you got it or like what it means and such?</b>
               </div>
             </section>
             <section className="section-wrapper quote">
                 <div className='bolded-name'>Cynthia</div>
-                <p><span>I dread this question so much because I forgot to even mention it. First of all, like, yeah. That&#x27;s another part of the culture. Everyone has a sign name because no one is gonna spell your name every single time.</span></p>
+                <p><span>I dread this question so much because I forgot to even mention it first of all. Everyone has a sign name because no one is gonna spell your name every single time.</span></p>
             </section>
             <section className="section-wrapper">
               <div className="name-wrapper">
                 <div className='bolded-name'>Guru</div>
               </div>
               <div className='p-wrapper side'>
-                  <p>Of course. Yeah.</p>
+                  <p>Of course.</p>
               </div>
             </section>
             <section className="section-wrapper">
@@ -437,7 +436,7 @@ const Cy = () => {
                 <div className='bolded-name'>Guru</div>
               </div>
               <div className="p-wrapper side">
-                <p>Your name is fine, but my full name, that would be...</p>
+                <p>Not, not mine. Your name is fine, but my full name, that would be impossible...</p>
               </div>
             </section>
             <section className="section-wrapper">
@@ -445,10 +444,10 @@ const Cy = () => {
                 <div className='bolded-name'>Cynthia</div>
               </div>
               <div className='p-wrapper side'>
-                  <p>No. that takes up too much time. And ASL is all about brevity. Anyways. I do have a sign name. The way sign names work usually is that you just take the letter of your first name and somehow attribute it to a personality trait that you may have. So you just, you know, sign the letter. So for me, it&#x27;s C and then I&#x27;m just gonna use a common sign name. So for girls, just for the audio view listeners, I guess.</p>
-                  <p>So for sign names, most commonly used by girls they take the letter and they attribute it to their hair. So they may brush the letter up, down their head, or just attribute their like long hair. And if they have short hair or curly hair, they may like do a little.</p>
-                  <p>To like show the curl and that might be their sign name. So that&#x27;s a common sign name that may be, you know, attributed. It&#x27;s not usually attributed. Sometimes it may be given to you. I just, I don&#x27;t know. I just found one and I just stuck with it. I don&#x27;t think there&#x27;s any true meaning to it. Just my name and that you just kind of shake it.</p>
-                  <p>There&#x27;s really no reason. I think at some point I was so upset at the fact that I didn&#x27;t have a story behind it that I used to just make, make it up. I used to just make it up. I used to just like, they&#x27;ll be like, oh Cynthia, why is your name? Like, you know, you just shaking your hand and I&#x27;m like, oh, because I just like shaking things.</p>
+                  <p>No. That takes up too much time. And ASL is all about brevity. Anyways. I do have a sign name. The way sign names work, usually, is that you just take the letter of your first name and somehow attribute it to a personality trait that you may have. So you just, you know, sign the letter. So for me, it&#x27;s C and then I&#x27;m just gonna use a common sign name.</p>
+                  <p>So for sign names most commonly used by girls, they take the letter and they attribute it to their hair. So they may brush the letter up-down their head, or just attribute their like long hair. And if they have short hair or curly hair, they may like do a little like twirl.</p>
+                  <p>To like show the curl, and that might be their sign name. So that&#x27;s a common sign name that sometimes may be given to you. I just found one and I just stuck with it. I don&#x27;t think there&#x27;s any true meaning to it. Just my name and that you just kind of shake it.</p>
+                  <p>There&#x27;s really no reason. I think at some point I was so upset at the fact that I didn&#x27;t have a story behind it that I used to just make it up. I used to just make it up. I used to just like, they&#x27;ll be like, oh Cynthia, why is your name like, you know, you just shaking your hand? And I&#x27;m like, oh, because I just like shaking things, that's pretty much it.</p>
               </div>
             </section>
             <section className="section-wrapper">
@@ -457,27 +456,7 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p>Yeah. So when you&#x27;re introducing yourself to someone for the first time, though, would you like spell out your name and then show them your signed name? Or how would....</p>
-                </div>
-              </div>
-            </section>
-            <section className="section-wrapper">
-             <div className="name-wrapper">
-                <div className='bolded-name'>Cynthia</div>
-              </div>
-              <div className='p-wrapper side'>
-                <div>
-                  <p>That&#x27;s how, that&#x27;s how it is. Yep. Cause they wouldn&#x27;t know otherwise.</p>
-                </div>
-              </div>
-            </section>
-            <section className="section-wrapper">
-               <div className="name-wrapper">
-                <div className='bolded-name'>Guru</div>
-              </div>
-              <div className='p-wrapper side'>
-                <div>
-                  <p>Well, yeah, that&#x27;s what I meant. That&#x27;s like, cause I mean, if I just met you and then you did the shaking thing, I&#x27;d be...</p>
+                  <p>Yeah. So, when you&#x27;re introducing yourself to someone for the first time, though, would you like spell out your name and then show them your signed name?</p>
                 </div>
               </div>
             </section>
@@ -487,7 +466,7 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p>Yeah. You&#x27;d have no idea. Yeah. You usually spell it and then you do the sign immediately after.</p>
+                  <p>Yep! That&#x27;s how it is. 'Cause they wouldn&#x27;t know otherwise.</p>
                 </div>
               </div>
             </section>
@@ -497,7 +476,28 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p>Thank you so much for coming onto the podcast. This has been very illuminating. Very enlightening for a lot of the people who are going to experience this episode. Well, anyways though thank you for sharing all your experiences has been really awesome. And yeah, that is a wrap.</p>
+                  <p>Well, yeah, that&#x27;s what I meant. That&#x27;s like, 'cause like, I mean, if I just met you and then you did the shaking thing, I&#x27;d be like...what do you mean?</p>
+                </div>
+              </div>
+            </section>
+            <section className="section-wrapper">
+             <div className="name-wrapper">
+                <div className='bolded-name'>Cynthia</div>
+              </div>
+              <div className='p-wrapper side'>
+                <div>
+                  <p>Yeah, yeah. You spell it and then you do the sign.</p>
+                </div>
+              </div>
+            </section>
+            <section className="section-wrapper">
+               <div className="name-wrapper">
+                <div className='bolded-name'>Guru</div>
+              </div>
+              <div className='p-wrapper side'>
+                <div>
+                  <p>Got it. Thank you so much for coming onto the podcast. This has been very illuminating for me and I feel it'll be a lot of-- very enlightening for a lot of the people who are going to experience this episode. Thank you for sharing all your experiences. This has been really awesome.</p>
+                  <p>Thank you so much for listening to episode three! Now we will roll the credits! I'm your host Guru Ramanathan. This is Found in Translation, created, executive produced by, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc., and do all the things to help us go viral. And stay tuned for the next and last episode of this season. We greatly appreciate your support. </p>
                 </div>
               </div>
             </section>
