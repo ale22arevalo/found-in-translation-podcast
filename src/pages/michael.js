@@ -313,9 +313,9 @@ const Michael = () => {
                 <div className="p-wrapper side">
                     <p>I think it&#x27;s because like I&#x27;ve always been interested in learning languages and even just linguistics in general, when I was younger, I was always really fascinated by linguistics and I would always try and look at the IPA pronunciation guides and you&#x27;re trying to learn how to pronounce the word in another language, and then you click on it and it&#x27;s like an upside down G and an S with a slash through it. How am I pronouncing this word?<br /></p>
                     <p>From there, like learning just like about like, you know, the origins of different languages. I always wanted to learn more languages, but when I was in school, the only foreign language they really offered was Spanish. Like there&#x27;s a point where we had a French teacher and then the French teacher left and then they were we don&#x27;t have French anymore.  like they just, they&#x27;re like, you can take French one online.  coming to college, I really wanted to learn French. French is always such a chic language, and it&#x27;s like, oh, it&#x27;s the language of love. And you know, I even justified it because so many African countries speak French. French as one of their top three languages, especially in West Africa, could even serve me there.<br /></p>
-                    <p>But then I was looking at French courses and I&#x27;d even almost signed up for this six-credit French intensive. And I was like, you know, I&#x27;m just gonna like really learn French. And then, then I saw that they offered a Yoruba class and I was like, Hmm. Yeah. I never even had the idea that I would even be able to take like an elementary Yoruba.<br /></p>
-                    <p>I looked at it and like it fit with my schedule and it was four credits, so it was like, oh, I wouldn&#x27;t have to like really randomly kill myself to take this foreign language. But like the six credit one, it would&#x27;ve been like every Monday through Friday we had to meet for this.<br /></p>
-                    <p>I was like, you know what? When am I ever gonna get the chance again to just like take an elementary Yoruba classes? So I decided to sign up for the Yoruba one and it was cool. It was cool to have like a className of mostly Nigerians, but there were also a few non-Nigerians. Interestingly enough, there is a Yoruba diaspora in Latin America, and so there was a non-Black Latino in the className who was from the Yoruba diaspora, which was interesting.<br /></p>
+                    <p>But then I was looking at French courses and I&#x27;d even almost signed up for this six-credit French intensive. And I was like, you know, I&#x27;m just gonna like really learn French. And then I saw that they offered a Yoruba class and I was like, hmm. I never even thought of the idea that I would even be able to take like an elementary Yoruba class.<br /></p>
+                    <p>It fit with my schedule and it was four credits, so it was like, oh, I wouldn&#x27;t have to like really kill myself to take this foreign language. The six credit one, it would&#x27;ve been like every Monday through Friday we had to meet for this.<br /></p>
+                    <p>I was like, you know what? When am I ever gonna get the chance again to take an elementary Yoruba class? So I decided to sign up for the Yoruba 1 and it was cool. It was cool to have like a class of mostly Nigerians, but there were also a few non-Nigerians. Because, interestingly enough, there is a Yoruba diaspora in Latin America, and so there was a non-Black Latino in the class who was from the Yoruba diaspora, which was interesting.<br /></p>
                     <div className='text-photo'>
                         <div className='text-arrow'>
                           <p className='handwriting'>This is Michael in college</p>
@@ -331,10 +331,20 @@ const Michael = () => {
                       </div>
                     </div>
               </div>
+                <div className="section-wrapper">
+                <div className="p-wrapper">
+                  <div data-w-id="75d5c71e-e504-c440-8d14-df90d053bd95" className="bolded-name">Guru</div>
+                  <b data-w-id="75d5c71e-e504-c440-8d14-df90d053bd97" className="bolded">Just to round out the contextual details...When you had taken this Yoruba 1 class, what year in college were you in?</b>
+                </div>
+              </div>
+              <div className="section-wrapper quote">
+                  <div className="bolded-name">Michael</div>
+                  <p><span>I'm fairly certain it was sophomore year. Yeah, it definitely wasn't freshmen year. I think it had to have been sophomore year because junior year was when we got kicked out for COVID. Because there was even the option of taking Yoruba 2, but then I would have had to like commute to Columbia to take this course. So I was like, nah I got shit to do. </span></p>
+              </div> 
               <div className="section-wrapper">
                 <div className="p-wrapper">
                   <div data-w-id="75d5c71e-e504-c440-8d14-df90d053bd95" className="bolded-name">Guru</div>
-                  <b data-w-id="75d5c71e-e504-c440-8d14-df90d053bd97" className="bolded">I&#x27;m curious, like what was your mom&#x27;s reaction when you decided you were gonna take this Yoruba classes?</b>
+                  <b data-w-id="75d5c71e-e504-c440-8d14-df90d053bd97" className="bolded">What was your mom&#x27;s reaction when you decided you were gonna take this Yoruba class?</b>
                 </div>
               </div>
               <div className="section-wrapper quote">
