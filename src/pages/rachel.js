@@ -108,7 +108,7 @@ const Rachel = () => {
             <section className="section-wrapper">
               <div className="p-wrapper full">
                 <h3 className="cue">~ interview begins ~</h3>
-                <p>Thank you Rachel, for coming onto the podcast. We really appreciate it. But, I just wanna begin at the beginning of your life, your <b>life&#x27;s journey </b>with this language. What was your connection with Korean in your childhood?</b></p>
+                <p>Thank you Rachel, for coming onto the podcast. We really appreciate it. But, I just wanna begin at the beginning of your life, your <b>life&#x27;s journey</b> with this language. What was your connection with Korean in your childhood?</p>
               </div>
             </section>
 
@@ -374,7 +374,7 @@ const Rachel = () => {
             <div className="section-wrapper">
               <div className="p-wrapper">
                 <p data-w-id="4da4f433-acb3-727f-0827-487f3e9d437e">I almost had this sense of frustration for them, because I feel like it made other students sort of disrespect them more, Like they weren&#x27;t as attentive or wanting to impress. </p>
-                <p Secondly, I think </b> I could see the frustration on the teachers who were trying to communicate and explain certain things and couldn&#x27;t.</p>
+                <p> Secondly, I think I could see the frustration on the teachers who were trying to communicate and explain certain things and couldn&#x27;t.</p>
                 <p data-w-id="6b3d6bff-1242-7804-359c-ce275cdb4c20">But then I could understand them talking to each other. They were trying to negotiate with each other on certain things and I found myself understanding what they were saying. But I just stayed silent, you know.</p>
               </div>
             </div>
@@ -387,7 +387,7 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                   <p>So, that happened.</p>
-                  </p>And at the same time, while this was happening, my mother was doing this thing, because her and my father text in Korean, and she&#x27;d be driving me and she&#x27;d be like &quot;oh, what did dad say?&quot;</p>
+                  <p>And at the same time, while this was happening, my mother was doing this thing, because her and my father text in Korean, and she&#x27;d be driving me and she&#x27;d be like &quot;oh, what did dad say?&quot;</p>
                   <div className="image-414 phot-fader"></div>
                   <p>And I&#x27;m staring at the phone and being like &quot;yeah, I can&#x27;t read this. I don&#x27;t know what he&#x27;s saying.&quot;, right? </p>
                   <p>And at the time, there were other Asians at my arts high school, but... I feel like I still didn&#x27;t want to accept myself and I still wanted to be part of this like Eurocentric vibe.</p>
@@ -669,7 +669,6 @@ const Rachel = () => {
                 <p data-w-id="96ee040b-b379-b87d-1827-8d9d2bc025a8">And that&#x27;s a wrap on episode one, so let's roll the credits. I'm your host Guru Ramanathan. This is Found in Translation, created, executive produced, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, et cetera, and do all the things to help us go viral. Stay tuned to episode two and we greatly appreciate your support.</p>
               </div>
             </div>
-      </div>
     </main>
   )
 }
