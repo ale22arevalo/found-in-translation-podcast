@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import Navbar from '../components/navbar';
 import BackTop from '../components/backtop';
 import "../styles.css"
+import cynthia_headshot from "../images/cynthia/cynthia_headshot.webp"
 
 const Cy = () => {
 
@@ -41,7 +42,10 @@ const Cy = () => {
     <main> 
       <Navbar />
       <section id="topper" className="topper">
-        <h1>Signature Moves</h1>
+        <h1>
+          <span className="changing-word">Signature</span>
+          <span className="static-title">Moves</span>
+        </h1>
       </section>
 
       <BackTop />
@@ -54,10 +58,15 @@ const Cy = () => {
               <div className="p-wrapper side">
                   <p>Hello and welcome to <b className="bolded">Found in Translation</b>. I&#x27;m your host Guru Ramanathan and this is a podcast where first/second generation and immigrants come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.</p>
                   <p>This week&#x27;s guest is Cynthia Mojica. We go all the way back to college. I'm not gonna date ourselves there with the graduation year and everything, but I'm very excited for you guys to hear from her because Cynthia is such an articulate and thoughtful person, and has a very interesting story to share. The language she predominantly speaks at home is American Sign Language, or ASL. She is a hearing person, but her mom is hard of hearing, while her dad is fully deaf. So in this episode, she talks about: </p>
-                  {/* HEADSHOT */}
-                  <p>nmnlkmkllkmlm</p>
-                  <p>m knjlnk</p>
-                  <p><b className='bolded'>A </b> Being a C.O.D.A., or Child of Deaf Adults, and having to grow up while also acting as a translator for her parents<b className='bolded'>B </b>The nuances of American Sign Language and deaf culture as a whole<b className='bolded'>C </b> and the need for more accessible spaces in our society.</p>
+                  <div className='text-photo'>
+                    <div className='text-arrow'>
+                      <p className='handwriting'>This is Cynthia</p>
+                    </div>
+                    <img className="vertical-photo" src={cynthia_headshot} alt="" loading="lazy" />
+                  </div>
+                  <p><b className='bolded'>A) </b>Being a C.O.D.A., or Child of Deaf Adults, and having to grow up while also acting as a translator for her parents</p>
+                  <p><b className='bolded'>B) </b>The nuances of American Sign Language and deaf culture as a whole</p>
+                  <p><b className='bolded'>C) </b> and the need for more accessible spaces in our society.</p>
                   <p>I hope you guys enjoy.</p>
                 </div>
             </section>

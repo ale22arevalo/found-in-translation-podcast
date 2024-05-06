@@ -40,7 +40,10 @@ const Fa = () => {
     <main>
       <Navbar />
       <section id="topper" className="topper">
-        <h1>Third Culture Living</h1>
+        <h1>
+          <span className="changing-word">Third Culture</span>
+          <span className="static-title">Living</span>
+        </h1>
       </section>
 
       <BackTop />
@@ -57,8 +60,7 @@ const Fa = () => {
                   <p>
                     This episode's guest is Fareeha Mahmood, and it's actually the final episode of the season Fareeha, who came in way of Alejandra, is living in New York City right now, but is actually here to talk about:  <br />
                   </p>
-                  <p> bcsahjjcajk<br /></p>
-                  <p><b className="list">A)</b>growing up in Bangladesh and how the history of that country influenced her passion for the language<br /><b className="list">B)</b>She also discusses attending international schools and how that affected her knowledge of Bengali.<br /><b className="list">C)</b> And, we discussed the concept of language as a form of self-identification, especially in the United States<br /></p>
+                  <p><b className="list">A) </b>Growing up in Bangladesh and how the history of that country influenced her passion for the language<br /><b className="list">B) </b>She also discusses attending international schools and how that affected her knowledge of Bengali.<br /><b className="list">C) </b>And, we discussed the concept of language as a form of self-identification, especially in the United States<br /></p>
                   <p>So, I hope you enjoy!</p>
               </div>
             </section>

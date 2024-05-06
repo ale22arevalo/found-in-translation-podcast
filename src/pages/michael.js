@@ -47,10 +47,10 @@ const Michael = () => {
     return (
       <main className="page-style">  
         <Navbar />
-        <section className="home-intro">
-          {/* <div className='home-intro-display'> */}
+        <section className="topper" style={{padding:'5px 5px'}}>
             <h1 className="site-hero" id="topper"> 
-              A Comedy of errors (and education in Yoruba)
+              <span className="changing-word">A Comedy of Errors</span>
+              <span className="static-title">(and Education in Yoruba)</span>
             </h1>
             {/* <iframe width="315" height="560"
               src="https://youtube.com/embed/3gI3fBK-dCE?si=1SNNq7Q_Ci_hSj--&rel=0&amp;modestbranding=1"
