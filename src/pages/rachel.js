@@ -8,6 +8,8 @@ import dads_family from '../images/rachel/dads_family.webp';
 import rachel_hanbok from '../images/rachel/rachel_hanbok.webp';
 import korean_dance from '../images/rachel/korean_dance.webp';
 import rachel_sarah from '../images/rachel/rachel_sarah.webp';
+import grandparents_momside from '../images/rachel/grandparents_momside.webp';
+import texts from '../images/rachel/texts.webp';
 import "../styles.css"
 
 const Rachel = () => {
@@ -251,6 +253,19 @@ const Rachel = () => {
                   <p>I think it was more like–selfish way of thinking–but they&#x27;re not catering to me or they&#x27;re not making it accessible to me, especially because I was younger. </p>
               </div>
             </div>
+            <div className='text-photo'>
+                <div className='text-arrow'>
+                  <p className='handwriting'>Rachel and her grandparents from her mom's side</p>
+                  {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
+                      <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
+                        <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
+                        <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
+                          <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
+                          </marker></defs>
+                  </svg> */} 
+                </div>
+                <img className="horizontal-photo" src={grandparents_momside} alt="" loading="lazy" />
+            </div>
             <div className="section-wrapper">
               <div className="name-wrapper">
                 <div className='bolded-name'>Guru</div>
@@ -416,7 +431,7 @@ const Rachel = () => {
                   <p>And I had this friend who was obsessed with all things K-pop at the time. And I consider her like my cousin or like my god-sister, like I spend holidays with her always and all the stuff.</p>
                   <p>So she was going through a phase where every time I would come over, she would show me hours and hours of K-pop music videos. And I was like &quot;You&#x27;re weird, this is weird. This is not what I want. Like the boys are wearing more makeup than I am like.&quot; Ooh, gender roles. That was embedded in me as a child.</p>
                   <p>Or like, ooh, the girls either act like they&#x27;re trying to be cute or they&#x27;re on the other, in the spectrum and trying to be overly sexy. So I was just hating on K-pop.</p>
-                  <div className='text-photo'>
+                <div className='text-photo'>
                   <div className='text-arrow'>
                     <p className='handwriting'>Rachel and Sarah</p>
                     {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
@@ -426,10 +441,9 @@ const Rachel = () => {
                             <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
                               </marker></defs>
                     </svg> */}
+                     <img className="horizontal-photo" src={rachel_sarah} loading="lazy" />
                   </div>
-              </div>
-                  <img className="horizontal-photo" src={rachel_sarah} loading="lazy" />
-              </div>
+                </div>
               </div>
             </div>
             <div className="section-wrapper">
@@ -514,6 +528,19 @@ const Rachel = () => {
                 </div>
               </div>
             </div>
+            <div className='text-photo'>
+                <div className='text-arrow'>
+                  <p className='handwriting'>Texts between Rachel and her mom</p>
+                    {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
+                    <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
+                    <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
+                    <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
+                    <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
+                    </marker></defs>
+                    </svg> */}
+                </div>
+              <img className="vertical-photo" src={texts} loading="lazy" />
+            </div>
             <div className="section-wrapper">
               <div className='name-wrapper'>
                 <div data-w-id="542b7611-4c6b-9c66-bff4-41e5e8b10237" className='bolded-name'>Guru</div>
@@ -547,7 +574,7 @@ const Rachel = () => {
                 <div>
                   <p>So, one thing about the K-pop K drama thing, I actually have multiple questions about this, but we can start smaller. One, I feel like K-pop and now K-dramas have really exploded in the international scene, but especially in the west.</p>
                   <div className="info-p"><img src="images/squidgame.jpg" loading="lazy" alt="" /></div>
-                  <p>In July, the Emmy&#x27;s nominations came out and <a href="https://www.nytimes.com/2022/09/12/arts/television/lee-jung-jae-squid-game-emmys.html" target="_blank">&quot;Squid Game&quot;</a> had a ton. So that&#x27;s definitely a huge cultural zeitgeist. And &quot;Parasite&quot; in 2020 won so many Oscars. It&#x27;s really cool to see this Korean content become more of the mainstream. Do you have any thoughts on how it&#x27;s being adopted, accepted, appropriated in an American context now that so much of the content from across multiple mediums is really blowing up?</p>
+                  <p>In July, the Emmy&#x27;s nominations came out and <a href="https://www.nytimes.com/2022/09/12/arts/television/lee-jung-jae-squid-game-emmys.html" target="_blank">&quot;Squid Game&quot;</a> had a ton. So that&#x27;s definitely a huge cultural zeitgeist. And <a href="https://time.com/5779940/parasite-best-picture-oscars/" target="_blank">&quot;Parasite&quot;</a> in 2020 won so many Oscars. It&#x27;s really cool to see this Korean content become more of the mainstream. Do you have any thoughts on how it&#x27;s being adopted, accepted, appropriated in an American context now that so much of the content from across multiple mediums is really blowing up?</p>
                 </div>
               </div>
             </div>
@@ -675,6 +702,7 @@ const Rachel = () => {
                 <p data-w-id="96ee040b-b379-b87d-1827-8d9d2bc025a8">And that&#x27;s a wrap on episode one. Thank you so so much again for listening and embarking on this journey with us. Please like, share, comment, etc and stay tuned to episode two. We greatly appreciate your support.</p>
               </div>
             </div>
+          </div>
     </main>
   )
 }
