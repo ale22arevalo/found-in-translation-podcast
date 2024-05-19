@@ -144,7 +144,7 @@ const Fa = () => {
                 </div>
               <div class="p-wrapper side">
                   <p>Yeah, I mean, I don&#x27;t think anyone would expect a six year old to know everything about the working class, unless you&#x27;re like Greta Thunberg or something.<br /></p>
-                  <p>I don't know, it&#x27;s just so interesting... It's like, Tamil is like one of the oldest languages in the world, you know?<br /></p>
+                  <p>But I don't know, it&#x27;s just so interesting... It's like, Tamil is like one of the oldest languages in the world, you know?<br /></p>
                   <p>And like, there are so many languages that are derived from like Sanskrit and other stuff, like so many languages, like in that part of the world especially, go back like thousands of years or, or something, or even hundreds of years.<br /></p>
                   <p>And so it&#x27;s just kind of crazy to me when you actually sit down and think about how, despite having such intense roots, they&#x27;re not considered like the primary thing in our home countries. I also get it because, at this point, English is just the norm everywhere.<br /></p>
                   <p>Whether it be for education or business or whatever, it&#x27;s just kind of like become the universal thing, but I&#x27;m sure someone else can write an essay about like colonialism/imperialism, and how that all happened.<br /></p>
@@ -169,12 +169,12 @@ const Fa = () => {
               <div class="p-wrapper side">
                   <p>Yeah. So basically, yeah, like we were East Pakistan, 'cause we were the kind of other Muslim majority part of, you know, whatever the British had colonized. And basically at that time, even though it was technically independence for India and Pakistan, it was not independence for what we now know today as Bangladesh 'cause we were under West Pakistan&#x27;s rule.<br /></p>
                   <p>And kind of with that, a lot of the stipulations, one of them being we had to speak Urdu. So we couldn&#x27;t speak Bengali basically. So like when you would, if you were to talk to like my dad, I mean he was like pretty young, but his like older siblings, they will tell me like, oh, you know, we literally had to like learn Urdu in school and that&#x27;s what we spoke at school and we couldn&#x27;t speak Bengali.<br /></p>
-                  <p>And because language is such an important part of your identity, like at that time, they couldn&#x27;t really use Bengali. It wasn&#x27;t necessarily allowed to be a part of their identity because everything was in Urdu.<br /></p>
+                  <p>And because language is such an important part of your identity, like at that time, they couldn&#x27;t really use Bengali. It wasn&#x27;t necessarily allowed to be a part of their identity.<br /></p>
                   <p>But essentially there was like a whole fight for, you know, like our own mother language, and to this day we still like commemorate a lot of the martyrs that fought, that actually physically fought, to be able to speak Bengali.<br /></p>
-                  <p>Because a lot of people died in that fight that ensued. And so, and I don&#x27;t know if like everyone would know, but February 21st is actually like National Mother Tongue or Mother Language Day. And that&#x27;s because of the fight that happened in Bangladesh. And so, and also like after kind of, we got independence of our language.<br /></p>
-                  <p>That&#x27;s what showed people, you know, maybe we can actually be an independent nation as well. And then in 1971, we finally were after a lot of things happened. Because of how Bangla actually came to be like the official language, people also have like a lot of pride in the language because, you know, like we, like, we had to fight for it.<br /></p>
+                  <p>Because a lot of people died in that fight that ensued. And so, and I don&#x27;t know if like everyone would know, but February 21st is actually like National Mother Tongue or Mother Language Day. And that&#x27;s because of the fight that happened in Bangladesh. And so, and also like after kind of, we got independence of our language, that&#x27;s what showed people, you know, maybe we can actually be an independent nation as well.<br /></p>
+                  <p>And then in 1971, we finally were after a lot of things happened. Because of how Bangla actually came to be like the official language, people also have like a lot of pride in the language because, you know, like we, like, we had to fight for it.<br /></p>
                   <p>I&#x27;m not like the most fluent person in Bangla, I still feel like very proud of the fact that I speak Bengali. And this is definitely a different sentiment than what I had just mentioned when I was growing up.<br /></p>
-                  <p>And maybe like, this is just part of me growing up and becoming more comfortable with myself and my identity and like my language. But I feel like if you were to ask any other person who speaks Bengali, I feel like for the most part you&#x27;d get kind of like a similar sentiment.<br /></p>
+                  <p>And maybe like, this is just part of me growing up and becoming more comfortable with myself and my identity and like my language. But, I feel like if you were to ask any other person who speaks Bengali, I feel like, for the most part, you&#x27;d get kind of like a similar sentiment.<br /></p>
                 </div>
             </div>
             <div className='section-wrapper'>
@@ -182,12 +182,12 @@ const Fa = () => {
                   <div className='bolded-name'>Guru</div>
                 </div>
               <div class="p-wrapper side">
-                  <p>I would say the same thing about Tamil speakers, because I truly have not met another population on this planet that is as proud of their language than Tamil. And I think part of it does have to do with like, just how old it is.<br /></p>
+                  <p>I would say the same thing about Tamil speakers. Truly have not met another population on this planet that is as proud of their language than Tamil. And I think part of it does have to do with like, just how old it is.<br /></p>
                   <p>But even in, like, movies they&#x27;re just throwing in like a language anthem. They just need to have like a quick segue, to be like, yes, Tamil&#x27;s ruling the world, it is the best thing ever.<br /></p>
                   <p>Going back to what you were saying, there&#x27;s something integral to your identity there because knowing the language, it is a tool, but then that tool gives you access to such a wealth of things.<br /></p>
-                  <p>And also, if you&#x27;re in a <b>random country</b>, let&#x27;s say you go to like, I don't know, fucking Finland.<br /></p>
+                  <p>And also, if you&#x27;re in a <b>random country</b>, let&#x27;s say you go to, I don't know, Finland.<br /></p>
                   <p>And then all of a sudden <b>you hear someone talking Bangla</b>.<br /></p>
-                  <p>Then you&#x27;re like, oh shit, like <b>that&#x27;s my person</b> <br /></p>
+                  <p>Then you&#x27;re like, <b>Oh, that&#x27;s my person</b> <br /></p>
                   <p>Yeah and so, I feel like the language thing is so integral to not just sort of like a self-identification of like, I want to be like, you know, comfortable/proud of just like who I am, but then it is also outward looking. It helps you connect with others as well.<br /></p>
                   <p>And actually, I guess like kind of taking that theme into Jakarta and Dubai, so how did you go about finding community at these places? Did you meet other like Bangladeshi or just like Bangla speakers?<br /></p>
               </div>
@@ -202,7 +202,7 @@ const Fa = () => {
                   <p>But she basically approached us because she heard us speak Bengali and she was like, oh, you guys are, you know, speaking Bengali, like, are you from Bangladesh? Like when did you guys get here?<br /></p>
                   <p>And basically a whole conversation started. And that auntie basically introduced us to a whole other Bengali community in Jakarta. And so in some of, and, you know, in like a funny way, some of them were actually like related to us, which we didn&#x27;t know, but that&#x27;s just, you kind of find that out if you're brown I feel like.<br /></p>
                   <p>And so we celebrated things like Eid and Pohela Boishakh, which is like the Bengali New Year. And did all these Bengali celebrations with one another. <br /></p>
-                  <p>So, in Dubai, we didn&#x27;t have a big Bengali community. Like yes, we had some relatives here and there, but it was maybe just like two or three families at most. Whereas in Jakarta it was a bunch. And so, I didn&#x27;t really find the friendships that I had found in like a Bengali community in Dubai. And in that way it was different. <br /></p>
+                  <p>In Dubai, we didn&#x27;t have a big Bengali community. Like yes, we had some relatives here and there, but it was maybe just like two or three families at most. Whereas in Jakarta it was a bunch. And so, I didn&#x27;t really find the friendships that I had found in like a Bengali community in Dubai. And in that way it was different. <br /></p>
                   <p>And I think that like looking back, I also felt a little bad that like my parents didn&#x27;t have the community that they had back in Jakarta. And so it was a little hard that way. In terms of schools, so again, and also what I&#x27;ve noticed in like international schools, you&#x27;ll very rarely find a lot of Bengali kids there.<br /></p>
                 </div>
             </div>
@@ -220,7 +220,7 @@ const Fa = () => {
                 </div>
               <div class="p-wrapper side">
                   <p>Yeah, no, that&#x27;s a good point. So yes, like we would have kids from, you know, 70-80 different countries, but the number of kids from each of these countries would obviously differ. Like I remember in Jakarta, there was like a really big American and Australian population as well as Indian and South Korean.<br /></p>
-                  <p>In Dubai, I think it was predominantly like South Asia, mainly India, and then predominantly like Middle East.<br /></p>
+                  <p>In Dubai, I think it was predominantly South Asia, mainly India, and then predominantly Middle East.<br /></p>
                 </div>
             </div>
             <div className='section-wrapper'>
@@ -239,7 +239,7 @@ const Fa = () => {
               <div class="p-wrapper side">
                   <p>Yeah. So I mean, the short answer is yes. I remember like, you know, on our trips back, like in the winter or summer, more and more, I started to recognize that my Bengali was not as great. And I was like growing different and sometimes, you know, my cousins or like my uncles or aunts would point out like, oh, you speak Bengali with an American accent.<br /></p>
                   <p>Or your English sounds different. You sound totally American. I don&#x27;t think they mentioned in like a negative way. I think that like, their comments were valid and true. But I did, again, feel different. <br /></p>
-                  <p>I remember I was coming back from a wedding with some of my extended relatives and they started playing Bengali songs in their car. So, I was like sitting next to one of my other younger cousins. She&#x27;s like 10 or something, or maybe like 12, you know, like in her teens I guess. <br /></p>
+                  <p>I remember I was coming back from a wedding with some of my extended relatives and they started playing Bengali songs in their car. So, I was sitting next to one of my other younger cousins. She&#x27;s like 10 or something, or maybe like 12, you know, like in her teens I guess. <br /></p>
                   <p>I was like, oh, I&#x27;ve like, never heard this before. And she was like, oh, how come you&#x27;ve never heard, heard this before? Like, you&#x27;re not even Bengali. You know, like, it was just like a fun, small comment. And I was like, oh, yikes. Like a 13 year old girl, who grew up in the US, knew this Bengali song and I didn&#x27;t. And like, I literally lived in Bangladesh, you know? <br /></p>
                   <p>And so, just small things like that, like make me realize, even though I speak Bengali all the time, maybe like I&#x27;m not as close as I could be.<br /></p>
                 </div>
@@ -250,8 +250,7 @@ const Fa = () => {
                 </div>
               <div class="p-wrapper side">
                   <p>Yeah. But also, like, I, ok so I get that it was like a funny comment, but I do think the underlying, sort of, I guess like subtext there is a little, to me, it&#x27;s irritating. I think it&#x27;s this thing where people who aren&#x27;t of a culture and, we&#x27;re all guilty of doing this, but if you&#x27;re not part of that culture, you just kind of assume like, oh, this person is an expert on all of those things, you know? <br /></p>
-                  <p>And it&#x27;s kind of strange to me that like, it&#x27;s, it's wrong on them to assume we&#x27;re the monolith. But for some reason WE feel guilty doing everything. But there&#x27;s no reason we should know everything.<br /></p>
-                  <p>I don&#x27;t know, like if there&#x27;s like a term for that or something, but it&#x27;s just like really strange that like, for some reason, we are the ones made to feel bad when it&#x27;s them making the incorrect assumption about things.<br /></p>
+                  <p>And it&#x27;s kind of strange to me that like, it's wrong on them to assume we&#x27;re the monolith. But for some reason WE feel guilty doing everything. But there&#x27;s no reason we should know everything.<br /></p>
                 </div>
             </div>
             <div className='section-wrapper'>
@@ -259,13 +258,13 @@ const Fa = () => {
                   <div className='bolded-name'>Fareeha</div>
                 </div>
               <div class="p-wrapper side">
-                  <p>I&#x27;m totally with you on that. And so sometimes I just feel like, you know, I think like a lot of people who grow up in like, who are like third culture kids, they&#x27;ll always have that struggle of like, oh, I&#x27;m not Bengali enough. Or like, maybe I&#x27;m not American enough or blah, blah, blah.<br /></p>
-                  <p>And that&#x27;s always kind of there in the background. And I still feel like it&#x27;s there for me, like where I don&#x27;t feel Bengali enough. And like I, you know, like I&#x27;m not super aware of like the trending, like Bangla songs or like Bengali films and like, I wanna be. And I think maybe instead of reading the Bengali news, I feel like watching movies might be the way for me to go.<br /></p>
+                  <p>I&#x27;m totally with you on that. I think people who grow up in like, who are like third culture kids, they&#x27;ll always have that struggle of like, oh, I&#x27;m not Bengali enough. Or like, maybe I&#x27;m not American enough or blah, blah, blah.<br /></p>
+                  <p>And that&#x27;s always kind of there in the background. And I still feel like it&#x27;s there for me, like where I don&#x27;t feel Bengali enough. I&#x27;m not super aware of the trending Bangla songs or Bengali films and like, I wanna be. And I think maybe instead of reading the Bengali news, I feel like watching movies might be the way for me to go.<br /></p>
                   <p>Yeah. And it was like, I remember like seeing like in Cannes or Cannes, however you pronounce it. There was like a Bengali film that actually you know, was at, was at the film festival and it was just like really cool, like seeing a Bengali film at like this kind of prestigious, you know, thing. Like prestigious event where like, I would&#x27;ve maybe just associated with like more European films or like something more, you know?<br /></p>
                   <p>In a way, maybe it feels like Bengali culture is like a little more mainstream or like people actually recognize Bangladesh as a country. And maybe like, that&#x27;s something that&#x27;s influencing me to want to, you know, know more Bengali songs or like, you know, shows or movies.<br /></p>
               </div>
             </div>
-                <p><b className='extra-bolded'>Have you been back to Bangladesh, in the last few years? Are you like looking forward to like doing that sometimes soon?</b><br /></p>
+                <p><b className='extra-bolded'>Have you been back to Bangladesh, in the last few years? Are you looking forward to doing that sometime soon?</b><br /></p>
               </div>
             </div>
             <div className='section-wrapper'>
@@ -273,7 +272,7 @@ const Fa = () => {
                   <div className='bolded-name'>Fareeha</div>
                 </div>
               <div className='p-wrapper side'>
-                <p>I actually went back a couple months ago [Production Note: We recorded this in 2022, so Fareeha is referring to traveling to Bangladesh in early 2022]. And that was kind of like the first time in like more than two years 'cause you know, we used to go back pretty often like winters and summers. But when I started college in the US, that was a little less frequent 'cause it&#x27;s so far and expensive. And then COVID happened.<br /></p>
+                <p>I actually went back a couple months ago [Production Note: We recorded this in 2022, so Fareeha is referring to traveling to Bangladesh in early 2022]. And that was kind of like the first time in like more than two years 'cause we used to go back pretty often like winters and summers. But when I started college in the US, that was a little less frequent 'cause it&#x27;s so far and expensive. And then COVID happened.<br /></p>
                 <p>So, I basically didn&#x27;t see my parents or my brother for a little over two years. And so I went back earlier in the year, and yeah, it was really nice. We still live in that-- so after we moved back, we went back to that apartment that I essentially grew up in, in like the same apartment building with my other, you know, family members.<br /></p>
                 <p>The number of family members in that building has definitely kind of waned and like died down. So, it&#x27;s a little more quiet, but yeah, it was nice being back. Especially like after a while.<br /></p>
               </div>
@@ -317,7 +316,7 @@ const Fa = () => {
                   <div className='bolded-name'>Fareeha</div>
                 </div>
               <div class="p-wrapper side">
-                <p>Yeah, it&#x27;s on the Barnes & Noble, the website, Amazon. I think it should be, like, on all the major sites, so yeah. <b><br /></b></p>
+                <p>Yeah, it&#x27;s on the Barnes & Noble, the website, Amazon. I think it should be, like, on all the major sites. <b><br /></b></p>
               </div>
             </div>
             <div className='section-wrapper'>
