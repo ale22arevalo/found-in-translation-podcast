@@ -78,7 +78,7 @@ const Cy = () => {
                   <h3>The Guest<br /><span className="first-name">Cynthia Mojica</span></h3>
                 </div>
                 <div className="p-wrapper side side">
-                  <p>The language that I speak at home is predominantly ASL (American sign language), but also English. It&#x27;s kind of like a weird mix, but if I were to just say one, it would be ASL.</p>
+                  <p>The language that I speak at home is predominantly ASL, but also English. It&#x27;s kind of like a weird mix, but if I were to just say one, it would be ASL.</p>
                 </div>
             </section>
             <section className="section-wrapper">
@@ -97,7 +97,7 @@ const Cy = () => {
                   <b className='bolded'>My mom is hard of hearing and my dad is fully deaf.</b>
                   <p>And so in the deaf community, that would make me a <b className='bolded'>C.O.D.A.</b> So that&#x27;s a child of deaf, I guess, in my case, adults. Sometimes people could have one or two, obviously. So, I usually ask this question a lot to my mom because I, for the longest time, didn&#x27;t know what came first.</p>
                   <p>It was kind of like, you know, the chicken and the egg question. What came first: ASL or English. And the consensus is both. But I started taking ASL classes.</p>
-                  <p>And I have pictures in my house of just me and my mom practicing gestures. I&#x27;m mimicking my mom, like touching my nose and touching my ears and touching my head and lots of visual stuff.</p> 
+                  <p>And I have pictures in my house of just me and my mom practicing gestures. I&#x27;m mimicking my mom, like touching my nose and touching my ears and touching my head and, you know, just lots of visual stuff.</p> 
                   <p>And then for my elementary to middle school time, I went to an integrated school in the city where there were deaf students, hard of hearing students, and students who were hearing like me who may have deaf parents like I did.</p>
                   <p>And it was sort of like this nice tight knit community that my family felt was a good safe space for both their child&#x27;s education, but also their ability to be in touch with their child&#x27;s education.</p> 
                   <p>And then, when I went to high school, I decided I wanted to go outside of that bubble and that&#x27;s kind of where the formal classes ended for me.</p>
@@ -211,7 +211,7 @@ const Cy = () => {
               <div className='p-wrapper side'>
                 <div>
                   <p><b className="bolded">Yeah. You were talking a little bit earlier about like, you didn&#x27;t grow up finding a lot of accessibility in public spaces and schools, anything of that nature.</b></p>
-                  <p>And I mean, growing up, I didn&#x27;t even see that or barely any, deaf characters or even just the use of ASL in films and in American films and shows and such. At least in the last two years, I&#x27;ve seen a rise of ASL or just a more positive exposure of the deaf community in mainstream media.</p>
+                  <p>Growing up, I didn&#x27;t even see that or barely any, deaf characters or even just the use of ASL in films and and shows. At least in the last two years, I&#x27;ve seen a rise of ASL or just a more positive exposure of the deaf community in mainstream media.</p>
                   <p>Like, there was the film &quot;C.O.D.A.&quot; that won Best Picture. The year before that there was &quot;Sound of Metal,&quot;. And of course, &quot;The Eternals,&quot; which was, I mean, huge Marvel film.</p>
                   <p>And so I&#x27;m curious, how do you feel about the representation of ASL in mainstream media, but then also at large, <b className="extra-bolded">are you seeing more acknowledgement or, I guess, more accessible spaces, in regular society? Is that representation in media having an effect, a positive effect?</b></p>
                 </div>
@@ -281,7 +281,7 @@ const Cy = () => {
               </div>
                 <div className="p-wrapper side">
                   <p>I took ASL one at NYU because I wanted the easy credits, but also because I wanted to refresh my memory of basic vocabulary. And it did help me a lot, but it also helps me observe the class.</p>
-                  <p>Because when I went into the class and it&#x27;s like ASL only, but at one point, you know, we get breaks or, you know, you can step outside and talk to other people. And when I actually engaged with other people in the class, outside of the classroom, they&#x27;re like, I thought this was gonna be easy, but it&#x27;s so hard.</p>
+                  <p>Because when I went into the class and, you know, it&#x27;s like ASL only, but, like, at one point we get breaks or you can step outside and talk to other people. And when I actually engaged with other people in the class, outside of the classroom, they&#x27;re like, I thought this was gonna be easy, but it&#x27;s so hard.</p>
                   <p>It&#x27;s like, I didn&#x27;t know that it was super grammar intensive and there&#x27;s a structure. And you can&#x27;t speak and you have to show your expressions. And, and I would say a fundamental part of the language is using your face. And that is something that I have polished to the point where I can&#x27;t even talk without being super expressible.</p>
                   <p>It&#x27;s like stuck in my head, on my face. I definitely think that&#x27;s one thing, like facial expressions is an indicator of tone, it's an indicator of grammar. It tells you whether or not you&#x27;re asking a question, you&#x27;re making an exclamation or just a statement.</p>
                   <p>The way you position yourself, the way you look at people, the way you enter a space where two people are signing, is important. There&#x27;s so many different, like physical, directional things that matter that I feel like is obviously very unique.</p>
@@ -339,7 +339,7 @@ const Cy = () => {
                   <p>That doesn&#x27;t mean you should sign to every deaf person that you see. They may not need the actual assistance. Obviously you should learn how to ask if they need the help. If they say no, then be respectful about it.</p>
                   <p>But if you&#x27;re not actually immersing yourself and talking to deaf people and being in the community and learning more about their experiences, then I don&#x27;t think you&#x27;re really utilizing the language at all.</p>
                   <p>This goes for the disabled community as a whole. Some disabled activists and creators and stuff who have said that it&#x27;s one thing to advocate for disabled people, but to not know anyone who&#x27;s disabled, to not be friends with people who are disabled, to not associate yourselves with people who are disabled, it just feels performative.</p>
-                  <p>So that&#x27;s how I feel similarly to people who are learning ASL. The purpose is to really utilize it, to understand and better clear up any stereotypes or misconceptions about deaf people, and maybe advocate for a more accessible world, you know, as allies.</p>
+                  <p>So that&#x27;s how I feel similarly to people who are learning ASL. On one hand, the purpose is to really utilize it, to understand and better clear up any stereotypes or misconceptions about deaf people, and maybe advocate for a more accessible world, you know, as allies.</p>
                 </div>
               </div>
             </section>
@@ -397,7 +397,7 @@ const Cy = () => {
             </section>
             <section className="section-wrapper">
               <div className="p-wrapper full">
-                <b className='bolded'>I think it&#x27;s an ongoing conversation. I know I did research in college about the kind of divide between deaf children and parents, you know, who ultimately want to do what&#x27;s best for their kids, but may not actually realize that what they&#x27;re doing may actually harm them.</b>
+                <b className='bolded'>I think it&#x27;s an ongoing conversation. I did research in college about the kind of divide between deaf children and parents, you know, who ultimately want to do what&#x27;s best for their kids, but may not actually realize that what they&#x27;re doing may actually harm them.</b>
                 <p>So what I mean by that is when parents give birth to a deaf child, especially if they&#x27;re hearing themselves, they commonly, in research, it says that they go through a period of grief and that in itself is a lot, you know, very telling to what could happen if, you know, a child could recognize that period of grief that they go through. But that&#x27;s usually early on.</p>
                 <p>They either try to fix their child or they try to help them adapt around their identity as a disabled or a deaf individual. Deaf, hard of hearing, whatever, it&#x27;s the spectrum. So parents would go towards the fixing route, which is usually like the medical model of disability that you may have heard in books or in theories.</p>
                 <p>And it&#x27;s basically like, our goal is to help you be as close to a hearing person as possible. Which means surgeries, as young as a baby to get the cochlear implant, forcing these kids to go into only hearing schools, and never touching a lick of sign language. They never fully adapt.</p>
@@ -505,7 +505,7 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p>Got it. Thank you so much for coming onto the podcast. This has been very illuminating for me and I feel it'll be a lot of-- very enlightening for a lot of the people who are going to experience this episode. Thank you for sharing all your experiences. This has been really awesome.</p>
+                  <p>Got it. Thank you so much for coming onto the podcast. This has been very illuminating for me and I feel it'll be very enlightening for a lot of the people who are going to experience this episode. </p>
                   <p>Thank you so much for listening to episode three! Now we will roll the credits! I'm your host Guru Ramanathan. This is Found in Translation, created, executive produced by, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc., and do all the things to help us go viral. And stay tuned for the next and last episode of this season. We greatly appreciate your support. </p>
                 </div>
               </div>
