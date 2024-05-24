@@ -342,7 +342,7 @@ const Michael = () => {
               <div className="section-wrapper">
                 <div className="p-wrapper">
                   <div className="bolded-name">Michael</div>
-                    <p><span>I'm fairly certain it was sophomore year. Yeah, it definitely wasn't freshmen year. I think it had to have been sophomore year because junior year was when we got kicked out for COVID. Because there was even the option of taking Yoruba 2, but then I would have had to like commute to Columbia to take this course. So I was like, nah. </span></p>
+                    <p><span>I'm fairly certain it was sophomore year. Yeah, it definitely wasn't freshmen year. I think it had to have been sophomore year because junior year was when we got kicked out for COVID. Because there was even the option of taking Yoruba 2, but then I would have had to commute to Columbia to take this course. So I was like, nah. </span></p>
                   </div>
               </div> 
               <div className="section-wrapper">
@@ -353,20 +353,20 @@ const Michael = () => {
               </div>
               <div className="section-wrapper quote">
                   <div className="bolded-name">Michael</div>
-                  <p><span>She was definitely really happy. She&#x27;s like, your grandma&#x27;s gonna be really happy about this because my grandma still speaks a lot of yoruba and I feel Yoruba is a very like personal language for her and my mom. It was like, oh, like be able to say a few words of it together. It made her smile, you know?</span></p>
+                  <p><span>She was definitely really happy. She&#x27;s like, your grandma&#x27;s gonna be really happy about this. Because my grandma still speaks a lot of Yoruba and Yoruba is a very personal language for her and my mom. Just to be able to say a few words of it together... It made her smile, you know?</span></p>
               </div>
               <div className="section-wrapper">
                <div className='name-wrapper'>
               <div className='bolded-name'>Guru</div>
             </div>
                 <div className="p-wrapper side">
-                    <p>I always feel like language is interesting because you know, when you start to like tap into the language, then it opens up the floodgates of, oh, let me now try to watch like Nigerian movies. Lemme try to listen to the music more regularly.<br /></p>
-                    <p>Let me try to do X, Y, and Z. More and more and more like going to Nigerian restaurants and ordering in Yoruba. I&#x27;m sure throughout the className you also touched on some of those historical cultural moments, <b className="bolded">did that change the way you perceived your Nigerian identity or did it kind of like evolve you forward in any way?</b><br /></p>
+                    <p>Yeah! So, I always feel like language is interesting because you know, when you start to like tap into the language, then it opens up the floodgates of, oh, let me now try to watch like Nigerian movies. Lemme try to listen to the music more regularly.<br /></p>
+                    <p>Let me try to do X, Y, and Z. More and more. Like going to Nigerian restaurants and order in Yoruba. I&#x27;m sure through the class you also touched on some of those historical/cultural moments. <b className="bolded">Did that change the way you perceived your Nigerian identity or did it kind of like evolve you forward in any way?</b><br /></p>
                 </div>
               </div>
               <div className="section-wrapper quote">
                   <p>Michael</p>
-                  <p><span>I definitely think it did evolve me forward. it&#x27;s okay to not know yoruba because it doesn&#x27;t make you any less Nigerian than others. <br /><br />Especially when I was younger, I always had that chip on my shoulder. My mom&#x27;s Nigerian, but I don&#x27;t feel like I can really consider myself Nigerian cause I don&#x27;t speak the language, I&#x27;ve never been to Nigeria.</span></p>
+                  <p><span>I definitely think it did evolve me forward. One, it encouraged me -- you know, it&#x27;s okay to not know Yoruba because it doesn&#x27;t make you any less Nigerian than others. <br /><br />Especially when I was younger, I always had that chip on my shoulder of like, my mom&#x27;s Nigerian, but I don&#x27;t feel like I can really consider myself Nigerian because I don&#x27;t speak the language. I&#x27;ve never been to Nigeria.</span></p>
               </div>
               <div className="section-wrapper">
                 <div className='name-wrapper'>
@@ -381,8 +381,8 @@ const Michael = () => {
                   <div className='bolded-name'>Michael</div>
                 </div>
                 <div className="p-wrapper side">
-                    <p>Yeah, I feel like it put a lot of things into focus for me. Every time we would say it in a large group of our relatives, me and my siblings would always get clowned. They would be like, oh man, like these kids are not Nigerian at all. You know, it never clicked to me that, oh, we&#x27;re literally pronouncing our last name wrong.<br /></p>
-                    <p>It&#x27;s interesting that my mom chose to like tell it to us that way so it was easier for white people to say, but then it still was always mispronounced and so I&#x27;m like, well we might as well have just said it the right way cuz like it actually, didn&#x27;t make any difference.<br /></p>
+                    <p>Yeah, I feel like it kind of put a lot of things into focus for me. You know, every time we would say it in a large group of our relatives, me and my siblings would always get clowned. They would be like, oh man, like these kids are not Nigerian at all. You know, it never clicked to me that, we&#x27;re literally pronouncing our last name wrong.<br /></p>
+                    <p>And it&#x27;s interesting that my mom chose to tell it to us that way so it was easier for white people to say, but then it still was always mispronounced and so I&#x27;m like, well we might as well have just said it the right way 'cause like it actually didn&#x27;t make any difference.<br /></p>
                     <div className='text-photo top'>
                       <div className='text-arrow'>
                           <p className='handwriting'>This is Michael and his comedy crew</p>
@@ -407,12 +407,12 @@ const Michael = () => {
                   <p>Guru</p>
                   <p>Oh, really?</p>
                   <p>Michael</p>
-                  <p>Yeah. There&#x27;s like a few different vowels in Nigeria and for certain vowels, you nasalize a vowel by adding an &quot;n&quot; end to the end. I learned about how each of the vowels was pronounced and if I pronounce this like how with each of the vowel rules you just taught me like it&#x27;s pronounced like this. And I&#x27;m like, wait, wait, wait, wait. Like, oh, ain&#x27;t it wrong? </p>
-                  <p>My teacher would always ask me, what state in Nigeria are you from? And I&#x27;m like, oh, I don&#x27;t really know. And he&#x27;s just like, you don&#x27;t know. He was always like, go ask your father. And I&#x27;m like, oh, my parents are divorced. It&#x27;s like everything I said to him, he was just like, oh.</p>
+                  <p>Yeah. There&#x27;s like a few different vowels in Nigeria, and certain vowels, you can nasalize. You nasalize a vowel by adding an &quot;n&quot; end to the end. I learned about how each of the vowels was pronounced and I was like, if I pronounce this like how, with each of the vowel rules you just taught me, like it&#x27;s pronounced like this. And he's like yeah. And I'm like oh! I've been saying it wrong. </p>
+                  <p>My teacher would always ask me, what state in Nigeria are you from? And I&#x27;m like, oh, I don&#x27;t really know. And he&#x27;s just like, you don&#x27;t know?! I know, he was always like, go ask your father. And I&#x27;m like, oh, my parents are divorced. It&#x27;s like everything I said to him, he was just like, ohh no!</p>
                   <p>Guru</p>
-                  <p><b className="bolded">Did you end up taking Yoruba two, three, like did you end up just doing the whole cycle?</b></p>
+                  <p><b className="bolded">So, did you end up taking Yoruba 2, 3, like did you end up just doing the whole cycle?</b></p>
                   <p>Michael</p>
-                  <p>I never did. I only took the one Yoruba classes just because it&#x27;s like, and you can attest to this, the dramatic writing program doesn&#x27;t leave you the most room to like explore random electives because sometimes it&#x27;ll just be like, hey, you took too many electives, now you owe us money. Like I thought that was the point of college. But no, actually you shouldn&#x27;t have taken this many electives.<b className="bolded"><br /></b></p>
+                  <p>I never did. I only took the one Yoruba classes just because the Dramatic Writing program doesn&#x27;t leave you the most room to like explore out with just random electives because sometimes it&#x27;ll just be like, hey, you took too many electives, now you owe us money. I was like, oh what? Like I thought that was the point of college. But no, actually you shouldn&#x27;t have taken this many electives.<b className="bolded"><br /></b></p>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -428,14 +428,14 @@ const Michael = () => {
                   <div className='bolded-name'>Michael</div>
                 </div>
                 <div className="p-wrapper side">
-                    <p>Since then, I haven&#x27;t really kept up with my language practice. I don&#x27;t know that many Nigerians in my personal life. I feel like I always meet Nigerians randomly, and it&#x27;s like they&#x27;re always inviting me to church. Yeah, for sure I&#x27;m gonna wake up. 9:00 AM on a Sunday and take an hour train to the Bronx so I can go to church. You know, I don&#x27;t wanna do that, but like, I do wanna meet more Nigerians.<br /></p>
-                    <p>I feel like if I had more time and more money I would more actively try and seek out Nigerian communities, but for where I am right now, and like especially the things I&#x27;m trying to do, there are definitely Nigerian comedians, but there aren&#x27;t that many at my level right now.<br /></p>
+                    <p>Since then, I haven&#x27;t really kept up with my language practice. You know, I don&#x27;t know that many Nigerians in my personal life. I feel like I always meet Nigerians randomly, and it&#x27;s like they&#x27;re always inviting me to church. Yeah, for sure I&#x27;m gonna wake up. 9:00 AM on a Sunday and take an hour train to the Bronx so I can go to church. You know, I don&#x27;t wanna do that, but like, I do wanna meet more Nigerians.<br /></p>
+                    <p>I feel like if I had more time and more money I would more actively try and seek out Nigerian communities, but for where I am right now, and like especially the things I&#x27;m trying to do. There are definitely Nigerian comedians, but there aren&#x27;t that many at my level right now.<br /></p>
                 </div>
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
                   <p>Guru</p>
-                  <b data-w-id="996112e2-dba8-bce1-5571-d21d181cbded" className="bolded">Can you name any like Nigerian comedians that have served as like an inspiration for you at all?</b>
+                  <b data-w-id="996112e2-dba8-bce1-5571-d21d181cbded" className="bolded">Can you name any Nigerian comedians that have served as like an inspiration for you?</b>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -443,7 +443,7 @@ const Michael = () => {
                   <div className='bolded-name'>Michael</div>
                 </div>
                 <div className="p-wrapper side">
-                  <p>Yeah. There&#x27;s this one, his name is Travis. He&#x27;s really been on Twitter and he&#x27;s been getting bigger in the standup scene. He has a 30-minute special on the Comedy Central stand-up YouTube page. I know he wrote a Batman comic.<br /></p>
+                  <p>Yeah. There&#x27;s this one, his name is Yedoye Travis. He&#x27;s really big on Twitter and he&#x27;s been getting bigger in the standup scene. He has a 30-minute special on the Comedy Central stand-up YouTube page. And I know he wrote a Batman comic.<br /></p>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -459,21 +459,21 @@ const Michael = () => {
                   <div className='bolded-name'>Michael</div>
                 </div>
                 <div className='p-wrapper side'>
-                  <p>Yeah, and he was working on "Saved by the Bell" too. He is a current young Nigerian comedian writer who&#x27;s doing the thing, all of the things I wanna be doing. I&#x27;ll phrase it as a Donald Glover Disciple. One of his jokes is that he describes himself as Donald Glover&#x27;s Wario. I see the vibe, you know?<br /></p>
-                  <p>And then Ayo Edebiri. I&#x27;m pretty sure she&#x27;s from, if not Boston, Massachusetts for sure. And she also went to NYU. She writes for Big Mouth. She&#x27;s in that new FX show The Bear, which is huge on Twitter, and she&#x27;s been on a lot of other shows. She was on Dickinson. She has a podcast, fellow podcaster.<br /></p>
-                  <p>But yeah, there are a lot of cool Nigerian comics out in the scene, but it&#x27;s just like, I&#x27;m still in my, I&#x27;ll phrase it as my Indie darling. So I&#x27;m like, you know, maybe one day once I get nominated for my Golden Globe, then I can reach out to them.<br /></p>
+                  <p>Yeah, and he was working on "Saved by the Bell," too. And so he's kind of like a current young Nigerian comedian/writer who&#x27;s kind of like--  I&#x27;ll phrase it as a Donald Glover disciple. One of his jokes is that he describes himself as Donald Glover&#x27;s Wario.<br /></p>
+                  <p>And then Ayo Edebiri. I&#x27;m pretty sure she&#x27;s from, if not Boston, Massachusetts for sure. And she also went to NYU. She writes for Big Mouth. She&#x27;s in that new FX show The Bear, and she&#x27;s been on a lot of other shows. She was on Dickinson. She has a podcast.<br /></p>
+                  <p>But yeah, there are a lot of cool Nigerian comics out in the scene, but it&#x27;s just like, I&#x27;m still in my, I&#x27;ll phrase it as my indie darling phase. So I&#x27;m like, you know, maybe one day... once I get nominated for my Golden Globe, then I can reach out to them.<br /></p>
                 </div>
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
                   <p>Guru</p>
-                  <p>I wanted to touch on your comedy and your writing, how interacting with these Nigerian comedians, and your family starting to immerse yourself in Yoruba, how has that, if at all, influenced your artistic identity? as you&#x27;ve been involving yourself more in these cultural elements, has it also changed the way you write or the things you write, or what you like to bring up in your standup? What&#x27;s that evolution been like in your artistic journey?</p>
+                  <p>Yeah. I wanted to touch on your comedy and your writing, and such. I'm curious, how has interacting with these Nigerian comedians, your family, starting to immerse yourself in Yoruba influenced your artistic identity? Or has it changed the way you write or the things you write, or what you like to bring up in your standup? What&#x27;s that evolution been like in your artistic journey, too?</p>
                   <p>Michael</p>
-                  <p>Yeah, I feel like it&#x27;s definitely influenced the way I write and the way I do stand up too. One of the interesting things about Yoruba as a language is that it is a tonal language and so, you know, the way you say things influences the actual meaning of it.</p>
-                  <p>I just remembered another Nigerian comic. I noticed it when I was watching his standup, the way that he used the tone of his voice when he was speaking was very dynamic. I wonder if that&#x27;s a function of him being Nigerian. Cause like even if you don&#x27;t speak Yoruba there&#x27;s an animated way of speaking that Nigerian people often use. It influences you even if you don&#x27;t speak the language.<b className="bolded"><br /></b></p>
-                  <p>The way Nigerians speak English is its own thing. Cuz it&#x27;s so influenced by British English. But then, if you grew up in the States... but then your parents grew up in Nigeria and depending on their parents... Some of them have more of a British influence and then some of them have more of a strictly Nigerian influence. And then some of them might even have more of a French influence. So it&#x27;s interesting, the different influences, the sub-influences that then go into the influence that then makes you speak the way you speak.</p>
-                  <p>Especially as a writer, I&#x27;m always so fascinated by the rhythm of how people speak, and sometimes... You know this experience for sure, you&#x27;ll be writing a line, and you&#x27;re just like, this just isn&#x27;t fucking working. And then you&#x27;ll just move one word and you&#x27;re like, oh, that&#x27;s perfect.</p>
-                  <p>Sometimes it&#x27;s that subtle difference between, you know, this is how Nigerian will say it, versus this is how someone from New York would say it.</p>
+                  <p>Yeah, I feel like it&#x27;s definitely influenced the way I write and the way I do stand up, too. One of the interesting things about Yoruba as a language is that it is a tonal language and so, you know, the way you say things influences the actual meaning of it.</p>
+                  <p>I just remembered another Nigerian comic. His name is, I think, David Gborie. And I noticed it when I was watching his standup. The way that he used the tone of his voice was very dynamic. I wonder if that&#x27;s a function of him being Nigerian. 'Cause even if you don&#x27;t speak Yoruba, there&#x27;s an animated way of speaking that Nigerian people often use. It influences you even if you don&#x27;t speak the language.<b className="bolded"><br /></b></p>
+                  <p>The way Nigerians speak English is its own thing. 'Cause it&#x27;s so influenced by British English. But then, if you grew up in the States... but then your parents grew up in Nigeria and then depending on their parents... Some of them have more of a British influence and then some of them have more of a strictly Nigerian-Nigerian influence. And then some of them might even have more of a French influence. So it&#x27;s interesting, the different influences, the sub-influences, that then go into the influence that then makes you speak the way you speak.</p>
+                  <p>Especially as a writer, I&#x27;m always so fascinated by the rhythm of how people speak. And sometimes you&#x27;ll be writing a line, and you&#x27;re just like, this just isn&#x27;t working. And then you&#x27;ll just move one word and you&#x27;re like, oh, that&#x27;s perfect.</p>
+                  <p>Sometimes it&#x27;s that subtle difference between this is how Nigerian will say it, this is how someone from New York would say it.</p>
                 </div>
                 <iframe width="315" height="560"
                       src="https://www.youtube.com/embed/3gI3fBK-dCE"
@@ -486,7 +486,7 @@ const Michael = () => {
               <div className="section-wrapper">
                 <div className="p-wrapper">
                   <p>Guru</p>
-                  <b data-w-id="a590fab7-0356-cbdf-2d5c-69cb275450c7" className="bolded"> Has your performance or diction changed at all? like the things you&#x27;re noticing in these other comics, have you noticed that shift in you as well?</b>
+                  <b data-w-id="a590fab7-0356-cbdf-2d5c-69cb275450c7" className="bolded"> Has your performance or diction changed at all? Have you noticed that shift in you as well?</b>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -494,14 +494,14 @@ const Michael = () => {
                   <div className='bolded-name'>Michael</div>
                 </div>
                 <div className="p-wrapper side">
-                    <p>Sometimes I feel like it frees me to express the idea, the way it sounds in my head versus how I think it should sound as a standup. The interesting thing about standup is that it&#x27;s just... you&#x27;re up there being yourself and you&#x27;re just telling jokes. But to do standup, you have to embody a persona. And sometimes the persona is just you, but sometimes the persona is a fragmented version of you. Or sometimes you&#x27;re playing off of an archetype that other comedians before you have established.<br /></p>
-                    <p>So it&#x27;s like how much of it is you trying to play the archetype that you think that people see you as, or like you trying to authentically say what sounds funny in your head, you know?<br /></p>
+                    <p>Sometimes I feel like it frees me to express the idea the way it sounds in my head versus how I think it should sound, you know, as a standup, you know. The interesting thing about standup is that it&#x27;s just you up there, so ostensibly you&#x27;re up there being yourself and you&#x27;re just telling jokes. But to do standup, you kind of have to embody a persona. And sometimes the persona is just you, but sometimes the persona is a fragmented version of you. Or like sometimes you&#x27;re playing off of an archetype that other comedians before you have established.<br /></p>
+                    <p>So it&#x27;s like how much of it is you trying to play the archetype that you think that people see you as, or you trying to authentically say what sounds funny in your head, you know?<br /></p>
                 </div>
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
                   <p>Guru</p>
-                  <p>I&#x27;ve heard people sometimes talking about how. When they speak in another language, sometimes their personalities can slightly shift. Not from a performance perspective, but just like a daily life Michael perspective. <b>Were there any shifts like that in the way you thought about things or the way you acted when you were physically trying to talk in Yoruba versus English?</b></p>
+                  <p>And I&#x27;ve heard people sometimes talking about how when they speak in another language, sometimes their personalities can like slightly shift. <b>Were there any shifts like that in the way you thought about things or the way you acted when you were physically trying to talk in Yoruba versus English?</b></p>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -509,27 +509,24 @@ const Michael = () => {
                   <div className='bolded-name'>Michael</div>
                 </div>
                 <div className="p-wrapper side">
-                    <p>Yeah, I feel like I didn&#x27;t really experience any large personality shifts, but it made me think about things in a more Nigerian way.<br /></p>
-                    <p>In certain aspects, like in Yoruba, greetings are a really big thing. One of the first things we learned was greetings, because like, you know, there are certain greetings that you&#x27;re supposed to use for like the different times of the day. And then there are also different greetings that you use for different levels. If you&#x27;re greeting your friend, you can say this, but if you&#x27;re greeting an elder you should say it like this, you know? It&#x27;s the same word and the same function, but the situations in that you&#x27;re allowed to use them are different.<br /></p>
-                    <p>And then you have to go to your Rolex. and it&#x27;s like what time is it and what&#x27;s my relationship to this person? The fact that you have to consider a lot of things before you speak, I feel that was a thing that I was thinking of a lot more when I was taking the Yoruba classes.<br /></p>
+                    <p>I feel like I didn&#x27;t really experience any large personality shifts, but it made me think about things in a more Nigerian way, in certain aspects.<br /></p>
+                    <p>Like in Yoruba, greetings are a really big thing. One of the first things we learned was greetings because there are certain greetings that you&#x27;re supposed to use for the different times of the day. And then there are also different greetings that you use for different levels. Oh, if you&#x27;re greeting your friend, you can say this, but if you&#x27;re greeting an elder you should say it like this, you know? It&#x27;s interesting there are different levels to the same word and the same function, but the situations that you&#x27;re allowed to use them in are different.<br /></p>
+                    <p>And then you have to go through your rolodex. And it&#x27;s like what time is it and what&#x27;s my relationship to this person? And so, yeah it's just the fact that you have to consider a lot of things before you speak, I feel that was a thing that I was thinking of a lot more when I was taking the Yoruba class.<br /></p>
                 </div>
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
                   <p>Guru</p>
-                  <p>To my understanding, I could be totally off base about this, but to my understanding, in Africa itself, I believe the Nigerian entertainment industry is technically the biggest. It&#x27;s called Nollywood.</p>
-                  <p>Michael</p>
-                  <p>Yeah, they do call it Nollywood.</p>
-                  <b data-w-id="d3130ab5-5243-0807-a0ce-05b976870c83" className="bolded-name">Guru</b>
-                  <p>Hey, India has Bollywood.<b className="bolded"><br /></b></p>
+                  <p>In Africa itself, I believe the Nigerian entertainment industry is technically the biggest. It&#x27;s called Nollywood.</p>
+                  <p>India has Bollywood.<b className="bolded"><br /></b></p>
                   <b data-w-id="7aa24651-4447-61c4-06ce-9fa3cd6a49c4" className="bolded-name">Michael</b>
                   <p>I know Bollywood. Hey, we stole Bollywood.</p>
                   <b data-w-id="f882f2c4-a7bf-3c60-2b57-d145a361f658" className="bolded-name">Guru</b>
-                  <p>No, no, hey, and Bollywood took it from Hollywood. But I&#x27;m curious, as these Nigerian comics have been exploding and Nollywood is growing more and more–I&#x27;m even seeing now a lot of Netflix original productions in Nollywood, as that media is becoming more popular globally and it is entering the mainstream, has that changed your relationship with like Nigerian content or Yoruba as a language? Does it make you more invested in it now that it&#x27;s starting to become more accepted? Is that not something you&#x27;re thinking about?</p>
+                  <p>No, no, hey, and Bollywood took it from Hollywood. But as these Nigerian comics have been exploding and Nollywood is growing more and more. I&#x27;m even seeing now a lot of Netflix original productions in Nollywood. I'm curious, as that media is becoming more popular globally and it is entering the mainstream, has that changed your relationship with like Nigerian content or Yoruba as a language? Does it make you more invested in it now that it&#x27;s starting to become more accepted?</p>
                   <b data-w-id="b5d98ab6-6fc0-6ea7-4a03-ceb0925d2a19" className="bolded-name">Michael</b>
-                  <p>I definitely am thinking about it more cuz, especially now, my mom has been watching more TV and more movies. I was living with my mom for like a while, almost a full year and so we would watch stuff together and a few times we would watch some Nollywood movies that were on Netflix like you mentioned.</p>
-                  <p>And it was interesting seeing the different types of Nollywood movies. All of them are very melodramatic. I feel like melodrama is what Nollywood specializes in. But it was interesting cuz some of them were the kind of stereotype of what a Nollywood movie is... of like seven betrayals and someone cheats on their husband with the brother and the brother&#x27;s also secretly engaged to the Aris to like a Nigerian oil for like</p>
-                  <p>There&#x27;s always like an ais, some there in there . But yeah, there&#x27;s also. , more modern Nollywood films that like looked more modern, like American movies I had seen. But then they had Nigerian themes, but then they also had like an internet generation tone to them. There&#x27;s more diversity of type in the space than I thought. So, you know, I wanna like look into more Nollywood films. I watch movies, but I don&#x27;t watch that many movies, so it&#x27;s like I still need to like get into it more.</p>
+                  <p>I definitely am thinking about it more 'cause, especially now, my mom has been watching more TV and more movies. And so like, I was living with my mom for almost a full year and so we would watch stuff together and a few times we would watch some Nollywood movies that were on Netflix like you mentioned.</p>
+                  <p>And it was interesting seeing the different types of Nollywood movies. All of them are very melodramatic. I feel like melodrama is what Nollywood kind of specializes in. But it was interesting 'cause some of them were the kind of stereotype of what a Nollywood movie is... of seven betrayals and, you know, someone cheats on their husband with the brother, and the brother&#x27;s also secretly engaged to the heiress to like a Nigerian oil for like...</p>
+                  <p>There&#x27;s always like an heiress, somewhere in there. But yeah, there&#x27;s also more modern Nollywood films that looked more modern, like American movies I had seen. But then they had Nigerian themes, but then they also had like an Internet generation tone to them. There&#x27;s more diversity of type in the space than I thought. So, you know, I wanna look into more Nollywood films. I watch movies, but I don&#x27;t watch that many movies.</p>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -537,11 +534,11 @@ const Michael = () => {
               <div className='bolded-name'>Guru</div>
             </div>
                 <div className="p-wrapper side">
-                    <p>Actually, it&#x27;s funny that you mentioned your mom watches more stuff now because the accessibility to Nigerian content is greater. I feel the same with my parents, especially my dad because he pretty much exclusively watches Tamil content, and growing up he always watched it too, but he would always find some random site on the internet to get that stuff. But now with the advent of Netflix, Amazon Prime, and whatever else, I feel like, I think it&#x27;s just really great that like there are just more avenues for people to like tap into their culture.<br /></p>
-                    <p>It really makes a world of a difference I think when you get to see the look on their face when I tell my dad &#x27;Thank you.&#x27; For example, I got Hulu recently, so Disney owns Hulu and then Disney also owns Hot Star, which is like an Indian streaming service. What was interesting was that like if you have Hulu, you can access some Hot Star content. So, I was telling my dad like, oh, I got Hulu. I can share the login and then he was like kind of indifferent about it. He was just like, oh, why are we getting this? What&#x27;s the point of it? And then I mentioned, oh, you can get Hot Star and then you can get Tamil movies.<br /></p>
-                    <p>I feel it&#x27;s very important that accessibility now exists because it&#x27;s like when our parents immigrated here, they were caught off from an entire world, right? Yeah. And they didn&#x27;t have these. Mediums to continue. I mean, aside from, yes, like they, they can like seek out spaces like churches or you know, whatever to, you know, like get that community.<br /></p>
-                    <p>But there are all these other mediums that were lacking, at least when we were growing up and like now, 20-something years later. There&#x27;s a plethora of them, which I think is really awesome. And you know, for me, I&#x27;ve told you this before, it was actually through watching a lot of Tamil movies that kind of refreshed my understanding of the language.<br /></p>
-                    <p>I feel like movies and music is a really good way to keep constant for you. But yeah, one of the last questions, and I know you only took a little bit of time in Yoruba, but do you have a favorite word in that language, and if so, what? Why?<br /></p>
+                    <p>Actually, yeah, it&#x27;s funny that you mentioned your mom watches more stuff now because the accessibility to Nigerian content is greater. I feel the same with my parents because, especially my dad, because he pretty much exclusively watches Tamil content. And growing up he always watched it, too, but he would always find some random site on the Internet to get that stuff. But now with the advent of Netflix, Amazon Prime, like whatever else, I think it&#x27;s just really great that like there are just more avenues for people to like tap into their culture.<br /></p>
+                    <p>It really makes a world of a difference, I think, when you get to see the look on their face... So Disney owns Hulu and then Disney also owns Hotstar, which is like an Indian streaming service. If you have Hulu, you can access some Hotstar content. So, I was telling my dad like, oh, I got Hulu. I can share the login and then he was like kind of indifferent about it. He was just like, oh, why are we getting this? What&#x27;s the point of it? And then I mentioned, oh, you can get Hotstar and then you can get Tamil movies.<br /></p>
+                    <p>I feel it&#x27;s very important that accessibility now exists because when our parents immigrated here, they were cut off from an entire world, right? And they didn&#x27;t have these mediums to continue, aside from, yes, like they, they can like seek out spaces like churches or you know, whatever to get that community.<br /></p>
+                    <p>But there are all these other mediums that were kind of lacking, at least when we were growing up. And now, 20-something years later, there&#x27;s a plethora of them, which I think is really awesome. And you know, for me, I&#x27;ve told you this before, it was actually through watching a lot of Tamil movies that I kind of refreshed my understanding of the language.<br /></p>
+                    <p>I feel like movies and music is a really good way to keep it constant for you. But yeah...one of the last questions, and I know you only took a little bit of time in Yoruba, but I am curious: do you have a favorite word in that language, and if so, why?<br /></p>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -550,16 +547,14 @@ const Michael = () => {
                 </div>
                 <div className="p-wrapper side">
                     <p>I would say I have two. The number one I would say is <b className="bolded">&quot;ah.&quot; </b>That&#x27;s the Nigerian... something bad happens and you&#x27;re just like <b>&quot;oh ah.&quot;</b> Or you can even use it as... it&#x27;s so flexible, that&#x27;s why I love it so much. It&#x27;s like you can use it as like something bad just happened or you&#x27;re, man, that was crazy. Like even when you&#x27;re happy you can use <b>&quot;oh ah.&quot; </b>You&#x27;re just like, ah, man, like it&#x27;s really happening. You know, like, that&#x27;s crazy.<br /></p>
-                    <p>And then my other favorite one is <b className="bolded">&quot;o ti to.&quot; </b>And that one is, uh, it&#x27;s enough. Like you say that when you&#x27;re just like, please stop. its enough.<br /></p>
+                    <p>And then my other favorite one is <b className="bolded">&quot;o ti to.&quot; </b>And that one is, uh, it&#x27;s enough. Like you say that when you&#x27;re just like, otito, it is enough.<br /></p>
                     <p>That one was always, cause my mom would, it was almost like, like it would almost be a game with my mom of like, anytime, like something would happen and like we would hear her say it and it&#x27;d be like, oh, we know she&#x27;s had enough. Alright, we need to chill.<br /></p>
                 </div>
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
                   <p>Guru</p>
-                  <p>That&#x27;s awesome. Well, this has spectacular. So, thank you so much again, Michael, for coming on this podcast, uh, about to say the Passion Project, but that&#x27;s not the name of this podcast, Before we head out, do you wanna plug your socials and like anything else?</p>
-                  <p>Michael</p>
-                  <p>Sure. I&#x27;ll plug my Instagram is at Jaquan the Great.</p>
+                  <p>That&#x27;s awesome. Well, this has been spectacular. So, thank you so much again, Michael, for coming on this podcast, uh, about to say the Passion Project, but that&#x27;s not the name of this podcast, Before we head out, do you wanna plug your socials and like anything else?</p>
                   <p>Guru</p>
                   <p>Awesome. Cool. Well thank you so much again, and this has been fantastic.<b className="bolded"><br /></b></p>
                   <p>Michael</p>
