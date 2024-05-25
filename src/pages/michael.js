@@ -116,7 +116,7 @@ const Michael = () => {
                 <div className='bolded-name'>Guru</div>
                </div>
                 <div className="p-wrapper side">
-                    <p>Well, yeah, this entire episode, it&#x27;s your space, it&#x27;s your time to shine. Similar to past projects, we&#x27;re also gonna start this one at the very beginning. I always feel like it&#x27;s interesting to think about what your connection to your language was right when you were pretty young and see how that&#x27;s evolved over time.<br /></p>
+                    <p>Well, yeah, this entire episode, it&#x27;s your space, it&#x27;s your time to shine. We&#x27;re also gonna start this one at the very beginning. I always feel like it&#x27;s interesting to think about what your connection to your language was right when you were pretty young and see how that&#x27;s evolved over time.<br /></p>
                     <p>I&#x27;m so curious to hear from your perspective as the youngest of four siblings, and I know your mom also came from Nigeria, but just to begin, <b className="bolded">what was your connection with Yoruba in your childhood and how did it kind of play out when you were growing up?</b><br /></p>
                 </div>
               </div>
@@ -125,10 +125,10 @@ const Michael = () => {
                   <div className='bolded-name'>Michael</div>
                 </div>
                 <div className="p-wrapper side">
-                    <p>When I was younger it was the language that my mom and my Nigerian relatives would speak, but we just would never really be in on it.<br /></p>
+                    <p>Yeah, hen I was younger it was the language that my mom and my Nigerian relatives would speak, but we just would never really be in on it.<br /></p>
                     <p>My mom very deliberately decided not to teach me or any of my siblings Yoruba, which was an interesting choice. But I respect it, but you know, sometimes I kind of wish I would&#x27;ve been taught it. <br /></p>
                     <p>There were different points where my grandma lived with us when I was younger, so they would speak it to each other, but none of my siblings were ever taught it.<br /></p>
-                    <p>I felt like I got familiar with the sounds of it, but I never learned the vocabulary or diction, or grammar of it. And then, getting older and older, I even learned like, oh, my name wasn&#x27;t pronounced the way I think it was pronounced. But then that was also an intentional thing on my mom&#x27;s part.</p>
+                    <p>I got familiar with the sounds of it, but I never learned the vocabulary or diction or grammar of it. I even learned like, oh, my name wasn&#x27;t pronounced the way I think it was pronounced. But then that was also an intentional thing on my mom&#x27;s part.</p>
                 </div>
               </div>
 
