@@ -203,7 +203,7 @@ const Michael = () => {
                     <p>&quot;Oh, you don&#x27;t know you were supposed to do this?&quot;<br /></p>
                     <p>or, &quot;oh, you said that so American. wow, you really aren&#x27;t Nigerian.&quot;<br /></p>
                     <p>or, &quot;oh, you said that so American. wow, you really aren&#x27;t Nigerian.&quot;<br /></p>
-                    <p>It was almost kinda club-type exclusionary. And then, we weren&#x27;t primed on the speaking so it was us, American children, in front of this panel of judgmental Nigerians. <br /></p>
+                    <p>It was almost kinda club-type exclusion. And then, we weren&#x27;t primed on the speaking so it was us, American children, in front of this panel of judgmental Nigerians. <br /></p>
                     <p>We&#x27;re going up and we&#x27;re like, happy birthday, grandma. You know, we&#x27;re saying our last name wrong. And then cousins come up and they&#x27;re saying their names perfectly pronounced.<br /></p>
                     <p>But it was always like that was kind of the experience of you&#x27;re walking into a situation where you&#x27;re like &#x27;this is gonna be fine&#x27; and then something happens and you&#x27;re like, &#x27;oh, it&#x27;s not fine, I&#x27;m confused.&#x27; You&#x27;re looking to your parent like, &#x27;why didn&#x27;t you tell me?&#x27; There&#x27;s obviously something not being communicated.<br /></p>
                     <div className='text-photo top'>
