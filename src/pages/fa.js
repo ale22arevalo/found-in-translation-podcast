@@ -266,7 +266,6 @@ const Fa = () => {
             </div>
                 <p><b className='extra-bolded'>Have you been back to Bangladesh, in the last few years? Are you looking forward to doing that sometime soon?</b><br /></p>
               </div>
-            </div>
             <div className='section-wrapper'>
                 <div className='name-wrapper'>
                   <div className='bolded-name'>Fareeha</div>
@@ -352,7 +351,6 @@ const Fa = () => {
                 <b className="bolded">And that is a wrap on our season! And we will roll the credits. I'm your host Guru Ramanathan. This is FOUND IN TRANSLATION, created, executive produced, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc, and do all the things that will help us go viral. We have greatly appreciated your support from the beginning to the end of the season.</b>
               </div>
         </div>
-      </div>
     </main>
   )
 }
