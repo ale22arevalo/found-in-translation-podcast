@@ -17,6 +17,8 @@ const Michael = () => {
     // Get all elements with class 'section-wrapper'
     const parentDivs = document.querySelectorAll('.section-wrapper');
 
+    const photoDivs = document.querySelectorAll('.text-photo');
+
     // Iterate over each 'section-wrapper' element
     parentDivs.forEach(parentDiv => {
         // Get the corresponding 'p-wrapper' element within each 'section-wrapper'
@@ -41,7 +43,28 @@ const Michael = () => {
             // Clean up observer when component unmounts
             return () => observer.disconnect();
         }
-    });
+    })
+
+    photoDivs.forEach(photoDiv => {
+        const photo = photoDiv.querySelector('.text-photo');
+
+        if (photoDiv && photo) {
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        photo.classList.add('fade');
+                    } else {
+                        photo.classList.remove('fade');
+                    }
+                });
+            });
+
+            observer.observe(photoDiv);
+
+            return () => observer.disconnect();
+        }
+    } )
+
 }, []);
 
     return (

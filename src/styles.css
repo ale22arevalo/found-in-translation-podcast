@@ -213,8 +213,6 @@ b {
 .handwriting{
     font-family: 'Mynerve', sans-serif;
     font-size: 1.5rem;
-    line-height: 2.5rem;
-    padding-bottom: 1rem;
     text-align: center;
 }
 
@@ -478,6 +476,47 @@ text {
     fill: #121212;
 }
 
+.text-message {
+    background-color: #FAF9F6;
+    border-radius: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.message-right {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    span {
+        padding: 0.8rem;
+        border-radius: 1rem;
+        background-color: #218aff;
+        width: fit-content;
+        max-width: 300px;
+    }
+}
+
+.message-left{
+    width: 100%;
+    margin: 20px 0 20px 0;
+    display: flex;
+    span{
+        background-color: #D3D3D3;
+        padding: 0.8rem;
+        border-radius: 1rem;
+        width: fit-content;
+        max-width: 300px;
+    }
+}
+
 .back-to-top {
     position: fixed;
     bottom: 1.5rem;
@@ -536,6 +575,7 @@ text {
     flex-direction: column;
     justify-content: center;
     transform: translateY(50px);
+    z-index: 100;
     svg{
        transform: translateY(-30px);
     }

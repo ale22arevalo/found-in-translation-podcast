@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import Navbar from '../components/navbar';
 import BackTop from '../components/backtop';
 import rachel_headshot from '../images/rachel/rachel_headshot.webp';
@@ -32,6 +32,8 @@ const Rachel = () => {
                 // Get all elements with class 'section-wrapper'
                 const parentDivs = document.querySelectorAll('.section-wrapper');
             
+                const photoDivs = document.querySelectorAll('.text-photo');
+
                 // Iterate over each 'section-wrapper' element
                 parentDivs.forEach(parentDiv => {
                     // Get the corresponding 'p-wrapper' element within each 'section-wrapper'
@@ -57,9 +59,30 @@ const Rachel = () => {
                         return () => observer.disconnect();
                     }
                 });
+
+                photoDivs.forEach(photoDiv => {
+                  const photo = photoDiv.querySelector('.text-photo');
+          
+                  if (photoDiv && photo) {
+                      const observer = new IntersectionObserver(entries => {
+                          entries.forEach(entry => {
+                              if (entry.isIntersecting) {
+                                  photo.classList.add('fade');
+                              } else {
+                                  photo.classList.remove('fade');
+                              }
+                          });
+                      });
+          
+                      observer.observe(photoDiv);
+          
+                      return () => observer.disconnect();
+                  }
+              } )
+
             }, []);
-            
-              
+  
+                 
   return (
     <main> 
       <Navbar />
@@ -87,13 +110,6 @@ const Rachel = () => {
                   <div className='text-photo'>
                     <div className='text-arrow'>
                       <p className='handwriting'>This is Rachel</p>
-                      {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                        <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                          <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                          <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                            <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                            </marker></defs>
-                      </svg> */}
                     </div>
                     <img className="vertical-photo" src={rachel_headshot} alt="" loading="lazy" />
                   </div>
@@ -120,7 +136,7 @@ const Rachel = () => {
                 <h3>The Guest<br /> <span className="first-name">Rachel Ha-Eun Lee</span></h3>
               </div>
               <div className="p-wrapper side">
-                  <div className='text-photo'>
+                  <div className='text-photo' style={{flexDirection:'column'}}>
                     <div className='text-arrow'>
                       <p className='handwriting'>Rachel's parents when they were young</p>
                       {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
@@ -182,7 +198,7 @@ const Rachel = () => {
             </div>
               <div className="p-wrapper side">
                 {/* Q2 */}
-                <p>When you were beginning school, <b className="extra-bolded">what made you choose English over Korean, or made that shift more aggressive?</b></p>
+                <p>I&#x27;m curious, when you were beginning school, <b className="extra-bolded">what made you choose English over Korean, or made that shift more aggressive?</b></p>
               </div>
             </div>
 
@@ -241,6 +257,7 @@ const Rachel = () => {
                 <p data-w-id="06a76919-61b8-a39c-8048-ac2a3bbbe1e2" >And so going back to what you were saying about having that resentment with some of your relatives, was part of it also their level of ownership over the language or the culture that you weren&#x27;t necessarily able to tap into at a young age?<b></b></p>
               </div>
             </div>
+
             <div className="section-wrapper">
               <div className="name-wrapper">
                 <div className='bolded-name'>Rachel</div>
@@ -249,7 +266,7 @@ const Rachel = () => {
                   <p>Well, I really resonated with that dictionary thing. First of all, because for me, even though I know that if I just said random syllables, how would they know whether or not I&#x27;m right or wrong?  But I wanted to be right. Exactly what you said about that ownership. I wanted to prove that I could give them the correct answer.</p>
                   <p>I think the ownership idea for me, when it came to my family, it was just knowing that they identified one way that I didn&#x27;t, I think it was less resentful.</p>
                   <p> I replayed that comment that my mom said to my grandma and attached it with like... </p>
-                  <p>The resentment came more about... <b>don&#x27;t they love me enough to wanna learn English?</b></p>
+                  <p>The resentment came more about...<b>don&#x27;t they love me enough to wanna learn English?</b></p>
                   <p>I think it was more like–selfish way of thinking–but they&#x27;re not catering to me or they&#x27;re not making it accessible to me, especially because I was younger. </p>
               </div>
             </div>
@@ -271,9 +288,7 @@ const Rachel = () => {
                 <div className='bolded-name'>Guru</div>
               </div>
               <div className="p-wrapper side">
-                <div>
-                  <p>Moving beyond relatives though, did your approach to this impact any relationships with schoolmates?</p>
-                </div>
+                  <b className='extra-bolded'>Moving beyond relatives though, did your approach to this impact any relationships with schoolmates?</b>
               </div>
             </div>
             <div className="section-wrapper">
@@ -292,7 +307,7 @@ const Rachel = () => {
                 <div className='bolded-name'>Guru</div>
               </div>
               <div className="p-wrapper side">
-                <p data-w-id="0436a4f7-f99e-b047-90f6-645879cff340">Can you explain what you mean by one of them?</p>
+                <b className='extra-bolded'>Can you explain what you mean by one of them?</b>
               </div>
             </div>
             <div className="section-wrapper quote">
@@ -402,10 +417,7 @@ const Rachel = () => {
                 <p><span>After class, I went up to them and I introduced myself and their response was like &quot;why didn&#x27;t you help us translate?&quot; and I was like &quot;Oh, because I&#x27;m not that great.&quot;</span></p>
             </div>
             <div className="section-wrapper">
-              <div className="name-wrapper">
-                <div className='bolded-name'>Rachel</div>
-              </div>
-              <div className="p-wrapper side">
+              <div className="p-wrapper full">
                   <p>So, that happened.</p>
                   <p>And at the same time, while this was happening, my mother was doing this thing, because her and my father text in Korean, and she&#x27;d be driving me and she&#x27;d be like &quot;oh, what did dad say?&quot;</p>
                   <div className="image-414 phot-fader"></div>
@@ -431,7 +443,7 @@ const Rachel = () => {
                   <p>And I had this friend who was obsessed with all things K-pop at the time. And I consider her like my cousin or like my god-sister, like I spend holidays with her always and all the stuff.</p>
                   <p>So she was going through a phase where every time I would come over, she would show me hours and hours of K-pop music videos. And I was like &quot;You&#x27;re weird, this is weird. This is not what I want. Like the boys are wearing more makeup than I am like.&quot; Ooh, gender roles. That was embedded in me as a child.</p>
                   <p>Or like, ooh, the girls either act like they&#x27;re trying to be cute or they&#x27;re on the other, in the spectrum and trying to be overly sexy. So I was just hating on K-pop.</p>
-                <div className='text-photo'>
+                {/* <div className='text-photo' style={{marginTop:0}}>
                   <div className='text-arrow'>
                     <p className='handwriting'>Rachel and Sarah</p>
                     {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
@@ -440,10 +452,10 @@ const Rachel = () => {
                           <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
                             <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
                               </marker></defs>
-                    </svg> */}
+                    </svg> 
                      <img className="horizontal-photo" src={rachel_sarah} loading="lazy" />
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="section-wrapper">
@@ -528,20 +540,70 @@ const Rachel = () => {
                 </div>
               </div>
             </div>
-            <div className='text-photo'>
+            <div className="section-wrapper" style={{alignItems:'center'}}>
+              <div className='text-message'>
+                <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
+                  <svg height="100" width="100" xmlns="http://www.w3.org/2000/svg">
+                    <circle r="45" cx="50" cy="50" fill="../rachel/rachel_hanbok.webp" />
+                  </svg>
+                  <span>엄마</span>
+                </div>
+                <div className='message-left'>
+                  <span>
+                    집에 있어? 
+                  </span>
+                </div>
+                <div className='message-right'>
+                  <span>
+                  yes just took a nap
+                  </span>
+                </div>
+                <div className='message-left'>
+                  <span>
+                    오늘 오디션 안 갔어?
+                  </span>
+                </div>
+                <div className='message-right'>
+                  <span>
+                    yeah i decided to rest
+                  </span>
+                </div>
+                <div className='message-left'>
+                  <span>
+                    ㅇㅋ 몸은 어때?
+                  </span>
+                </div>
+                <div className='message-right'>
+                  <span>
+                    just a little stuffy but finally leaving the house today to get dinner with serena
+                  </span>
+                </div>
+                <div className='message-left'>
+                  <span>
+                    ㅇㅋ 조심 하고 영양가 있는거 먹어 오일리 한거 먹지 말고
+                  </span>
+                </div>
+                <div className='message-right'>
+                  <span>
+                    ok
+                  </span>
+                </div>
+              </div>
+            </div>
+            {/* <div className='text-photo'>
                 <div className='text-arrow'>
                   <p className='handwriting'>Texts between Rachel and her mom</p>
-                    {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
                     <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
                     <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
                     <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
                     <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
                     </marker></defs>
-                    </svg> */}
+                    </svg>
                 </div>
               <img className="vertical-photo" src={texts} loading="lazy" />
-            </div>
-            <div className="section-wrapper">
+            </div> */}
+            <div className="section-wrap</div>per">
               <div className='name-wrapper'>
                 <div data-w-id="542b7611-4c6b-9c66-bff4-41e5e8b10237" className='bolded-name'>Guru</div>
               </div>
