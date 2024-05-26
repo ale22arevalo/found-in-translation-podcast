@@ -603,7 +603,7 @@ const Rachel = () => {
                 </div>
               <img className="vertical-photo" src={texts} loading="lazy" />
             </div> */}
-            <div className="section-wrap</div>per">
+            <div className="section-wrapper">
               <div className='name-wrapper'>
                 <div data-w-id="542b7611-4c6b-9c66-bff4-41e5e8b10237" className='bolded-name'>Guru</div>
               </div>
