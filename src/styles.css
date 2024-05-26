@@ -214,6 +214,8 @@ b {
     font-family: 'Mynerve', sans-serif;
     font-size: 1.5rem;
     line-height: 2.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
 }
 
 /* Pages styling */
@@ -227,6 +229,14 @@ b {
     margin: 5rem 0 5rem 0;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
 .name-wrapper {
     display: flex;
     text-align: left;
@@ -234,7 +244,7 @@ b {
     flex-direction: column;
     align-items: flex-start;
     font-size: 1rem;
-    padding: 0 2rem 0 0.5rem;
+    /* padding: 0 2rem 0 0.5rem; */
     width: 30%;
 }
 
@@ -515,6 +525,10 @@ text {
     @media (max-width: 728px) {
        display: block;
     }
+}
+
+.top{
+    flex-direction: column;
 }
 
 .text-arrow {

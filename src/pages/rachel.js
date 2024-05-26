@@ -182,7 +182,7 @@ const Rachel = () => {
             </div>
               <div className="p-wrapper side">
                 {/* Q2 */}
-                <p>I&#x27;m curious, when you were beginning school, <b className="extra-bolded">what made you choose English over Korean, or made that shift more aggressive?</b></p>
+                <p>When you were beginning school, <b className="extra-bolded">what made you choose English over Korean, or made that shift more aggressive?</b></p>
               </div>
             </div>
 
