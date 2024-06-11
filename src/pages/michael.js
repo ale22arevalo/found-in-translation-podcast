@@ -265,8 +265,8 @@ const Michael = () => {
                   <p>Guru</p>
                   <p>Yeah, it&#x27;s interesting because I&#x27;ve heard my parents talk in the third person perspective of all Indians are like this, all Desis are like this. And then growing up I didn&#x27;t really understand, but like you&#x27;re also that, so you&#x27;re hating yourself.<b className="bolded"><br /></b></p>
                   <p>Michael</p>
-                  <p>I think I get it more now, but I&#x27;m older cuz it&#x27;s like, yeah. I feel like people just love to be able to talk shit about a group as a whole, cuz they&#x27;re like, I&#x27;ve seen at least three people do this. So I&#x27;ve got the data. Part of me thinks one of the reasons she decided to move from Maryland, DC was almost to get away from large numbers of Nigerians.</p>
-                  <p>She&#x27;s expressed this to me, you know, sometimes being around very traditional Nigerians can be very frustrating to her. And especially if you like really, really grew up with it, you just want something different, you know. My two oldest siblings have been in Nigeria, but me and my brother closest to me have never been.</p>
+                  <p>I think I get it more now, but I&#x27;m older cuz it&#x27;s like, yeah. I feel like people just love to be able to talk about a group as a whole, cuz they&#x27;re like, man, I&#x27;ve seen at least three people do this. So I&#x27;ve got the data set I need, you know? Part of me thinks one of the reasons she decided to move from Maryland/DC was almost to get away from large numbers of Nigerians.</p>
+                  <p>She&#x27;s expressed this to me like, you know, sometimes being around very traditional Nigerians can be very frustrating to her. And especially if you like really, really grew up with it, you just want something different, you know. My two oldest siblings have been in Nigeria, but me and my brother closest to me have never been.</p>
                   <div className='text-photo'>
                     <div className='text-arrow'>
                       <p className='handwriting'>This is Michael and his siblings</p>
@@ -280,9 +280,9 @@ const Michael = () => {
                     </div>
                     <img className="vertical-photo" src={michael_siblings} alt="" loading="lazy" />
                   </div>
-                  <p>They actually spent a whole year in Nigeria and went to school there and then came back. I&#x27;ve never actually asked my two oldest siblings about how that experience was for them. Sometimes my mom would talk about it and it was like they came back with a chip on their shoulder. Now, they&#x27;re not Black, they&#x27;re Nigerians, you know.</p>
+                  <p>They actually spent a whole year in Nigeria and went to school there for a year and then came back. I&#x27;ve never actually asked my two oldest siblings about how that experience was for them. Sometimes my mom would talk about it and it was like, they came back with a chip on their shoulder. Now, they&#x27;re not Black, they&#x27;re Nigerians, you know?</p>
                   <p>Guru</p>
-                  <p>And then when you were growing up, going to school and such... were there other Nigerians in school or were you predominantly around American Black kids?</p>
+                  <p>And then, when you were growing up, going to school and such... were there other Nigerians in school or were you predominantly around American Black kids?</p>
                   <p>And so going back to what you were saying about having that resentment with some of your relatives, <b className="bolded">was part of it also their level of ownership over the language or the culture that you weren&#x27;t necessarily able to tap into at a young age?</b><b className="bolded"><br /></b></p>
                 </div>
               </div>
