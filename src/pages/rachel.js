@@ -105,7 +105,7 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                   <p> Hello and welcome to <b>Found in Translation</b>. I'm your host Guru Ramanathan.</p>
-                  <p> And this is a podcast where first/second generation and immigrant come on to talk about their relationship with their cultural language and how that has influenced their connection to their culture, family, friends, and more.</p>
+                  <p> And this is a podcast where first/second generation and immigrant people come on to talk about their relationship with their cultural language and how that has influenced their connection to their culture, family, friends, and more.</p>
                   <p> This week&#x27;s guest and our first guest ever is the lovely and endlessly talented <a href="https://www.rachelhaeunlee.com/" target='_blank' className="hoverable-link">RACHEL LEE</a>, who is one of my best friends and an incredible Korean American dancer, marketer, photographer, podcast, artist, extraordinaire. I&#x27;m the head of her <b>fan club</b>.</p>
                   <div className='text-photo'>
                     <div className='text-arrow'>
@@ -220,8 +220,7 @@ const Rachel = () => {
                   <div className='bolded-name'>Guru</div>
                </div>
               <div className="p-wrapper side">
-                  <p>I feel like, at least I can speak for this in my experience, when you&#x27;re around that age, I have definitely been in situations where I kind of just openly said &quot;I don&#x27;t want to be learning this&quot; or &quot;I don&#x27;t want to do that.&quot; </p>
-                  <p>Given how steadfast you were early on about not wanting to venture into learning Korean or sort of embracing that side of yourself: <b className="extra-bolded">How did that then bleed into your direct relationship with your mom and dad?</b></p>
+                  <p> <b className="extra-bolded">How did that then bleed into your direct relationship with your mom and dad?</b></p>
                   <p>Were you openly saying to them &quot;I don&#x27;t want to learn Korean&quot; or eat Korean food or anything of that nature?</p>
               </div>
             </div>
@@ -296,9 +295,7 @@ const Rachel = () => {
                     <div className="bolded-name">Rachel</div>
                   </div>
                   <div className="p-wrapper side">
-                    <p>I feel like with school, it was really important for me to excel. I was always in the highest reading level at school.</p> 
-                    <p lassName="right-in">I had to have the perfect grades when it came to English stuff.</p>
-                    <p>I remember my biggest flex was, at the start of kindergarten, I was already reading and then the people whose parents actually speak English, their child started reading either later in kindergarten or first grade.</p>
+                    <p>I feel like with school, it was really important for me to excel.</p> 
                     <p>I feel like <b>I had to prove that I was one of them</b>, if not better.</p>
                   </div>
             </div>
@@ -353,7 +350,7 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                 <div>
-                  <p>So, when you did venture to places where you had a few more Asian friends, was that ever an open conversation between you guys or if it did come up with church friends your age?</p>
+                  <p>So, when you did venture to places where you had a few more Asian friends, was that ever an open conversation between you guys?</p>
                 </div>
               </div>
             </div>
@@ -440,7 +437,7 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                 <p>That interaction with the Korean company added with the recurring of like my mother wanting me to read her text messages from my dad and I couldn&#x27;t, plus my grandpa on my dad&#x27;s side had passed my freshman year of high school and I had some regrets of not being able to have a better relationship with him because of my lack of knowledge in the Korean language. So sort of these little things added up together.</p>
-                  <p>And I had this friend who was obsessed with all things K-pop at the time. And I consider her like my cousin or like my god-sister, like I spend holidays with her always and all the stuff.</p>
+                  <p>And I had this friend who was obsessed with all things K-pop at the time. And I consider her like my cousin or like my god-sister.</p>
                   <p>So she was going through a phase where every time I would come over, she would show me hours and hours of K-pop music videos. And I was like &quot;You&#x27;re weird, this is weird. This is not what I want. Like the boys are wearing more makeup than I am like.&quot; Ooh, gender roles. That was embedded in me as a child.</p>
                   <p>Or like, ooh, the girls either act like they&#x27;re trying to be cute or they&#x27;re on the other, in the spectrum and trying to be overly sexy. So I was just hating on K-pop.</p>
                 {/* <div className='text-photo' style={{marginTop:0}}>
@@ -622,7 +619,6 @@ const Rachel = () => {
                   <p>The third year, when my schedule allowed me to take Korean, I took Elementary 1 and 2.</p>
                   <p>There was a course that were for advanced speakers And it was for like Korean Americans, like me, who had Korean spoken to them at home but didn&#x27;t know the reading and writing basics and it was sort of accelerated.</p>
                   <p>I think there was at least two, if not, three other students who had parents who were born in Korea or they were second or third gen, but they were born in America. We were kind of in an equal level, but then everyone else didn&#x27;t know a single thing.</p>
-                  <p>I think there was at least two, if not, three other students who had parents who were born in Korea or they were second or third gen, but they were born in America. We were kind of in an equal level, but then everyone else didn&#x27;t know a single thing.</p>
                   <p>Most of them were really into K-pop or anime or Korean dramas and decided that they wanted to learn Korean and low-key the classes were hard. I thought maybe I would cruise through a little bit because I knew stuff, but no, I did not get a hundred in the class, still an a right, but...</p>
                   <p>Especially Elementary Korean 2. I was like, what is happening? I&#x27;m struggling so much. And my parents started to check my work because I was struggling. And it was funny cuz sometimes my parents would disagree if it&#x27;s like a certain adverb, for example, like which one it is. Like my mom&#x27;s like &quot;no, it&#x27;s this&quot; and my dad&#x27;s like &quot;no, it&#x27;s this.&quot; And then I&#x27;m just sitting here like &quot;okay guys, I still had to get this done and this is what I think it is, and this is what I learned.&quot; But it really did become a family thing to check my Korean homework at a college level.</p>
                 </div>
@@ -634,9 +630,9 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                 <div>
-                  <p>So, one thing about the K-pop K drama thing, I actually have multiple questions about this, but we can start smaller. One, I feel like K-pop and now K-dramas have really exploded in the international scene, but especially in the west.</p>
+                  <p>So, one thing about the K-pop K drama thing, I actually have multiple questions about this, but we can start smaller. One, I feel like K-pop and now K-dramas have really exploded in the international scene, but especially in the West.</p>
                   <div className="info-p"><img src="images/squidgame.jpg" loading="lazy" alt="" /></div>
-                  <p>In July, the Emmy&#x27;s nominations came out and <a href="https://www.nytimes.com/2022/09/12/arts/television/lee-jung-jae-squid-game-emmys.html" target="_blank">&quot;Squid Game&quot;</a> had a ton. So that&#x27;s definitely a huge cultural zeitgeist. And <a href="https://time.com/5779940/parasite-best-picture-oscars/" target="_blank">&quot;Parasite&quot;</a> in 2020 won so many Oscars. It&#x27;s really cool to see this Korean content become more of the mainstream. Do you have any thoughts on how it&#x27;s being adopted, accepted, appropriated in an American context now that so much of the content from across multiple mediums is really blowing up?</p>
+                  <p><a href="https://www.nytimes.com/2022/09/12/arts/television/lee-jung-jae-squid-game-emmys.html" target="_blank">&quot;Squid Game&quot;</a>, that&#x27;s definitely a huge cultural zeitgeist. And <a href="https://time.com/5779940/parasite-best-picture-oscars/" target="_blank">&quot;Parasite&quot;</a> in 2020 won so many Oscars. It&#x27;s really cool to see this Korean content become more of the mainstream. Do you have any thoughts on how it&#x27;s being adopted, accepted, appropriated in an American context now that so much of the content from across multiple mediums is really blowing up?</p>
                 </div>
               </div>
             </div>
