@@ -537,12 +537,10 @@ const Rachel = () => {
                 </div>
               </div>
             </div>
-            <div className="section-wrapper" style={{alignItems:'center'}}>
+            <div className="section-wrapper" style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
               <div className='text-message'>
                 <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
-                  <svg height="100" width="100" xmlns="http://www.w3.org/2000/svg">
-                    <circle r="45" cx="50" cy="50" fill="../rachel/rachel_hanbok.webp" />
-                  </svg>
+                  <img src={rachel_hanbok} alt="Young Rachel and her mother" style={{borderRadius:'50%', width:'100px', height:'100px'}} />
                   <span>엄마</span>
                 </div>
                 <div className='message-left'>
@@ -550,6 +548,9 @@ const Rachel = () => {
                     집에 있어? 
                   </span>
                 </div>
+                <span className='translation'>
+                  Are you at home?
+                </span>
                 <div className='message-right'>
                   <span>
                   yes just took a nap
@@ -560,6 +561,9 @@ const Rachel = () => {
                     오늘 오디션 안 갔어?
                   </span>
                 </div>
+                <span className='translation'>
+                  You didn't go to the audition today?
+                </span>
                 <div className='message-right'>
                   <span>
                     yeah i decided to rest
@@ -570,6 +574,9 @@ const Rachel = () => {
                     ㅇㅋ 몸은 어때?
                   </span>
                 </div>
+                <span className='translation'>
+                  Okay, how are you feeling?
+                </span>
                 <div className='message-right'>
                   <span>
                     just a little stuffy but finally leaving the house today to get dinner with serena
@@ -580,6 +587,9 @@ const Rachel = () => {
                     ㅇㅋ 조심 하고 영양가 있는거 먹어 오일리 한거 먹지 말고
                   </span>
                 </div>
+                <span className='translation'>
+                 Okay, take care and eat something nutritious, not oily.
+                </span>
                 <div className='message-right'>
                   <span>
                     ok
@@ -587,25 +597,13 @@ const Rachel = () => {
                 </div>
               </div>
             </div>
-            {/* <div className='text-photo'>
-                <div className='text-arrow'>
-                  <p className='handwriting'>Texts between Rachel and her mom</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                    <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                    <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                    <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                    <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                    </marker></defs>
-                    </svg>
-                </div>
-              <img className="vertical-photo" src={texts} loading="lazy" />
-            </div> */}
+          
             <div className="section-wrapper">
               <div className='name-wrapper'>
                 <div data-w-id="542b7611-4c6b-9c66-bff4-41e5e8b10237" className='bolded-name'>Guru</div>
               </div>
               <div className="p-wrapper side">
-                <p data-w-id="542b7611-4c6b-9c66-bff4-41e5e8b10239">Diving into the college education, this elementary class, how did that work?</p>
+                <b className='extra-bolded'>Diving into the college education, this elementary class, how did that work?</b>
               </div>
             </div>
             <div className="section-wrapper">
@@ -720,11 +718,9 @@ const Rachel = () => {
                   <p>But I did a lot of self-reflection like, am I still embarrassed of my Korean name? Do I want this publicly, like my full name? Is that dangerous? </p>
                   <p>I wanted to not only distinguish myself as other Rachel Lees, but I think what&#x27;s important is like, it shows to me that I finally accepted the sort of Koreanness. Lee is obviously very Korean, but Rachel is not, but Ha-Eun feels like it is.</p>
                   <p>So it really started when I tried to brand myself and make a website and things in 2020, and then it felt really important to include that in programs, include that in all of my art, with photography and illustrations and other journalism things that I sometimes do.</p>
-                <b data-w-id="2601019e-183d-359c-dfd4-d74fa8c80006">I also wanted to honor my parents with my Korean name because they actually picked it before I was named Rachel.</b>
-                <p data-w-id="2601019e-183d-359c-dfd4-d74fa8c80008">In Korean, God means haneunim (하느님)</p>
-                <p data-w-id="2601019e-183d-359c-dfd4-d74fa8c8000a">and grace is eunhye (은혜).</p>
-                <p data-w-id="2601019e-183d-359c-dfd4-d74fa8c8000c">So they took the &quot;ha&quot; from haneunim, God, and the &quot;eun&quot; from eunhye, grace, </p>
-                <p data-w-id="8ccd263a-26c2-fdc4-69da-9c8cd3815dd9">to create God&#x27;s grace, Ha-Eun.</p>
+                <p data-w-id="2601019e-183d-359c-dfd4-d74fa8c80006">I also wanted to honor my parents with my Korean name because they actually picked it before I was named Rachel.</p>
+                <b data-w-id="2601019e-183d-359c-dfd4-d74fa8c80008">In Korean, God means haneunim (하느님) and grace is eunhye (은혜).</b>
+                <p data-w-id="2601019e-183d-359c-dfd4-d74fa8c8000c">So they took the &quot;ha&quot; from haneunim, God, and the &quot;eun&quot; from eunhye, grace, to create God&#x27;s grace, Ha-Eun.</p>
               </div>
               </div>
             </div>
