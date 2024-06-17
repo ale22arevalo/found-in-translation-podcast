@@ -56,17 +56,17 @@ const Cy = () => {
                 <h3>The Host<br/><span className="first-name">Guru Ramanathan</span></h3>
               </div>
               <div className="p-wrapper side">
-                  <p>Hello and welcome to <b className="bolded">Found in Translation</b>. I&#x27;m your host Guru Ramanathan and this is a podcast where first/second generation and immigrants come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.</p>
-                  <p>This week&#x27;s guest is Cynthia Mojica. We go all the way back to college. I'm not gonna date ourselves there with the graduation year and everything, but I'm very excited for you guys to hear from her because Cynthia is such an articulate and thoughtful person, and has a very interesting story to share. The language she predominantly speaks at home is American Sign Language, or ASL. She is a hearing person, but her mom is hard of hearing, while her dad is fully deaf. So in this episode, she talks about: </p>
+                  <p>Hello and welcome to <b className="bolded">Found in Translation</b>. I&#x27;m your host Guru Ramanathan and this is a podcast where first/second generation and immigrant people come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.</p>
+                  <p>This week&#x27;s guest is Cynthia Mojica. We go all the way back to college. I'm not gonna date ourselves there with the graduation year and everything, but I'm very excited for you guys to hear from her because Cynthia is such an articulate and thoughtful person, and has a very interesting story to share. The language she predominantly speaks at home is American Sign Language, or ASL. She is a hearing person, but her mom is hard of hearing while her dad is fully deaf. So, in this episode, she talks about: </p>
                   <div className='text-photo'>
                     <div className='text-arrow'>
                       <p className='handwriting'>This is Cynthia</p>
                     </div>
                     <img className="vertical-photo" src={cynthia_headshot} alt="" loading="lazy" />
                   </div>
-                  <p><b className='bolded'>A) </b>Being a C.O.D.A., or Child of Deaf Adults, and having to grow up while also acting as a translator for her parents</p>
-                  <p><b className='bolded'>B) </b>The nuances of American Sign Language and deaf culture as a whole</p>
-                  <p><b className='bolded'>C) </b> and the need for more accessible spaces in our society.</p>
+                  <p><b className='bolded'>A) </b>being a C.O.D.A., or Child of Deaf Adults, and having to grow up while also acting as a translator for her parents</p>
+                  <p><b className='bolded'>B) </b>the nuances of American Sign Language and deaf culture as a whole</p>
+                  <p><b className='bolded'>C) </b>and the need for more accessible spaces in our society.</p>
                   <p>I hope you guys enjoy.</p>
                 </div>
             </section>
@@ -86,7 +86,7 @@ const Cy = () => {
                   <div className='bolded-name'>Guru</div>
                 </div>
                 <div className="p-wrapper side">
-                  <p>I&#x27;d love to learn more about which of your family members are hard of hearing or deaf, and how you had to learn ASL in your childhood and how that played out when you were growing up? </p>
+                  <p>I&#x27;d love to learn more about how you had to learn ASL in your childhood and how that played out when you were growing up? </p>
                 </div>
             </section>
             <section className="section-wrapper">
@@ -95,10 +95,10 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                   <b className='bolded'>My mom is hard of hearing and my dad is fully deaf.</b>
-                  <p>And so in the deaf community, that would make me a <b className='bolded'>C.O.D.A.</b> So that&#x27;s a child of deaf, I guess, in my case, adults. Sometimes people could have one or two, obviously. So, I usually ask this question a lot to my mom because I, for the longest time, didn&#x27;t know what came first.</p>
-                  <p>It was kind of like, you know, the chicken and the egg question. What came first: ASL or English. And the consensus is both. But I started taking ASL classes.</p>
+                  <p>And so, in the deaf community, that would make me a <b className='bolded'>C.O.D.A.</b> So that&#x27;s a Child of Deaf, I guess, in my case, Adults. Sometimes people could have one or two, obviously. So, I usually ask this question a lot to my mom because I, for the longest time, didn&#x27;t know what came first.</p>
+                  <p>It was kind of like, you know, the chicken and the egg question. What came first: ASL or English. And the consensus is both. But, I started taking ASL classes.</p>
                   <p>And I have pictures in my house of just me and my mom practicing gestures. I&#x27;m mimicking my mom, like touching my nose and touching my ears and touching my head and, you know, just lots of visual stuff.</p> 
-                  <p>And then for my elementary to middle school time, I went to an integrated school in the city where there were deaf students, hard of hearing students, and students who were hearing like me who may have deaf parents like I did.</p>
+                  <p>And then, for my elementary to middle school time, I went to an integrated school in the city where there were deaf students, hard of hearing students, and students who were hearing like me who may have deaf parents like I did.</p>
                   <p>And it was sort of like this nice tight knit community that my family felt was a good safe space for both their child&#x27;s education, but also their ability to be in touch with their child&#x27;s education.</p> 
                   <p>And then, when I went to high school, I decided I wanted to go outside of that bubble and that&#x27;s kind of where the formal classes ended for me.</p>
               </div>
@@ -108,7 +108,7 @@ const Cy = () => {
                 <div className='bolded-name'>Guru</div>
               </div>
               <div className="p-wrapper side">
-                <b className='extra-bolded'>Can you talk a little bit more about just what it was like having to grow up with being like a ASL-English translator and how those interactions were like when you had to let's say, take your parents to a parent-teacher conference at school or having friends over, and stuff like that?</b> 
+                <b className='extra-bolded'>Can you talk a little bit more about just what it was like having to grow up with being like a ASL-English translator and how those interactions were like when you had to, let's say, take your parents to a parent-teacher conference at school or having friends over, and stuff like that?</b> 
               </div>
             </section>
             <section className="section-wrapper quote">
@@ -117,7 +117,7 @@ const Cy = () => {
             </section>
             <section className="section-wrapper">
               <div className='p-wrapper full'>
-                <p>I felt like I had to grow up pretty early on just because the moment I became at least semi-fluent in English, I had to translate for my parents, whether it be for government offices or the post office or some store, restaurant, et cetera. That was a lot.</p>
+                <p>I felt like I had to grow up pretty early on just because the moment I became at least semi-fluent in English, I had to translate for my parents, whether it be for government offices or the post office or some store, restaurant, etc. That was a lot.</p>
                 <p>In terms of school, I didn&#x27;t have to worry about parent-teacher conferences because the teachers there, some of them were deaf themselves.</p>
                 <p>Some of them knew how to sign and did the formal education that they needed to support those students. And so I never had to worry about getting an interpreter until I went to high school and that&#x27;s when things started going downhill.</p>
               </div>
@@ -127,7 +127,7 @@ const Cy = () => {
                 <div className='bolded-name'>Guru</div>
               </div>
               <div className='p-wrapper side'>
-                  <b className='extra-bolded'>When you were growing up, did you have like a preference of ASL or English being your primary language and how did that kind of affect your own self-perception of being immersed in deaf culture or not?</b>
+                  <b className='extra-bolded'>When you were growing up, did you have like a preference of ASL or English being your primary language, and how did that kind of affect your own self-perception of being immersed in deaf culture or not?</b>
               </div>
             </section>
             <section className="section-wrapper">
@@ -135,9 +135,9 @@ const Cy = () => {
                 <div className='bolded-name'>Cynthia</div>
               </div>
               <div className='p-wrapper side'>
-                  <p>I had a preference of English just because in the beginning, I wasn&#x27;t really good at it. It was part of the experience of being a child with two deaf adults is that you kind of lose, unless you have, you know, hearing family members outside of your immediate family that will help you develop the language.</p>
-                  <p>I didn&#x27;t have that. So a lot of my issues with English kind of manifested when I went to school. I had to go to speech therapy for like five years. That made me appreciate ASL more because I at least, I had to think about this, but I&#x27;m able to better describe a word that I&#x27;m missing in ASL than describe a word that I&#x27;m missing in English.</p>
-                  <p>So that&#x27;s kind of like a way that I can describe my relationship to ASL more, but I guess now if I were to compare it to how I felt before, I feel more comfortable speaking in English than ASL.</p>
+                  <p>I had a preference of English, just because in the beginning, I wasn&#x27;t really good at it. It was part of the experience of being a child with two deaf adults that you kind of lose, unless you have, you know, hearing family members outside of your immediate family that will help you develop the language.</p>
+                  <p>I didn&#x27;t have that. So a lot of my issues with English kind of manifested when I went to school. I had to go to speech therapy for like five years. That made me appreciate ASL more because I at least -- I had to think about this -- but I&#x27;m able to better describe a word that I&#x27;m missing in ASL than describe a word that I&#x27;m missing in English.</p>
+                  <p>So that&#x27;s kind of like a way that I can describe my relationship to ASL more, but I guess now if I were to compare it to how I felt before, and I feel more comfortable speaking in English than ASL.</p>
               </div>
             </section>
             <section className="section-wrapper">
@@ -150,13 +150,13 @@ const Cy = () => {
             </section>
             <section className="section-wrapper quote">
                 <div className='bolded-name'>Cynthia</div>
-                <p><span>I think if I were to explain it to my childhood self, it was probably some semblance of shame and it was mainly because the world isn&#x27;t as accommodating than the circles that were created by my family, by my school&#x27;s community, an integrated very diverse population.</span></p>
+                <p><span>I think if I were to explain it to my childhood self, it was probably some semblance of shame and it was mainly because the world isn&#x27;t as accommodating than the circles that were created by my family, by my school&#x27;s community (an integrated very diverse population).</span></p>
             </section>
             <section className="section-wrapper">
               <div className="p-wrapper full">
                 <p>And then like stepping out into a doctor&#x27;s office and seeing the exact opposite happen is, you know, part of the negative feelings that I felt towards ASL. It was also because, outside of school, there were definitely kids that didn&#x27;t know the language at all. But I know for any friends that I made outside of school, there was a lot of like weird questions that I would be asked. There would be a lot of like, I don&#x27;t know, very insensitive comments that would be made.</p>
                 <p>And so that made me feel less inclined to show that in public. Another thing is like strangers. Whenever I would sign to my parents outside of school, they would always stare. And that would make me uncomfortable as someone who was very shy and reserved.<b className="bolded"></b></p>
-                <b className="bolded">So it&#x27;s yeah, a lot of conflicting feelings as I got-- as I grew up. But you know, you, you mature and you learn that, you know, there&#x27;s nothing to be ashamed of.</b>
+                <b className="bolded">So it&#x27;s yeah, a lot of conflicting feelings as I got-- as I grew up. But, you know, you, you mature and you learn that, you know, there&#x27;s nothing to be ashamed of.</b>
               </div>
             </section>
             <section className="section-wrapper">
@@ -165,7 +165,7 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p>Yeah. And as you were growing up, like I know you&#x27;re in this integrated school, but as someone who was growing up with deaf parents and also being a person of color, <b className="extra-bolded">what were the pockets of diversity where you were able to align yourself with versus not as you were going through school?</b></p>
+                  <p>Yeah. And as you were growing up, like I know you&#x27;re in this integrated school, but as someone who was growing up with deaf parents and also being a person of color, <b className="extra-bolded">what were the pockets of diversity where you were able to align yourself with versus not, as you were going through school?</b></p>
                 </div>
               </div>
             </section>
@@ -176,7 +176,7 @@ const Cy = () => {
               <div className='p-wrapper side'>
                 <div>
                   <p>Oh that&#x27;s a good question. In terms of race and ethnicity, it was actually very diverse. I never felt isolated in terms of my ethnicity as a Puerto Rican and Dominican individual.</p>
-                  <p>My friend group was predominantly hearing people, even though I did have friends who were hard of hearing and deaf, but you know, when I would go sit at the lunch table, I would be with the hearing kids. I would sit down with the hearing kids and we would talk.</p>
+                  <p>My friend group was predominantly hearing people, even though I did have friends who were hard of hearing and deaf, but, you know, when I would go sit at the lunch table, I would be with the hearing kids. I would sit down with the hearing kids and we would talk.</p>
                   <p>I would go to class and sometimes, certain subjects, we would separate the class. So that kind of created the pockets, I think fundamentally, but I never felt like I only had to stay in that circle. I think I was just the type of person that I didn&#x27;t care.</p>
                 </div>
               </div>
@@ -187,9 +187,9 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p>I feel like I&#x27;ve talked to, on this podcast and also just in my life, there have been people who have the ability to let&#x27;s say have a foot in two worlds at once. And you hear from one side, you&#x27;re not "X" enough to be in this community.</p>
-                  <p>And then hear from the, you hear the same thing from the other side. And so I&#x27;m curious if that ever came up from some of your hard of hearing or deaf friends who are saying like, </p>
-                  <p> Because you&#x27;re not actually deaf or hard of hearing, you can&#x27;t fully be immersed in this culture. And then there&#x27;s the other kids who are just have, you know, they can hear properly. <b className='extra-bolded'>Did you ever receive any comments like that?</b></p>
+                  <p>I feel like I&#x27;ve talked to, on this podcast and also just in my life, there have been people who have the ability to, let&#x27;s say, have a foot in two worlds at once. And you hear from one side, you&#x27;re not "X" enough to be in this community.</p>
+                  <p>You hear the same thing from the other side. And so, I&#x27;m curious if that ever came up from some of your hard of hearing or deaf friends who are saying like, </p>
+                  <p>Because you&#x27;re not actually deaf or hard of hearing, you can&#x27;t fully be immersed in this culture. And then there&#x27;s the other kids who are just have, you know, they can hear properly. <b className='extra-bolded'>Did you ever receive any comments like that?</b></p>
                 </div>
               </div>
             </section>
@@ -198,7 +198,7 @@ const Cy = () => {
                   <div className='bolded-name'>Cynthia</div>
                 </div>
               <div className="p-wrapper side">
-                <p>The answer, to just say it shortly, is no. I would think of it in terms of ableism. I&#x27;m hearing. So technically speaking, I have the upper hand, the privilege in terms of the hierarchy of people.</p>
+                <p>The answer, to just say it shortly, is no. I would think of it in terms of ableism. I&#x27;m hearing. So, technically speaking, I have the upper hand, the privilege, in terms of the hierarchy of people.</p>
                 <p>However, if I was a deaf person, if I was a hard of hearing person, I would definitely have those feelings because there&#x27;s a deaf community. And then there&#x27;s specific issues within the community where it&#x27;s like, "oh, you&#x27;re not deaf enough." </p>
                 <p>Or you&#x27;re not adjusting to the rest of the world, I guess, that aren&#x27;t a non-deaf community, the non-deaf people. So for me, when it comes to trying to fit in in those circles, I never felt a need to do that because I knew that I could easily drop into any pockets.</p>
                 <p>And I feel like that&#x27;s similar to a lot of other privileged groups where they feel like they don&#x27;t need to feel the disconnect between certain groups.</p>
