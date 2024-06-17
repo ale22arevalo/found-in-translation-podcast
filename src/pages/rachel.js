@@ -165,7 +165,7 @@ const Rachel = () => {
                     <img className="vertical-photo" src={preschool_rachel} alt="" loading="lazy" />
                   </div>
                   <p>My grandma on my mom's side, also, was living with us in Texas in my early years and she doesn't speak any English. I think my dad was very persistent because he had trouble growing up in the American schooling system with English as a second language. So, he did implement English-language books a lot for me to read and get that going while all I really heard though was Korean. </p>
-                  <p>A lot of my peers did attend hangul hakgyo (한글 학교), which is like Korean school. It was usually on a weekend and they learned to read and write and speak, et cetera. But, my parents never forced me to attend.</p>
+                  <p>A lot of my peers did attend hangul hakgyo (한글 학교), which is like Korean school. It was usually on a weekend and they learned to read and write and speak, etc. But, my parents never forced me to attend.</p>
               </div>
             </section>
  
@@ -490,7 +490,7 @@ const Rachel = () => {
                 <div>
                   <p>Yeah, for sure, and I think exactly that. It&#x27;s not even like the songs that this group had were the best songs ever, but I just loved them as artists, like seeing their journey, that I was so passionate about their music that I wanted to sing their music, for example. But I couldn&#x27;t pronounce the lyrics or I wasn&#x27;t fully able to understand the song, or it was much harder for me to memorize the lyrics to the songs.</p>
                   <p>What ended up happening is I tried to learn on my own. Like I would copy down an entire song in hangul and then I would try to translate the words on my own.</p>
-                  <p>Like I'd be reading it, I&#x27;d try to translate what it meant so I could understand, and then I&#x27;d go back and I&#x27;d try to listen line by line and see if I can guess on how to write it. And then I&#x27;d check to see if I was right or wrong, et cetera.</p>
+                  <p>Like I'd be reading it, I&#x27;d try to translate what it meant so I could understand, and then I&#x27;d go back and I&#x27;d try to listen line by line and see if I can guess on how to write it. And then I&#x27;d check to see if I was right or wrong, etc.</p>
                   <p>The spelling of these things, it was often wrong.</p>
                 </div>
               </div>
@@ -644,7 +644,7 @@ const Rachel = () => {
                   <p>I also feel like, in general growing up, when people asked my identity, it was often assumed that I was Chinese. And when telling them, &quot;Oh, I&#x27;m Korean,&quot; they had no idea what Korea was. Or it was the &quot;Are you from the North or South?&quot; question, right?</p>
                   <p>But now it&#x27;s like, I bond with people of any race through a mutual love for K-pop. Which is something I literally wouldn&#x27;t have never imagined.</p>
                   <p>And Korean movies and TV shows, it feels just as popular in my conversations as it would of any other like American TV show or movie, which I think is interesting.</p>
-                  <p>And I hate that this is influenced by that, but because it seems like as an American society, people are more accepting and interested in Korean culture through media, music, et cetera, I feel like I&#x27;m more proud to be Korean because of that. And I am excited to talk to people about my culture.</p>
+                  <p>And I hate that this is influenced by that, but because it seems like as an American society, people are more accepting and interested in Korean culture through media, music, etc, I feel like I&#x27;m more proud to be Korean because of that. And I am excited to talk to people about my culture.</p>
                   <p>And like what once used to be like &quot;Oh, Rachel, you&#x27;re Korean, you&#x27;re different&quot; has now become &quot;Oh, my gosh, I&#x27;m so jealous because I love this K-pop group and I watch the reality shows and I can&#x27;t understand half of what they&#x27;re saying, but you know more, will you talk about it with me?&quot; Or &quot;Oh, like this song has such a great melody and I understand some things based on the music video and the title, but can you dive in more about the lyrics, so I can really appreciate this thing?&quot;</p>
                 </div>
               </div>
@@ -707,7 +707,7 @@ const Rachel = () => {
             <div className="section-wrapper">
               <div className="p-wrapper full">
                 <div>
-                  <p>I grew up never telling anyone my middle name because it made me Korean, therefore more Asian, therefore more isolated, et cetera, et cetera.</p>
+                  <p>I grew up never telling anyone my middle name because it made me Korean, therefore more Asian, therefore more isolated, etc.</p>
                   <p>But the summer of 2020, I was in this dance business class that was a required course and we were building our websites and talking about, you know, how we need to brand ourselves and all of these things. And I always panicked when it came to my name because Rachel Lee is a very common name. </p>
                   <p>There&#x27;s like 14 trillion of us in the world. But I never wanted to share my middle name. It was too embarrassing, really. </p>
                   <p>So, I had played with other stage names. Like my mother wanted me to go by Rachel Evergreen, like Rachel Green from &quot;Friends.&quot; And I was like absolutely not.</p>
