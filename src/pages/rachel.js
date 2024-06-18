@@ -113,7 +113,7 @@ const Rachel = () => {
                     </div>
                     <img className="vertical-photo" src={rachel_headshot} alt="" loading="lazy" />
                   </div>
-                  <p>--kidding, but she should definitely have her own fan club at this point. Rachel and I actually met each other at NYU and some of the conversations we&#x27;ve had with each other over the years about our respective relationships to Korean and Tamil have inspired this podcast.</p>
+                  <p>Kidding, but she should definitely have her own fan club at this point. Rachel and I actually met each other at NYU and some of the conversations we&#x27;ve had with each other over the years about our respective relationships to Korean and Tamil have inspired this podcast.</p>
                   <p>So, we're very grateful that she can be the inaugural episode and that we can share her story of:</p>
                   <p><b className="list">A) </b>what it was like to navigate coming around to learning Korean while growing up in Dallas‍<br /><b className="list">B) </b>how that affected her relationship with her relatives, school peers, and church <br /><b className="list">C)</b> how her artistic identity was influenced by this journey she was going on. </p>
                   <p>And so much more. So, hope you enjoy!</p>
@@ -126,7 +126,7 @@ const Rachel = () => {
             <section className="section-wrapper">
               <div className="p-wrapper full">
                 <h3 className="cue">~ interview begins ~</h3>
-                <p>Thank you, Rachel, for coming onto the podcast. We really appreciate it. </b> What was your connection with Korean in your childhood?</p>
+                <p>Thank you, Rachel, for coming on to the podcast. We really appreciate it. </b> What was your connection with Korean in your childhood?</p>
               </div>
             </section>
 
@@ -209,8 +209,8 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                   <p>I feel like I really didn&#x27;t break away and decide that I wasn&#x27;t going to be Korean. In elementary school, I dealt with some bullying. In the first grade, two third graders would push me and tease me. </p>
-                  <p>And so I think that&#x27;s when I realized that, oh, I had something different about me. And, if my appearance is one way, but everything else is not Asian, then maybe I won&#x27;t be Asian or be considered &quot;normal in their eyes&quot;, and that kind of stuff will stop.</p>
-                  <p>My mom actually, part of the reason I wonder if she didn&#x27;t send me to hangul hakgyo is because she told me once that she witnessed those two boys bully me.</p>
+                  <p>And so I think that&#x27;s when I realized that, oh, I had something different about me. And, if my appearance is one way, but everything else is not Asian, then maybe I won&#x27;t be Asian or be considered &quot;normal in their eye,s&quot; and that kind of stuff will stop.</p>
+                  <p>My mom, actually, part of the reason I wonder if she didn&#x27;t send me to hangul hakgyo is because she told me once that she witnessed those two boys bully me.</p>
                   <p>I had lived in the house right across the street from my elementary school. And she saw me get pushed or something. And then like saw me cry at the park. I wonder, too, if that influenced my parents&#x27; decision as well to not force me to learn the language.</p>
               </div>
             </div>
@@ -221,7 +221,7 @@ const Rachel = () => {
                </div>
               <div className="p-wrapper side">
                   <p> <b className="extra-bolded">How did that then bleed into your direct relationship with your mom and dad?</b></p>
-                  <p>And were you openly saying to them, &quot;I don&#x27;t want to learn Korean or eat Korean food&quot;, or anything of that nature?</p>
+                  <p>And were you openly saying to them, &quot;I don&#x27;t want to learn Korean or eat Korean food,&quot; or anything of that nature?</p>
               </div>
             </div>
 
@@ -234,10 +234,10 @@ const Rachel = () => {
                   <p>And, of course, I&#x27;m like <b>&quot;I don&#x27;t want this for lunch. How dare you pack this for me?&quot; </b></p>
                   <p>And she never changed. I was too young to comprehend that all the hard work that she puts in to create food for me in the morning. </p>
                   <p>So, of course, I understand that now, but as a kid, I was like, <b>&quot;She&#x27;s letting people get to me.&quot;</b></p>
-                  <p>But when it came to the language itself, my parents were pretty supportive. I remember distinctly one time we were visiting my grandparents in Texas who were on my dad&#x27;s side. </p>
+                  <p>But when it came to the language itself, my parents were pretty supportive. I remember distinctly one time we were visiting my grandparents in Texas, who were on my dad&#x27;s side. </p>
                   <p>And I remember my grandma was yelling at me like, <b className='bolded'>&quot;You&#x27;re Korean, you need to learn Korean,&quot; </b>blah, blah, blah, all that stuff.</p>
                   <p>And my mom stepped in and be like, <b className='bolded'>&quot;Well, how about you learn English? You&#x27;re living in America and if you want to talk to her, that&#x27;s the way to do it.&quot; </b></p>
-                  <p>I remember being like shocked about that. And so, in a way I feel I&#x27;ve always been supported language wise, in that sense.</p>
+                  <p>I remember being, like, shocked about that. And so, in a way, I feel I&#x27;ve always been supported language wise, in that sense.</p>
               </div>
             </div>
 
@@ -261,7 +261,7 @@ const Rachel = () => {
               <div className="p-wrapper side">
                   <p>Well, I really resonated with that dictionary thing, first of all. Because for me, even though I know that if I just said random syllables, how would they know whether or not I&#x27;m right or wrong? But I wanted to be right. Exactly what you said about that ownership. I wanted to prove that I could give them the correct answer.</p>
                   <p>I think the ownership idea for me, when it came to my family, it was just knowing that they identified one way that I didn&#x27;t. I think it was less resentful.</p>
-                  <p I replayed that comment that my mom said to my grandma and attached it with like... </p>
+                  <p>I replayed that comment that my mom said to my grandma and attached it with like... </p>
                   <p>The resentment came more about...<b>Don&#x27;t they love me enough to want to learn English?</b></p>
                   <p>I think it was more of like--selfish way of thinking--but they&#x27;re not catering to me or they&#x27;re not making it accessible to me, especially because I was younger. </p>
               </div>
@@ -306,7 +306,7 @@ const Rachel = () => {
             </div>
             <div className="section-wrapper quote">
                 <div className='bolded-name'>Rachel</div>
-                <p><span>Yeah, I think it&#x27;s just being American. I wanted to be seen as a peer or a kid or a friend before being seen as &quot;the person who doesn&#x27;t look like me.&quot;</span></p>
+                <p><span>Yeah, I think it&#x27;s just being American. I wanted to be seen as a peer or a kid or a friend, before being seen as &quot;the person who doesn&#x27;t look like me.&quot;</span></p>
             </div>
             <div className="section-wrapper">
               <div className="name-wrapper">
@@ -407,14 +407,14 @@ const Rachel = () => {
               </div>
             </div>
             <div className="section-wrapper quote">
-                <p><span>After class, I introduced myself and their response was like &quot;Why didn&#x27;t you help us translate?&quot; And I was like &quot;Oh, because I&#x27;m not that great.&quot; And I'm saying all this in Korean. And I was like, my pronunciation's not the best.</span></p>
+                <p><span>After class, I introduced myself and their response was like, &quot;Why didn&#x27;t you help us translate?&quot; And I was like, &quot;Oh, because I&#x27;m not that great.&quot; And I'm saying all this in Korean. And I was like, my pronunciation's not the best.</span></p>
             </div>
             <div className="section-wrapper">
               <div className="p-wrapper full">
                   <p>And so, that happened.</p>
-                  <p>And at the same time, while this was happening, my mother was doing this thing, because her and my father text in Korean. And she&#x27;d be driving me and picking me up from school, and she&#x27;d be like &quot;Oh, what did dad say?&quot;</p>
+                  <p>And at the same time, while this was happening, my mother was doing this thing, because her and my father text in Korean. And she&#x27;d be driving me and picking me up from school, and she&#x27;d be like, &quot;Oh, what did dad say?&quot;</p>
                   <div className="image-414 phot-fader"></div>
-                  <p>And I&#x27;m staring at the phone and being like &quot;Yeah, I can&#x27;t read this. I don&#x27;t know what he&#x27;s saying.&quot;</p>
+                  <p>And I&#x27;m staring at the phone and being like, &quot;Yeah, I can&#x27;t read this. I don&#x27;t know what he&#x27;s saying.&quot;</p>
                   <p>And at the time, there were other Asians at my arts high school, but, I feel like I still didn&#x27;t want to accept myself and I still wanted to be part of this like Eurocentric vibe.</p>
               </div>
             </div>
@@ -434,8 +434,8 @@ const Rachel = () => {
               <div className="p-wrapper side">
                 <p>That interaction with the Korean company, added with my mother wanting me to read her text messages from my dad and I couldn&#x27;t, plus my grandpa on my dad&#x27;s side had passed my freshman year of high school. And I had some regrets of not being able to have a better relationship with him because of my lack of knowledge in the Korean language. So these little things added up.</p>
                   <p>And I had this friend who was obsessed with all things K-pop at the time. And I consider her like my cousin or like my god-sister.</p>
-                  <p>So she was going through a phase where every time I would come over, she would show me hours and hours of K-pop music videos. And I was like &quot;You&#x27;re weird. This is weird. This is not what I want. Like the boys are wearing more makeup than I am.&quot; Like ooh gender roles, right? That was embedded in me as a child.</p>
-                  <p>Or like, ooh the girls either act like they&#x27;re trying to be cute or they&#x27;re on the other end of the spectrum and trying to be overly sexy. So, I was just hating on K-pop.</p>
+                  <p>So she was going through a phase where every time I would come over, she would show me hours and hours of K-pop music videos. And I was like, &quot;You&#x27;re weird. This is weird. This is not what I want. Like the boys are wearing more makeup than I am.&quot; Like ooh gender roles, right? That was embedded in me as a child.</p>
+                  <p>Or like, ooh the girls either act like they&#x27;re trying to be cute, or they&#x27;re on the other end of the spectrum and trying to be overly sexy. So, I was just hating on K-pop.</p>
                 {/* <div className='text-photo' style={{marginTop:0}}>
                   <div className='text-arrow'>
                     <p className='handwriting'>Rachel and Sarah</p>
@@ -457,13 +457,13 @@ const Rachel = () => {
                 <div><img src="images/got7.webp" loading="lazy" sizes="(max-width: 479px) 89vw, (max-width: 767px) 43vw, (max-width: 991px) 45vw, 46vw" srcset="images/got7-p-500.webp 500w, images/got7-p-800.webp 800w, images/got7.webp 900w" alt="" className="image-416" /></div>
                 <p data-w-id="63435366-8ea9-cce1-ebe6-75f96f99ed84" >It was a song called <a href="https://www.youtube.com/watch?v=vrdk3IGcau8" target="_blank">&quot;Just Right.&quot;</a></p>
                 <p data-w-id="63435366-8ea9-cce1-ebe6-75f96f99ed86">And the concept is like, there&#x27;s this girl who&#x27;s sad about herself and like the way she looks.</p>
-                <p data-w-id="63435366-8ea9-cce1-ebe6-75f96f99ed88">And then these little people AKA the members of GOT7 are singing &quot;No, you&#x27;re just right.&quot; Like you're whatever.</p>
+                <p data-w-id="63435366-8ea9-cce1-ebe6-75f96f99ed88">And then these little people AKA the members of GOT7 are singing: &quot;No, you&#x27;re just right!&quot; Like you're whatever.</p>
                 <p data-w-id="63435366-8ea9-cce1-ebe6-75f96f99ed8a">So, it was kinda cute and they were kind of good dancers.</p>
                 <p data-w-id="63435366-8ea9-cce1-ebe6-75f96f99ed8c" ><b>So I, on a whim, decided that I wanted to learn how to read and write.</b></p>
                   
                 {/* ADD KOREAN WRITING ILLUSTRATIONS */}
-                <p>I wanted to bond with my other grandparents who hadn&#x27;t passed yet before it was too late. I wanted to maybe be a translator. And, as someone who has a foot in both worlds, as you said, like, how can I help someone else that may be struggling because<b></b></p>
-                <p> I felt like I understood the frustration of not being understood.</p>
+                <p>I wanted to bond with my other grandparents who hadn&#x27;t passed yet before it was too late. I wanted to maybe be a translator. And, as someone who has a foot in both worlds, as you said, like, how can I help someone else that may be struggling because...<b></b></p>
+                <p>I felt like I understood the frustration of not being understood.</p>
                 <p>And so I had gone on Netflix and I was looking at a Korean show to watch. And as I was scrolling through, I saw on Netflix that they had a reality show called &quot;Real GOT7.&quot; I had started to watch because I was trying to have the Korean captions on. Because I could understand some things, I wanted to associate sound with what I was seeing or reading and starting to recognize words.</p>
                 <iframe className="embed-video" src="https://www.youtube.com/embed/RL_Dxu4Dli0?si=4_uQvYygAeOtuOjK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <p>That itself was not that successful, but it propelled me into wanting to learn how to read and write more. But what it really did was help me understand and sort of educate myself on my own culture, especially because K-pop stars train so much in singing and dancing, and I also felt like I could relate to that as an artist and someone who was dancing 24/7.</p>
@@ -525,9 +525,9 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                 <div>
-                  <p>Absolutely. People noticed that I spoke Korean more and it was like a shock. When did this happen,right? And obviously, I was angry at it. There were a lot of mess up and like giggles and things.</p>
-                  <p>Which kind of pushes the timeline a little later, but my grandma, who was a widow because my grandpa had passed when I was a freshman, and the same grandma in which my mom was like &quot;you should learn English, too!&quot; -- like that grandma. I finally had her approval. </p>
-                  <p>At the time, she was in this shelter because she had Parkinson&#x27;s disease and there were times where I actually visited her on my own. And she was so excited that I was learning Korean and able to communicate with her and communicate with the other people that were at this shelter. And, up until that point, I felt like my whole life, she had been comparing me to her friend&#x27;s granddaughters, or I just wasn&#x27;t good enough.</p>
+                  <p>Absolutely. People noticed that I spoke Korean more and it was like a shock. When did this happen, right? And obviously, I was angry at it. There were a lot of mess ups and like giggles and things.</p>
+                  <p>Which kind of pushes the timeline a little later, but my grandma, who was a widow because my grandpa had passed when I was a freshman, and the same grandma in which my mom was like, &quot;You should learn English, too!&quot; -- like that grandma. I finally had her approval. </p>
+                  <p>At the time, she was in this shelter because she had Parkinson&#x27;s disease and there were times where I actually visited her on my own. And she was so excited that I was learning Korean and able to communicate with her, and communicate with the other people that were at this shelter. And, up until that point, I felt like my whole life, she had been comparing me to her friend&#x27;s granddaughters, or I just wasn&#x27;t good enough.</p>
                   <p>I think my mom also started texting me in Korean as well. I still respond in English because the spelling part is hard, but now I can read pretty well.</p>
                   <p>So, I think it&#x27;s given her also more comfort as someone who has trouble spelling in English. So yeah, it definitely changed a lot for my familial relationships.</p>
                 </div>
@@ -544,9 +544,6 @@ const Rachel = () => {
                     집에 있어? 
                   </span>
                 </div>
-                <span className='translation'>
-                  Are you at home?
-                </span>
                 <div className='message-right'>
                   <span>
                   yes just took a nap
@@ -557,9 +554,6 @@ const Rachel = () => {
                     오늘 오디션 안 갔어?
                   </span>
                 </div>
-                <span className='translation'>
-                  You didn't go to the audition today?
-                </span>
                 <div className='message-right'>
                   <span>
                     yeah i decided to rest
@@ -570,9 +564,6 @@ const Rachel = () => {
                     ㅇㅋ 몸은 어때?
                   </span>
                 </div>
-                <span className='translation'>
-                  Okay, how are you feeling?
-                </span>
                 <div className='message-right'>
                   <span>
                     just a little stuffy but finally leaving the house today to get dinner with serena
@@ -583,9 +574,6 @@ const Rachel = () => {
                     ㅇㅋ 조심 하고 영양가 있는거 먹어 오일리 한거 먹지 말고
                   </span>
                 </div>
-                <span className='translation'>
-                 Okay, take care and eat something nutritious, not oily.
-                </span>
                 <div className='message-right'>
                   <span>
                     ok
@@ -608,13 +596,13 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                 <div>
-                  <p>Yeah, I didn&#x27;t consider taking elementary Korean until my last year of college, which was my third year, because I had only attended school for three years. Because the first two years, I was so focused on the dancing thing and I was so focused on just moving to New York and what is life and what am I doing, all this stuff.</p><img src="images/RachelAtNYUNotTisch.jpg" loading="lazy" sizes="(max-width: 479px) 89vw, 45vw" srcset="images/RachelAtNYUNotTisch-p-500.jpg 500w, images/RachelAtNYUNotTisch-p-800.jpg 800w, images/RachelAtNYUNotTisch-p-1080.jpg 1080w, images/RachelAtNYUNotTisch.jpg 1170w" alt="" className="image-414 phot-fader right-in" />
+                  <p>Yeah, I didn&#x27;t consider taking elementary Korean until my last year of college, which was my third year, because I had only attended school for three years. Because the first two years I was so focused on the dancing thing, and I was so focused on just moving to New York and what is life and what am I doing, all this stuff.</p><img src="images/RachelAtNYUNotTisch.jpg" loading="lazy" sizes="(max-width: 479px) 89vw, 45vw" srcset="images/RachelAtNYUNotTisch-p-500.jpg 500w, images/RachelAtNYUNotTisch-p-800.jpg 800w, images/RachelAtNYUNotTisch-p-1080.jpg 1080w, images/RachelAtNYUNotTisch.jpg 1170w" alt="" className="image-414 phot-fader right-in" />
                   <p>But I remember spending a lot of time in K-Town and there&#x27;s a little bookstore and they have like these books that are like, talk to me in Korean or whatever. So I had purchased them to learn.</p>
                   <p>I took Elementary 1 and 2.</p>
                   <p>There was a course for advanced speakers and it was for Korean Americans like me who had Korean spoken to them at home, but didn&#x27;t know the reading and writing basics, and it was sort of accelerated. And I could have taken that course, but I just wanted a fresh start from the beginning.</p>
-                  <p>I think there was at least two, if not, three other students who had parents who were born in Korea or they were second or third gen, but they were born in America. We were kind of in an equal level, but then everyone else didn&#x27;t know a single thing.</p>
+                  <p>I think there was at least two, if not three, other students who had parents who were born in Korea, or they were second or third gen but they were born in America. We were kind of in an equal level, but then everyone else didn&#x27;t know a single thing.</p>
                   <p>Most of them were really into K-pop or anime or Korean dramas, and decided that they wanted to learn Korean. And low-key the classes were hard. I thought maybe I would cruise through a little bit because I knew stuff, but no. I did not get a hundred in the class, still like an A, right.</p>
-                  <p>And my parents started to check my homework because I was struggling. And it was funny 'cause sometimes my parents would disagree like if it&#x27;s like a certain adverb, for example, like which one it is. My mom&#x27;s like &quot;No, it&#x27;s this&quot; and my dad&#x27;s like &quot;No, it&#x27;s this.&quot; And then I&#x27;m just sitting here like &quot;Okay guys, I still have to get this done.&quot; But it really did become a family thing to check my Korean homework at a college level.</p>
+                  <p>And my parents started to check my homework because I was struggling. And it was funny because sometimes my parents would disagree, like if it&#x27;s like a certain adverb, for example, like which one it is. My mom&#x27;s like, &quot;No, it&#x27;s this,&quot; and my dad&#x27;s like, &quot;No, it&#x27;s this.&quot; And then I&#x27;m just sitting here like, &quot;Okay guys, I still have to get this done.&quot; But it really did become a family thing to check my Korean homework at a college level.</p>
                 </div>
               </div>
             </div>
@@ -624,7 +612,7 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                 <div>
-                  <p>So, one thing about the K-pop/K-drama thing. I actually have multiple questions about this. One, I feel like K-pop and now K-dramas have really exploded in the international scene, but especially in the West. Now with the advent of Netflix and Amazon Prime, I feel like are the two biggest streaming services that have a lot of international content.</p>
+                  <p>So, one thing about the K-pop/K-drama thing. I actually have multiple questions about this. One, I feel like K-pop, and now K-dramas, have really exploded in the international scene, but especially in the West. Now with the advent of Netflix and Amazon Prime, I feel like are the two biggest streaming services that have a lot of international content.</p>
                   <div className="info-p"><img src="images/squidgame.jpg" loading="lazy" alt="" /></div>
                   <p><a href="https://www.nytimes.com/2022/09/12/arts/television/lee-jung-jae-squid-game-emmys.html" target="_blank">&quot;Squid Game&quot;</a>, that&#x27;s definitely a huge cultural zeitgeist. And <a href="https://time.com/5779940/parasite-best-picture-oscars/" target="_blank">&quot;Parasite&quot;</a> in 2020 won so many Oscars. It&#x27;s really cool to see this Korean content become more of the mainstream. Do you have any thoughts on how it&#x27;s being adopted, accepted, appropriated in an American context now that so much of the content from across multiple mediums is really blowing up?</p>
                 </div>
@@ -644,8 +632,8 @@ const Rachel = () => {
                   <p>I also feel like, in general growing up, when people asked my identity, it was often assumed that I was Chinese. And when telling them, &quot;Oh, I&#x27;m Korean,&quot; they had no idea what Korea was. Or it was the &quot;Are you from the North or South?&quot; question, right?</p>
                   <p>But now it&#x27;s like, I bond with people of any race through a mutual love for K-pop. Which is something I literally wouldn&#x27;t have never imagined.</p>
                   <p>And Korean movies and TV shows, it feels just as popular in my conversations as it would of any other like American TV show or movie, which I think is interesting.</p>
-                  <p>And I hate that this is influenced by that, but because it seems like as an American society, people are more accepting and interested in Korean culture through media, music, etc, I feel like I&#x27;m more proud to be Korean because of that. And I am excited to talk to people about my culture.</p>
-                  <p>And like what once used to be like &quot;Oh, Rachel, you&#x27;re Korean, you&#x27;re different&quot; has now become &quot;Oh, my gosh, I&#x27;m so jealous because I love this K-pop group and I watch the reality shows and I can&#x27;t understand half of what they&#x27;re saying, but you know more, will you talk about it with me?&quot; Or &quot;Oh, like this song has such a great melody and I understand some things based on the music video and the title, but can you dive in more about the lyrics, so I can really appreciate this thing?&quot;</p>
+                  <p>And I hate that this is influenced by that, but because it seems like as an American society, people are more accepting and interested in Korean culture through media, music, etc., I feel like I&#x27;m more proud to be Korean because of that. And I am excited to talk to people about my culture.</p>
+                  <p>And like what once used to be like, &quot;Oh, Rachel, you&#x27;re Korean, you&#x27;re different,&quot; has now become &quot;Oh, my gosh, I&#x27;m so jealous because I love this K-pop group and I watch the reality shows and I can&#x27;t understand half of what they&#x27;re saying, but you know more -- will you talk about it with me?&quot; Or &quot;Oh, like this song has such a great melody and I understand some things based on the music video and the title, but can you dive in more about the lyrics, so I can really appreciate this thing?&quot;</p>
                 </div>
               </div>
             </div>
@@ -654,7 +642,7 @@ const Rachel = () => {
             </div>
             <div className="section-wrapper">
               <div className="p-wrapper">
-              <p><b>Part of it is just me wanting to believe great artistry deserves praise and recognition</b> and a lot of these films and these shows and the music are just great art in general.</p>
+              <p><b>Part of it is just me wanting to believe great artistry deserves praise and recognition,</b> and a lot of these films and these shows and the music are just great art in general.</p>
                 <p data-w-id="47d5139f-b805-3095-84b3-c5c585f0a0f5">And I think it really does prove that even if someone doesn&#x27;t fully understand, what I appreciate about art as an artist is that it tells stories, it touches emotions.</p>
                 <p data-w-id="47d5139f-b805-3095-84b3-c5c585f0a0f7">How powerful can art be that if somebody doesn&#x27;t have ownership of the language or understand the language, they still go through this journey?</p>
               </div>
@@ -677,9 +665,9 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                 <div>
-                  <p>I think, yes, but I think it&#x27;s been brought into to East Asian broadly as opposed to Korean, specifically. Now I have a bigger appreciation,  determination, to bring awareness to Asian artists and like being okay with being in work that my identity is somehow vocalized within.</p>
-                  <p>I was in a project, for a great friend of mine, and it&#x27;s kind of a parody, experimental dance work that talks about the East Asian women experience in America and sort of our underlying feelings of stuff. And it talks about how we&#x27;re perceived, you know like quiet women or Asian women can often be fetishized and sort of the sexualization of them, you know?</p>
-                  <p>If I was told about this piece early high school, I would&#x27;ve never done it. I would&#x27;ve been like &quot;No, that is so separate. I&#x27;m not even Asian, what are you talking about?&quot; But I think, now, I wanna be in work that is like this. I&#x27;m okay and I&#x27;m not like ashamed or hiding behind who I am.</p>
+                  <p>I think, yes, but I think it&#x27;s been brought into to East Asian broadly as opposed to Korean, specifically. Now I have a bigger appreciation, determination, to bring awareness to Asian artists and like being okay with being in work that my identity is somehow vocalized within.</p>
+                  <p>I was in a project for a great friend of mine, and it&#x27;s kind of a parody, experimental dance work that talks about the East Asian women experience in America and sort of our underlying feelings of stuff. And it talks about how we&#x27;re perceived, you know, like quiet women, or Asian women can often be fetishized and sort of the sexualization of them, you know?</p>
+                  <p>If I was told about this piece early high school, I would&#x27;ve never done it. I would&#x27;ve been like, &quot;No, that is so separate. I&#x27;m not even Asian, what are you talking about?&quot; But I think, now, I wanna be in work that is like this. I&#x27;m okay and I&#x27;m not like ashamed or hiding behind who I am.</p>
                 </div>
               </div>
             </div>
@@ -711,7 +699,7 @@ const Rachel = () => {
                   <p>But the summer of 2020, I was in this dance business class that was a required course and we were building our websites and talking about, you know, how we need to brand ourselves and all of these things. And I always panicked when it came to my name because Rachel Lee is a very common name. </p>
                   <p>There&#x27;s like 14 trillion of us in the world. But I never wanted to share my middle name. It was too embarrassing, really. </p>
                   <p>So, I had played with other stage names. Like my mother wanted me to go by Rachel Evergreen, like Rachel Green from &quot;Friends.&quot; And I was like absolutely not.</p>
-                  <p>But, finally I did a lot of self-reflection like, am I still embarrassed of my Korean name? Do I want this publicly? </p>
+                  <p>But, finally I did a lot of self-reflection, like, am I still embarrassed of my Korean name? Do I want this publicly? </p>
                   <p>But, I wanted to not only distinguish myself as other Rachel Lees, but I think what&#x27;s important is it shows to me that I finally accepted the sort of Koreanness. Lee is obviously very Korean, but Rachel is not, but Ha-Eun feels like it is.</p>
                 <b data-w-id="2601019e-183d-359c-dfd4-d74fa8c80008">In Korean, God means haneunim (하느님) and grace is eunhye (은혜).</b>
                 <p data-w-id="2601019e-183d-359c-dfd4-d74fa8c8000c">So they took the &quot;ha&quot; from haneunim, God, and &quot;eun&quot; from eunhye, grace, to create God&#x27;s grace, Ha-Eun.</p>
