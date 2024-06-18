@@ -507,7 +507,7 @@ const Cy = () => {
               <div className='p-wrapper side'>
                 <div>
                   <p>Got it. Thank you so much for coming onto the podcast. This has been very illuminating for me and I feel it'll be very enlightening for a lot of the people who are going to experience this episode. </p>
-                  <p>Thank you so much for listening to episode three! Now we will roll the credits! I'm your host Guru Ramanathan. This is Found in Translation, created, executive produced by, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc., and do all the things to help us go viral. And stay tuned for the next and last episode of this season. We greatly appreciate your support. </p>
+                  <p>Thank you so much for listening to episode three! Now we will roll the credits! I'm your host Guru Ramanathan. This is Found in Translation. Created, executive produced, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc., and do all the things to help us go viral. And stay tuned for the next and last episode of this season. We greatly appreciate your support. </p>
                 </div>
               </div>
             </section>
