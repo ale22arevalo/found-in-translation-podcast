@@ -323,7 +323,7 @@ const Fa = () => {
                   <div className='bolded-name'>Guru</div>
                 </div>
               <div className='p-wrapper side'>
-                <b className="bolded">And that is a wrap on our season! And we will roll the credits. I'm your host Guru Ramanathan. This is Found in Translation, created, executive produced, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc., and do all the things that will help us go viral. We have greatly appreciated your support from the beginning to the end of the season.</b>
+                <b className="bolded">And that is a wrap on our season! And we will roll the credits. I'm your host Guru Ramanathan. This is Found in Translation. Created, executive produced, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc., and do all the things that will help us go viral. We have greatly appreciated your support from the beginning to the end of the season.</b>
               </div>
         </div>
     </main>
