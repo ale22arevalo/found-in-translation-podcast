@@ -210,8 +210,7 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p><b className="bolded">Yeah. You were talking a little bit earlier about, like, you didn&#x27;t grow up finding a lot of accessibility in public spaces and schools, or anything of that nature.</b></p>
-                  <p>Growing up, I didn&#x27;t even see that, or barely any, deaf characters, or even just the use of ASL in films and and shows. At least in the last two years, I&#x27;ve seen a rise of ASL, or just a more positive exposure of the deaf community in mainstream media.</p>
+                  <p><b className="bolded">Yeah. Growing up, I didn&#x27;t even see that, or barely any, deaf characters, or even just the use of ASL in films and shows. At least in the last two years, I&#x27;ve seen a rise of ASL, or just a more positive exposure of the deaf community in mainstream media.</b></p>
                   <p>Like, there was the film &quot;C.O.D.A.&quot; that won Best Picture. The year before that there was &quot;Sound of Metal&quot;. And, of course, &quot;The Eternals,&quot; which was, I mean, huge Marvel film.</p>
                   <p>And so, I&#x27;m curious, how do you feel about the representation of ASL in mainstream media, but then also at large, <b className="extra-bolded">are you seeing more acknowledgement or, I guess, more accessible spaces, in regular society? Is that representation in media having an effect, a positive effect?</b></p>
                 </div>
