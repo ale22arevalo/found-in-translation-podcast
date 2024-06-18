@@ -116,7 +116,7 @@ const Rachel = () => {
                   <p>--kidding, but she should definitely have her own fan club at this point. Rachel and I actually met each other at NYU and some of the conversations we&#x27;ve had with each other over the years about our respective relationships to Korean and Tamil have inspired this podcast.</p>
                   <p>So, we're very grateful that she can be the inaugural episode and that we can share her story of:</p>
                   <p><b className="list">A) </b>what it was like to navigate coming around to learning Korean while growing up in Dallas‍<br /><b className="list">B) </b>how that affected her relationship with her relatives, school peers, and church <br /><b className="list">C)</b> how her artistic identity was influenced by this journey she was going on. </p>
-                  <p>And so much more. So, h ope you enjoy!</p>
+                  <p>And so much more. So, hope you enjoy!</p>
               </div>
             </section>
           
@@ -126,7 +126,7 @@ const Rachel = () => {
             <section className="section-wrapper">
               <div className="p-wrapper full">
                 <h3 className="cue">~ interview begins ~</h3>
-                <p>Thank you Rachel for coming onto the podcast. We really appreciate it. </b> What was your connection with Korean in your childhood?</p>
+                <p>Thank you, Rachel, for coming onto the podcast. We really appreciate it. </b> What was your connection with Korean in your childhood?</p>
               </div>
             </section>
 
@@ -209,7 +209,7 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                   <p>I feel like I really didn&#x27;t break away and decide that I wasn&#x27;t going to be Korean. In elementary school, I dealt with some bullying. In the first grade, two third graders would push me and tease me. </p>
-                  <p>And so I think that&#x27;s when I realized that, oh, I had something different about me. And if my appearance is one way, but everything else is not Asian, then maybe I won&#x27;t be Asian or be considered &quot;normal in their eyes&quot; and that kind of stuff will stop.</p>
+                  <p>And so I think that&#x27;s when I realized that, oh, I had something different about me. And, if my appearance is one way, but everything else is not Asian, then maybe I won&#x27;t be Asian or be considered &quot;normal in their eyes&quot;, and that kind of stuff will stop.</p>
                   <p>My mom actually, part of the reason I wonder if she didn&#x27;t send me to hangul hakgyo is because she told me once that she witnessed those two boys bully me.</p>
                   <p>I had lived in the house right across the street from my elementary school. And she saw me get pushed or something. And then like saw me cry at the park. I wonder, too, if that influenced my parents&#x27; decision as well to not force me to learn the language.</p>
               </div>
@@ -221,7 +221,7 @@ const Rachel = () => {
                </div>
               <div className="p-wrapper side">
                   <p> <b className="extra-bolded">How did that then bleed into your direct relationship with your mom and dad?</b></p>
-                  <p>And were you openly saying to them &quot;I don&#x27;t want to learn Korean&quot; or eat Korean food or anything of that nature?</p>
+                  <p>And were you openly saying to them, &quot;I don&#x27;t want to learn Korean or eat Korean food&quot;, or anything of that nature?</p>
               </div>
             </div>
 
@@ -233,10 +233,10 @@ const Rachel = () => {
               <p>I feel actually Korean food was the one that my parents wouldn&#x27;t budge, especially like my mom was the type of mom that woke up at 5:00 AM every day to make me some gourmet Korean meal. </p>
                   <p>And, of course, I&#x27;m like <b>&quot;I don&#x27;t want this for lunch. How dare you pack this for me?&quot; </b></p>
                   <p>And she never changed. I was too young to comprehend that all the hard work that she puts in to create food for me in the morning. </p>
-                  <p>So, of course, I understand that now, but as a kid, I was like <b>&quot;She&#x27;s letting people get to me.&quot;</b></p>
+                  <p>So, of course, I understand that now, but as a kid, I was like, <b>&quot;She&#x27;s letting people get to me.&quot;</b></p>
                   <p>But when it came to the language itself, my parents were pretty supportive. I remember distinctly one time we were visiting my grandparents in Texas who were on my dad&#x27;s side. </p>
-                  <p>And I remember my grandma was yelling at me like <b className='bolded'>&quot;You&#x27;re Korean, you need to learn Korean,&quot; </b>blah, blah, blah, all that stuff.</p>
-                  <p>And my mom stepped in and be like <b className='bolded'>&quot;Well, how about you learn English? You&#x27;re living in America and if you want to talk to her, that&#x27;s the way to do it.&quot; </b></p>
+                  <p>And I remember my grandma was yelling at me like, <b className='bolded'>&quot;You&#x27;re Korean, you need to learn Korean,&quot; </b>blah, blah, blah, all that stuff.</p>
+                  <p>And my mom stepped in and be like, <b className='bolded'>&quot;Well, how about you learn English? You&#x27;re living in America and if you want to talk to her, that&#x27;s the way to do it.&quot; </b></p>
                   <p>I remember being like shocked about that. And so, in a way I feel I&#x27;ve always been supported language wise, in that sense.</p>
               </div>
             </div>
@@ -747,7 +747,7 @@ const Rachel = () => {
                 <div className='bolded-name'>Guru</div>
               </div>
               <div className="p-wrapper side">
-                <p data-w-id="96ee040b-b379-b87d-1827-8d9d2bc025a8">Thank you! And that&#x27;s a wrap on episode one, so let's roll the credits! I'm your host Guru Ramanathan. This is Found in Translation, created, executive produced, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc., and do all the things to help us go viral. Stay tuned to episode two and we greatly appreciate your support. </p>
+                <p data-w-id="96ee040b-b379-b87d-1827-8d9d2bc025a8">Thank you! And that&#x27;s a wrap on episode one, so let's roll the credits! I'm your host Guru Ramanathan. This is Found in Translation. Created, executive produced, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc., and do all the things to help us go viral. Stay tuned to episode two and we greatly appreciate your support. </p>
               </div>
             </div>
           </div>
