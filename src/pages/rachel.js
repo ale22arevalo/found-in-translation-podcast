@@ -126,7 +126,7 @@ const Rachel = () => {
             <section className="section-wrapper">
               <div className="p-wrapper full">
                 <h3 className="cue">~ interview begins ~</h3>
-                <p>Thank you, Rachel, for coming on to the podcast. We really appreciate it. </b> What was your connection with Korean in your childhood?</p>
+                <p>Thank you, Rachel, for coming on to the podcast. We really appreciate it. What was your connection with Korean in your childhood?</p>
               </div>
             </section>
 
@@ -739,6 +739,8 @@ const Rachel = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
     </main>
   )
 }
