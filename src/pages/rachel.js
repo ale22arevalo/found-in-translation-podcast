@@ -663,9 +663,12 @@ const Rachel = () => {
                 <b>The reality is like when I walk outside of my apartment every day, I&#x27;m Asian. </b>
                 <p>When I&#x27;m on stage as a dancer, it&#x27;s my appearance. </p>
                 <p>I can&#x27;t just like leave the Asianness at home, it follows me. </p>
-                <p>And so I think whether or not it&#x27;s intentional of like, I&#x27;m pursuing it in my art, it&#x27;s just gonna be there and I&#x27;m okay with it being there. </p>
-                <p>Whether it is super on the nose and the work is about that or not.</p>
+                <p>And so I think whether or not it&#x27;s intentional of like, I&#x27;m pursuing it in my art, it&#x27;s just gonna be there and I&#x27;m okay with it being there. Whether it is super on the nose and the work is about that or not.</p>
               </div>
+            </div>
+            <div className="section-wrapper">
+              {/* <div style={{padding:'56.25%', position:'relative'}}><iframe src="https://player.vimeo.com/video/956842730?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay" style={{position:'absolute',top:'0',left:'0', width:'100%',height:'100%'}} title="Rachel dancing"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> */}
+              <iframe width="900" height="400" src="https://www.youtube.com/embed/PQCnFBhjPGw?si=WLMtyU4OGH5H7Vj_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div className="section-wrapper">
               <div className="name-wrapper">
