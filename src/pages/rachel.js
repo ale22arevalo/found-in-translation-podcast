@@ -171,7 +171,7 @@ const Rachel = () => {
  
             <section className="section-wrapper">
               <div className="p-wrapper">
-                <p><b data-w-id="869e026c-7fae-d570-381b-544bf71c2700">I wouldn&#x27;t have wanted to go anyway </b> because I was so set on being as <b>American</b> as possible and <b>no trace of Korean</b> in Rachel Lee. And so, yeah, I think I grew up mostly just understanding, but as I got older, I could understand <b className="smaller">less and less</b>.</p>
+                <p><b>I wouldn&#x27;t have wanted to go anyway </b> because I was so set on being as <b>American</b> as possible and <b>no trace of Korean</b> in Rachel Lee. And so, yeah, I think I grew up mostly just understanding, but as I got older, I could understand <b className="smaller">less and less</b>.</p>
                 {/* Parents photo */}
                 <div className='text-photo'>
                   <div className='text-arrow'>
@@ -186,9 +186,9 @@ const Rachel = () => {
                   </div>
                   <img className="horizontal-photo" src={dads_family} alt="" loading="lazy" />
                 </div>
-                <p data-w-id="6d9f42b5-881b-a786-a979-2276424e0947">It broke a lot of possible relationships for me because my whole dad's side was in Texas, and so I would visit my grandparents on my dad&#x27;s side and that family who were always speaking Korean, and I couldn&#x27;t understand them. That really:</p>
-                <p data-w-id="6d9f42b5-881b-a786-a979-2276424e0945">A) disappointed them, because in their minds I was Korean and <b>didn&#x27;t know how to speak</b><b> the language.</b></p>
-                <p data-w-id="747f1589-4e84-684b-b3c6-cc731b826bd6">B) it had me resent them because I was <b>not a good enough</b> <b>Korean granddaughter.</b></p>
+                <p>It broke a lot of possible relationships for me because my whole dad's side was in Texas, and so I would visit my grandparents on my dad&#x27;s side and that family who were always speaking Korean, and I couldn&#x27;t understand them. That really:</p>
+                <p>A) disappointed them, because in their minds I was Korean and <b>didn&#x27;t know how to speak</b><b> the language.</b></p>
+                <p>B) it had me resent them because I was <b>not a good enough</b> <b>Korean granddaughter.</b></p>
               </div>
             </section>
 
@@ -244,13 +244,13 @@ const Rachel = () => {
   
             <div className="section-wrapper">
               <div className="p-wrapper full">
-                <div data-w-id="35a57260-3313-32da-a27f-071029f4a8ce" className='bolded-name'>Guru</div>
-                <p data-w-id="35a57260-3313-32da-a27f-071029f4a8d3" >What&#x27;s interesting about languages is that whenever you say to someone, &quot;I know this other language,&quot; they immediately follow up with<b> </b><b></b></p>
-                <b data-w-id="efee021b-3bbb-8e3e-f562-f376dad288e4" className='bolded'>&quot;Okay then, how do you say X word in that language?&quot;</b>
-                <p data-w-id="5a852654-8e5f-d18e-fa4b-51e344cc358a" >They try to treat you like a dictionary, right?</p>
-                <p data-w-id="35a57260-3313-32da-a27f-071029f4a8d7" >While I hate that question, the question behind the question is <b></b></p>
-                <p data-w-id="b6636ab2-870b-1c09-a98b-f416e69bbc1e">‍<b>&quot;Do you really have ownership over this language, this culture, as you&#x27;re implying?&quot;</b></p>
-                <p data-w-id="06a76919-61b8-a39c-8048-ac2a3bbbe1e2">And so, going back to what you were saying about having that resentment with some of your relatives, I'm curious was part of it also their level of ownership over the language or the culture that you weren&#x27;t necessarily able to tap into at a young age?<b></b></p>
+                <div className='bolded-name'>Guru</div>
+                <p>What&#x27;s interesting about languages is that whenever you say to someone, &quot;I know this other language,&quot; they immediately follow up with<b> </b><b></b></p>
+                <b className='bolded'>&quot;Okay then, how do you say X word in that language?&quot;</b>
+                <p>They try to treat you like a dictionary, right?</p>
+                <p>While I hate that question, the question behind the question is <b></b></p>
+                <p>‍<b>&quot;Do you really have ownership over this language, this culture, as you&#x27;re implying?&quot;</b></p>
+                <p>And so, going back to what you were saying about having that resentment with some of your relatives, I'm curious was part of it also their level of ownership over the language or the culture that you weren&#x27;t necessarily able to tap into at a young age?<b></b></p>
               </div>
             </div>
 
@@ -310,10 +310,10 @@ const Rachel = () => {
             </div>
             <div className="section-wrapper">
               <div className="name-wrapper">
-                <div data-w-id="2272ff3e-653f-19d8-0222-0a15c7790b4e" className='bolded-name'>Guru</div>
+                <div className='bolded-name'>Guru</div>
               </div>
               <div className="p-wrapper side">
-                <p data-w-id="2272ff3e-653f-19d8-0222-0a15c7790b50">Yeah, well, at that point in time, <b className='extra-bolded'>were you conflating Americanness with whiteness?</b></p>
+                <p>Yeah, well, at that point in time, <b className='extra-bolded'>were you conflating Americanness with whiteness?</b></p>
               </div>
             </div>
             <div className="section-wrapper">
@@ -322,7 +322,7 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                 <div>
-                  <p><b>Exactly.</b></p>
+                  <b>Exactly.</b>
                   <div className='text-photo'>
                     <div className='text-arrow'>
                       <p className='handwriting'>Rachel and her mom</p>
@@ -381,9 +381,9 @@ const Rachel = () => {
             </div>
             <div className="section-wrapper">
               <div className="p-wrapper">
-                <b data-w-id="b5fe2be7-aa99-20aa-5543-415641eafab9">There was one master class in my arts high school where they flew in a South Korean company that did South Korean traditional dance. </b>
-                <p data-w-id="b5fe2be7-aa99-20aa-5543-415641eafabb">And I remember they had trouble speaking English.</p>
-                <p data-w-id="b5fe2be7-aa99-20aa-5543-415641eafac0">I remember they were trying to teach the class with as little words as possible because they were struggling.</p>
+                <b>There was one master class in my arts high school where they flew in a South Korean company that did South Korean traditional dance. </b>
+                <p>And I remember they had trouble speaking English.</p>
+                <p>I remember they were trying to teach the class with as little words as possible because they were struggling.</p>
               </div>
             </div>
             <div className='text-photo'>
@@ -420,7 +420,7 @@ const Rachel = () => {
             </div>
             <div className="section-wrapper">
               <div className="name-wrapper">
-                <div data-w-id="62c417e0-5d5a-ae49-9a27-13ab1275436d" className='bolded-name'>Guru</div>
+                <div className='bolded-name'>Guru</div>
               </div>
               <div className="p-wrapper side">
                 <p data-w-id="62c417e0-5d5a-ae49-9a27-13ab12754371">Okay. That interaction with the company, it&#x27;s humorous.</p>
@@ -460,7 +460,6 @@ const Rachel = () => {
                 <p data-w-id="63435366-8ea9-cce1-ebe6-75f96f99ed88">And then these little people AKA the members of GOT7 are singing: &quot;No, you&#x27;re just right!&quot; Like you're whatever.</p>
                 <p data-w-id="63435366-8ea9-cce1-ebe6-75f96f99ed8a">So, it was kinda cute and they were kind of good dancers.</p>
                 <p data-w-id="63435366-8ea9-cce1-ebe6-75f96f99ed8c" ><b>So I, on a whim, decided that I wanted to learn how to read and write.</b></p>
-                  
                 {/* ADD KOREAN WRITING ILLUSTRATIONS */}
                 <p>I wanted to bond with my other grandparents who hadn&#x27;t passed yet before it was too late. I wanted to maybe be a translator. And, as someone who has a foot in both worlds, as you said, like, how can I help someone else that may be struggling because...<b></b></p>
                 <p>I felt like I understood the frustration of not being understood.</p>
@@ -468,7 +467,6 @@ const Rachel = () => {
                 <iframe className="embed-video" src="https://www.youtube.com/embed/RL_Dxu4Dli0?si=4_uQvYygAeOtuOjK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <p>That itself was not that successful, but it propelled me into wanting to learn how to read and write more. But what it really did was help me understand and sort of educate myself on my own culture, especially because K-pop stars train so much in singing and dancing, and I also felt like I could relate to that as an artist and someone who was dancing 24/7.</p>
                 <p>So, I became obsessed with them and that sort of propelled me to then become passionate and determined to learn the language more.</p>
-              
               </div>
             </div>
             <div className="section-wrapper">
@@ -492,7 +490,6 @@ const Rachel = () => {
                   <p>What ended up happening is I tried to learn on my own. Like I would copy down an entire song in hangul and then I would try to translate the words on my own.</p>
                   <p>Like I'd be reading it, I&#x27;d try to translate what it meant so I could understand, and then I&#x27;d go back and I&#x27;d try to listen line by line and see if I can guess on how to write it. And then I&#x27;d check to see if I was right or wrong, etc.</p>
                   <p>The spelling of these things, it was often wrong.</p>
-                </div>
               </div>
             </div>
             <div className="section-wrapper">
@@ -584,7 +581,7 @@ const Rachel = () => {
           
             <div className="section-wrapper">
               <div className='name-wrapper'>
-                <div data-w-id="542b7611-4c6b-9c66-bff4-41e5e8b10237" className='bolded-name'>Guru</div>
+                <div className='bolded-name'>Guru</div>
               </div>
               <div className="p-wrapper side">
                 <b className='extra-bolded'>Nice. And then diving into the college education, this elementary class, did you become a Korean minor or would they just kind of going through levels like one, two, three, four, or how did that work when you're at college?</b>
@@ -615,7 +612,6 @@ const Rachel = () => {
                   <p>So, one thing about the K-pop/K-drama thing. I actually have multiple questions about this. One, I feel like K-pop, and now K-dramas, have really exploded in the international scene, but especially in the West. Now with the advent of Netflix and Amazon Prime, I feel like are the two biggest streaming services that have a lot of international content.</p>
                   <div className="info-p"><img src="images/squidgame.jpg" loading="lazy" alt="" /></div>
                   <p><a href="https://www.nytimes.com/2022/09/12/arts/television/lee-jung-jae-squid-game-emmys.html" target="_blank">&quot;Squid Game&quot;</a>, that&#x27;s definitely a huge cultural zeitgeist. And <a href="https://time.com/5779940/parasite-best-picture-oscars/" target="_blank">&quot;Parasite&quot;</a> in 2020 won so many Oscars. It&#x27;s really cool to see this Korean content become more of the mainstream. Do you have any thoughts on how it&#x27;s being adopted, accepted, appropriated in an American context now that so much of the content from across multiple mediums is really blowing up?</p>
-                </div>
               </div>
             </div>
             <div className="section-wrapper quote">
@@ -679,6 +675,10 @@ const Rachel = () => {
                 <p data-w-id="2030e3c3-cf06-e8f0-ec37-7140ed3cdacd">Whether or not it&#x27;s intentional, it&#x27;s just gonna be there and I&#x27;m okay with it being there. </p>
                 <p data-w-id="2030e3c3-cf06-e8f0-ec37-7140ed3cdacf">Whether it is super on the nose and the work is about that or not.</p>
               </div>
+            </div>
+            <div className="section-wrapper">
+              {/* <div style={{padding:'56.25%', position:'relative'}}><iframe src="https://player.vimeo.com/video/956842730?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay" style={{position:'absolute',top:'0',left:'0', width:'100%',height:'100%'}} title="Rachel dancing"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> */}
+              <iframe width="900" height="400" src="https://www.youtube.com/embed/PQCnFBhjPGw?si=WLMtyU4OGH5H7Vj_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div className="section-wrapper">
               <div className="name-wrapper">
