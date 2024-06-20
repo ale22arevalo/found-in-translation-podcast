@@ -96,6 +96,9 @@ const Rachel = () => {
       <BackTop />
 
       <div className="main-body">
+        <section className="section-wrapper">
+        <iframe src="https://podcasters.spotify.com/pod/show/found-in-translation6/embed/episodes/Episode-1-Korean-Whispers-e2l3cc4/a-abceb7j" height="100%" width="100%" frameborder="0" scrolling="no"></iframe>
+        </section>
         {/* Podcast Intro */}
             <section className="section-wrapper">
               <div className='name-wrapper'>
@@ -308,7 +311,9 @@ const Rachel = () => {
                 <div className='bolded-name'>Rachel</div>
                 <p><span>Yeah, I think it&#x27;s just being American. I wanted to be seen as a peer or a kid or a friend, before being seen as &quot;the person who doesn&#x27;t look like me.&quot;</span></p>
             </div>
-                  <div className='text-photo'>
+            <div className="section-wrapper">
+              <div className="p-wrapper">
+              <div className='text-photo'>
                     <div className='text-arrow'>
                       <p className='handwriting'>Rachel and her mom</p>
                       {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
@@ -323,7 +328,6 @@ const Rachel = () => {
                   </div>
                   <p>Especially growing up in Texas, and being in a smaller town, it was like all the Koreans around the area was at church. I think it was interesting because there was like my parents&#x27; generation in this Korean church and then everyone that was my age that was also going through what I was going through. But then in school there was nobody, you know? It was mostly white kids. </p>
                   <p>When I got to third grade, I had moved schools and there was one other Korean girl and one Indian boy and two Korean boys. And that was the entire elementary school.</p>
-                </div>
               </div>
             </div>
             <div className="section-wrapper">
