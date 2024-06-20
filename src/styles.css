@@ -477,6 +477,7 @@ text {
 }
 
 .text-message {
+    padding: 0.5rem;
     background-color: #FAF9F6;
     border-radius: 1rem;
     font-family: 'Quicksand', sans-serif;
