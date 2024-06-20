@@ -178,9 +178,10 @@ b {
 
 .social-links{
     display: inline;
+
     svg{
-       height: 1.5rem;
-       width: 1.5rem;
+       height: 2rem;
+       width: 2rem;
        margin: 0.5rem;
     }
     svg:hover{

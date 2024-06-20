@@ -7,7 +7,6 @@ import preschool_rachel from '../images/rachel/preschool_rachel.webp';
 import dads_family from '../images/rachel/dads_family.webp';
 import rachel_hanbok from '../images/rachel/rachel_hanbok.webp';
 import korean_dance from '../images/rachel/korean_dance.webp';
-import rachel_sarah from '../images/rachel/rachel_sarah.webp';
 import grandparents_momside from '../images/rachel/grandparents_momside.webp';
 import texts from '../images/rachel/texts.webp';
 import "../styles.css"
@@ -463,10 +462,8 @@ const Rachel = () => {
                 <div className='bolded-name'>Guru</div>
               </div>
               <div className="p-wrapper side">
-                <div>
                   <p>That&#x27;s very interesting because I feel like when I took Spanish in middle school/high school, we started to learn the language and then, as we were getting a better understanding of certain phrases and stuff, then our teacher would be like, here, listen to this Spanish song. Here, watch this telenovela.</p>
                   <p>So, I think it&#x27;s interesting in this case, you kind of had to reverse engineer it where those cultural elements came into your life where you were watching this Korean reality show, listening to this Korean music, and then that kind of spurns you to go back into it.</p>
-                </div>
               </div>
             </div>
             <div className="section-wrapper">
@@ -474,15 +471,9 @@ const Rachel = () => {
                 <div className='bolded-name'>Rachel</div>
               </div>
               <div className="p-wrapper side">
-                <div>
-                  <p>Yeah, for sure, and I think exactly that. It&#x27;s not even like the songs that this group had are the best songs ever! But, I just loved them as artists, like seeing their journey, that I was so passionate about their music that I wanted to sing their music, for example. But, I couldn&#x27;t pronounce the lyrics or I wasn&#x27;t fully able to understand the song, or it was much harder for me to memorize the lyrics to the songs.</p>
-                  <p>What ended up happening is I tried to learn on my own. I would copy down an entire song in hangul and then I would try to translate the words on my own.</p>
-                  <p>I'd be reading it, I&#x27;d try to translate what it meant so I could understand, and then I&#x27;d go back and I&#x27;d try to listen line-by-line and see if I can guess on how to write it. And then I&#x27;d check to see if I was right or wrong, etc.</p>
-                  <p>The spelling of these things, it was often wrong.</p>
-              </div>
-            </div>
-            <div className="section-wrapper">
-              <div className="p-wrapper">
+                <p>Yeah, for sure, and I think exactly that. It&#x27;s not even like the songs that this group had are the best songs ever! But, I just loved them as artists, like seeing their journey, that I was so passionate about their music that I wanted to sing their music, for example. But, I couldn&#x27;t pronounce the lyrics or I wasn&#x27;t fully able to understand the song, or it was much harder for me to memorize the lyrics to the songs.</p>
+                <p>What ended up happening is I tried to learn on my own. I would copy down an entire song in hangul and then I would try to translate the words on my own.</p>
+                <p>I'd be reading it, I&#x27;d try to translate what it meant so I could understand, and then I&#x27;d go back and I&#x27;d try to listen line-by-line and see if I can guess on how to write it. And then I&#x27;d check to see if I was right or wrong, etc.</p>
                 <b>In Korean, the consonants are sort of blended sounds.</b>
                 <p>So like L and R are very distinct in the English language. </p>
                 <p>They&#x27;re kind of blurred in the Korean language.</p>
@@ -500,9 +491,7 @@ const Rachel = () => {
                 <div className="bolded-name">Guru</div>
               </div>
               <div className="p-wrapper side">
-                <div>
-                  <p>Yeah. I mean, everyone has their own entry point into it, but it&#x27;s always interesting to find what that is. Actually, going back to the beginning of the episode, when you were mentioning there was that disconnect with some of your other relatives, <b className="extra-bolded">did your increased investment in learning Korean, did that change any of those relationships?</b></p>
-                </div>
+                <p>Yeah. I mean, everyone has their own entry point into it, but it&#x27;s always interesting to find what that is. Actually, going back to the beginning of the episode, when you were mentioning there was that disconnect with some of your other relatives, <b className="extra-bolded">did your increased investment in learning Korean, did that change any of those relationships?</b></p>
               </div>
             </div>
             <div className="section-wrapper">
@@ -510,16 +499,14 @@ const Rachel = () => {
                 <div className='bolded-name'>Rachel</div>
               </div>
               <div className="p-wrapper side">
-                <div>
                   <p>Absolutely. People noticed that I spoke Korean more and it was like a shock! When did this happen, right? And obviously, I was angry at it. There were a lot of mess ups and like giggles and things.</p>
                   <p>Which kind of pushes the timeline a little later, but my grandma who was a widow, because my grandpa had passed when I was a freshman, and the same grandma in which my mom was like, &quot;You should learn English, too!&quot; -- like THAT grandma. I finally had her approval. </p>
                   <p>At the time, she was in this shelter because she had Parkinson&#x27;s disease and there were times where I actually visited her on my own. And she was so excited that I was learning Korean and able to communicate with her, and communicate with the other people that were at this shelter. And, up until that point, I felt like my whole life she had been comparing me to her friend&#x27;s granddaughters, or I just wasn&#x27;t good enough.</p>
                   <p>I think my mom also started texting me in Korean as well. I still respond in English because the spelling part is hard, but now I can read pretty well.</p>
                   <p>So, I think it&#x27;s given her also more comfort as someone who has trouble spelling in English. So yeah, it definitely changed a lot for my familial relationships.</p>
-                </div>
               </div>
             </div>
-            <div className="section-wrapper" style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
+            {/* <div className="section-wrapper" style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
               <div className='text-message'>
                 <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
                   <img src={rachel_hanbok} alt="Young Rachel and her mother" style={{borderRadius:'50%', width:'100px', height:'100px'}} />
@@ -566,8 +553,10 @@ const Rachel = () => {
                   </span>
                 </div>
               </div>
+            </div> */}
+            <div className="section-wrapper">
+              <img src={texts} alt="Text messages"/>
             </div>
-          
             <div className="section-wrapper">
               <div className='name-wrapper'>
                 <div className='bolded-name'>Guru</div>
@@ -729,7 +718,6 @@ const Rachel = () => {
             </div>
           </div>
         </div>
-      </div>
     </main>
   )
 }
