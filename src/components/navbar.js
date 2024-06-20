@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const Navbar = () => {
     const [scrollPercent, setScrollPercent] = useState(0);
+    const [showDropdown, setShowDropdown] = useState(false);
 
     useEffect(() => {
         let isMounted = true;
@@ -27,6 +28,10 @@ const Navbar = () => {
             }
         };
     }, []);
+
+    const handleDropdownToggle = () => {
+        setShowDropdown(!showDropdown);
+    };
 
     return (
         <>
@@ -77,6 +82,83 @@ const Navbar = () => {
                     }}
                 >
                     Found in Translation
+                </a>
+                <div
+                    style={{
+                        position: 'relative',
+                        display: 'inline-block',
+                        marginLeft: '20px',
+                    }}
+                    onMouseEnter={handleDropdownToggle}
+                    onMouseLeave={handleDropdownToggle}
+                >
+                    <button
+                        className='epbutton'
+                    >
+                        Episodes
+                    </button>
+                    {showDropdown && (
+                        <div
+                            className='dropdown'
+                        >
+                             <a
+                                href="/rachel#topper"
+                            >
+                                Rachel
+                            </a>
+                            {/* <a
+                                href="/cy"
+                                style={{
+                                    display: 'block',
+                                    textDecoration: 'none',
+                                    color: 'black',
+                                    marginBottom: '5px',
+                                }}
+                            >
+                                cy.js
+                            </a>
+                            <a
+                                href="/fa"
+                                style={{
+                                    display: 'block',
+                                    textDecoration: 'none',
+                                    color: 'black',
+                                    marginBottom: '5px',
+                                }}
+                            >
+                                fa.js
+                            </a>
+                            <a
+                                href="/michael"
+                                style={{
+                                    display: 'block',
+                                    textDecoration: 'none',
+                                    color: 'black',
+                                    marginBottom: '5px',
+                                }}
+                            >
+                                micheal.js
+                            </a> */}
+                        </div>
+                    )}
+                </div>
+                <a
+                    href="/about#topper"
+                    style={{
+                        textDecoration: 'none',
+                        color: 'black',
+                        fontSize: '1rem',
+                        marginLeft: '20px',
+                        transition: 'color 0.3s',
+                    }}
+                    onMouseOver={(e) => {
+                        e.target.style.color = '#3737ba';
+                    }}
+                    onMouseOut={(e) => {
+                        e.target.style.color = 'black';
+                    }}
+                >
+                    About
                 </a>
             </nav>
         </>

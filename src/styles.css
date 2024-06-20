@@ -660,3 +660,37 @@ text {
         opacity: 1;
     }
 }
+
+.dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FCF5E5;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+        a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #121212;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.8rem;
+        }
+        
+    }
+
+    .epbutton{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        font-family: 'Bebas Neue', cursive;
+        outline: none;
+        color: #121212;
+        text-decoration: none;
+
+        &:hover{
+            color: #3737ba;
+        }
+    }
