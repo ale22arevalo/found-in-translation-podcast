@@ -92,11 +92,11 @@ const Navbar = () => {
                     onMouseEnter={handleDropdownToggle}
                     onMouseLeave={handleDropdownToggle}
                 >
-                    <button
+                    {/* <button
                         className='epbutton'
                     >
                         Episodes
-                    </button>
+                    </button> */}
                     {showDropdown && (
                         <div
                             className='dropdown'
