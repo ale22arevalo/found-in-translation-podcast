@@ -479,7 +479,8 @@ text {
 }
 
 .text-message {
-    padding: 0.5rem;
+    width: 100%;
+    /* padding: 0.5rem;
     background-color: #FAF9F6;
     border-radius: 1rem;
     font-family: 'Quicksand', sans-serif;
@@ -489,7 +490,7 @@ text {
     display: flex;
     flex-direction: column;
     width: 100%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
 }
 
 .translation{

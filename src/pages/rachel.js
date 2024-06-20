@@ -555,7 +555,8 @@ const Rachel = () => {
               </div>
             </div> */}
             <div className="section-wrapper">
-              <img src={texts} alt="Text messages"/>
+              <div className='p-wrapper full'>
+                <img className='text-message' src={texts} alt="Text messages"/></div>
             </div>
             <div className="section-wrapper">
               <div className='name-wrapper'>
@@ -586,7 +587,6 @@ const Rachel = () => {
                 <div className="bolded-name">Guru</div>
               </div>
               <div className="p-wrapper side">
-                <div>
                   <p>So, one thing about the K-pop/K-drama thing. I actually have multiple questions about this. One, I feel like K-pop, and now K-dramas, have really exploded in the international scene, but especially in the West. Now with the advent of Netflix and Amazon Prime, I feel like are the two biggest streaming services that have a lot of international content.</p>
                   <div className="info-p"><img src="images/squidgame.jpg" loading="lazy" alt="" /></div>
                   <p><a href="https://www.nytimes.com/2022/09/12/arts/television/lee-jung-jae-squid-game-emmys.html" target="_blank">&quot;Squid Game&quot;</a>, that&#x27;s definitely a huge cultural zeitgeist. And <a href="https://time.com/5779940/parasite-best-picture-oscars/" target="_blank">&quot;Parasite&quot;</a> in 2020 won so many Oscars. It&#x27;s really cool to see this Korean content become more of the mainstream. Do you have any thoughts on how it&#x27;s being adopted, accepted, appropriated in an American context now that so much of the content from across multiple mediums is really blowing up?</p>
@@ -656,7 +656,7 @@ const Rachel = () => {
             </div>
             <div className="section-wrapper">
               {/* <div style={{padding:'56.25%', position:'relative'}}><iframe src="https://player.vimeo.com/video/956842730?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay" style={{position:'absolute',top:'0',left:'0', width:'100%',height:'100%'}} title="Rachel dancing"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> */}
-              <iframe width="100%" height="300px" src="https://www.youtube.com/embed/PQCnFBhjPGw?si=WLMtyU4OGH5H7Vj_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="100%" height="400px" src="https://www.youtube.com/embed/PQCnFBhjPGw?si=WLMtyU4OGH5H7Vj_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div className="section-wrapper">
               <div className="name-wrapper">
@@ -716,7 +716,6 @@ const Rachel = () => {
                 <p>Thank you! And that&#x27;s a wrap on episode one, so let's roll the credits! I'm your host Guru Ramanathan. This is Found in Translation. Created, executive produced, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc., and do all the things to help us go viral. Stay tuned to episode two and we greatly appreciate your support. </p>
               </div>
             </div>
-          </div>
         </div>
     </main>
   )
