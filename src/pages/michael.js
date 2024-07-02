@@ -116,7 +116,7 @@ const Michael = () => {
               <div className="section-wrapper">
                 <div className="p-wrapper full center">
                   <h3 className="cue">~ interview begins ~</h3>
-                  <b className='bolded'> How does it feel to be a guest instead of one of the hosts?</b>
+                  <b className='extra-bolded'> How does it feel to be a guest instead of one of the hosts?</b>
                 </div>
               </div>
               
@@ -125,11 +125,9 @@ const Michael = () => {
                   <h3>The Guest<br /> <span className="first-name">Michael Oluokon</span></h3>
                 </div>
                   <div className="p-wrapper side">
-                    <div>
                       <p>
                         It&#x27;s pretty chill because now I don&#x27;t have to think about like, &quot;Oh no, am I asking enough questions? Am I giving the guest enough space to talk?&quot; I can talk for as long as I want.<br />
                       </p>
-                    </div>
                   </div>
               </section>
 
@@ -139,7 +137,7 @@ const Michael = () => {
                </div>
                 <div className="p-wrapper side">
                     <p>Well, yeah, I mean, this entire episode, it&#x27;s your space, it&#x27;s your time to shine. We&#x27;re also gonna start this one at the very beginning. It&#x27;s interesting to think about what your connection to your language was right when you were pretty young and seeing how that&#x27;s evolved over time.<br /></p>
-                    <p>I&#x27;m so curious to hear from your perspective, being the youngest of four siblings, and I know your mom also came from Nigeria. But just to begin, <b className="bolded">what was your connection with Yoruba in your childhood and how did it play out when you were growing up?</b><br /></p>
+                    <p>I&#x27;m so curious to hear from your perspective, being the youngest of four siblings, and I know your mom also came from Nigeria. But just to begin, <b className="extra-bolded">what was your connection with Yoruba in your childhood and how did it play out when you were growing up?</b><br /></p>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -181,7 +179,7 @@ const Michael = () => {
                   <div className='bolded-name'>Guru</div>
                 </div>
                 <div className="p-wrapper side">
-                  <b data-w-id="16be7753-1d53-6079-1551-2086453af0b1" className="bolded">To begin with your relatives, did you talk with them a lot growing up?</b>
+                  <b data-w-id="16be7753-1d53-6079-1551-2086453af0b1" className="extra-bolded">To begin with your relatives, did you talk with them a lot growing up?</b>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -212,7 +210,7 @@ const Michael = () => {
                   <div className='bolded-name'>Guru</div>
                 </div>
                 <div className="p-wrapper side">
-                  <b data-w-id="5b60de1a-8120-6443-1b42-9b299f9be6df" className="bolded">And what was the culture around English versus Yoruba in those circles?</b>
+                  <b data-w-id="5b60de1a-8120-6443-1b42-9b299f9be6df" className="extra-bolded">And what was the culture around English versus Yoruba in those circles?</b>
                   <p >Because I&#x27;ve definitely had some of those parties come around. But then, there&#x27;s a bit of a hierarchy as to who can communicate in the multiple languages. Or, the parents always talk about, &quot;Oh, your kid does so well here, but I wish mine could too.&quot; Was there that sort of internal prejudice around those who were better at Yoruba than others?</p>
                 </div>
               </div>
@@ -266,9 +264,13 @@ const Michael = () => {
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
-                  <p>Guru</p>
+                  <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <p>It&#x27;s interesting because I&#x27;ve heard my parents talk in that third person perspective of, &quot;All Indians are like this, all Desis are like this.&quot; And then growing up I didn&#x27;t really understand -- but like, you&#x27;re also that, so you&#x27;re hating yourself.<b className="bolded"><br /></b></p>
-                  <p>Michael</p>
+                  <div className="name-wrapper">
+                    <div className='bolded-name'>Michael</div>
+                  </div>
                   <p>I think I get it more now that I&#x27;m older. I feel like people just love to be able to talk about a group as a whole. They&#x27;re like, &quot;Man, I&#x27;ve seen at least three people do this. So I&#x27;ve got the data set I need, you know?&quot; Part of me thinks one of the reasons she decided to move from Maryland-D.C. was almost to get away from large numbers of Nigerians.</p>
                   <p>She&#x27;s expressed this to me that like, you know, sometimes being around very traditional Nigerians can be very frustrating to her. And especially if you, like, really, really grew up with it, you just want something different, you know. My two oldest siblings have been in Nigeria, but me and my brother closest to me have never been.</p>
                   <div className='text-photo'>
@@ -285,7 +287,9 @@ const Michael = () => {
                     <img className="vertical-photo" src={michael_siblings} alt="" loading="lazy" />
                   </div>
                   <p>They actually spent a whole year in Nigeria and went to school there for a year, and then came back. I&#x27;ve never actually asked my two oldest siblings about how that experience was for them. Sometimes my mom would talk about it and was like, &quot;They came back with a chip on their shoulder. Now, they&#x27;re not Black, they&#x27;re Nigerians, you know?&quot;</p>
-                  <p>Guru</p>
+                   <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <p>And then, when you were growing up, were there other Nigerians in school or were you predominantly just around American Black kids?</p>
                 </div>
               </div>
@@ -330,7 +334,9 @@ const Michael = () => {
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
-                  <p>Guru</p>
+                   <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <b data-w-id="0436a4f7-f99e-b047-90f6-645879cff340" className="bolded">I guess, if that was going on for most of your life, what caused that shift in you to want to learn Yoruba? I know you ended up taking some classes in college.</b>
                 </div>
               </div>
@@ -361,7 +367,9 @@ const Michael = () => {
               </div>
                 <div className="section-wrapper">
                 <div className="p-wrapper">
-                  <p>Guru</p>
+                   <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <b data-w-id="75d5c71e-e504-c440-8d14-df90d053bd97" className="bolded">Just to round out the contextual details...When you had taken this Yoruba 1 class, what year in college were you in?</b>
                 </div>
               </div>
@@ -373,7 +381,9 @@ const Michael = () => {
               </div> 
               <div className="section-wrapper">
                 <div className="p-wrapper">
-                  <p>Guru</p>
+                   <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <b data-w-id="75d5c71e-e504-c440-8d14-df90d053bd97" className="bolded">What was your mom&#x27;s reaction when you decided you were gonna take this Yoruba class?</b>
                 </div>
               </div>
@@ -391,7 +401,9 @@ const Michael = () => {
                 </div>
               </div>
               <div className="section-wrapper quote">
-                  <p>Michael</p>
+                                    <div className="name-wrapper">
+                    <div className='bolded-name'>Michael</div>
+                  </div>
                   <p><span>I definitely think it did evolve me forward. One, it encouraged me of, you know, it&#x27;s okay to not know Yoruba because it doesn&#x27;t make you any less Nigerian than others. <br /><br />Especially when I was younger, I always had that chip on my shoulder of my mom&#x27;s Nigerian, but I don&#x27;t feel like I can really consider myself Nigerian because I don&#x27;t speak the language. I&#x27;ve never been to Nigeria.</span></p>
               </div>
               <div className="section-wrapper">
@@ -426,13 +438,21 @@ const Michael = () => {
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
-                  <p>Guru</p>
+                   <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <p><b className="bolded">When and how did you find out?</b><b className="bolded"><br /></b></p>
-                  <p>Michael</p>
+                                    <div className="name-wrapper">
+                    <div className='bolded-name'>Michael</div>
+                  </div>
                   <p>It was when I was in that Yoruba class.</p>
-                  <p>Guru</p>
+                   <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <p>Oh, really?</p>
-                  <p>Michael</p>
+                                    <div className="name-wrapper">
+                    <div className='bolded-name'>Michael</div>
+                  </div>
                   <p>Yeah. There&#x27;s like a few different vowels in Nigeria. And certain vowels you can nasalize. You nasalize a vowel by adding a N to the end. I learned about how each of the vowels was pronounced, and I was like, &quot;If I pronounce this like, how, with each of the vowel rules you just taught me, like it&#x27;s pronounced like this.&quot; And he's like, &quot;Yeah.&quot; And I'm like &quot;Oh! I've been saying it wrong.&quot; </p>
                   <p>My teacher would always ask me, &quot;What state in Nigeria are you from?&quot; And I&#x27;m like, &quot;Oh, I don&#x27;t really know.&quot; And he&#x27;s just like, &quot;You don&#x27;t know?!&quot; I know, he was always like, &quot;Go ask your father!&quot; And I&#x27;m like, &quot;Oh, my parents are divorced.&quot; It&#x27;s like everything I said to him, he was just like, &quot;Ohh no!&quot;</p>
                 </div>
@@ -456,7 +476,9 @@ const Michael = () => {
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
-                  <p>Guru</p>
+                   <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <b data-w-id="996112e2-dba8-bce1-5571-d21d181cbded" className="bolded">Can you name any Nigerian comedians that have served as inspiration for you at all?</b>
                 </div>
               </div>
@@ -488,9 +510,13 @@ const Michael = () => {
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
-                  <p>Guru</p>
+                   <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <p>Yeah. I wanted to touch on your comedy and your writing, and such. How has interacting with these Nigerian comedians, your family, starting to immerse yourself in Yoruba, influenced your artistic identity? Or, has it changed the way you write or the things you write, or what you like to bring up in your standup? What&#x27;s that evolution been like in your artistic journey, too?</p>
-                  <p>Michael</p>
+                                    <div className="name-wrapper">
+                    <div className='bolded-name'>Michael</div>
+                  </div>
                   <p>Yeah, I feel like it&#x27;s definitely influenced the way I write and the way I do stand up, too. One of the interesting things about Yoruba as a language is that it is a tonal language. And so, the way you say things influences the actual meaning of it.</p>
                   <p>I just remembered another Nigerian comic. His name is, I think, David Gborie. And I noticed it when I was watching his standup. The way that he used the tone of his voice was very dynamic. I wonder if that&#x27;s a function of him being Nigerian. Even if you don&#x27;t speak Yoruba, there&#x27;s an animated way of speaking that Nigerian people often use that influences you even if you don&#x27;t speak the language.<b className="bolded"><br /></b></p>
                   <p>The way Nigerians speak English is its own thing, you know, so influenced by British English. But if you grew up in the States, but then your parents grew up in Nigeria, and then depending on their parents, it's like some of them have more of a British influence, and then some of them have more of a strictly Nigerian-Nigerian influence. And then some of them might even have more of a French influence. So it&#x27;s interesting the different influences, the sub-influences, that then go into the influence that then makes you speak the way you speak.</p>
@@ -507,7 +533,9 @@ const Michael = () => {
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
-                  <p>Guru</p>
+                   <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <b data-w-id="a590fab7-0356-cbdf-2d5c-69cb275450c7" className="bolded"> Has your performance or diction changed at all? Have you noticed that shift in you as well?</b>
                 </div>
               </div>
@@ -522,7 +550,9 @@ const Michael = () => {
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
-                  <p>Guru</p>
+                   <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <p>And I&#x27;ve heard people sometimes talking about how, when they speak in another language, sometimes their personalities can like slightly shift. <b>Were there any shifts like that in the way you thought about things, or the way you acted when you were physically trying to talk in Yoruba versus English?</b></p>
                 </div>
               </div>
@@ -538,7 +568,9 @@ const Michael = () => {
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
-                  <p>Guru</p>
+                   <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <p>Yeah. To my understanding -- I could be totally off base about this -- but to my understanding, like, in Africa itself, I believe the Nigerian entertainment industry is the biggest. It&#x27;s called Nollywood.</p>
                   <p>India has--<b className="bolded"><br /></b></p>
                   <b data-w-id="7aa24651-4447-61c4-06ce-9fa3cd6a49c4" className="bolded-name">Michael</b>
@@ -574,15 +606,21 @@ const Michael = () => {
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
-                  <p>Guru</p>
+                   <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <p>That&#x27;s awesome. Well, this has been spectacular. So, thank you so much again, Michael, for coming on this podcast. Uh, I was about to say The Passion Project, but that&#x27;s not the name of this podcast.</p>
-                  <p>Michael</p>
+                                    <div className="name-wrapper">
+                    <div className='bolded-name'>Michael</div>
+                  </div>
                   <p>Thanks for having me.</p>
                 </div>
               </div>
               <div className="section-wrapper">
                 <div className="p-wrapper">
-                  <p>Guru</p>
+                   <div className="name-wrapper">
+                    <div className='bolded-name'>Guru</div>
+                  </div>
                   <b data-w-id="96ee040b-b379-b87d-1827-8d9d2bc025a8" className="bolded">And that's episode two, so let's roll the credits! I'm your host, Guru Ramanathan. This is Found in Translation. Created, executive produced, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc. and do all the things to help us go viral. And stay tuned for the next episode! Thank you so much. </b>
                 </div>
               </div>
