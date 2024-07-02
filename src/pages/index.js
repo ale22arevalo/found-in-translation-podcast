@@ -110,8 +110,8 @@ const IndexPage = () => {
               <div id="g-rachel-Artboard_1" className="g-artboard" style={{maxWidth: "569px", maxHeight: "809px"}} data-aspect-ratio="0.754" data-min-width="0">
                   <img id="g-rachel-Artboard_1-img" className="g-rachel-Artboard_1-img g-aiImg" alt="" src={michaelillo}/>
               </div>
-              {/* <a href="./michael#topper"> */}
-              <a href="">
+              <a href="./michael#topper">
+              {/* <a href=""> */}
                 <button className="ep-btn">Coming July 3rd</button>
               </a>
             </div>
