@@ -70,7 +70,7 @@ const Michael = () => {
     return (
       <main className="page-style">  
         <Navbar />
-        <section className="topper" style={{padding:'5px 5px'}}>
+        <section className="topper" style={{padding:'1rem'}}>
             <h1 className="site-hero" id="topper"> 
               <span className="changing-word">A Comedy of Errors</span>
               <span className="static-title">(and Education in Yoruba)</span>
