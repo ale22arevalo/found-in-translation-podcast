@@ -73,7 +73,7 @@ const Michael = () => {
         <section className="topper" style={{padding:'1rem'}}>
             <h1 className="site-hero" id="topper"> 
               <span className="changing-word">A Comedy of Errors</span>
-              <span className="static-title">(and Education in Yoruba)</span>
+              <span className="static-title">and Education (in Yoruba)</span>
             </h1>
             {/* <iframe width="315" height="560"
               src="https://youtube.com/embed/3gI3fBK-dCE?si=1SNNq7Q_Ci_hSj--&rel=0&amp;modestbranding=1"
@@ -86,6 +86,9 @@ const Michael = () => {
         <BackTop />
 
         <section className="main-body">
+          <section className="section-wrapper">
+            <iframe src="https://podcasters.spotify.com/pod/show/found-in-translation6/embed/episodes/Episode-2-A-Comedy-of-Errors-and-Education-in-Yoruba-e2ljbp2/a-abdgt62" height="100%" width="100%" frameborder="0" scrolling="no"></iframe> 
+          </section>
             <section className="section-wrapper">
               <div className="name-wrapper">
                 <h3>The Host<br /> <span className="first-name">Guru Ramanathan</span></h3>
