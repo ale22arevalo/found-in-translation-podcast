@@ -12,6 +12,7 @@ import junior from "../images/cynthia/junior.webp"
 import grad from "../images/cynthia/grad.webp"
 import babycy from "../images/cynthia/babycy.webp"
 import laureneternals from "../images/cynthia/laureneternals.webp"
+import switchedatbirth from "../images/cynthia/switchedatbirth.webp"
 
 const Cy = () => {
             useEffect(() => {
