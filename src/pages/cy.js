@@ -62,8 +62,8 @@ const Cy = () => {
                 <h3>The Host<br/><span className="first-name">Guru Ramanathan</span></h3>
               </div>
               <div className="p-wrapper side">
-                  <p>Hello and welcome to <b className="bolded">Found in Translation</b>. I&#x27;m your host Guru Ramanathan and this is a podcast where first/second generation and immigrant people come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.</p>
-                  <p>This week&#x27;s guest is Cynthia Mojica. We go all the way back to college. I'm not gonna date ourselves there with the graduation year and everything, but I'm very excited for you guys to hear from her because Cynthia is such an articulate and thoughtful person, and has a very interesting story to share. The language she predominantly speaks at home is American Sign Language, or ASL. She is a hearing person, but her mom is hard of hearing while her dad is fully deaf. So, in this episode, she talks about: </p>
+                  <p>Hello and welcome to <b className="bolded">Found in Translation</b>. I&#x27;m your host Guru Ramanathan and this is a podcast where people who are first/second generation and/or immigrants come on to talk about their relationship with their cultural language and how that has influenced their connection to their culture, family, friends, and more.</p>
+                  <p>This week&#x27;s guest is Cynthia Mojica. I'm very excited for you guys to hear from her because Cynthia is such an articulate and thoughtful person, and has a very interesting story to share. The language she predominantly speaks at home is American Sign Language, or ASL. She is a hearing person, but her mom is hard of hearing while her dad is fully deaf. So, in this episode, she talks about: </p>
                   <div className='text-photo'>
                     <div className='text-arrow'>
                       <p className='handwriting'>This is Cynthia</p>
