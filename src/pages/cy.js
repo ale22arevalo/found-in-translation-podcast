@@ -526,6 +526,15 @@ const Cy = () => {
                   <p>So for sign names most commonly used by girls, they take the letter and they attribute it to their hair. So they may brush the letter up-down their head, or just attribute their like long hair. And if they have short hair or curly hair, they may do a little, like, twirl.</p>
                   <p>To like show the curl, and that might be their sign name. So that&#x27;s a common sign name that sometimes it may be given to you. I just found one and I just stuck with it. I don&#x27;t think there&#x27;s any true meaning to it. Just my name and that you just kind of shake it.</p>
                   <p>There&#x27;s really no reason. I think at some point I was so upset at the fact that I didn&#x27;t have a story behind it that I used to just make it up. I used to just make it up. I used to just, like, they&#x27;ll be like, &quot;Oh Cynthia, why is your name like, you know, you just shaking your hand?&quot; And I&#x27;m like, &quot;Oh, because I just like shaking things, that's pretty much it.&quot; </p>
+                  <iframe width="315" height="560"
+                        src="https://www.youtube.com/shorts/PgScf9bc6_Y"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        style={{margin: '1rem', display: 'block'}}
+                        >
+                    </iframe>
               </div>
             </section>
             <section className="section-wrapper">

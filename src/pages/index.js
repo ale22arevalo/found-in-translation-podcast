@@ -150,7 +150,7 @@ const IndexPage = () => {
                 <img id="g-rachel-Artboard_1-img" className="g-rachel-Artboard_1-img g-aiImg" alt="" src={cynthiaillo}/>
             </div>
             <a href="./cy#topper">
-                <button className="ep-btn">Coming July 18th</button>
+                <button className="ep-btn">Experience the podcast visually</button>
            </a>
           </div>
         </div>
