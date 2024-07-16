@@ -10,6 +10,8 @@ import youngmom from "../images/cynthia/youngmom.jpg"
 import dadphoto from "../images/cynthia/dadphoto.webp"
 import junior from "../images/cynthia/junior.webp"
 import grad from "../images/cynthia/grad.webp"
+import babycy from "../images/cynthia/babycy.webp"
+import laureneternals from "../images/cynthia/laureneternals.webp"
 
 const Cy = () => {
             useEffect(() => {
@@ -246,9 +248,21 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                   <p>Mm-hmm. Well, first of all, I see that &quot;Eternals&quot; were mentioned. I think that&#x27;s Lauren Ridloff. She was actually a teacher at my elementary school. She was a teacher before she left, and then I guess she went into theater and acting. </p>
+                  <div className='text-photo'>
+                    <div className='text-arrow'>
+                      <p className='handwriting'>This is Lauren Ridloff in "Eternals"</p>
+                    </div>
+                    <img className="horizontal-photo" src={laureneternals} alt="" loading="lazy" />
+                  </div>
                   <p>So, yes, I do know her and her husband. They were both teachers at my school, so that was pretty cool to see on the big screen. I know a lot of my elementary school, middle school friends were very proud of her to see her on the big screen.</p>
                   <p>I know for me, the first semblance of representation was &quot;Switched at Birth.&quot; And that was a popular show where I swear like everybody that I meet, even now, they&#x27;re like, &quot;Oh my God, I watched 'Switched at Birth.' ASL is so cool, I wanted to learn it instead.&quot; </p>
                   <p>And I feel like back when it first aired and it got like a lot of buzz and popularity, I was like, &quot;Oh my God, I don&#x27;t know how to feel. This is kind of weird.&quot; I felt pressured to watch it, too. And I did watch a few episodes, but...</p>
+                  <div className='text-photo'>
+                    <div className='text-arrow'>
+                      <p className='handwriting'>Here's the cast of "Switched at Birth"</p>
+                    </div>
+                    <img className="horizontal-photo" src={switchedatbirth} alt="" loading="lazy" />
+                  </div>
               </div>
             </section>
             <section className="section-wrapper">
