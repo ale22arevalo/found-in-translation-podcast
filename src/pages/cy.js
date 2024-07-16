@@ -3,10 +3,16 @@ import Navbar from '../components/navbar';
 import BackTop from '../components/backtop';
 import "../styles.css"
 import cynthia_headshot from "../images/cynthia/cynthia_headshot.webp"
+import cyandmom from "../images/cynthia/cyandmom.webp"
+import middleschool from "../images/cynthia/middleschool.webp"
+import highschool from "../images/cynthia/highschool.webp"
+import youngmom from "../images/cynthia/youngmom.jpg"
+import dadphoto from "../images/cynthia/dadphoto.webp"
+import junior from "../images/cynthia/junior.webp"
+import grad from "../images/cynthia/grad.webp"
 
 const Cy = () => {
-
-              useEffect(() => {
+            useEffect(() => {
                 // Get all elements with class 'section-wrapper'
                 const parentDivs = document.querySelectorAll('.section-wrapper');
             
@@ -98,6 +104,12 @@ const Cy = () => {
                   <p>And so, in the deaf community, that would make me a <b className='bolded'>C.O.D.A.</b> So that&#x27;s a Child of Deaf, I guess, in my case, Adults. Sometimes people could have one or two, obviously. So, I usually ask this question a lot to my mom because I, for the longest time, didn&#x27;t know what came first.</p>
                   <p>It was kind of like, you know, the chicken and the egg question. What came first: ASL or English. And the consensus is both. But, I started taking ASL classes.</p>
                   <p>And I have pictures in my house of just me and my mom practicing gestures. I&#x27;m mimicking my mom, like touching my nose and touching my ears and touching my head and, you know, just lots of visual stuff.</p> 
+                  <div className='text-photo'>
+                    <div className='text-arrow'>
+                      <p className='handwriting'>This is little Cynthia and her mom</p>
+                    </div>
+                    <img className="horizontal-photo" src={cyandmom} alt="" loading="lazy" />
+                  </div>
                   <p>And then, for my elementary to middle school time, I went to an integrated school in the city where there were deaf students, hard of hearing students, and students who were hearing like me who may have deaf parents like I did.</p>
                   <p>And it was sort of like this nice tight knit community that my family felt was a good safe space for both their child&#x27;s education, but also their ability to be in touch with their child&#x27;s education.</p> 
                   <p>And then, when I went to high school, I decided I wanted to go outside of that bubble and that&#x27;s kind of where the formal classes ended for me.</p>
@@ -137,6 +149,12 @@ const Cy = () => {
               <div className='p-wrapper side'>
                   <p>I had a preference of English, just because in the beginning, I wasn&#x27;t really good at it. It was part of the experience of being a child with two deaf adults that you kind of lose, unless you have, you know, hearing family members outside of your immediate family that will help you develop the language.</p>
                   <p>I didn&#x27;t have that. So a lot of my issues with English kind of manifested when I went to school. I had to go to speech therapy for like five years. That made me appreciate ASL more because I at least -- I had to think about this -- but I&#x27;m able to better describe a word that I&#x27;m missing in ASL than describe a word that I&#x27;m missing in English.</p>
+                  <div className='text-photo'>
+                    <div className='text-arrow'>
+                      <p className='handwriting'>This is Cynthia in middle school</p>
+                    </div>
+                    <img className="vertical-photo" src={middleschool} alt="" loading="lazy" />
+                  </div>
                   <p>So that&#x27;s kind of like a way that I can describe my relationship to ASL more, but I guess now if I were to compare it to how I felt before, and I feel more comfortable speaking in English than ASL.</p>
               </div>
             </section>
@@ -176,6 +194,12 @@ const Cy = () => {
               <div className='p-wrapper side'>
                 <div>
                   <p>Oh that&#x27;s a good question. In terms of race and ethnicity, it was actually very diverse. I never felt isolated in terms of my ethnicity as a Puerto Rican and Dominican individual.</p>
+                  <div className='text-photo'>
+                    <div className='text-arrow'>
+                      <p className='handwriting'>This is Cynthia in high school</p>
+                    </div>
+                    <img className="vertical-photo" src={highschool} alt="" loading="lazy" />
+                  </div>
                   <p>My friend group was predominantly hearing people, even though I did have friends who were hard of hearing and deaf, but, you know, when I would go sit at the lunch table, I would be with the hearing kids. I would sit down with the hearing kids and we would talk.</p>
                   <p>I would go to class and sometimes, certain subjects, we would separate the class. So that kind of created the pockets, I think fundamentally, but I never felt like I only had to stay in that circle. I think I was just the type of person that I didn&#x27;t care.</p>
                 </div>
@@ -247,11 +271,23 @@ const Cy = () => {
                   <p>But I guess it&#x27;s hard for me to really say. I am not the ones that are directly affected by it. My parents are. So, there&#x27;s always that issue. I think part of the reason why, when you asked me to do this podcast, in the back of my mind, I&#x27;m always like, I am speaking not for myself. I am speaking for myself and my experiences, but at the end of the day, when it comes to, you know, discussing whether or not, you know, represent-- things are being really represented, I&#x27;m not speaking for myself.</p>
                   <p>I feel like as I&#x27;ve learned both languages at once, it took me a long time to really, really understand my parents. </p>
                   <p>There are still times where I speak to my parents and there&#x27;s like a disconnect. Like I don't, I&#x27;m like, &quot;Oh, I don&#x27;t really know what you&#x27;re saying.&quot; And they might have misunderstood what I said, and then it becomes this whole conflict. And then it, you know, just screws up my perception of like, is this who my parents are?</p>
+                  <div className='text-photo'>
+                    <div className='text-arrow'>
+                      <p className='handwriting'>Here's Cynthia's mom when younger (front row in the middle)</p>
+                    </div>
+                    <img className="horizontal-photo" src={youngmom} alt="" loading="lazy" />
+                  </div>
                   <p>And I&#x27;m like, "Oh God, they&#x27;re being so annoying right now." But parents can be annoying. But, I would say being able to communicate my feelings definitely helped a lot as I grew up because I know back then it was a lot more difficult for me to one, understand my own feelings and my connections with ASL, but also to convey it. Because I was able to convey it through writing.</p>
                   <p>My parents are also illiterate. And that&#x27;s also just due to the lack of accessible educational stuff as children.</p>
                   <p>I know this is not what every deaf person went through. There&#x27;s definitely a lot of privileged people out there that were able to get the education early on, that were able to make the decision of whether or not they wanted to go through cochlear implants or hearing aids and whatnot.</p>
                   <p>But from my experience, my parents just had the low end of the stick and they weren&#x27;t fortunate enough to get that formal education. So ASL was really all they know. </p>
                   <p>So as someone who is learning both ASL and English, and trying to convey their feelings, as well as understand their own feelings, it took a long time for me to tell my parents, &quot;Oh, sometimes when you say this, it hurts my feelings.&quot; For them to respond, &quot;No, this is just, I&#x27;m just saying it because that&#x27;s just how I say it in this language.&quot; It&#x27;s not that I&#x27;m trying to hurt you. It&#x27;s just, I&#x27;m just trying to convey it to you.</p>
+                  <div className='text-photo'>
+                    <div className='text-arrow'>
+                      <p className='handwriting'>Here's Cynthia's dad when younger (left of guy with glasses)</p>
+                    </div>
+                    <img className="vertical-photo" src={dadphoto} alt="" loading="lazy" />
+                  </div>
                   <p>I think definitely at my time at NYU, you know, being a psych major, that was more of a beneficial experience for me. I&#x27;m no psychologist now, but that was my form of therapy. So...the stereotypes are true! People go into psych for their own reasons. For their own benefit, for their own mental health.</p>
               </div>
             </section>
@@ -311,6 +347,12 @@ const Cy = () => {
               <div className='p-wrapper side'>
                 <div>
                   <p>I mean, in class it was a lot more hands on. There would be no talking at all. The instructor was always a deaf person, so there was no need to talk at all. In terms of facial expressions... God, I mean, I&#x27;m no teacher, so it&#x27;s really hard to even explain it. But they teach you how to move your eyebrows a certain way. You have to-- I think I would picture like if you&#x27;re an actor. You don&#x27;t say lines with a straight face.</p>
+                  <div className='text-photo'>
+                    <div className='text-arrow'>
+                      <p className='handwriting'>Here's Cynthia as a college junior</p>
+                    </div>
+                    <img className="vertical-photo" src={junior} alt="" loading="lazy" />
+                  </div>
                   <p>There&#x27;s no reason in ASL for you to be just talking with a straight face because then you&#x27;ll, they&#x27;ll always think you&#x27;re mad. It won&#x27;t make sense in a lot of contexts. It displays tone, it displays grammar, it displays all these different things.</p>
                 </div>
               </div>
@@ -356,6 +398,12 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                   <p>Maybe it&#x27;s just me being biased, but I have a very distinct memory in my childhood where I spoke to, maybe it was like a lawyer or something. And I was speaking about the fact that I knew ASL and he literally looked at me like, &quot;What?&quot; </p>
+                  <div className='text-photo'>
+                    <div className='text-arrow'>
+                      <p className='handwriting'>This is baby Cynthia</p>
+                    </div>
+                    <img className="vertical-photo" src={babycy} alt="" loading="lazy" />
+                  </div>
                   <p>&quot;That&#x27;s a language? That counts? What? I don&#x27;t think that counts. Does that count?&quot; It literally stunned me. I was like, &quot;Yeah, it&#x27;s a language.&quot; After I remember actively looking online and be like, &quot;Is it really a language?&quot; You know, fully immersed in the language and culture.</p>
                   <p>But because of that one person, that one person outside of the community being like, &quot;Is this even real?&quot; So, to answer the question that I was asked in the past for so many years, yes! But for the longest time, I was stumped by this sudden fake debate. But I think now whenever I tell this to people like you, when I&#x27;m like, &quot;Oh yeah, people used to think that it wasn&#x27;t a language.&quot; I&#x27;m glad to hear the response is like, &quot;What? That&#x27;s so dumb. Because of course it&#x27;s a language.&quot; </p>
                   <p>Is it officially recognized as a language in other countries? Every country has their own sign language. That&#x27;s another misconception, too, that I got often is like, &quot;Oh yeah, is ASL universal?&quot; Maybe read the acronym.</p>
@@ -397,6 +445,12 @@ const Cy = () => {
             <section className="section-wrapper">
               <div className="p-wrapper full">
                 <b className='bolded'>I think it&#x27;s an ongoing conversation. I did research in college about the kind of divide between deaf children and parents, you know, who ultimately want to do what&#x27;s best for their kids, but may not actually realize that what they&#x27;re doing may actually harm them.</b>
+                <div className='text-photo'>
+                    <div className='text-arrow'>
+                      <p className='handwriting'>This is Cynthia at her college graduation</p>
+                    </div>
+                    <img className="vertical-photo" src={grad} alt="" loading="lazy" />
+                  </div>
                 <p>So what I mean by that is when parents give birth to a deaf child, especially if they&#x27;re hearing themselves, they commonly, in research, it says that they go through a period of grief and that in itself is a lot, you know, very telling to what could happen if, you know, a child could recognize that period of grief that they go through. But that&#x27;s usually early on.</p>
                 <p>They either try to fix their child or they try to help them adapt around their identity as a disabled or a deaf individual. Deaf, hard of hearing, whatever, it&#x27;s the spectrum. So, parents would go towards the fixing route, which is usually like the medical model of disability that you may have heard in books or in theories.</p>
                 <p>And it&#x27;s basically like, our goal is to help you be as close to a hearing person as possible. Which means surgeries as young as a baby to get the cochlear implant, forcing these kids to go into only hearing schools and never touching a lick of sign language. They never fully adapt.</p>
