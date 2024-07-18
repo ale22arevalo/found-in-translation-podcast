@@ -61,6 +61,9 @@ const Cy = () => {
 
     <div className="main-body">
             <section className='section-wrapper'>
+              <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/episode/3DcfUVtJbhekzPyssvo4rx?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+            <section className='section-wrapper'>
               <div className="name-wrapper">
                 <h3>The Host<br/><span className="first-name">Guru Ramanathan</span></h3>
               </div>
@@ -237,7 +240,7 @@ const Cy = () => {
               </div>
               <div className='p-wrapper side'>
                 <div>
-                  <p><b className="bolded">Yeah. Growing up, I didn&#x27;t even see that, or barely any, deaf characters, or even just the use of ASL in films and shows. At least in the last two years, I&#x27;ve seen a rise of ASL, or just a more positive exposure of the deaf community in mainstream media.</b></p>
+                  <p>Yeah. Growing up, I didn&#x27;t even see that, or barely any, deaf characters, or even just the use of ASL in films and shows. At least in the last two years, I&#x27;ve seen a rise of ASL, or just a more positive exposure of the deaf community in mainstream media.</p>
                   <p>Like, there was the film &quot;C.O.D.A.&quot; that won Best Picture. The year before that there was &quot;Sound of Metal&quot;. And, of course, &quot;The Eternals,&quot; which was, I mean, huge Marvel film.</p>
                   <p>And so, I&#x27;m curious, how do you feel about the representation of ASL in mainstream media, but then also at large, <b className="extra-bolded">are you seeing more acknowledgement or, I guess, more accessible spaces, in regular society? Is that representation in media having an effect, a positive effect?</b></p>
                 </div>
@@ -339,7 +342,21 @@ const Cy = () => {
             </section>
             <section className="section-wrapper">
               <div className="p-wrapper full">
-                <b className='bolded'>I grew up with a misconception, and I, and I fought myself for saying this for the longest time. I was like, &quot;Oh yeah, how can people think that like, I don&#x27;t know English. Like I have to know English to know ASL.&quot; That&#x27;s not true. ASL is like an entire entity in itself.</b>
+                <b>I grew up with a misconception, and I fought myself for saying this for the longest time.</b>
+              </div>
+            </section>
+            <section className="section-wrapper">
+              <div className="p-wrapper full">
+                <b>I was like, &quot;Oh yeah, how can people think that like, I don&#x27;t know English. Like I have to know English to know ASL.&quot; </b>
+              </div>
+            </section>
+            <section className="section-wrapper">
+              <div className="p-wrapper full">
+                <b>That&#x27;s not true. ASL is like an entire entity in itself.</b>
+              </div>
+            </section>
+            <section className="section-wrapper">
+              <div className="p-wrapper full">
                 <p>You have to throw away the English language to understand ASL. Like English definitely helps, obviously, but you have to throw away sentence structure entirely. Grammar, throw it out the window. The structure of, of, of just like how you say a simple sentence. Totally different.</p>
                 <p>You don&#x27;t say every single word in a sentence. You could say two signs and that&#x27;s like two sentences. It&#x27;s so much more than just doing gestures. So, I would say that&#x27;s another fundamental part of ASL.</p>
               </div>
@@ -459,7 +476,7 @@ const Cy = () => {
             </section>
             <section className="section-wrapper">
               <div className="p-wrapper full">
-                <b className='bolded'>I think it&#x27;s an ongoing conversation. I did research in college about the kind of divide between deaf children and parents, you know, who ultimately want to do what&#x27;s best for their kids, but may not actually realize that what they&#x27;re doing may actually harm them.</b>
+                <p>I think it&#x27;s an ongoing conversation. I did research in college about the kind of divide between deaf children and parents, you know, who ultimately want to do what&#x27;s best for their kids, but may not actually realize that what they&#x27;re doing may actually harm them.</p>
                 <div className='text-photo'>
                     <div className='text-arrow'>
                       <p className='handwriting'>This is Cynthia at her college graduation</p>
@@ -486,7 +503,7 @@ const Cy = () => {
                 <div className='bolded-name'>Guru</div>
               </div>
               <div className="p-wrapper side">
-                <b className='bolded'>I guess just to wrap it up, do you have a specific name sign? Could you tell us how you got it or like what it means and such?</b>
+                <b className='extra-bolded'>I guess just to wrap it up, do you have a specific name sign? Could you tell us how you got it or like what it means and such?</b>
               </div>
             </section>
             <section className="section-wrapper quote">
@@ -526,15 +543,17 @@ const Cy = () => {
                   <p>So for sign names most commonly used by girls, they take the letter and they attribute it to their hair. So they may brush the letter up-down their head, or just attribute their like long hair. And if they have short hair or curly hair, they may do a little, like, twirl.</p>
                   <p>To like show the curl, and that might be their sign name. So that&#x27;s a common sign name that sometimes it may be given to you. I just found one and I just stuck with it. I don&#x27;t think there&#x27;s any true meaning to it. Just my name and that you just kind of shake it.</p>
                   <p>There&#x27;s really no reason. I think at some point I was so upset at the fact that I didn&#x27;t have a story behind it that I used to just make it up. I used to just make it up. I used to just, like, they&#x27;ll be like, &quot;Oh Cynthia, why is your name like, you know, you just shaking your hand?&quot; And I&#x27;m like, &quot;Oh, because I just like shaking things, that's pretty much it.&quot; </p>
-                  <iframe width="315" height="560"
-                        src="https://www.youtube.com/shorts/PgScf9bc6_Y"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                        style={{margin: '1rem', display: 'block'}}
-                        >
-                    </iframe>
+                  <div style={{display: 'flex', justifyContent: 'center'}}>
+                    <iframe width="315" height="560"
+                          src="https://www.youtube.com/embed/PgScf9bc6_Y"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          allowfullscreen
+                          style={{margin: '1rem', display: 'block'}}
+                          >
+                      </iframe>
+                    </div>
               </div>
             </section>
             <section className="section-wrapper">
