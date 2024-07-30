@@ -56,7 +56,7 @@ const Fa = () => {
               </div>
               <div className='p-wrapper side'>
                   <p>Hello and welcome to <b>Found in Translation</b>. <br />I&#x27;m your host Guru Ramanathan. <br /></p>
-                  <p>And this is a podcast where first/second generation and immigrant people come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.<br /></p>
+                  <p>And this is a podcast where first/second generation and immigrants come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.<br /></p>
                   <p>
                     This episode's guest is Fareeha Mahmood, and it's actually the final episode of the season. Fareeha, who came in way of Alejandra, is living in New York City right now, but is actually here to talk about:  <br />
                   </p>
