@@ -62,6 +62,9 @@ const Fa = () => {
 
       <BackTop />
       <div className="main-body">
+          <section className='section-wrapper'>
+            <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/episode/1fgnXhMBJz6bEU6XunT28p?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </section>
             <section className='section-wrapper'>
               <div className='name-wrapper'>
                 <div>

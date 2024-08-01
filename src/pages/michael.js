@@ -86,8 +86,8 @@ const Michael = () => {
         <BackTop />
 
         <section className="main-body">
-          <section className="section-wrapper">
-            <iframe src="https://podcasters.spotify.com/pod/show/found-in-translation6/embed/episodes/Episode-2-A-Comedy-of-Errors-and-Education-in-Yoruba-e2ljbp2/a-abdgt62" height="100%" width="100%" frameborder="0" scrolling="no"></iframe> 
+          <section className='section-wrapper'>
+            <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/episode/0PSfqaMO2ftb9SJHTHHQeB?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           </section>
             <section className="section-wrapper">
               <div className="name-wrapper">

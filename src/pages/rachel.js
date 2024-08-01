@@ -95,8 +95,8 @@ const Rachel = () => {
       <BackTop />
 
       <div className="main-body">
-        <section className="section-wrapper">
-        <iframe src="https://podcasters.spotify.com/pod/show/found-in-translation6/embed/episodes/Episode-1-Korean-Whispers-e2l3cc4/a-abceb7j" height="100%" width="100%" frameborder="0" scrolling="no"></iframe>
+        <section className='section-wrapper'>
+          <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/episode/0zTTVVqz56JDLyBtCWxh31?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </section>
         {/* Podcast Intro */}
             <section className="section-wrapper">
