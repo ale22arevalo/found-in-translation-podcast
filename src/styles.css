@@ -568,6 +568,7 @@ text {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
     padding: 0 1rem 0 0;
 
     p{
