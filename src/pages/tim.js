@@ -17,6 +17,7 @@ import tim_japan from '../images/tim/tim_japan.jpg';
 import tim_wedding from '../images/tim/tim_wedding.jpg';
 
 
+
 const Tim = () => {
     useEffect(() => {
         const parentDivs = document.querySelectorAll('.section-wrapper');
