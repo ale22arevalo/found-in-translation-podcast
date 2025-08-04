@@ -84,7 +84,7 @@ const Tim = () => {
                         <h3>The Guest<br /><span className="first-name">Tim Bumatay</span></h3>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Hi. Yeah. Thanks. Tim Bumatay, he, him really happy to be here. I'm a first generation Filipino American and I grew up, I was born in, grew up and raised in Southern California. I currently live in Los Angeles and the language of my family is Tagalog from the Philippines. So. That's what we'll be talking about today.</p>
+                        <p>Hi. Yeah. Thanks. Tim Bumatay, he, him really happy to be here. I'm a first-generation Filipino-American, and I was born in and grew up in Southern California. I currently live in Los Angeles and the language of my family is Tagalog from the Philippines. So. That's what we'll be talking about today.</p>
                     </div>
                 </section>
 
