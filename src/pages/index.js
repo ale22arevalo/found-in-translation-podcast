@@ -7,10 +7,10 @@ import rachelillo from "../images/rachel/rachel.webp"
 import michaelillo from "../images/michael/michael.webp"
 import cynthiaillo from "../images/cynthia/cynthia.webp"
 import fareehaillo from "../images/fareeha/fareeha.webp"
-import timillo from "../images/tim/tim_headshot.jpg"
 import cristinaillo from "../images/cristina/cristina_headshot.jpg"
 import jaredillo from "../images/jared/jared_headshot.jpg"
 import boyingillo from "../images/boying/boying_headshot.jpg"
+import timillo from "../images/tim/tim_illo.png"
 
 
 const links = [
@@ -108,15 +108,14 @@ const IndexPage = () => {
       <h2>Season 2</h2>
       <section className="episodes">
       <div id="tim" className="episode-wrapper right">
-          <div id="g-box" className="ai2html">
-              <div id="g-rachel-Artboard_1" className="g-artboard" style={{maxWidth: "569px", maxHeight: "809px"}} data-aspect-ratio="0.754" data-min-width="0">
-                  <img id="g-rachel-Artboard_1-img" className="g-rachel-Artboard_1-img g-aiImg" alt="" src={timillo}/>
-              </div>
-              <a href="./tim#topper">
-              {/* <a href=""> */}
-                <button className="ep-btn">Experience the podcast visually</button>
-              </a>
+           <div id="g-box" className="ai2html">
+            <div id="g-rachel-Artboard_1" className="g-artboard" style={{maxWidth: "569px", maxHeight: "809px"}} data-aspect-ratio="0.754" data-min-width="0">
+                <img id="g-rachel-Artboard_1-img" className="g-rachel-Artboard_1-img g-aiImg" alt="" src={timillo}/>
             </div>
+            <a href="./tania#topper">
+              <button className="ep-btn">Experience the podcast visually</button>
+            </a>
+          </div>
             <div className="text-wrapper">  
               <h3>Tim</h3>
               <p><b className="bolded">Tim Bumatay</b> lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra sollicitudin laoreet. Mauris maximus, felis quis gravida commodo, ex metus vestibulum ex, eu malesuada sem ante non sapien. Sed sed tellus metus. In a luctus turpis.</p>
