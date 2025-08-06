@@ -2,6 +2,11 @@ import React, {useEffect} from 'react'
 import Navbar from '../components/navbar';
 import BackTop from '../components/backtop';
 import "../styles.css"
+import tania_profile from '../images/tania/tania_profile.jpg';
+import tania_baby from '../images/tania/tania_baby.jpg';
+import tania_outdoors from '../images/tania/tania_outdoors.jpg';
+import tania_highschool from '../images/tania/tania_highschool.png';
+import tania_friends from '../images/tania/tania_friends.png';
 
 const Tania = () => {
     useEffect(() => {
@@ -72,6 +77,14 @@ const Tania = () => {
                         <p>I was born in St. Petersburg and my pronouns are she, her, and I'm very excited to be here.</p>
                     </div>
                 </section>
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Tania</p>
+                        </div>
+                            <img className="vertical-photo" src={tania_profile} alt="" loading="lazy" />
+                    </div>
+                </section>
 
                 <div className='cue'>~ interview begins ~</div>
 
@@ -94,15 +107,28 @@ const Tania = () => {
                         <p>So that was like a very interesting thing for me growing up. That I really had to I had to study even my own native language.</p>
                     </div>
                 </section>
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Baby Tania</p>
+                        </div>
+                            <img className="horizontal-photo" src={tania_baby} alt="" loading="lazy" />
+                    </div>
+                </section>
 
                 <section className="section-wrapper">
-                    <div className="name-wrapper">
-                        <div className='bolded-name'>Tania</div>
+                    <div className='p-wrapper full'>
+                        <b className='extra-bolded'>
+                          I feel like it was complicated, but with Russian specifically it was important for me to understand the background of the language, because we have a lot of really excellent writers, and they were so equipped in using this language as such a great and powerful tool and so that was very important for me to get a gist of this, and that's why I was reading and learning. I really wanted to be a journalist it's a complicated relationship but it's definitely an interesting one.
+                        </b>
                     </div>
-                    <div className='p-wrapper side'>
-                        <p>I feel like it was complicated, but with Russian specifically it was important for me to understand the background of the language, because we have a lot of really excellent writers, and they were so equipped in using this language as such a great and powerful tool and so that was very important for me to get a gist of this, and that's why I was reading and learning. I really wanted to be a journalist it's a complicated relationship but it's definitely an interesting one.</p>
-                        <p>My mom only speaks Russian. And she's very reluctant in learning even a couple of words in English. I don't know why, but I told her like just to study a couple words that you would need to use when you travel. For some reason she just .Says, Nah I can't. So she really relies on me.</p>
-                        <p>I feel like the older you get the harder maybe it is to learn just because you have so much like information and you have work and things. I studied learning Italian and I'm really struggling with it and I think I'm going to give up because It's just, it's hard for me to memorize words I don't know, maybe I'm not paying attention enough, but I like watch those videos and then I completely forget everything they said.</p>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='p-wrapper full'>
+                        <b className='extra-bolded'>
+                       My mom only speaks Russian. And she's very reluctant in learning even a couple of words in English. I don't know why, but I told her like just to study a couple words that you would need to use when you travel. For some reason she just says, nah I can't. So she really relies on me.
+                        </b>
                     </div>
                 </section>
 
@@ -111,8 +137,18 @@ const Tania = () => {
                         <div className='bolded-name'>Tania</div>
                     </div>
                     <div className='p-wrapper side'>
+                        <p>I feel like the older you get the harder maybe it is to learn just because you have so much like information and you have work and things. I studied learning Italian and I'm really struggling with it and I think I'm going to give up because It's just, it's hard for me to memorize words I don't know, maybe I'm not paying attention enough, but I like watch those videos and then I completely forget everything they said.</p>
                         <p>But I feel like also German and English, they're very similar. So when I was studying English and German at the same time, I kept confusing words because they're very similar. So I would use English words during my German classes and I'd be like, wait no, this is English and then when I was like studying English, like in English classes, like I would use German words and it was such a mess in my head.</p>
                         <p>So I understand why it's definitely challenging to learn, especially languages that are a little bit similar and that could be confusing. I think I should go back to German, maybe. I should definitely give up on Italian and just go back to German, maybe</p>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>One of Tania's travels</p>
+                        </div>
+                            <img className="horizontal-photo" src={tania_outdoors} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -126,20 +162,45 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className="name-wrapper">
-                        <div className='bolded-name'>Tania</div>
-                    </div>
-                    <div className='p-wrapper side'>
-                        <p>Yeah, I feel like everyone was exclusively talking in Russian. I loved English, and I had this goal to move to New York since I was like 13 probably, so I was maybe trying to talk in English to people, but I feel like most of my classmates, for example, in school, they didn't, also, I went, I studied.</p>
-                        <p>I went to the math school, so a focus on math and physics, and some other subjects that are not languages. I feel like my classmates didn't really care that much to learn and I was like the best student in English and they would just ask me questions. And I was so passionate about this and I was like, of course like I will explain how you build out sentences in english. I don't know if you have this in america, but we had days I think like once in three months In school you would go to So if you were in middle school, you would go to the elementary school and you would play teachers for a day only. And I always chose english and I was an English teacher for a day and it was so fun. But I feel like all my friends, it wasn't a priority for them. And, yeah, I feel like I was always just very obsessed with English and New York and everyone else wasn't really into that.</p>
+                    <div className='p-wrapper full'>
+                        <b className='extra-bolded'>
+                       Yeah, I feel like everyone was exclusively talking in Russian. I loved English, and I had this goal to move to New York since I was like 13 probably, so I was maybe trying to talk in English to people, but I feel like most of my classmates, for example, in school, they didn't, also, I went, I studied.
+                        </b>
                     </div>
                 </section>
 
                 <section className="section-wrapper">
                     <div className="name-wrapper">
+                        <div className='bolded-name'>Tania</div>
+                    </div>
+                    <div className='p-wrapper side'>
+                        <p>I went to the math school, so a focus on math and physics, and some other subjects that are not languages.</p>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Tania's high school graduation</p>
+                        </div>
+                            <img className="vertical-photo" src={tania_highschool} alt="" loading="lazy" />
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='p-wrapper full'>
+                        <b className='extra-bolded'>
+                        I feel like my classmates didn't really care that much to learn and I was like the best student in English and they would just ask me questions. And I was so passionate about this and I was like, of course like I will explain how you build out sentences in english.
+                        </b>
+                    </div>
+                </section>
+                 
+                <section className="section-wrapper">
+                    <div className="name-wrapper">
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
+                        <p>I don't know if you have this in america, but we had days I think like once in three months In school you would go to So if you were in middle school, you would go to the elementary school and you would play teachers for a day only. And I always chose english and I was an English teacher for a day and it was so fun. But I feel like all my friends, it wasn't a priority for them. And, yeah, I feel like I was always just very obsessed with English and New York and everyone else wasn't really into that.</p>
                         <p>I think it'd be great to understand more of just what Russian is like as a language. Obviously this isn't like linguistic class or anything, but if you could give more of a sense of what the grammar structure is like, or alphabet structure, stuff like that.</p>
                     </div>
                 </section>
@@ -162,8 +223,14 @@ const Tania = () => {
                     <div className='p-wrapper side'>
                         <p>If I were to describe Russian language, I would probably say we use, yeah, a lot of adjectives, but also It's like a song sometimes, like they use, and I keep thinking about writers, like famous writers like Dostoevsky and Tolstoy. The way they build sentences, and this is the goal, like this is what, if you're a writer especially, or if you want to sound eloquent, this is the goal of how to build out those sentences. They use a lot of I don't know that word.</p>
                         <p>I don't know how to explain that. They use words that don't make sense, but they only make sense for Russian people. If you read a sentence and it says table, if you're not native speaker, you will probably don't understand the sentence because it's like, it looks simple, but for Russian people it means a very different thing.</p>
-                        <p>So I think that's why russian literature is very Unique in terms of words because they use a lot of them and when I was reading the seagull . I was actually working on helping my friend who was in the production of the seagull by Chekhov and she made me read the seagull in english and russian and compare. And there were some things that I could not explain because They don't make sense to person who doesn't speak Russian.</p>
-                        <p>This is what I can tell you about Russian without going into deeper questions about linguistics, but yeah.</p>
+                        <p>So I think that's why russian literature is very Unique in terms of words because they use a lot of them and when I was reading the seagull.</p>
+                    </div>
+                </section>
+                 <section className="section-wrapper">
+                    <div className='p-wrapper full'>
+                        <b className='extra-bolded'>
+                        I was actually working on helping my friend who was in the production of the seagull by Chekhov and she made me read the seagull in english and russian and compare. And there were some things that I could not explain because They don't make sense to person who doesn't speak Russian. This is what I can tell you about Russian without going into deeper questions about linguistics, but yeah.
+                        </b>
                     </div>
                 </section>
 
@@ -200,6 +267,15 @@ const Tania = () => {
                     </div>
                     <div className='p-wrapper side'>
                         <p>Not a tone, definitely, but slang -I know that there are some differences between the words that people from Moscow would use. Specifically there's one word it describes the entrance into the building. And we have one word in people who grew up in St. Petersburg, but people from Moscow use a completely different word. And I think there's a little Beef between people from Moscow and St. Petersburg and they would make fun of each other and they would be like, oh, okay he's that word. So he's from Moscow. It's a little bit like LA and New York. People who grew up in St. Petersburg probably don't want to move to Moscow. They're no this is our city and this is the best city and people from Moscow are the same. I think maybe there are about 40, 50 important words that are very different, but in terms of pronunciation, or tone, I don't think there are differences in terms of accents. I don't think we have accents.</p>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Tania and her friends</p>
+                        </div>
+                            <img className="vertical-photo" src={tania_friends} alt="" loading="lazy" />
                     </div>
                 </section>
 
