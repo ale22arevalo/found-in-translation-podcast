@@ -434,7 +434,7 @@ const Tim = () => {
                     </div>
                     <div className="p-wrapper side">
                         <p>Yeah, there was one of my Filipino friends, or she's half Filipino, but she's also going to come on this podcast. But then, she was saying that if she were to talk about, it wouldn't be from her perspective. She would talk about it from her mom's perspective and what her mom went through. And I was like, well, this podcast, it's about YOU, so, we can't, we can't do that. But, I just thought that was interesting that was her first thought.</p>
-                        <p>I know you were saying like when you were growing up, it's not something that you felt bad about or anything like that. But, did you have a light bulb moment when you were realizing this gap between you and Filipino culture?</p>
+                        <p>I know you were saying, like, when you were growing up, it's not something that you felt bad about or anything like that. But, did you have a light bulb moment when you were realizing this gap between you and Filipino culture?</p>
                     </div>
                 </section>
 
@@ -480,7 +480,7 @@ const Tim = () => {
                         <div className='bolded-name'>Tim</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>and I would hear Tagalog-speaking people or native Filipinos saying "Boo-mah-tai" and I'd go, that's correct. And I would hear roll call.</p>
+                        <p>And I would hear Tagalog-speaking people or native Filipinos saying "Boo-mah-tai" and I'd go, that's correct. And I would hear roll call.</p>
                         <p>And, it's like Timmy "Boo-muh-tae," and I'd be like, yes, that is correct. It wasn't until I was like, oh, well, maybe I should stop going by Timmy and just go by Tim now as like a sign of like, I'm an adult or whatever. But, what's your last name, dude?</p>
                     </div>
                 </section>
