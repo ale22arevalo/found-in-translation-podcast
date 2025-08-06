@@ -675,7 +675,7 @@ const Tim = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>right.</p>
+                        <p>Right.</p>
                     </div>
                 </section>
 
@@ -684,7 +684,7 @@ const Tim = () => {
                         <div className='bolded-name'>Tim</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>it's interesting.</p>
+                        <p>It's interesting.</p>
                     </div>
                 </section>
 
