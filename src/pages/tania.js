@@ -7,6 +7,17 @@ import tania_baby from '../images/tania/tania_baby.jpg';
 import tania_outdoors from '../images/tania/tania_outdoors.jpg';
 import tania_highschool from '../images/tania/tania_highschool.png';
 import tania_friends from '../images/tania/tania_friends.png';
+import tania_movie_poster from '../images/tania/tania_movie_poster.jpg';
+import tania_standing from '../images/tania/tania_standing.png';
+import tania_nyc from '../images/tania/tania_nyc.png';
+import tania_titanic from '../images/tania/tania_titanic.jpg';
+import tania_ny from '../images/tania/tania_ny.jpg';
+import tania_russian from '../images/tania/tania_russian.jpg';
+import tania_texts from '../images/tania/tania_texts.png';
+import tania_nycsnow from '../images/tania/tania_nycsnow.jpg';
+import tania_europe from '../images/tania/tania_europe.jpg';
+import tania_crimepunishment from '../images/tania/tania_crimepunishment.jpg';
+import tania_ahero from '../images/tania/tania_ahero.jpg'
 
 const Tania = () => {
     useEffect(() => {
@@ -77,6 +88,7 @@ const Tania = () => {
                         <p>I was born in St. Petersburg and my pronouns are she, her, and I'm very excited to be here.</p>
                     </div>
                 </section>
+
                 <section className="section-wrapper">
                     <div className='text-photo'>
                         <div className='text-arrow'>
@@ -307,12 +319,22 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className="name-wrapper">
+                     <div className="name-wrapper">
                         <div className='bolded-name'>Tania</div>
                     </div>
-                    <div className='p-wrapper side'>
-                        <p>I was really into movies. I would watch a lot of American movies and specifically remember that movie, what's it, New York Minute with the Olsen sisters. I was very inspired by it and I remember they were really popular when I was growing up.</p>
-                        <p>So, I Would watch those movies and I would be like, okay, like I really want to go and this looks so cool. And I had this dream to move to New York. I thought it was like a universal mistake that I was born in Russia Like I was supposed to like New York is my home. I set the goal in mind around when I was like 11 or 12, as long as I remember, like I was always dreaming about it.</p>
+                    <div className='p-wrapper full'>
+                        <b className='extra-bolded'>
+                          I was really into movies. I would watch a lot of American movies and specifically remember that movie, what's it, New York Minute with the Olsen sisters. I was very inspired by it and I remember they were really popular when I was growing up. So, I Would watch those movies and I would be like, okay, like I really want to go and this looks so cool. And I had this dream to move to New York. I thought it was like a universal mistake that I was born in Russia Like I was supposed to like New York is my home. I set the goal in mind around when I was like 11 or 12, as long as I remember, like I was always dreaming about it.
+                        </b>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>New York Minute</p>
+                        </div>
+                            <img className="vertical-photo" src={tania_movie_poster} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -342,8 +364,36 @@ const Tania = () => {
                     <div className='p-wrapper side'>
                         <p>tutoring. Yeah So I always had a tutor after school. When I was In high school and I was really saving money For my trip. I was very close to moving and of course, I wanted to be Excellent in english. I went to english first and I think it's a very like popular school And I see a lot of kids like on the streets of new york actually from english first. They have like little badges so it's like an international english school and they had native speaking English teachers. It was really great for me because I really wanted to hear the pronunciation and learn the accent.</p>
                         <p>And then I moved to LA in 2015 because there was a student exchange program between Russia and United States. And if you're a student, you can go to the United States and to work like at a restaurant or at a hotel. And the idea was to work to make some money and then you would have a month or two to just to travel. It's called work and travel.</p>
-                        <p>I went to LA and I spent three months in LA, and then I did not like LA, then I, yeah, it definitely wasn't anything that I imagined. And then I went to New York as a tourist just to see what's up and I fell in love. I went back to Russia to get my master's, I actually studied engineering and medical physics, this is very very far from journalism or PR.</p>
-                        <p>But then I came back to New York and, stayed here to pursue my dream. But yeah, I kept learning English, and even now I learn it every day. I have a little book where I write all the words. I still write it. I still, when I read books, like I always take screenshots of words.</p>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Tania</p>
+                        </div>
+                            <img className="vertical-photo" src={tania_standing} alt="" loading="lazy" />
+                    </div>
+                </section>
+
+
+                <section className="section-wrapper">
+                     <div className="name-wrapper">
+                        <div className='bolded-name'>Tania</div>
+                    </div>
+                    <div className='p-wrapper full'>
+                        <b className='extra-bolded'>
+                         I went to LA and I spent three months in LA, and then I did not like LA, then I, yeah, it definitely wasn't anything that I imagined. And then I went to New York as a tourist just to see what's up and I fell in love. I went back to Russia to get my master's, I actually studied engineering and medical physics, this is very very far from journalism or PR. But then I came back to New York and, stayed here to pursue my dream. But yeah, I kept learning English, and even now I learn it every day. I have a little book where I write all the words. I still write it. I still, when I read books, like I always take screenshots of words.
+                        </b>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Tania</p>
+                        </div>
+                            <img className="vertical-photo" src={tania_nyc} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -379,7 +429,7 @@ const Tania = () => {
                         <div className='bolded-name'>Tania</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>I write everything. If I don't know a word, I write it down. If, sometimes, there are some words that they don't make sense. I actually showed it to my American friend and she was like, yeah we don't use this word. This is literally this is not, you would only use it if, if you write a book or a philosophy book.</p>
+                        <p>I write everything. <b className='extra-bolded'>If I don't know a word, I write it down.</b> If, sometimes, there are some words that they don't make sense. I actually showed it to my American friend and she was like, yeah we don't use this word. This is literally this is not, you would only use it if, if you write a book or a philosophy book.</p>
                         <p>And I was like, okay I won't be using it. But, usually when I see a word I try to write it down, just in case, you never know. And I can always just open it and just like look at it and try to memorize. Yeah everything you say, it all goes into the book.</p>
                     </div>
                 </section>
@@ -436,7 +486,18 @@ const Tania = () => {
                         <div className='bolded-name'>Tania</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>It's a good question, and I wish I could answer. But the last time I saw a dubbed movie was probably 10 15 years ago. So I don't remember if it changed. I can only think of Titanic, because I saw it many times in the dubbed version and original version. And I just remember it was really weird to me because in Russian media, they don't really have film industry . But they have a couple people who would do the dubbing of the movie. So Leonardo DiCaprio's voice is dubbed by this guy. And he would work on all his movies. So you associate Leonardo with this guy. I still remember his voice. To me, it was really weird to just watch Titanic with Leonardo's voice, because I was like, this does not sound like him, that's definitely not his voice. His voice is this Russian dude. I remember that was a very interesting experience.</p>
+                        <p>It's a good question, and I wish I could answer. But the last time I saw a dubbed movie was probably 10 15 years ago. So I don't remember if it changed. I can only think of Titanic, because I saw it many times in the dubbed version and original version. And I just remember it was really weird to me because in Russian media, they don't really have film industry . But they have a couple people who would do the dubbing of the movie. <b className='extra-bolded'>So Leonardo DiCaprio's voice is dubbed by this guy. And he would work on all his movies. So you associate Leonardo with this guy.</b> I still remember his voice. To me, it was really weird to just watch Titanic with Leonardo's voice, because I was like, this does not sound like him, that's definitely not his voice. His voice is this Russian dude. I remember that was a very interesting experience.</p>
+                    </div>
+                </section>
+
+                So Leonardo DiCaprio's voice is dubbed by this guy. And he would work on all his movies. So you associate Leonardo with this guy.
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Titanicn</p>
+                        </div>
+                            <img className="vertical-photo" src={tania_titanic} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -460,6 +521,16 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Tania in New York</p>
+                        </div>
+                            <img className="vertical-photo" src={tania_ny} alt="" loading="lazy" />
+                    </div>
+                </section>
+
+
+                <section className="section-wrapper">
                     <div className="name-wrapper">
                         <div className='bolded-name'>Guru</div>
                     </div>
@@ -473,9 +544,18 @@ const Tania = () => {
                         <div className='bolded-name'>Tania</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>in terms of like media and film. But still, once I arrived, I realized that I didn't really know much. Then I just realized that it's not a disadvantage to me. I can, always ask and my background is definitely very different. I just add something to the environment that I'm in.. And I also learn everyday. It's still a process, I'm still definitely learning, and especially working in this industry, when my co workers, they mention, or send some jokes. Very often, I don't quite understand it, and I have to Google it, and then I have to understand. And I don't, I like mainstream pop culture, but I feel like I don't really can relate to that sometimes.</p>
+                        <p>in terms of like media and film. But still, once I arrived, I realized that I didn't really know much. Then I just realized that it's not a disadvantage to me. I can, always ask and my background is definitely very different. I just add something to the environment that I'm in.. And I also learn everyday. It's still a process, I'm still definitely learning, and especially working in this industry, when my co workers, they mention, or send some jokes.</p>
                     </div>
                 </section>
+
+                <section className="section-wrapper">
+                    <div className='p-wrapper full'>
+                        <b className='extra-bolded'>
+                          Very often, I don't quite understand it, and I have to Google it, and then I have to understand. And I don't, I like mainstream pop culture, but I feel like I don't really can relate to that sometimes.
+                        </b>
+                    </div>
+                </section>
+                
 
                 <section className="section-wrapper">
                     <div className="name-wrapper">
@@ -505,6 +585,15 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Tania and Russian food</p>
+                        </div>
+                            <img className="vertical-photo" src={tania_russian} alt="" loading="lazy" />
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
                     <div className="name-wrapper">
                         <div className='bolded-name'>Tania</div>
                     </div>
@@ -513,6 +602,15 @@ const Tania = () => {
                         <p>And, it wasn't hard for me to do because I was working at a restaurant and I was the only Russian person. Everyone was American. And I made a lot of friends and we would go out, we would do things.</p>
                         <p>And then I met my close friend, I met her in LA, but then she moved to New York and she also introduced me to another friend. So we're now three of us together and I speak Russian with them and with my mom on zoom. They are my Russian community.</p>
                         <p>But the rest are mostly American.</p>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Tania's text messages in Russian </p>
+                        </div>
+                            <img className="vertical-photo" src={tania_texts} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -540,10 +638,19 @@ const Tania = () => {
                         <div className='bolded-name'>Tania</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>I feel like I'm definitely nicer in English. I have very dry humor, and I think, It is a part of my nationality, too, because a lot of Russian people, we do have this dry humor. And, I feel like we could be the driest we can three of us as, and there's no way to just, we just don't think about this. I think I'm funnier in Russian but also maybe, yeah, it's because it's like a dry humor.</p>
+                        <b className='extra-bolded'>I feel like I'm definitely nicer in English. I have very dry humor, and I think, It is a part of my nationality, too, because a lot of Russian people, we do have this dry humor.</b>
+                        <p>And, I feel like we could be the driest we can three of us as, and there's no way to just, we just don't think about this. I think I'm funnier in Russian but also maybe, yeah, it's because it's like a dry humor.</p>
                         <p>I do occasionally meet with friends of my Russian friends, and they're also Russian sometimes we like get to, it's very important in Russian culture to celebrate New Year's. So we gather and do it Russian style because it's the most important celebration of the year.</p>
                         <p>And I like doing it. I like this silly tradition to just do a little, like you write your wish on a paper, like you burn it you drop it in a champagne glass, you drink the ash, like it's silly, but it's really important to me to do that and I feel like for them as well because we're all come, from the same country.</p>
                         <p>So it's unites us in a way. So that is my community and since I didn't go to Brighton Beach and eat some Russian</p>
+                    </div>
+                </section>
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Tania in winter</p>
+                        </div>
+                            <img className="vertical-photo" src={tania_nycsnow} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -561,7 +668,7 @@ const Tania = () => {
                         <div className='bolded-name'>Tania</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>yeah. But it's a it's an interesting world. I feel like it's Russians, but they're all like Soviet Union Russians. It's very old school. And when I go, I feel like I like went back in time.</p>
+                        <p>yeah. But it's a it's an interesting world. <b>I feel like it's Russians, but they're all like Soviet Union Russians. It's very old school. And when I go, I feel like I like went back in time.</b></p>
                     </div>
                 </section>
 
@@ -605,6 +712,16 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Tania in Europe</p>
+                        </div>
+                            <img className="vertical-photo" src={tania_europe} alt="" loading="lazy" />
+                    </div>
+                </section>
+
+
+                <section className="section-wrapper">
                     <div className="name-wrapper">
                         <div className='bolded-name'>Guru</div>
                     </div>
@@ -621,6 +738,16 @@ const Tania = () => {
                         <p>I think it's important to read Russian writers, Russian books, and it's going to be very challenging because they use those phrases that, if you have a dictionary and you're going to try to translate it, it's not going to make sense. So sometimes it might, it could be helpful to have a tutor and see who would explain those phrases because it could be very vague of what they're trying to say by using those Very fairly simple and common words, but this is not what they're trying to say. But I think because of that It is challenging, but it's also very interesting. Like Dostoyevsky, Pushkin. They're really fantastic writers.</p>
                         <p>Even if you're not studying Russian, I think people should read it just because it's great. And, I always You know, this tip is not a tip, but if you want to speak, you have to speak.</p>
                         <p>It's just like German. I studied it for eight years and I remember two phrases. And I wish I could really talk. I really don't speak the language, but you really have to practice.</p>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                        <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Tania's favorite books: "Crime and Punishment" and "A Hero of Our Time"</p>
+                        </div>
+                            <img className="vertical-photo" src={tania_crimepunishment} alt="" loading="lazy" />
+                            <img className="vertical-photo" src={tania_ahero} alt="" loading="lazy" />
                     </div>
                 </section>
 
