@@ -185,7 +185,7 @@ const Tania = () => {
                 <section className="section-wrapper">
                     <div className='text-photo'>
                         <div className='text-arrow'>
-                            <p className='handwriting'>Tania's high school graduation</p>
+                            <p className='handwriting'>Tania's graduation from English First</p>
                         </div>
                             <img className="vertical-photo" src={tania_highschool} alt="" loading="lazy" />
                     </div>
