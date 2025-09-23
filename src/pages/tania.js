@@ -277,7 +277,7 @@ const Tania = () => {
                 <section className="section-wrapper">
                     <div className='text-photo'>
                         <div className='text-arrow'>
-                            <p className='handwriting'>Tania and her friends</p>
+                            <p className='handwriting'>Tania and her friends in St. Petersburg </p>
                         </div>
                             <img className="vertical-photo" src={tania_friends} alt="" loading="lazy" />
                     </div>
