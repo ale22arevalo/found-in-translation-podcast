@@ -79,8 +79,6 @@ const Tania = () => {
                     </div>
                 </section>
 
-                </section>
-
                 <section className="section-wrapper">
                     <div className='text-photo'>
                         <div className='text-arrow'>
