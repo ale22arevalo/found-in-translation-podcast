@@ -74,8 +74,8 @@ const Boying = () => {
                         <h3>The Guest<br/><span className="first-name">Boying</span></h3>
                     </div>
                     <div className="p-wrapper side">
-                        <p>I was born in China as a Chinese citizen, and then I moved to New York City when I was five on a cooking card from through my dad.</p>
-                        <p>And from until I was 10. I grew up in the Lower East Side, but then we moved to Chinatown and then I grew up there. Until I moved to Seattle in 2020 for work. And my pronouns are she her. And yeah, that's about it.</p>
+                        <p>I was born in China as a Chinese citizen, and then I moved to New York City when I was five on a green card through my dad.</p>
+                        <p>And, from until I was 10, I grew up in the Lower East Side, but then we moved to Chinatown and then I grew up there. Until I moved to Seattle in 2020 for work.</p>
                     </div>
                 </section>
 
@@ -103,7 +103,7 @@ const Boying = () => {
                         <div className='bolded-name'>Boying</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>Oh, I did get my citizenship in the United States. I went on a trip to Italy with my friend. And I found the visa process to be a hassle. So I did finally go and get my United States citizenship.</p>
+                        <p>Oh, I did get my citizenship in the United States. I went on a trip to Italy with my friend. And I found the visa process to be a hassle. So, I did finally go and get my United States citizenship. Woo! </p>
                     </div>
                 </section>
 
@@ -112,8 +112,8 @@ const Boying = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Yay. Congrats. We'd love to start going back to your childhood, could you share more about what your connection with your language with the, actually wait, sorry. Also for the language that you're speaking.</p>
-                        <p>So do you specifically speak, I know we're talking about Chinese, but is it specifically Mandarin or is it a different dialect of Chinese.</p>
+                        <p>Yay! Congrats! I would love to start going back to your childhood. Could you share more about what your connection with your language with the, actually wait, sorry. Also, for the language that you're speaking.</p>
+                        <p>So, do you specifically speak, I know we're talking about Chinese, but is it specifically Mandarin or is it a different dialect of Chinese? </p>
                     </div>
                 </section>
 
@@ -122,7 +122,7 @@ const Boying = () => {
                         <div className='bolded-name'>Boying</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>I did predominantly speak Mandarin Chinese growing up, but my family is from a province called Fuen and maybe it's only interesting to me, but the province, Fuji has a dialect. It's called Minnanhua. But then where specifically I'm from, my family's from it's Fuji. <b className='extra-bolded'>The city is called Fuji, and we speak it entirely different dialect from the rest of the province.</b> So I grew up speaking mostly Mandarin because that's just like the media that was being consumed was a lot of Mandarin. But at home with my grandparents, they would speak they would speak a lot of fu. So I am able to have some limited comprehension of FU too. It's mainly Mandarin Chinese.</p>
+                        <p>I did predominantly speak Mandarin Chinese growing up, but my family is from a province called Futian, and maybe it's only interesting to me, but the province Futian has a dialect. It's called Minnan Hua. But then, where specifically I'm from, my family's from, it's Fuzhou. <b className='extra-bolded'>The city is called Fuji, and we speak it entirely different dialect from the rest of the province.</b> So I grew up speaking mostly Mandarin because that's just like the media that was being consumed was a lot of Mandarin. But at home with my grandparents, they would speak they would speak a lot of fu. So I am able to have some limited comprehension of FU too. It's mainly Mandarin Chinese.</p>
                     </div>
                 </section>
 
