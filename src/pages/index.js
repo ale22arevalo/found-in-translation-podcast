@@ -7,10 +7,11 @@ import rachelillo from "../images/rachel/rachel.webp"
 import michaelillo from "../images/michael/michael.webp"
 import cynthiaillo from "../images/cynthia/cynthia.webp"
 import fareehaillo from "../images/fareeha/fareeha.webp"
-import cristinaillo from "../images/cristina/cristina_headshot.jpg"
+import cristinaillo from "../images/cristina/cristina_illo.png"
 import jaredillo from "../images/jared/jared_headshot.jpg"
 import boyingillo from "../images/boying/boying_headshot.jpg"
 import timillo from "../images/tim/tim_illo.png"
+import taniaillo from "../images/tania/tania_illo.png"
 
 
 const links = [
@@ -163,7 +164,7 @@ const IndexPage = () => {
           </div>
           <div id="g-box" className="ai2html">
             <div id="g-rachel-Artboard_1" className="g-artboard" style={{maxWidth: "569px", maxHeight: "809px"}} data-aspect-ratio="0.754" data-min-width="0">
-                <img id="g-rachel-Artboard_1-img" className="g-rachel-Artboard_1-img g-aiImg" alt="" src={rachelillo}/>
+                <img id="g-rachel-Artboard_1-img" className="g-rachel-Artboard_1-img g-aiImg" alt="" src={taniaillo}/>
             </div>
             <a href="./tania#topper">
               <button className="ep-btn">Experience the podcast visually</button>
