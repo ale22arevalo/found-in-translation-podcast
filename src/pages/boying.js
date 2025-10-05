@@ -742,6 +742,7 @@ const Boying = () => {
                         <p>No, thank you for having me.</p>
                     </div>
                 </section>
+            </section>
             </div>
         </main>
     )
