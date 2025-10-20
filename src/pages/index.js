@@ -92,16 +92,16 @@ const IndexPage = () => {
               <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
             </a>
           </div>
-            <div className="topper-links">
-              {links.map(link => (
-                  <div key={link.url} className="link-wrapper" style={{backgroundColor: link.color ? link.color : undefined}}>
-                    <a className="links" href={link.url}>
-                      {link.text}
-                      <img className="waveform" src={soundwave4} alt="waveform" />
-                    </a>
-                  </div>
-                ))}
-            </div>
+          <div className="topper-links">
+            {links.map(link => (
+                <div key={link.url} className="link-wrapper" style={{backgroundColor: link.color ? link.color : undefined}}>
+                  <a className="intro-link" href={link.url}>
+                    {link.text}
+                    <img className="waveform" src={soundwave4} alt="waveform" />
+                  </a>
+                </div>
+              ))}
+          </div>
       </div>
 
       <BackTop />
