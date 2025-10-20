@@ -47,8 +47,8 @@ const Tim = () => {
             <Navbar />
             <section id="topper" className="topper">
                 <h1>
-                    <span className="changing-word">Pinoy</span>
-                    <span className="static-title">Memories</span>
+                    <span className="changing-word">Talking Tagalog and</span>
+                    <span className="static-title">Existential Crises</span>
                 </h1>
             </section>
 
