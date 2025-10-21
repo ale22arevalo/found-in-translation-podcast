@@ -73,18 +73,9 @@ const Tim = () => {
                         <h3>The Host<br/><span className="first-name">Guru Ramanathan</span></h3>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Hello, and welcome to <b className="bolded">Found in Translation</b>. I'm your host, Guru Ramanathan, and this is a podcast where people who are first-, second-generation, and immigrants come on to talk about their relationship with their cultural language and how that has influenced their connection to their culture, family, friends, and more.</p>
-                        <p>This is our first episode of season two, which is very exciting, and I'm so thrilled to have on as our first guest Tim Bumatay, who I got to know through his fiance, Julie. Julie and I used to be coworkers. And, I would always hear a lot of amazing stories about Tim and always felt like, wow, we were kind of the same person and I would love to meet him one day.</p>
-                        <p>So, I'm very glad that we're getting to do that here and to talk about something very special for the both of us.</p>
-                    </div>
-                </section>
-
-                <section className="section-wrapper">
-                    <div className="name-wrapper">
-                        <h3>The Guest<br /><span className="first-name">Tim Bumatay</span></h3>
-                    </div>
-                    <div className="p-wrapper side">
-                        <p>Hi. Yeah. Thanks. Tim Bumatay, really happy to be here. I'm a first-generation Filipino American. Was born in, grew up, and raised in Southern California. I currently live in Los Angeles and the language of my family is Tagalog from the Philippines. So. That's what we'll be talking about today.</p>
+                        <p>Hello, and welcome to <b className="bolded">Found in Translation</b>. I'm your host, Guru Ramanathan, and this is a podcast where people who are first-, second-generation, or immigrants come on to talk about their relationship with their cultural language, and how that has influenced their connection to their culture, family, friends, and more.</p>
+                        <p>This is our first episode of Season Two, which is very exciting, and I'm so thrilled to have on as our first guest, Tim Bumatay, who I got to know through his wife, Julie. Julie and I used to be coworkers. And whenever I heard stories about Tim, I always felt like I'd love to meet him one day! </p>
+                        <p>So, I'm glad we got to do it through this avenue instead. In the episode, Tim talks about his struggles with connecting to Tagalog and Filipino culture, his aspirations to visit The Philippines, his fascination with languages in general, and how his definition of what it means to be American has evolved throughout his life. Enjoy the episode! </p>
                     </div>
                 </section>
 
@@ -95,16 +86,16 @@ const Tim = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Awesome. Could you share a little bit more about what your connection with the language was in your childhood and how that played out when you were growing up?</p>
+                        <p>Can you share a little bit more about what your connection with the language was in your childhood and how that played out when you were growing up?</p>
                     </div>
                 </section>
 
                 <section className="section-wrapper">
                     <div className="name-wrapper">
-                        <div className='bolded-name'>Tim</div>
+                        <h3>The Guest<br /><span className="first-name">Tim Bumatay</span></h3>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>Yeah. So, my connection with the Tagalog is pretty simple. That's my mom's native language. So is my dad's. And so I grew up with my mom speaking with other Filipinos in Tagalog, but only really with elders and with previous generations, like Filipino immigrants, would she speak Tagalog.</p>
+                        <p>Yeah. So, my connection with the Tagalog is pretty simple. That's my mom's native language. So is my dad's. And so, I grew up with my mom speaking with other Filipinos in Tagalog, but only really with elders and with previous generations, like Filipino immigrants, would she speak Tagalog.</p>
                     </div>
                 </section>
                 <section className="section-wrapper">
@@ -126,7 +117,7 @@ const Tim = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Yeah, and what about with your relatives though? For me when I was growing up, and having spent most of my life in America and then the few times when I would go over to India, I feel like, my relatives would sometimes have an expectation on me knowing the language, or sometimes they would have their own side conversations about how that process was going with my mom.</p>
+                        <p>Yeah, and what about with your relatives, though? For me, when I was growing up, and having spent most of my life in America and then the few times when I would go over to India, I feel like my relatives would sometimes have an expectation on me knowing the language. Or, sometimes they would have their own side conversations about how that process was going with my mom.</p>
                         <p>But, since your mom was kind of already setting that sort of boundary, if you will, I was curious if your relatives ever commented on that, or if they also only spoke to you in English?</p>
                     </div>
                 </section>
@@ -136,12 +127,12 @@ const Tim = () => {
                         <div className='bolded-name'>Tim</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>My relatives also really only spoke to me in English. I don't know if it was, it's, if it's a Filipino immigrant thing to just come here and immediately assimilate and just be like, okay, the next generation of us is here. And so, we're just going to speak English. But, it was never, oh, you need to learn Tagalog or you need to be a certain way.</p>
+                        <p>My relatives also really only spoke to me in English. I don't know if it was, it's, if it's a Filipino immigrant thing to just come here and immediately assimilate and just be like, okay, the next generation of us is here. And so, we're just going to speak English. But, it was never, oh, you need to learn Tagalog. Or you need to be a certain way.</p>
                     </div>
                 </section>
                 <section className="section-wrapper">
                     <div className='p-wrapper full'>
-                        <b className='extra-bolded'>But, you know, my sister and I, we would hear them saying like, Oh, well, they don't, well, they don't speak. They're American. They're there. They're this. But like, you know, we can understand and just respond back and go like, Oh no, we're, we're also Filipino. But, there was never any real pressure to connect with the language.</b>
+                        <b className='extra-bolded'>But, you know, my sister and I, we would hear them saying like, Oh, well, they don't, well, they don't speak. They're American. They're there. They're this. But like, you know, we could understand and just respond back and go like, oh no, we're, we're also Filipino. But, there was never any real pressure to connect with the language.</b>
                     </div>
                 </section>
                 <section className="section-wrapper">
@@ -158,7 +149,7 @@ const Tim = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Yeah. And with that split did you ever ask your mom why she wouldn't talk to you in Tagalog? Did you also express I would like to learn this, why won't you teach me or anything like that?</p>
+                        <p>Yeah. And with that split, did you ever ask your mom why she wouldn't talk to you in Tagalog? Did you also express, I would like to learn this, why won't you teach me, or anything like that?</p>
                     </div>
                 </section>
 
@@ -167,8 +158,8 @@ const Tim = () => {
                         <div className='bolded-name'>Tim</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>I don't remember ever feeling bad about being spoken to in English. I think, you know, growing up, in Southern California, everybody around me was just speaking English. So, it was just like, well, this is the language of this place here. And so, I never really expressed too much of an interest when I was younger to want to speak.</p>
-                        <p>But, just because I was exposed to it, even passively or indirectly, I ended up learning the language that way. So I can understand Tagalog fluently. On a scale of one to 10, I'd be able to read and listen to, and maybe even translate on a seven or eight. I would say speaking and being conversational, I'm maybe a three at most.</p>
+                        <p>I don't remember ever feeling bad about being spoken to in English. I think, you know, growing up in Southern California, everybody around me was just speaking English. So, it was just like, well, this is the language of this place here. And so, I never really expressed too much of an interest when I was younger to want to speak.</p>
+                        <p>But, just because I was exposed to it, even passively or indirectly, I ended up learning the language that way. So, I can understand Tagalog fluently. On a scale of one to 10, I'd be able to read and listen to, and maybe even translate on a seven or eight. I would say speaking and being conversational, I'm maybe a three at most.</p>
                     </div>
                 </section>
 
@@ -186,12 +177,12 @@ const Tim = () => {
                         <div className='bolded-name'>Tim</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>At gatherings and stuff, we would definitely have Filipino food. There's the whole roasted pig on the table that people are just picking stuff out of. There's the metal trays of food and pancit and sinigang. It's Filipino culture to just like, have you leave with droves of food.</p>
+                        <p>At gatherings and stuff, we would definitely have Filipino food. There's the whole roasted pig on the table that people are just picking stuff out of. There's the metal trays of food and pancit and sinigang. It's Filipino culture to just, like, have you leave with droves of food.</p>
                     </div>
                 </section>
                  <section className="section-wrapper">
                     <div className='p-wrapper full'>
-                        <b className='extra-bolded'>You can't leave a Filipino party without leaving with food. But also, in the end it's like really one of my few concrete connections to the culture, I think, is, is the food. Because even growing up, my mom was like cooking Western food as well. So, I think for me specifically, it's just one of the few concrete things that I can hold on to in terms of my heritage.</b>
+                        <b className='extra-bolded'>You can't leave a Filipino party without leaving with food. But also, in the end, it's like really one of my few concrete connections to the culture, I think, is, is the food. Because even growing up, my mom was like cooking Western food as well. So, I think for me specifically, it's just one of the few concrete things that I can hold on to in terms of my heritage.</b>
                     </div>
                 </section>
 
@@ -209,8 +200,8 @@ const Tim = () => {
                         <div className='bolded-name'>Tim</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>Not a lot. Sometimes, yeah, sometimes I'll cook like longanisa, which is like a sweet sausage. Sometimes I'll make lumpia. We'll go out to eat for Filipino food because I know that there are places that do it way better than I think I would ever.</p>
-                        <p>But, yeah/ There are customs like this thing called monopo where, you know, you go to a Filipino elder's home and they have to bless you, so they hold out their right hand and you hold it to your forehead. And, you know, growing up, you'd walk into a home and an elder would be like, just hand you their hand and just be like, bless.</p>
+                        <p>Not a lot. Sometimes, yeah. Sometimes I'll cook like longanisa, which is like a sweet sausage. Sometimes I'll make lumpia. We'll go out to eat for Filipino food because I know that there are places that do it way better than I think I would ever.</p>
+                        <p>But, yeah. There are customs like this thing called monopo where, you know, you go to a Filipino elder's home and they have to bless you, so they hold out their right hand and you hold it to your forehead. And, you know, growing up, you'd walk into a home and an elder would be like, just hand you their hand and just be like, bless.</p>
                         <p>And so, there, there are those types of Filipino customs that, you know, we were definitely exposed to. Or if you're at a wedding, the elder males in those settings would wear very specific garb. Oh my gosh, I don't even know what it's called. But, yeah, it's like this white, sheer button-up short sleeve shirt.</p>
                         <p>See, it just shows how much like, even I, you know, I guess being exposed to it is not like participating necessarily, because I never wore those things.</p>
                     </div>
@@ -256,7 +247,7 @@ const Tim = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Well, at that point in time, how are you defining American? And I guess, like, how did that then translate to the people around you?</p>
+                        <p>Well, at that point in time, how were you defining American? And I guess, like, how did that then translate to the people around you?</p>
                     </div>
                 </section>
 
@@ -285,7 +276,7 @@ const Tim = () => {
                     <div className='p-wrapper side'>
                         <p>Which, you know, in Irvine at the time, we were blessed to have so many different cultures there.</p>
                         <p>You know, we had a lot of East Asians, a lot of South Asians, a lot of Middle Eastern and, and of course, Caucasian and everything that comes with that. And so, you know, my friends growing up were Black, Mexican, Asian. And so, it, it just felt like just existing in that space was being American.</p>
-                        <p>And so, all my friends were first generation Americans as well. Going over to their homes felt very familiar, too, because, you know, they spoke English. Some of them did speak Mandarin, Cantonese, or Vietnamese. But, we were going through the same things.</p>
+                        <p>And so, all my friends were first-generation Americans as well. Going over to their homes felt very familiar, too, because, you know, they spoke English. Some of them did speak Mandarin, Cantonese, or Vietnamese. But, we were going through the same things.</p>
                         <p>Their parents were having conversations in their native language, but then speaking English to their children and to us. I mean, other than the food and the fact that our families were speaking Tagalog with each other, it didn't feel much different to any of the other things that I sort of experienced at the time there.</p>
                     </div>
                 </section>
@@ -304,7 +295,7 @@ const Tim = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Yeah, that's really interesting because for me, growing up surrounded by predominantly white people, the fact that I was different, it was just more blatant to me. And that also coincides with I needed to learn English after I had moved to America.</p>
+                        <p>Yeah, that's really interesting because for me, growing up, surrounded by predominantly white people, the fact that I was different, it was just more blatant to me. And that also coincides with I needed to learn English after I had moved to America.</p>
                         <p>So, I feel like it was something that I kind of thought about all the time of like, I'm not an American, I'm just an Indian.</p>
                         <p>But, I feel like it's interesting to hear from this perspective of, because you were surrounded by a lot of the people, not just who were Filipino, but just a lot of people from diverse cultures, it almost made it the fact that you weren't really different. If that makes sense?</p>
                     </div>
@@ -317,12 +308,12 @@ const Tim = () => {
                     <div className='p-wrapper side'>
                         <p>Yeah, totally. And I've heard a lot of things that are similar to your experience where there's this very apparent sense of you are another type of person, rather than you are just with a part of this community. And I think because everybody, like you said, was so diverse where I grew up... It's not that we didn't know that we were different from other people, but just that everybody was so different.</p>
                         <p>But, yeah, I mean, there was a huge white population where we were. I mean, it's Orange County. It's like, yeah. But, the circles that I found myself surrounding myself with were very, very diverse.</p>
-                        <p>It's complicated because I always knew that I wasn't white. It's not like I assumed I was like, Oh, I'm like, white American.</p>
+                        <p>It's complicated because I always knew that I wasn't white. It's not like I assumed I was like, oh, I'm like, white American.</p>
                     </div>
                 </section>
                 <section className="section-wrapper">
                     <div className='p-wrapper full'>
-                        <b className='extra-bolded'>But, I knew that I'm not that type of American. So, I was in this weird, like, intersection of I'm American, technically, and I'm Filipino, technically. So, that's where I'm like most familiar with. I don't know if that ever really had a specific moment of clicking. But, it is how I've really identified myself as. It's like, I'm technically American and I'm technically Filipino.</b>
+                        <b className='extra-bolded'>But, I knew that I'm not that type of American. So, I was in this weird, like, intersection of I'm American, technically. And I'm Filipino, technically. So, that's where I'm like most familiar with. I don't know if that ever really had a specific moment of clicking. But, it is how I've really identified myself as. It's like, I'm technically American and I'm technically Filipino.</b>
                     </div>
                 </section>
 
@@ -369,7 +360,7 @@ const Tim = () => {
                         <p>I think now we sort of understand that geography and, you know, that side of things is more affecting than just the language. Or culture affects the language than, you know, like that stuff affects it more. But, I just find the way we describe things in the world and the way different cultures describe things in the world is really interesting.</p>
                         <p>I'm interested in learning more and taking actual classes just 'cause I am fascinated with language. I think every time we travel, I make it a point to learn more than saying hello, good morning, good night. I think it's the highest form of respect you can pay to a people is to speak their language.</p>
                         <p>You know, Julie and I went to Greece a couple of years ago. And Greek is so wildly different, even just like the Greek alphabet is just crazy.</p>
-                        <p>But, I was like, just being in another place forced me to like -- not force me -- but like, I just became really interested in going like, I want to be able to read these street signs. I'm hell bent on being able to read these street signs. And so, I learned how to sort of read those letters on that trip. And we took a ferry and I was like, okay, I'm going to try and order in full on, like, not just pointing at something and saying like, oh, Spanakopita. Like I want that. I want to say it. Can I please have this? I think for me, the experience of actually going to a place has always been my spark and wanting to immerse myself in that language.</p>
+                        <p>But, I was like, just being in another place forced me to like -- not force me -- but like, I just became really interested in going like, I want to be able to read these street signs. I'm hell bent on being able to read these street signs. And so, I learned how to sort of read those letters on that trip. And we took a ferry and I was like, okay, I'm going to try and order in full on, like, not just pointing at something and saying like, oh, Spanakopita. Like I want that. I want to say it. Can I please have this? I think, for me, the experience of actually going to a place has always been my spark and wanting to immerse myself in that language.</p>
                         <p>And then I come home and I go, okay, well now let's learn even more. Which brings me back to Tagalog and Filipino culture.</p>
                     </div>
                 </section>
@@ -393,7 +384,7 @@ const Tim = () => {
                         <div className='bolded-name'>Tim</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>And it's been 34 years. And so, just to give you a sense of how removed I feel from Filipino culture and distanced from the language. I 1000% feel more American than I do feel Filipino, just because of culturally, I'm just so immersed and trained in American culture.</p>
+                        <p>And it's been 34 years. And so, just to give you a sense of how removed I feel from Filipino culture and distanced from the language. I 1000% feel more American than I do feel Filipino, just because of, culturally, I'm just so immersed and trained in American culture.</p>
                         <p>It just affected my relationship with the culture or my idea of like where I fit in Filipino culture. I think in, now my mid thirties, I look back at my childhood and I look back at the fact that I never pushed, or no one ever pushed me, to learn the language. And I go, oh, this language could very well die with my generation. Because I know a lot of other Filipino Americans are in the same position.</p>
                         <p>Language is like the song of a people. You know, this song stops being sung with me. And so I feel a little bit of guilt with that. So, there's that aspect of it. And, I'm a little bummed that I was never forced to do it. And, you know, obviously it's never too late.</p>
                     </div>
@@ -415,7 +406,7 @@ const Tim = () => {
                     <div className='p-wrapper side'>
                         <p>Sorry, you know, I always, I always question what that is because think about what the Philippines is pre-Spanish colonialism, right? It was just hundreds of island territories whose language was based off of Sanskrit, like, a bunch of different things.</p>
                         <p>Even the word Philippines. It's Spanish. And so, we have just a complicated relationship, I feel, and this is a Filipino American saying this. I think we just culturally have a complicated relationship with our own past because for hundreds of years we were under Spanish rule.</p>
-                        <p>And then even after that, the Americans and the allies had liberated us. And so, there's a huge Filipino affinity for American culture and English-speaking things that I feel like that's trickled down into our generation of Filipino Americans. And so I, I think that's a symptom of just being generationally Filipino.</p>
+                        <p>And then, even after that, the Americans and the Allies had liberated us. And so, there's a huge Filipino affinity for American culture and English-speaking things that I feel like that's trickled down into our generation of Filipino Americans. And so, I, I think that's a symptom of just being generationally Filipino.</p>
                         <p>I think it's really interesting. It's fascinating. Where does that come from?</p>
                     </div>
                 </section>
@@ -433,7 +424,7 @@ const Tim = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Yeah, there was one of my Filipino friends, or she's half Filipino, but she's also going to come on this podcast. But then, she was saying that if she were to talk about, it wouldn't be from her perspective. She would talk about it from her mom's perspective and what her mom went through. And I was like, well, this podcast, it's about YOU, so, we can't, we can't do that. But, I just thought that was interesting that was her first thought.</p>
+                        <p>Yeah, there was one of my Filipino friends, or she's half Filipino, but she's also going to come on this podcast. But then, she was saying that if she were to talk about Tagalog, it wouldn't be from her perspective. She would talk about it from her mom's perspective and what her mom went through. And I was like, well, this podcast, it's about YOU, so, we can't, we can't do that. But, I just thought that was interesting that was her first thought.</p>
                         <p>I know you were saying, like, when you were growing up, it's not something that you felt bad about or anything like that. But, did you have a light bulb moment when you were realizing this gap between you and Filipino culture?</p>
                     </div>
                 </section>
@@ -480,14 +471,14 @@ const Tim = () => {
                         <div className='bolded-name'>Tim</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>And I would hear Tagalog-speaking people or native Filipinos saying "Boo-mah-tai" and I'd go, that's correct. And I would hear roll call.</p>
-                        <p>And, it's like Timmy "Boo-muh-tae," and I'd be like, yes, that is correct. It wasn't until I was like, oh, well, maybe I should stop going by Timmy and just go by Tim now as like a sign of like, I'm an adult or whatever. But, what's your last name, dude?</p>
+                        <p>And I would hear Tagalog-speaking people, or native Filipinos, saying "Boo-mah-tai" and I'd go, that's correct. And I would hear roll call.</p>
+                        <p>And, it's like Timmy "Boo-muh-tae," and I'd be like, yes, that is correct. It wasn't until I was like, oh, well, maybe I should stop going by Timmy and just go by Tim now, as like a sign of like, I'm an adult or whatever. But, what's your last name, dude?</p>
                     </div>
                 </section>
                 <section className='section-wrapper'>
                     <div className='p-wrapper full'>
                         <b className='extra-bolded'>
-                           Like you just start to ask yourself, like, what else do you need to change? And so, I made it a point in my late twenties to introduce myself to new people and correct myself with people I was already familiar with, and say it's "Boo-mah-tai" because I don't think it's that much more difficult to pronounce than "Boo-muh-tae."
+                           Like, you just start to ask yourself, like, what else do you need to change? And so, I made it a point in my late twenties to introduce myself to new people and correct myself with people I was already familiar with, and say it's "Boo-mah-tai." Because I don't think it's that much more difficult to pronounce than "Boo-muh-tae."
                         </b>
                     </div>
                 </section>
@@ -520,13 +511,13 @@ const Tim = () => {
                   <section className="section-wrapper">
                     <div className='p-wrapper full'>
                         <b className='extra-bolded'>
-                           And I think it's Filipino culture and Filipino foods seeping their way into mainstream recently that sort of forced me to confront, hey, you're, you're this still. Right. Do you want to visit the Philippines again at some point? Do you want to revisit your relationship with the language at some point?
+                           And I think it's Filipino culture and Filipino foods seeping their way into mainstream recently that sort of forced me to confront, hey, you're, you're this still. Right? Do you want to visit the Philippines again at some point? Do you want to revisit your relationship with the language at some point?
                         </b>
                     </div>
                 </section>
                 <section className='section-wrapper'>
                     <div className='p-wrapper full'>
-                        <p>And now in the age of social media and algorithms being so good, my feeds just know that this is the content that I want to be fed. I'm seeing a lot more Filipino and Tagalog content. And yeah, I think it's been a gradual thing within the last 10 years that through all those factors that I've been wanting to be more in tune with that part of my culture and heritage.</p>
+                        <p>And now, in the age of social media and algorithms being so good, my feeds just know that this is the content that I want to be fed. I'm seeing a lot more Filipino and Tagalog content. And yeah, I think it's been a gradual thing within the last 10 years that through all those factors that I've been wanting to be more in tune with that part of my culture and heritage.</p>
                         <p>But, why am I not doing it?</p>
                         <p>It would be so easy, I think, for me to pick up Tagalog. I can already understand the language. But, why--</p>
                     </div>
@@ -547,8 +538,8 @@ const Tim = () => {
                     </div>
                     <div className='p-wrapper side'>
                         <p>I don't know! I don't know! Maybe this is something to unpack in therapy, but I don't know. I couldn't, I can't tell you. I know it would be easy.</p>
-                        <p>So, you know, this is already inspiring me to like, look into classes. I know there's one like pretty close by, maybe two or three miles away, where they do in person classes and stuff. You know what else it is? There's not a lot of Tagalog-speaking people around me, or that at least I'm exposed to. I have a coworker who works out of our Singapore office who is Filipino, and we only get to see each other if we're having some sort of offsite where we're all gathering in one place or something.</p>
-                        <p>But, the last time she was here, I tried to speak with her, just to ask her, like, hey, have you eaten? And, she immediately was like, wow, you sound so white. And, I was like, okay, cool. I will only speak to you in English now.</p>
+                        <p>So, you know, this is already inspiring me to like, look into classes. I know there's one like pretty close by, maybe two or three miles away, where they do in person classes and stuff. You know what else it is? There's not a lot of Tagalog-speaking people around me, or that at least I'm exposed to. I have a coworker who works out of our Singapore office who is Filipino. We only get to see each other if we're having some sort of offsite where we're all gathering in one place or something.</p>
+                        <p>But, the last time she was here, I tried to speak with her. Just to ask her, like, hey, have you eaten? And, she immediately was like, wow, you sound so white. And, I was like, okay, cool. I will only speak to you in English now.</p>
                         <p>When I do speak in Tagalog, or if I do try to think in Tagalog, it is my mind saying it in English and then pairing it with the word, and so it does come off forced. And I do feel a little strange doing it, and I feel like I'm sort of putting on an act.</p>
                     </div>
                 </section>
@@ -563,14 +554,14 @@ const Tim = () => {
                 <section className="section-wrapper">
                     <div className='p-wrapper full'>
                         <b className='extra-bolded'>
-                        I'm like cosplaying as a Tagalog speaking person.
+                        I'm like cosplaying as a Tagalog-speaking person.
                         </b>
                     </div>
                 </section>
                 <section className="section-wrapper">
                     <div className='p-wrapper full'>
-                        <p>There just isn't a lot of people to have those conversations with out here. And now my mom lives in Michigan, and my dad lives in Buffalo, and so I'm not really around them too much to practice.</p>
-                        <p>My sister doesn't speak it. I mean, she can understand it in the same way that I can and my half brother who I'm really close with. For sure. I mean, they never spoke it in his home growing up. So, he has a more removed relationship with the language. But, yeah, it's kind of on me and I recognize that to learn more.</p>
+                        <p>There just isn't a lot of people to have those conversations with out here. And now my mom lives in Michigan, and my dad lives in Buffalo, and so, I'm not really around them too much to practice.</p>
+                        <p>My sister doesn't speak it. I mean, she can understand it in the same way that I can, and my half brother who I'm really close with. For sure. I mean, they never spoke it in his home growing up. So, he has a more removed relationship with the language. But, yeah, it's kind of on me and I recognize that to learn more.</p>
                     </div>
                 </section>
                    <section className="section-wrapper">
@@ -614,7 +605,7 @@ const Tim = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Yeah. And I mean, aside from the general idea of being immersed in the culture and, and country, and everything, is there anything in particular when you do end up going to the Philippines that you want to do or see that you've always had in your head, like, oh, I need to make sure I do this when I go there?</p>
+                        <p>Yeah. And I mean, aside from the general idea of being immersed in the culture and, and country, and everything, is there anything in particular when you do end up going to the Philippines that you want to do or see that you've always had in your head? Like, oh, I need to make sure I do this when I go there?</p>
                     </div>
                 </section>
 
@@ -654,19 +645,19 @@ const Tim = () => {
                         <div className='bolded-name'>Tim</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>Well, recently there was a sort of block party in historic Filipino town. Here in LA. Where I bet every Filipino in Los Angeles was just at this place, it was packed. But, a lot of those people were had very similar past and histories as I do. But, I think it was more like I was connecting with other Filipino Americans, and less so with Filipinos.</p>
+                        <p>Well, recently there was a sort of block party in historic Filipino town. Here in LA. Where I bet every Filipino in Los Angeles was just at this place, it was packed. But, a lot of those people were had very similar pasts and histories as I do. But, I think it was more like I was connecting with other Filipino Americans, and less so with Filipinos.</p>
                     </div>
                 </section>
                  <section className="section-wrapper">
                     <div className='p-wrapper full'>
                         <b className='extra-bolded'> 
-                            And it's pretty American, like if you, if you asked me, it's like, it's very like, the clothing, the music is very like, there's like R&B, there's hip hop, there's, it's, it feels like very American. I don't, I don't know how else to describe it. It doesn't feel like it's different other than the people there are Filipino.
+                            And, it's pretty American, like if you, if you asked me. It's like, it's very like, the clothing, the music is very like, there's like R&B, there's hip hop, there's, it's, it feels like very American. I don't, I don't know how else to describe it. It doesn't feel like it's different other than the people there are Filipino.
                         </b>
                     </div>
                 </section>
                  <section className="section-wrapper">
                     <div className='p-wrapper full'>
-                        <p>It was just like, hey, this is just me connecting with other people who have similar history as me with the culture. And I think that's the most I've ever felt connected to Filipino culture, was through being connected with Filipino Americans.</p>
+                        <p>It was just like, hey, this is just me connecting with other people who have similar history as me with the culture. And, I think that's the most I've ever felt connected to Filipino culture, was through being connected with Filipino Americans.</p>
                     </div>
                 </section>
 
@@ -693,7 +684,7 @@ const Tim = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>I guess just to wrap it up we always like to ask people, you know, do you have a favorite word in the language? So, do you have a favorite word in Tagalog?</p>
+                        <p>I guess just to wrap it up, we always like to ask people, you know, do you have a favorite word in the language? So, do you have a favorite word?</p>
                     </div>
                 </section>
 
@@ -708,7 +699,7 @@ const Tim = () => {
                 <section className='section-wrapper'>
                     <div className='p-wrapper full'>
                         <b className='extra-bolded'> 
-                        I like it because, you know, Lakas ng Bayan means power of the people, power to the people. So it's like, it means power. It means strength. But, it's even used in ways that are, like, not as profound-sounding as that. Like, "lakasanang volume," right? Like, you can use it to say, hey, can you give strength to the volume? And, I think that's a really interesting word. It's a small word, but it's also a huge word. And so, I think lakas is my favorite word.
+                        I like it because, you know, Lakas ng Bayan means power of the people, power to the people. So, it's like, it means power. It means strength. But, it's even used in ways that are, like, not as profound-sounding as that. Like, "lakasanang volume," right? Like, you can use it to say, hey, can you give strength to the volume? And, I think that's a really interesting word. It's a small word, but it's also a huge word. And so, I think lakas is my favorite word.
                         </b>
                     </div>
                 </section>
@@ -727,7 +718,7 @@ const Tim = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Okay, cool. Well, thank you so much, Tim, for coming on to the podcast and helping to kick off season two. This has been a really awesome discussion.</p>
+                        <p>Okay, cool. Well, thank you so much, Tim, for coming on to the podcast and helping to kick off Season Two. This has been a really awesome discussion.</p>
                     </div>
                 </section>
 
@@ -736,7 +727,7 @@ const Tim = () => {
                         <div className='bolded-name'>Tim</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>I hope that there is something here that you can cut together. You know, it's I, I, I, what you've said about your other friend who's half-Filipino and what they have, they've sort of responded to, you know, potentially being on here, that really resonated with me because it was like my Filipino experience really is through the experience of others who I view as more connected to the language and the culture than I am. So I, I just found that really fascinating and I find what you're doing here really fascinating. And, I think the more people can share these stories, the more people might be interested in either learning about other cultures, learning other languages.</p>
+                        <p>I hope that there is something here that you can cut together. You know, it's I, I, I, what you've said about your other friend who's half-Filipino and what they have, how they've sort of responded to, you know, potentially being on here, that really resonated with me. Because it was like my Filipino experience really is through the experience of others who I view as more connected to the language and the culture than I am. So I, I just found that really fascinating and I find what you're doing here really fascinating. And, I think the more people can share these stories, the more people might be interested in either learning about other cultures, learning other languages.</p>
                         <p>So, really cool stuff.</p>
                     </div>
                 </section>
@@ -746,19 +737,9 @@ const Tim = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>No, thank you so much. And you know, it really means a lot for you to come on and sort of be vulnerable with us as, as well. And, we're looking to do more of these with also as many different kinds of backgrounds and cultures and languages as possible. But, yeah, so thank you so much again, Tim.</p>
-                        <p>And, that's a wrap.</p>
+                        <p>No, thank you so much. And, you know, it really means a lot for you to come on and sort of be vulnerable with us as, as well. And, we're looking to do more of these with also as many different kinds of backgrounds and cultures and languages as possible.</p>
+                        <p>And that's a wrap on episode one, so let's roll the credits! I'm your host Guru Ramanathan. This is Found in Translation. Created, executive produced, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening. Please like, share, comment, etc., and do all the things to help us go viral. Stay tuned to episode two and we greatly appreciate your support.</p>
                     </div>
-                </section>
-
-                <section className="section-wrapper">
-                    <div className="name-wrapper">
-                        <div className='bolded-name'>Tim</div>
-                    </div>
-                    <div className='p-wrapper side'>
-                        <p>Awesome.</p>
-                    </div>
-                </section>
             </div>
         </main>
     )
