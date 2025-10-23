@@ -118,8 +118,9 @@ const IndexPage = () => {
             </a>
           </div>
             <div className="text-wrapper">  
-              <h3>Tim</h3>
-              <p><b className="bolded">Tim Bumatay</b> lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra sollicitudin laoreet. Mauris maximus, felis quis gravida commodo, ex metus vestibulum ex, eu malesuada sem ante non sapien. Sed sed tellus metus. In a luctus turpis.</p>
+              <h3>Talking Tagalog and Existential Crises</h3>
+              <p><b className="bolded">Tim Bumatay</b> is here to talk about a crisis — but in a fun, intellectual, and intersectional kind of way. And a reminder that it’s never too late to learn a new language!</p>
+              <p>He discusses his struggles with connecting to Tagalog and Filipino culture, his aspirations to visit The Philippines, his fascination with languages in general, and how his definition of what it means to be American has evolved throughout his life.</p>
               <div className="social-links">
                 <a href="" target="blank">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
@@ -139,8 +140,10 @@ const IndexPage = () => {
 
       <div id="tania" className="episode-wrapper left">
           <div className="text-wrapper">
-            <h3>Tania</h3>
-            <p><b className="bolded">Tania</b> lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra sollicitudin laoreet. Mauris maximus, felis quis gravida commodo, ex metus vestibulum ex, eu malesuada sem ante non sapien. Sed sed tellus metus. In a luctus turpis.</p>
+            <h3>Russian Globetrotter</h3>
+            <p><b className="bolded">Tania Varganova</b> has two people to thank for inspiring her to come live in NYC: Mary-Kate and Ashley Olsen. Go watch New York Minute if you want to learn more.</p>
+            <p>In the meantime, she talks about what it was like growing up in Russia, how she became the English expert among her friends in St. Petersburg, how her personality differs between speaking in English versus Russian, and what her transition moving to NYC and adapting to American culture has been like over the past number of years.</p>
+
             {/* <div className="social-links">
               <a href="https://open.spotify.com/episode/0zTTVVqz56JDLyBtCWxh31?si=2Yja4IdhTSGlJChbH-UJ6Q" target="blank">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
@@ -176,8 +179,10 @@ const IndexPage = () => {
               </a>
             </div>
             <div className="text-wrapper">  
-              <h3>Cristina</h3>
-              <p><b className="bolded">Cristina</b> lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra sollicitudin laoreet. Mauris maximus, felis quis gravida commodo, ex metus vestibulum ex, eu malesuada sem ante non sapien. Sed sed tellus metus. In a luctus turpis.</p>
+              <h3>Diving into Deutschland (and the Philippines!)</h3>
+              <p><b className="bolded">Cristina Hain</b> takes a break from traveling around the world to (once again) be a guest on a Guru (and Alejandra) podcast! As a German-Filipino woman, Cristina talks about how her multicultural upbringing affected her language journey.</p>
+              <p>While she mainly speaks about her experience with German and living in Berlin for a summer, she also shares why she bounced between learning German, Spanish, and Tagalog throughout her life and why she chose to pursue a linguistics minor in college.</p>
+
               {/* <div className="social-links">
                 <a href="https://open.spotify.com/episode/0PSfqaMO2ftb9SJHTHHQeB?si=AOdpHNw4SKiCZesWbmgTag" target="blank">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
@@ -197,8 +202,8 @@ const IndexPage = () => {
         
         <div id="jared" className="episode-wrapper left">
             <div className="text-wrapper">  
-              <h3>Jared</h3>
-              <p><b className="bolded">Jared</b> lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra sollicitudin laoreet. Mauris maximus, felis quis gravida commodo, ex metus vestibulum ex, eu malesuada sem ante non sapien. Sed sed tellus metus. In a luctus turpis.</p>
+              <h3>A Puerto Rican-Indian Polyglot's Hot Take on Hamilton</h3>
+              <p><b className="bolded">Jared Patel</b> has a bone to pick with Lin-Manuel Miranda. But first! Hear from Jared, a Puerto Rican-Indian, as he discusses his connection to Spanish and Gujarati, why he dedicated himself to learning Mandarin and immersing himself in Chinese culture, his experience studying abroad in China, and how this unique language journey has affected his familial relationships and personal identity. And yes, we really do have an entire sidebar about Hamilton.</p>
               {/* <div className="social-links">
                 <a href="https://open.spotify.com/episode/0PSfqaMO2ftb9SJHTHHQeB?si=AOdpHNw4SKiCZesWbmgTag" target="blank">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
@@ -234,8 +239,9 @@ const IndexPage = () => {
               </a>
             </div>
             <div className="text-wrapper">  
-              <h3>Boying</h3>
-              <p><b className="bolded">Boying</b> lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra sollicitudin laoreet. Mauris maximus, felis quis gravida commodo, ex metus vestibulum ex, eu malesuada sem ante non sapien. Sed sed tellus metus. In a luctus turpis.</p>
+              <h3>China(town) Chronicles</h3>
+              <p><b className="bolded">Boying</b> was born in China, raised in NYC’s Chinatown, and mainly grew up on Chinese media, including Mandarin-language games and TV shows.</p>
+              <p>She shares how her experience living in that neighborhood and the influence of Chinese media affected her cultural identity and perception of Asian American media representation at large. She also dives into the nuances of learning Mandarin, going to Chinese school, and her preferences on communicating between Mandarin and English.</p>
               {/* <div className="social-links">
                 <a href="https://open.spotify.com/episode/0PSfqaMO2ftb9SJHTHHQeB?si=AOdpHNw4SKiCZesWbmgTag" target="blank">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
