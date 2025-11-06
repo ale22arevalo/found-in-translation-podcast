@@ -13,7 +13,7 @@ import tania_nyc from '../images/tania/tania_nyc.png';
 import tania_titanic from '../images/tania/tania_titanic.jpg';
 import tania_ny from '../images/tania/tania_ny.jpg';
 import tania_russian from '../images/tania/tania_russian.jpg';
-import tania_texts from '../images/tania/tania_texts.png';
+import tania_texts from '../images/tania/tania_texts.jpg';
 import tania_nycsnow from '../images/tania/tania_nycsnow.jpg';
 import tania_europe from '../images/tania/tania_europe.jpg';
 import tania_crimepunishment from '../images/tania/tania_crimepunishment.jpg';
@@ -48,8 +48,8 @@ const Tania = () => {
             <Navbar />
             <section id="topper" className="topper">
                 <h1>
-                    <span className="changing-word">Signature</span>
-                    <span className="static-title">Moves</span>
+                    <span className="changing-word">Russian</span>
+                    <span className="static-title">Globetrotter</span>
                 </h1>
             </section>
 
@@ -59,7 +59,7 @@ const Tania = () => {
                 <section className='section-wrapper'>
                     <iframe 
                         style={{borderRadius:'12px'}} 
-                        src="https://open.spotify.com/embed/episode/YOUR_EPISODE_LINK" 
+                        src="https://open.spotify.com/embed/episode/71rdRrFm8kcW4rK7150g1m" 
                         width="100%" 
                         height="152" 
                         frameBorder="0" 
