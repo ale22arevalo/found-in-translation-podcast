@@ -74,8 +74,8 @@ const Tania = () => {
                         <h3>The Host<br/><span className="first-name">Guru Ramanathan</span></h3>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Hello and welcome to <b className="bolded">Found in Translation</b>. I'm your host Guru Ramanathan and this is a podcast where people who are first/second generation, and immigrants come on and talk about their relationship with their cultural language and how that has influenced their relationship to their culture, family, friends, and more.</p>
-                        <p>This week's guest is a good friend of mine and a co worker. First time I've had a co worker on the show. And her name is Tania Varganova And I will let her introduce herself.</p>
+                        <p>Hello and welcome to <b className="bolded">Found in Translation</b>. I'm your host Guru Ramanathan and this is a podcast where people who are first/second generation, or immigrants come on and talk about their relationship with their cultural language and how that has influenced their relationship to their culture, family, friends, and more.</p>
+                        <p>This week's guest is a good friend of mine, my neighbor, and an ex-coworker. We actually recorded this when we were still coworkers, but now we are ex-coworkers. Alas! Anyways, her name is Tania Varganova and she's amazing! Tania came on to talk about what it was like growing up in Russia, how she became the English expert among her friends in St. Petersburg, how her personality differs between speaking in English versus Russian, and what her transition to moving to NYC and adapting to American culture has been like over the past number of years. Enjoy the episode! </p>
                     </div>
                 </section>
 
