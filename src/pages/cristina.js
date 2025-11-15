@@ -79,6 +79,9 @@ const Cristina = () => {
                         <p>Hello and welcome to <b className="bolded">Found in Translation</b>. I'm your host Guru Ramanathan and this is a podcast where we talk to people who are first, second gen, or immigrants about their relationship with their cultural language and how that has influenced their relationship to their culture, family, friends, and more.</p>
                         <p>This week's guest is Cristina Hain, who we have go, I think all the way back to the sixth grade. And then we're also roommates. And so one of my longest friends, I have forced her to be in my short films. I made her a guest on my previous podcast. So it was only inevitable that she would come on this one too.</p>
                     </div>
+
+             <div className='cue'>~ interview begins ~</div>
+
                 </section>
 
                 <section className="section-wrapper">
@@ -86,19 +89,17 @@ const Cristina = () => {
                         <h3>The Guest<br /><span className="first-name">Cristina Hain</span></h3>
                     </div>
                     <div className="p-wrapper side">
-                        <p>My mom is Filipino and she's an immigrant and my dad is fully German from the US. And so that meant that at home, we only spoke English, but my parents spoke more languages. My mom since she grew up in the Philippines, is pretty fluent in Tagalog and then knew some Spanish.</p>
-                        <p>And my dad knew German a little bit growing up, so he tried to teach us some. And we learned a little bit, but not as much. And now I'm currently living in San Diego. I work on Point Loma at NYWIC, which is just a Navy research place as a software engineer.</p>
+                        <p>My mom is Filipino and she's an immigrant, and my dad is fully German from the US. And so, that meant that at home, we only spoke English. But, my parents spoke more languages. My mom, since she grew up in the Philippines, is pretty fluent in Tagalog and then knew some Spanish.</p>
+                        <p>And my dad knew German a little bit growing up, so he tried to teach us some. And we learned a little bit, but not as much.</p>
                     </div>
                 </section>
-
-                <div className='cue'>~ interview begins ~</div>
 
                 <section className="section-wrapper">
                     <div className="name-wrapper">
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Yes. I always joke that she basically does Top Gun. So yeah I know you, you had the presence of Tagalog and German, and I think it would be cool to dive into what that mix of cultures growing up was like, but I know for this specific episode, you're gonna be talking more about your experience with German and everything. What was your connection with German in your childhood, and how did that play out when you were growing up?</p>
+                        <p>So yeah, I know you, you had the presence of Tagalog and German, and I think it would be cool to dive into what that mix of cultures growing up was like, but I know for this specific episode, you're gonna be talking more about your experience with German. What was your connection with German in your childhood, and how did that play out when you were growing up?</p>
                     </div>
                 </section>
 
@@ -107,7 +108,7 @@ const Cristina = () => {
                         <div className='bolded-name'>Cristina</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>My dad is an only child and he grew up with my grandparents, who were both fully German. My grandmother moved to the U.S. Post World War II, and so she grew up in Germany. My grandfather knew enough German to get around because his parents spoke it, and growing up, my dad also knew German, and my grandmother was a flight attendant for Lufthansa. And so that meant that traveling was more accessible to them. So my dad went back to Germany every year. And so he really worked on his German then. And so that was very important to him growing up. And when we were born my dad wanted to keep that going, or he wanted us to learn a little bit too.</p>
+                        <p>My dad is an only child and he grew up with my grandparents, who were both fully German. My grandmother moved to the U.S. post-World War II, and so she grew up in Germany. My grandfather knew enough German to get around because his parents spoke it. And growing up, my dad also knew German, and my grandmother was a flight attendant for Lufthansa. And so, that meant that traveling was more accessible to them. So, my dad went back to Germany every year. And so, he really worked on his German then. And so, that was very important to him growing up. And when we were born my dad wanted to keep that going, or he wanted us to learn a little bit, too.</p>
                     </div>
                 </section>
 
@@ -125,7 +126,7 @@ const Cristina = () => {
                         <div className='bolded-name'>Cristina</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>So we had piano lessons that were 30 minutes away. I remember in growing up, he would put on German learning books, I want to say, or we'd listen to something called like Superkatze, which would teach us basic German. <b className='extra-bolded'>We tried to learn German. We did not succeed. I remember I was really proud because I could count to 12 in German and that's where my German excelled when I was in elementary school to middle school and then dropped off until college for me.</b> I got a minor in linguistics at school and I really loved the idea of learning languages.</p>
+                        <p>So, we had piano lessons that were 30 minutes away. I remember in growing up, he would put on German learning books I want to say, or we'd listen to something called like Superkatze, which would teach us basic German. <b className='extra-bolded'>We tried to learn German. We did not succeed. I remember I was really proud because I could count to 12 in German and that's where my German excelled when I was in elementary school to middle school. And then dropped off until college for me.</b> I got a minor in linguistics at school and I really loved the idea of learning languages.</p>
                     </div>
                 </section>
 
@@ -134,8 +135,8 @@ const Cristina = () => {
                         <div className='bolded-name'>Cristina</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>And then I decided that for my first summer after college, I wanted to go focus on the language. And I was deciding between Spanish and German. And I said, you know what? I want to learn more German. <b className='extra-bolded'>I am half German. I think it's important. And I went to Berlin for four weeks and I took that German class and it was really fun for me. I thought it was really great to be able to come back. I tried to speak a little bit with my grandmother. Really I wrote her postcards because I was too embarrassed to try to speak cause my accent's not great.</b></p>
-                        <p>And that was the time that I was most knowledgeable of German. I do not say fluent, definitely not fluent, but able to get around, I was able to navigate the airport and ask people where I was supposed to go and that was great. And coming back and having that experience was awesome to be able to connect with my grandmother because she wanted to talk about the things I saw and the things that she remembered.</p>
+                        <p>And then I decided that for my first summer after college, I wanted to go focus on the language. And I was deciding between Spanish and German. And I said, you know what? I want to learn more German. <b className='extra-bolded'>I am half German. I think it's important. And I went to Berlin for four weeks and I took that German class, and it was really fun for me. I thought it was really great to be able to come back. I tried to speak a little bit with my grandmother. Really I wrote her postcards because I was too embarrassed to try to speak cause my accent's not great.</b></p>
+                        <p>And that was the time that I was most knowledgeable of German. I do not say fluent, definitely not fluent. But able to get around, I was able to navigate the airport and ask people where I was supposed to go and that was great. And coming back and having that experience was awesome to be able to connect with my grandmother because she wanted to talk about the things I saw and the things that she remembered.</p>
                     </div>
                 </section>
 
@@ -153,8 +154,8 @@ const Cristina = () => {
                         <div className='bolded-name'>Cristina</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>Granted, she wasn't in Berlin. She's from the South of Germany. So it was very, there's still lots of differences. And especially with language too, because South German, like she's from Bavaria, I wouldn't speak like Bayern or, Yeah, and she's from Straubing so she just had different dialects because even like within Germany as People might know the dialects are just so varying and so different. So coming from all the way from the northeast to where she lived which was more like southwest but that was really fun for me to speak with her about it.</p>
-                        <p>And then I love Germany so much that I had to go back the next year, so then I went back and I tried to do a little bit of German. Everyone knew I didn't speak German in Berlin, and Berlin's such a melting pot that they said, don't even bother trying, we're just going to speak to you in English, and I said, that makes sense to me. And that is where I stopped learning German, but to keep it around randomly.</p>
+                        <p>Granted, she wasn't in Berlin. She's from the south of Germany. There's still lots of differences. And especially with language too, because South German, like she's from Bavaria. So, she just had different dialects because, even like within Germany, as people might know the dialects are just so varying and so different. So, coming from all the way from the northeast to where she lived, which was more like southwest. But, that was really fun for me to speak with her about it.</p>
+                        <p>And then I love Germany so much that I had to go back the next year, so then I went back. And I tried to do a little bit of German. Everyone knew I didn't speak German in Berlin. And Berlin's such a melting pot that they said, don't even bother trying. We're just going to speak to you in English. And I said, that makes sense to me. And that is where I stopped learning German, but to keep it around randomly.</p>
                     </div>
                 </section>
 
@@ -172,8 +173,8 @@ const Cristina = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>At the time of this recording, my mom's actually in Germany right now. She just can't. We literally just arrived there last night in Berlin. She's also gonna check out Munich and Nuremberg and I think one other place but yeah, she is a big history nut and had always been wanting to go to Germany.</p>
-                        <p>Going back for a second, since you Didn't necessarily know German growing up, and then also with Tagalog, how did that affect your relationship with some of your relatives who were from those respective countries?</p>
+                        <p>At the time of this recording, my mom's actually in Germany right now. She literally just arrived there last night in Berlin. She's also gonna check out Munich and Nuremberg, and I think one other place. But yeah, she is a big history nut and had always been wanting to go to Germany.</p>
+                        <p>Going back for a second, since you didn't necessarily know German growing up, and then also with Tagalog, how did that affect your relationship with some of your relatives who were from those respective countries?</p>
                     </div>
                 </section>
 
@@ -182,8 +183,8 @@ const Cristina = () => {
                         <div className='bolded-name'>Cristina</div>
                     </div>
                     <div className='p-wrapper side'>
-                            <p><b className='extra-bolded'>Reflecting back on that, there was never a time where I think I felt bad for not knowing Tagalog or knowing German or even Spanish in some capacity because my mom said that growing up for her in the Philippines, she said they speak Spanish at home, which is so funny because her Spanish is, I love my mom, Spanish is bad, her Spanish is bad, and we make fun of her every time.</b></p>
-                            <p>And so she tried to put us in a Spanish camp for a week, and we tried to learn, but she didn't force us to go, we said we didn't like it being the young kids that we were, we didn't want to go to school, and then she just, We just never continued with it, and so we lost any of it. We also tried to do a Tagalog class, too, I want to say, with our family friends.</p>
+                            <p><b className='extra-bolded'>Reflecting back on that, there was never a time where I think I felt bad for not knowing Tagalog or knowing German, or even Spanish in some capacity, because my mom said that growing up for her in the Philippines, she said they speak Spanish at home. Which is so funny because her Spanish is, I love my mom, Spanish is bad. Her Spanish is bad and we make fun of her every time.</b></p>
+                            <p>And so she tried to put us in a Spanish camp for a week. And we tried to learn, but she didn't force us to go. We said we didn't like it being the young kids that we were, we didn't want to go to school, and then she just... We just never continued with it, and so we lost any of it. We also tried to do a Tagalog class, too, I want to say, with our family friends.</p>
                     </div>
                 </section>
 
@@ -192,8 +193,8 @@ const Cristina = () => {
                         <div className='bolded-name'>Cristina</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>That never took off. I remember absolutely absolutely none of that. I know we did it, and there was some vague memories, but no Tagalog did we learn. And then, as far as familial stuff go, I'm very close with my Filipino family. Not that I'm not close with my German family, but my dad, like I said, was an only child.</p>
-                        <p>I saw my grandparents enough, but it was different when my mom has two siblings and they have children and we had our cousins and we saw that they lived less than 15 minutes from us. So growing up, I was around them a lot. But they didn't speak really any Tagalog. My mom, especially to us, didn't speak Tagalog.</p>
+                        <p>That never took off. I remember absolutely none of that. I know we did it, and there was some vague memories, but no Tagalog did we learn. And then, as far as familial stuff goes, I'm very close with my Filipino family. Not that I'm not close with my German family, but my dad, like I said, was an only child.</p>
+                        <p>I saw my grandparents enough, but it was different when my mom has two siblings and they have children and we had our cousins and they lived less than 15 minutes from us. So, growing up, I was around them a lot. But, they didn't speak really any Tagalog. My mom, especially to us, didn't speak Tagalog.</p>
                     </div>
                 </section>
 
@@ -212,8 +213,8 @@ const Cristina = () => {
                         <div className='bolded-name'>Cristina</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>She only spoke it with her mom. Not even with her sister who I see a lot too. And I think I didn't notice it until we grew up. And then when I've met my extended family, cause especially with the Philippines, everyone's related. Somehow you're related to someone. And other people knew more Tagalog than us. And I remember I still feel a little self conscious just being like, Oh, do I know what you're saying?</p>
-                        <p>Do I know enough words? And I know random words and random things. And I can make sense of things going on and especially intonation. <b className='extra-bolded'>So when I'm with immediate family, I don't feel bad. When I'm with my more extended family, I feel sad, like I would love to be able to speak another language.</b></p>
+                        <p>She only spoke it with her mom. Not even with her sister who I see a lot too. And I think I didn't notice it until we grew up. And then when I've met my extended family, cause especially with the Philippines, everyone's related. Somehow you're related to someone. And, other people knew more Tagalog than us. I still feel a little self conscious just being like, oh, do I know what you're saying?</p>
+                        <p>Do I know enough words? And I know random words and random things. And I can make sense of things going on and especially intonation. <b className='extra-bolded'>So, when I'm with immediate family, I don't feel bad. When I'm with my more extended family, I feel sad. Like I would love to be able to speak another language.</b></p>
                     </div>
                 </section>
 
@@ -222,7 +223,7 @@ const Cristina = () => {
                         <div className='bolded-name'>Cristina</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>I think it's so cool. I think language is such a cool concept. Yeah, so Filipino side, definitely, like maybe slightly more aware, more as I got older. German side Because it was just really me and my sister who were there, it wasn't a super big deal. And then when I remember when I was learning German, I was really excited to show that to my grandma.</p>
+                        <p>I think it's so cool. I think language is such a cool concept. Yeah, so Filipino side, definitely, like maybe slightly more aware. More as I got older. German side...because it was just really me and my sister who were there, it wasn't a super big deal. And then when I remember when I was learning German, I was really excited to show that to my grandma.</p>
                     </div>
                 </section>
 
@@ -231,7 +232,7 @@ const Cristina = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>and with your linguistics studies in college, could you talk more about what specifically you were studying there in terms of was it specifically about using German as a case study and breaking down the linguistics of that or was it also a broader science of understanding the way language impacts identity and culture?</p>
+                        <p>And with your linguistics studies in college, could you talk more about what specifically you were studying there in terms of, was it specifically about using German as a case study and breaking down the linguistics of that, or was it also a broader science of understanding the way language impacts identity and culture?</p>
                     </div>
                 </section>
 
@@ -240,7 +241,7 @@ const Cristina = () => {
                         <div className='bolded-name'>Cristina</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>The reason that I got my certificate in linguistics was because my parents were like, no, don't learn a language in college. Don't do that. That's a waste, not a waste, but there are so many other classes to take in college, focus on those as opposed to learning a language, even though the language program was so good.</p>
+                        <p>The reason that I got my certificate in linguistics was because my parents were like, no, don't learn a language in college. Don't do that. That's a waste, not a waste, but there are so many other classes to take in college. Focus on those as opposed to learning a language, even though the language program was so good.</p>
                         <p><b className='extra-bolded'>For linguistics, what's spurred my interest was definitely the idea of the way languages function, or how they put into a formula. Because I'm an engineer. I love math. I love formulas. I love knowing how things go. I like the logic games. And the way that languages are formed, the way that English is formed, it's like subject, verb, noun, verb.</b></p>
                         <p>Whatever, you can rearrange everything. And I used to be better about all these like different grammar terms and all this stuff and how you can form a sentence. There's so many ways to form a sentence. That's so cool. German, you smush everything together, right? You start just explaining do you want to talk about a bull, and so it's a little bull, it's a little blue bull, and you just add it all together at the end. But the sentence structure is always subject verb. You always have to have the subject verb.</p>
                         <p>The first verb, and then you have put in everything else, and then if it's like a compound verb Oh, I want to go running in the park, it would be, I want in the park to run. I think. Pretty sure. My German is not great, but that's what I remember learning and thinking, Oh, that's so weird.</p>
