@@ -50,8 +50,8 @@ const Cristina = () => {
             <Navbar />
             <section id="topper" className="topper">
                 <h1>
-                    <span className="changing-word">Signature</span>
-                    <span className="static-title">Moves</span>
+                    <span className="changing-word">Diving into Deutschland</span>
+                    <span className="static-title">(and the Philippines!)</span>
                 </h1>
             </section>
 
@@ -61,7 +61,7 @@ const Cristina = () => {
                 <section className='section-wrapper'>
                     <iframe 
                         style={{borderRadius:'12px'}} 
-                        src="https://open.spotify.com/embed/episode/YOUR_EPISODE_LINK" 
+                        src="https://open.spotify.com/embed/episode/16PSCArTjHxPm2UB9eicUO" 
                         width="100%" 
                         height="152" 
                         frameBorder="0" 
@@ -79,10 +79,9 @@ const Cristina = () => {
                         <p>Hello and welcome to <b className="bolded">Found in Translation</b>. I'm your host Guru Ramanathan and this is a podcast where we talk to people who are first, second gen, or immigrants about their relationship with their cultural language and how that has influenced their relationship to their culture, family, friends, and more.</p>
                         <p>This week's guest is Cristina Hain, and we have known each other since the sixth grade. And then we were also roommates. She’s one of my longest friends. I have forced her to be in my short films. I made her a guest on my previous podcast. So, it was only inevitable that she would come on this one, too. While Cristina mainly speaks about her experience with German and living in Berlin for a summer, she also shares why she bounced between learning German, Spanish, and Tagalog throughout her life and why she chose to pursue a linguistics minor in college. Hope you enjoy the episode! </p>
                     </div>
-
-             <div className='cue'>~ interview begins ~</div>
-
                 </section>
+
+                             <div className='cue'>~ interview begins ~</div>
 
                 <section className="section-wrapper">
                     <div className="name-wrapper">
