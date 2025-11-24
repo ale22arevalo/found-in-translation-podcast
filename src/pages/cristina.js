@@ -368,15 +368,6 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
-                            <p className='handwriting'>Cristina and her sister with their Spanish teacher</p>
-                        </div>
-                            <img className="vertical-photo" src={cristina_joselyn} alt="" loading="lazy" />
-                    </div>
-                </section>
-
-                <section className="section-wrapper">
                     <div className="name-wrapper">
                         <div className='bolded-name'>Cristina</div>
                     </div>
