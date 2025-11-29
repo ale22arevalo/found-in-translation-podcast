@@ -200,10 +200,11 @@ const IndexPage = () => {
           </div>
         </div>
         
-        <div id="jared" className="episode-wrapper left">
+        <div id="boying" className="episode-wrapper left">
             <div className="text-wrapper">  
-              <h3>How an Aspirational/Aspiring Polyglot Mastered Mandarin</h3>
-              <p><b className="bolded">Jared Patel</b>, a Puerto Rican-Indian from New York, discusses his connection to Spanish and Gujarati, why he dedicated himself to learning Mandarin and immersing himself in Chinese culture, his experience studying abroad in China, and how this unique language journey has affected his familial relationships and personal identity.</p>
+              <h3>China(town) Chronicles</h3>
+              <p><b className="bolded">Boying Tang</b> was born in China, raised in NYC’s Chinatown, and mainly grew up on Chinese media, including Mandarin-language games and TV shows.</p>
+              <p>She shares how her experience living in that neighborhood and the influence of Chinese media affected her cultural identity and perception of Asian American media representation at large. She also dives into the nuances of learning Mandarin, going to Chinese school, and her preferences on communicating between Mandarin and English.</p>
               {/* <div className="social-links">
                 <a href="https://open.spotify.com/episode/0PSfqaMO2ftb9SJHTHHQeB?si=AOdpHNw4SKiCZesWbmgTag" target="blank">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
@@ -219,9 +220,9 @@ const IndexPage = () => {
                 </a>
               </div> */}
           </div>
-          <div id="g-box" className="ai2html">
+            <div id="g-box" className="ai2html">
               <div id="g-rachel-Artboard_1" className="g-artboard" style={{maxWidth: "569px", maxHeight: "809px"}} data-aspect-ratio="0.754" data-min-width="0">
-                  <img id="g-rachel-Artboard_1-img" className="g-rachel-Artboard_1-img g-aiImg" alt="" src={jaredillo}/>
+                  <img id="g-rachel-Artboard_1-img" className="g-rachel-Artboard_1-img g-aiImg" alt="" src={boyingillo}/>
               </div>
               <a href="">
                 <button className="ep-btn">Coming on Dec.4</button>
@@ -229,19 +230,18 @@ const IndexPage = () => {
             </div>
         </div>
 
-        <div id="boying" className="episode-wrapper right">
-          <div id="g-box" className="ai2html">
+        <div id="jared" className="episode-wrapper right">
+           <div id="g-box" className="ai2html">
               <div id="g-rachel-Artboard_1" className="g-artboard" style={{maxWidth: "569px", maxHeight: "809px"}} data-aspect-ratio="0.754" data-min-width="0">
-                  <img id="g-rachel-Artboard_1-img" className="g-rachel-Artboard_1-img g-aiImg" alt="" src={boyingillo}/>
+                  <img id="g-rachel-Artboard_1-img" className="g-rachel-Artboard_1-img g-aiImg" alt="" src={jaredillo}/>
               </div>
               <a href="">
                 <button className="ep-btn">Coming on Dec.18</button>
               </a>
             </div>
             <div className="text-wrapper">  
-              <h3>China(town) Chronicles</h3>
-              <p><b className="bolded">Boying Tang</b> was born in China, raised in NYC’s Chinatown, and mainly grew up on Chinese media, including Mandarin-language games and TV shows.</p>
-              <p>She shares how her experience living in that neighborhood and the influence of Chinese media affected her cultural identity and perception of Asian American media representation at large. She also dives into the nuances of learning Mandarin, going to Chinese school, and her preferences on communicating between Mandarin and English.</p>
+              <h3>How an Aspirational/Aspiring Polyglot Mastered Mandarin</h3>
+              <p><b className="bolded">Jared Patel</b>, a Puerto Rican-Indian from New York, discusses his connection to Spanish and Gujarati, why he dedicated himself to learning Mandarin and immersing himself in Chinese culture, his experience studying abroad in China, and how this unique language journey has affected his familial relationships and personal identity.</p>
               {/* <div className="social-links">
                 <a href="https://open.spotify.com/episode/0PSfqaMO2ftb9SJHTHHQeB?si=AOdpHNw4SKiCZesWbmgTag" target="blank">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
