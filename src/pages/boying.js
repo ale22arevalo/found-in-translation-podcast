@@ -48,8 +48,8 @@ const Boying = () => {
             <Navbar />
             <section id="topper" className="topper">
                 <h1>
-                    <span className="changing-word">Signature</span>
-                    <span className="static-title">Moves</span>
+                    <span className="changing-word">China(town)</span>
+                    <span className="static-title">Chronicles</span>
                 </h1>
             </section>
 
@@ -59,7 +59,7 @@ const Boying = () => {
                 <section className='section-wrapper'>
                     <iframe 
                         style={{borderRadius:'12px'}} 
-                        src="https://open.spotify.com/embed/episode/YOUR_EPISODE_LINK" 
+                        src="https://open.spotify.com/embed/episode/3mtnx8OFlLi5XjlNtzUlYE" 
                         width="100%" 
                         height="152" 
                         frameBorder="0" 
@@ -71,7 +71,19 @@ const Boying = () => {
 
                 <section className='section-wrapper'>
                     <div className="name-wrapper">
-                        <h3>The Guest<br/><span className="first-name">Boying</span></h3>
+                        <h3>The Host<br/><span className="first-name">Guru Ramanathan</span></h3>
+                    </div>
+                    <div className="p-wrapper side">
+                        <p>Hello and welcome to <b className="bolded">Found in Translation</b>. I'm your host Guru Ramanathan and this is a podcast where we talk to people who are first, second gen, or immigrants about their relationship with their cultural language and how that has influenced their relationship to their culture, family, friends, and more.</p>
+                        <p>This week's guest is Boying Tang, who shares how her experience living in Chinatown in New York City and the influence of Chinese media affected her cultural identity and perception of Asian American media representation at large. She also dives into the nuances of learning Mandarin, going to Chinese school, and her preferences communicating between Mandarin and English. Hope you enjoy!</p>
+                    </div>
+                </section>
+
+                             <div className='cue'>~ interview begins ~</div>
+
+                <section className='section-wrapper'>
+                    <div className="name-wrapper">
+                        <h3>The Guest<br/><span className="first-name">Boying Tang</span></h3>
                     </div>
                     <div className="p-wrapper side">
                         <p>I was born in China as a Chinese citizen, and then I moved to New York City when I was five on a green card through my dad.</p>
