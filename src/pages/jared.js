@@ -2,6 +2,21 @@ import React, {useEffect} from 'react'
 import Navbar from '../components/navbar';
 import BackTop from '../components/backtop';
 import "../styles.css"
+import jared_family1 from '../images/jared/jared_family1.jpg'
+import jared_family2 from '../images/jared/jared_family2.jpg'
+import jared_chinesesign from '../images/jared/jared_chinesesign.jpg'
+// import jared_family3 from '../images/jared/jared_family3.jpg'
+import jared_family4 from '../images/jared/jared_family4.jpg'
+import jared_family5 from '../images/jared/jared_family5.jpg'
+import jared_family6 from '../images/jared/jared_family6.jpg'
+import jared_family7 from '../images/jared/jared_family7.jpg'
+import jared_family8 from '../images/jared/jared_family8.jpg'
+import jared_china from '../images/jared/jared_china.jpg'
+import jared_china2 from '../images/jared/jared_china2.jpg'
+import daddy_yankee from '../images/jared/daddy_yankee.jpg'
+import haunting_bookcover from '../images/jared/haunting_bookcover.jpg'
+import hamilton from '../images/jared/hamilton.jpg'
+import jared_chinafriends from '../images/jared/jared_chinafriends.jpg'
 
 const Jared = () => {
     useEffect(() => {
@@ -32,8 +47,8 @@ const Jared = () => {
             <Navbar />
             <section id="topper" className="topper">
                 <h1>
-                    <span className="changing-word">Signature</span>
-                    <span className="static-title">Moves</span>
+                    <span className="changing-word">How an Aspirational/Aspiring Polyglot</span>
+                    <span className="static-title">Mastered Mandarin</span>
                 </h1>
             </section>
 
@@ -59,7 +74,7 @@ const Jared = () => {
                     </div>
                     <div className="p-wrapper side">
                         <p>Hello and welcome to <b className="bolded">Found In Translation</b>. I'm your host Guru Ramlan, and this is a podcast for people who are first, second generation and or immigrants. Come on to talk about their relationship with their cultural language and how that has influenced their connection to their. Culture, family, friends, and more.</p>
-                        <p>This week's guest is a friend of Alejandras, actually Jared Patel who's gonna talk about a variety of languages and probably some that you aren't expecting him to talk about. So I'll pass it over to Jared. If you want to give us some more background to where you were born and raised the specific languages you wanna talk about today pronouns and whatever else.</p>
+                        <p>This week's guest is a friend of Alejandra's, actually Jared Patel, who's gonna talk about a variety of languages and probably some that you aren't expecting him to talk about. So I'll pass it over to Jared. If you want to give us some more background to where you were born and raised the specific languages you wanna talk about today pronouns and whatever else.</p>
                     </div>
                 </section>
 
@@ -90,7 +105,18 @@ const Jared = () => {
                     </div>
                     <div className='p-wrapper side'>
                         <p>Yeah, sure. When I was much younger my mom actually tried to speak almost exclusively Spanish with me at home. I was fluent as a little kid, under the age of 10 can get right. And I got pretty comfortable with the language for a long time. And then I went to elementary school and it was an interesting situation because where I grew up it wasn't extremely culturally diverse.</p>
-                        <p>So when my mom was the only one speaking to me in Spanish, I started to feel uncomfortable. And as a kid, that's when you wanna step back. You wanna fit in. And, one of my biggest regrets to this day is, one day I said to my mom, please don't talk to me like that, when she was talking to me in Spanish. None of my friends talked to their parents like that. I feel odd, I feel weird, I feel left out. And so, ultimately at that point I pulled away from learning Spanish as a child and ended up losing all of that, fluency I had built up to that point. On the Gujarati side my dad actually never spoke growing up it was much of the chagrin of my grandparents. Definitely. They speak they speak pretty often at home, but, he, basically had the fluency of a eighth grader, I would say. He could talk, communicate all the time, but never really taught us, and me and my siblings actually my grandparents almost exclusively speak it at home.</p>
+                        <b className='extra-bolded'>So when my mom was the only one speaking to me in Spanish, I started to feel uncomfortable. And as a kid, that's when you wanna step back. You wanna fit in. And, one of my biggest regrets to this day is, one day I said to my mom, please don't talk to me like that, when she was talking to me in Spanish. </b>
+                        <p>None of my friends talked to their parents like that. I feel odd, I feel weird, I feel left out. And so, ultimately at that point I pulled away from learning Spanish as a child and ended up losing all of that, fluency I had built up to that point.</p> 
+                        <b className='extra-bolded'>On the Gujarati side my dad actually never spoke growing up it was much of the chagrin of my grandparents. Definitely. They speak they speak pretty often at home, but, he, basically had the fluency of a eighth grader, I would say. He could talk, communicate all the time, but never really taught us, and me and my siblings actually my grandparents almost exclusively speak it at home.</b>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Jared's family photos</p>
+                        </div>
+                            <img className="vertical-photo" src={jared_family1} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -117,8 +143,18 @@ const Jared = () => {
                         <div className='bolded-name'>Jared</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>It's an interesting question. I think that ultimately, I don't think I related to one group more than the other. And. Not by virtue of having spent more time or understood the language a little bit better with either group. It's actually quite the opposite. I felt, a lack of affinity for both. I grew up in, a town that was predominantly white. Not a lot of, language diversity was there, or cultural diversity to be completely honest.</p>
-                        <p>And that changed, as as I got. Town started to get a lot more people of color, a lot more immigrants, a lot more people who spoke different types of languages. When I was younger at least it wasn't really there. And so I didn't even find myself really identifying with a Puerto Rican or an Indian.</p>
+                        <b className='extra-bolded'>It's an interesting question. I think that ultimately, I don't think I related to one group more than the other. And. Not by virtue of having spent more time or understood the language a little bit better with either group. It's actually quite the opposite. I felt, a lack of affinity for both. I grew up in, a town that was predominantly white. Not a lot of, language diversity was there, or cultural diversity to be completely honest.</b>
+                        <p>And that changed, as as I got. Town started to get a lot more people of color, a lot more immigrants, a lot more people who spoke different types of languages. When I was younger at least it wasn't really there.</p> 
+                        <b className='extra-bolded'>And so I didn't even find myself really identifying with a Puerto Rican or an Indian.</b>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Jared's family photo</p>
+                        </div>
+                            <img className="horizontal-photo" src={jared_family2} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -175,7 +211,8 @@ const Jared = () => {
                     </div>
                     <div className='p-wrapper side'>
                         <p>Reading about the Jade Emperor and, the journey to the west, it was like a really cool culture, a really cool history there. And so I thought that learning Chinese would be awesome. I heard that it would be the hardest one. And of course, being a kid who wanted to stand out, on the brighter side, I was like, yes, this is the hardest one.</p>
-                        <p>This is gonna be super interesting. I like the culture, I like the idea. Let me take Chinese. My mom was horrified that I didn't wanna take Spanish. My dad couldn't care less. But it was definitely an interesting step. I ended up taking Chinese through middle school and high school.</p>
+                        <p>This is gonna be super interesting. I like the culture, I like the idea. Let me take Chinese.</p> 
+                        <b className='extra-bolded'>My mom was horrified that I didn't wanna take Spanish. My dad couldn't care less. But it was definitely an interesting step. I ended up taking Chinese through middle school and high school.</b>
                     </div>
                 </section>
 
@@ -231,9 +268,19 @@ const Jared = () => {
                         <div className='bolded-name'>Jared</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>I would say it's a little bit of both. Chinese was interesting in that there's really no standard phonetic alphabet. They use characters to represent different words and meanings, and each character can be said a whole bunch of different ways. But ultimately as I learned, what each character represented how the sentences were built, it's a lot more logical than, you would've expected.</p>
+                        <p>I would say it's a little bit of both.</p>
+                        <b className='extra-bolded'>Chinese was interesting in that there's really no standard phonetic alphabet. They use characters to represent different words and meanings, and each character can be said a whole bunch of different ways. But ultimately as I learned, what each character represented how the sentences were built, it's a lot more logical than, you would've expected.</b>
                         <p>Not to say it was easy to learn by any means. It's extremely challenging, but it was definitely something that like once you understood the building blocks, you could start to pick together how things work. For example, the character for tree is just tree, but you put two trees together, you have woods, you put three trees together, you have a forest.</p>
                         <p>So it makes sense how like they build out from certain characters.</p>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Jared with a sign in Chinese</p>
+                        </div>
+                            <img className="vertical-photo" src={jared_chinesesign} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -252,7 +299,17 @@ const Jared = () => {
                     </div>
                     <div className='p-wrapper side'>
                         <p>Yeah, I think that part of it was, after, after, initially going into Chinese in middle school, she had resigned herself to the fact that I was not going to be as in tune with the language at least in near term.</p>
-                        <p>That said, she did have my siblings who both are fluent. They didn't quite have that same experience, I guess when when they were younger, pulling away from the language, which has always been interesting for me just because, when they wanted to have a conversation, maybe didn't want me to be involved, they might throw in some Spanish or, they might just do it to annoy me or agitate me just because they know it's an easy way to keep me left out. And I think that part probably contributed a little bit to me wanting to learn the language as I grew up. But also, I just felt that the connection to the culture it would've been so much deeper if I hadn't known the language a lot earlier.</p>
+                        <p>That said, she did have my siblings who both are fluent. They didn't quite have that same experience.</p> 
+                        <b className='extra-bolded'>I guess when they were younger, pulling away from the language, which has always been interesting for me just because, when they wanted to have a conversation, maybe didn't want me to be involved, they might throw in some Spanish or, they might just do it to annoy me or agitate me just because they know it's an easy way to keep me left out. And I think that part probably contributed a little bit to me wanting to learn the language as I grew up. But also, I just felt that the connection to the culture it would've been so much deeper if I hadn't known the language a lot earlier.</b>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Jared's family photo</p>
+                        </div>
+                            <img className="horizontal-photo" src={jared_family4} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -289,7 +346,8 @@ const Jared = () => {
                         <div className='bolded-name'>Jared</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>Maybe I can catch some things, maybe I can learn a little bit as time goes on. In terms of, how easy it's been, it definitely, I would say it's been much harder. I feel like when I was learning Chinese, which was generally at the time recognized as a much harder language to learn, I was pretty much soaking it up like a sponge. I was understanding the way everything fit together. Like things just made sense. In a way that, Spanish and now as I'm trying to learn Gujarati as well have just not fit into for me. But I also started learning those so much later on that, I do wonder that had it been, 10, 15 years ago and I was trying to learn these languages, would it have been significantly easier?</p>
+                        <p>Maybe I can catch some things, maybe I can learn a little bit as time goes on. In terms of, how easy it's been, it definitely, I would say it's been much harder. I feel like when I was learning Chinese, which was generally at the time recognized as a much harder language to learn, I was pretty much soaking it up like a sponge. I was understanding the way everything fit together. Like things just made sense.</p> 
+                        <b className='extra-bolded'>In a way that, Spanish and now as I'm trying to learn Gujarati as well have just not fit into for me. But I also started learning those so much later on that, I do wonder that had it been, 10, 15 years ago and I was trying to learn these languages, would it have been significantly easier?</b>
                     </div>
                 </section>
 
@@ -308,8 +366,17 @@ const Jared = () => {
                     </div>
                     <div className='p-wrapper side'>
                         <p>Yeah, it I feel like it was unspoken.</p>
-                        <p>My my siblings don't speak it either. Ultimately I think it's something that, we've never explicitly spoken about this, but I think it's just something that he thought we wouldn't need at the end of the day.</p>
+                        <p>My siblings don't speak it either. Ultimately I think it's something that, we've never explicitly spoken about this, but I think it's just something that he thought we wouldn't need at the end of the day.</p>
                         <p>Because, we weren't constantly in environments where that would be something that, we're using all the time.</p>
+                    </div>
+                </section>
+                
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Jared's family photo</p>
+                        </div>
+                            <img className="vertical-photo" src={jared_family4} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -329,6 +396,15 @@ const Jared = () => {
                     <div className='p-wrapper side'>
                         <p>No, I mean I think ultimately, yeah, I definitely felt as I interacted with the language and I think this also is what contributed to me wanting to learn more Gujarati and Spanish as I grew up.</p>
                         <p>The more I interacted with the Chinese language, the more I took these classes. Even, going to China my sophomore year of college and spending six months out there I did feel a close affinity to the culture, to the environment. I, learned about, the different holidays, the different celebrations, amazing types of food. And yeah, some of that I had gotten growing up on the, both the Spanish and the and the Indian side, but there was a certain affinity that I do think I had just because I knew the language, I understood what was being spoken about around me. I understood, the different aspects of cooking.</p>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Jared in China</p>
+                        </div>
+                            <img className="vertical-photo" src={jared_china} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -358,7 +434,16 @@ const Jared = () => {
                     </div>
                     <div className='p-wrapper side'>
                         <p>Because, not to say that I didn't growing up, but being able to really understand all of the nuances of what's going on, I think would be, a phenomenal thing. Great example, I just came back from, from a wedding this past week and Indian wedding beautiful four day celebration.</p>
-                        <p>Again, it's like like you're sitting through some of these ceremonies. You're sitting through a blessing and you're not understanding anything that's going on. You know what each thing is generally supposed to symbolize, but if you understand the language, you understand everything that's being said, it adds so much more of a greater appreciation for me.</p>
+                        <b className='extra-bolded'>Again, it's like like you're sitting through some of these ceremonies. You're sitting through a blessing and you're not understanding anything that's going on. You know what each thing is generally supposed to symbolize, but if you understand the language, you understand everything that's being said, it adds so much more of a greater appreciation for me.</b>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Jared's family photo</p>
+                        </div>
+                            <img className="horizontal-photo" src={jared_family5} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -367,7 +452,7 @@ const Jared = () => {
                         <div className='bolded-name'>Jared</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>For the event. And now, my girlfriend's Indian, my parents are elated. But like I think that it's also, just so you know, if it ever gets to that point where, we're in a situation like that, I would want to be able to appreciate that just to the most capacity I could.</p>
+                        <p>For the event. <b className='extra-bolded'>And now, my girlfriend's Indian, my parents are elated.</b> But like I think that it's also, just so you know, if it ever gets to that point where, we're in a situation like that, I would want to be able to appreciate that just to the most capacity I could.</p>
                     </div>
                 </section>
 
@@ -385,9 +470,18 @@ const Jared = () => {
                         <div className='bolded-name'>Jared</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>Yeah, I would definitely say I did feel more prideful about, my, my own, ethnic culture. Having grown up with, daddy Yanke, Donald Mar on the, Spanish music side.</p>
+                        <p>Yeah, I would definitely say I did feel more prideful about, my, my own, ethnic culture. Having grown up with, Daddy Yankee, Donald Mar on the, Spanish music side.</p>
                         <p>Seeing those guys pop off and, the states as well. That's been, really cool. And, I felt a tremendous amount of pride for, for, those things.</p>
-                        <p>I feel pride in my understanding of the language, but I don't feel the same sort of pride that I do when, say an Indian movie I watched during my childhood, like a Bollywood movie I watched during my childhood becoming more popular here in the States. So I do think it's a little bit of a double-edged sword too, right?</p>
+                        <b className='extra-bolded'>I feel pride in my understanding of the language, but I don't feel the same sort of pride that I do when, say an Indian movie I watched during my childhood, like a Bollywood movie I watched during my childhood becoming more popular here in the States. So I do think it's a little bit of a double-edged sword too, right?</b>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Daddy Yankee</p>
+                        </div>
+                            <img className="horizontal-photo" src={daddy_yankee} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -398,6 +492,15 @@ const Jared = () => {
                     <div className='p-wrapper side'>
                         <p>Because there are some things that I'll see and then I'll feel a little bit of disappointment in my culture too, right? Controversial take, but I absolutely hated Hamilton and I am not a fan of Lin and Manuel Miranda. Puerto Rican has done a great job bringing notoriety to the culture, but I actually, I didn't feel pride in that.</p>
                         <p>So it was the, it was a little bit of the opposite in.</p>
+                    </div>
+                </section>
+
+                 <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Hamilton</p>
+                        </div>
+                            <img className="vertical-photo" src={hamilton} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -415,8 +518,17 @@ const Jared = () => {
                         <div className='bolded-name'>Jared</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>Yeah. I won't pretend to be an expert on him by any means. Great book about him is the Haunting of La Manuel Miranda. It covers a little bit about how he maybe wasn't the person that everybody thought he was. And look, at the end of the day, yes, I feel like he was a little bit performative, but ultimately, my distaste for him comes from the fact that I felt like Hamilton was a little bit of a bastardization of the traditional musical genre.</p>
+                        <p>Yeah. I won't pretend to be an expert on him by any means. Great book about him is "The Haunting of Lin-Manuel Miranda." It covers a little bit about how he maybe wasn't the person that everybody thought he was. And look, at the end of the day, yes, I feel like he was a little bit performative, but ultimately, my distaste for him comes from the fact that I felt like Hamilton was a little bit of a bastardization of the traditional musical genre.</p>
                         <p>And it could have been phenomenal. It was made to be a crowd pleaser that's very snappy, very attention grabbing, but ultimately fell short in, a couple of key components that any musical should have. And the fact that it, broadened horizons for people who had never seen a musical before and wanted to see, that sort of aspect the little rappy aspect the ability to touch on history, but also, the fact that it lacked historical context. You can look at Hamilton any way you want, but you can't say that, Aaron Burr was a black man. You can't say that that slave, that the way they portrayed slavery was accurate to the time period.</p>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>The Haunting of Lin-Manuel Miranda</p>
+                        </div>
+                            <img className="horizontal-photo" src={haunting_bookcover} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -476,8 +588,17 @@ const Jared = () => {
                         <div className='bolded-name'>Jared</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>If we're excluding English, I think my go-to would be Spanish. I, growing up, my grandfather used to play music all the time.</p>
+                        <p>If we're excluding English, I think my go-to would be Spanish. Growing up, my grandfather used to play music all the time.</p>
                         <p>He also, he was a big fan of the classics, so it was a little bit of a mix. I got Elton John growing up, I got all of the old American songs that, became classics in their own right. But then we also got a lot of, I don't know if I would call I guess I could call it just island music that he played when he was younger that he had from his childhood, that my mom had from her childhood.</p>
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Jared's family photo</p>
+                        </div>
+                            <img className="horizontal-photo" src={jared_family6} alt="" loading="lazy" />
                     </div>
                 </section>
 
@@ -505,7 +626,8 @@ const Jared = () => {
                         <div className='bolded-name'>Jared</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>It's actually, it's interesting. I. I don't know. It's actually something that's been brought up to me before, but I haven't personally noticed. For instance, when I, even when I speak English with my mom, I've been told that I adopt a slight accent on top of, the way I normally speak. And you know that, that said I don't know if I've personally noticed a sort of shift, but the languages themselves do have tonalities that make them feel different coming out. When I speak English, I feel like it's a lot more, rigid, structural, a little bit eloquent. Ali is saying my Chinese sounds a little sassy. But it's definitely, it's a little bit more of a, like a fluid language where the tonality is so important.</p>
+                        <p>It's actually, it's interesting. I. I don't know. It's actually something that's been brought up to me before, but I haven't personally noticed. For instance, when I, even when I speak English with my mom, I've been told that I adopt a slight accent on top of, the way I normally speak. And you know that, that said I don't know if I've personally noticed a sort of shift, but the languages themselves do have tonalities that make them feel different coming out.</p> 
+                        <b className='extra-bolded'>When I speak English, I feel like it's a lot more, rigid, structural, a little bit eloquent. Ali is saying my Chinese sounds a little sassy. But it's definitely, it's a little bit more of a, like a fluid language where the tonality is so important.</b>
                         <p>So that delivery changes the way you speak about things. And so I can totally understand that. I know hearing other people speak different languages, I've heard changes in tone, changes in seem like change in personality that I personally haven't noticed within myself, but it's also hard to identify those.</p>
                     </div>
                 </section>
@@ -524,7 +646,7 @@ const Jared = () => {
                         <div className='bolded-name'>Guru</div>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Have you been to each Puerto Rico, Gura and China have you been to all three of these locations?</p>
+                        <p>Have you been to each Puerto Rico, Gujarat and China have you been to all three of these locations?</p>
                     </div>
                 </section>
 
@@ -533,10 +655,21 @@ const Jared = () => {
                         <div className='bolded-name'>Jared</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>Yeah I haven't been to PR or gura yet. I'm hoping to go at some point in the near future to both. But China, I actually have been to, so I spent, I spent six months at a summer abroad program. Three months in the summer abroad program. Three months really. Or traveling around the country in China.</p>
+                        <p>Yeah I haven't been to PR or Gujarat yet. I'm hoping to go at some point in the near future to both. But China, I actually have been to, so I spent, I spent six months at a summer abroad program. Three months in the summer abroad program. Three months really. Or traveling around the country in China.</p>
                         <p>So I went with I went with my father around Chinese New Year to China. We left over the holidays, spent a couple months just traveling around from Beijing to is where they had the terracotta warriors. We went to, a whole bunch of different regions in the country that were amazing to see.</p>
                     </div>
                 </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Jared's family photo</p>
+                        </div>
+                            <img className="horizontal-photo" src={jared_family7} alt="" loading="lazy" />
+                    </div>
+                </section>
+
+
 
                 <section className="section-wrapper">
                     <div className="name-wrapper">
@@ -549,14 +682,33 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Jared and his friends in Shanghai</p>
+                        </div>
+                            <img className="vertical-photo" src={jared_chinafriends} alt="" loading="lazy" />
+                    </div>
+                </section>
+
+                <section className="section-wrapper">
                     <div className="name-wrapper">
                         <div className='bolded-name'>Jared</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>Within a month or two that was completely gone. And, by the time I left I felt not only could I get around the country by myself and interact with people by myself, but I also could help others understand, the environment we were in.</p>
+                        <b className='extra-bolded'>Within a month or two that was completely gone. And, by the time I left I felt not only could I get around the country by myself and interact with people by myself, but I also could help others understand, the environment we were in.</b>
                         <p>I think a great example is I did a couple of trips around the country with other members, with other classmates, and ultimately ended up being the most proficient in Chinese. And I would handle things like navigating things, like talking to locals, ordering at restaurants in a way that, I, if it was the first week or two there, even though I had, I would say a pretty similar level of proficiency, I don't know if I would've been comfortable enough to do.</p>
                     </div>
                 </section>
+
+                <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Jared in China</p>
+                        </div>
+                            <img className="vertical-photo" src={jared_china2} alt="" loading="lazy" />
+                    </div>
+                </section>
+
 
                 <section className="section-wrapper">
                     <div className="name-wrapper">
@@ -578,6 +730,16 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
+                    <div className='text-photo'>
+                        <div className='text-arrow'>
+                            <p className='handwriting'>Jared's family photo</p>
+                        </div>
+                            <img className="horizontal-photo" src={jared_family8} alt="" loading="lazy" />
+                    </div>
+                </section>
+
+
+                <section className="section-wrapper">
                     <div className="name-wrapper">
                         <div className='bolded-name'>Jared</div>
                     </div>
@@ -592,7 +754,7 @@ const Jared = () => {
                         <div className='bolded-name'>Jared</div>
                     </div>
                     <div className='p-wrapper side'>
-                        <p>You really want to know. You don't wanna I don't think anyone wants to feel like they're, being disappointing. They're unable to deliver on something that someone expects of them. But at the same time, I don't think that, it's something that I'll ever be able to totally grapple with because at the end of the day, I'm not sure I'll ever reach the level of proficiency that people expect from me.</p>
+                        <b className='extra-bolded'>You really want to know. I don't think anyone wants to feel like they're, being disappointing. They're unable to deliver on something that someone expects of them. But at the same time, I don't think that, it's something that I'll ever be able to totally grapple with because at the end of the day, I'm not sure I'll ever reach the level of proficiency that people expect from me.</b>
                         <p>And I think that's okay. Honestly, it's just a matter of, for me a matter of being able to engage with the culture as closely as possible. Engage with the language as closely as possible, whether that's fluency, pseudo fluency, or, even intermediate level speaking.</p>
                     </div>
                 </section>
