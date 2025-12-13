@@ -73,8 +73,21 @@ const Jared = () => {
                         <h3>The Host<br/><span className="first-name">Guru Ramanathan</span></h3>
                     </div>
                     <div className="p-wrapper side">
-                        <p>Hello and welcome to <b className="bolded">Found In Translation</b>. I'm your host Guru Ramlan, and this is a podcast for people who are first, second generation and or immigrants. Come on to talk about their relationship with their cultural language and how that has influenced their connection to their. Culture, family, friends, and more.</p>
-                        <p>This week's guest is a friend of Alejandra's, actually Jared Patel, who's gonna talk about a variety of languages and probably some that you aren't expecting him to talk about. So I'll pass it over to Jared. If you want to give us some more background to where you were born and raised the specific languages you wanna talk about today pronouns and whatever else.</p>
+                        <p>Hello and welcome to <b className="bolded">Found In Translation</b>. I'm your host Guru Ramanathan and this is a podcast where we talk to people who are first, second gen, or immigrants about their relationship with their cultural language and how that has influenced their relationship to their culture, family, friends, and more.</p>
+                        <p>This week’s guest is Jared Patel, a Puerto Rican-Indian who discusses his connection to Spanish and Gujarati, why he dedicated himself to learning Mandarin and immersing himself in Chinese culture, his experience studying abroad in China, and how this unique language journey has affected his familial relationships and personal identity. Hope you enjoy!</p>
+                    </div>
+                </section>
+
+                <div className='cue'>~ interview begins ~</div>
+
+                </section>
+
+                <section className="section-wrapper">
+                    <div className="name-wrapper">
+                        <div className='bolded-name'>Guru</div>
+                    </div>
+                    <div className="p-wrapper side">
+                        <p>Yeah, if you want to just begin talking a little bit more about what your connection was with, let's maybe just begin with Spanish and Gujarati in your childhood and how that kind of played out when you were growing up in a house of mixed cultures? </p>
                     </div>
                 </section>
 
@@ -82,29 +95,8 @@ const Jared = () => {
                     <div className="name-wrapper">
                         <h3>The Guest<br /><span className="first-name">Jared Patel</span></h3>
                     </div>
-                    <div className="p-wrapper side">
-                        <p>Hey thank you so much for having me on. My name is Jared. Pronouns are he, him born and raised in the States here in New York. Live in the city now, but grew up in the suburbs at home. My mom is a Puerto Rican. She spoke a lot of Spanish growing up. My dad. Region in India.</p>
-                        <p>So he spoke, he didn't actually speak at all growing up, but currently still going through my language exploration journey, I would say. And have been, taking steps just to, expand my horizons a little bit with language.</p>
-                    </div>
-                </section>
-
-                <div className='cue'>~ interview begins ~</div>
-
-                <section className="section-wrapper">
-                    <div className="name-wrapper">
-                        <div className='bolded-name'>Guru</div>
-                    </div>
-                    <div className="p-wrapper side">
-                        <p>Yeah, if you want to just begin talking a little bit more about what your connection was with, let's maybe just begin with Spanish and Gujarati in your childhood and how that kind of played out when you were growing up in a house of mixed cultures.</p>
-                    </div>
-                </section>
-
-                <section className="section-wrapper">
-                    <div className="name-wrapper">
-                        <div className='bolded-name'>Jared</div>
-                    </div>
                     <div className='p-wrapper side'>
-                        <p>Yeah, sure. When I was much younger my mom actually tried to speak almost exclusively Spanish with me at home. I was fluent as a little kid, under the age of 10 can get right. And I got pretty comfortable with the language for a long time. And then I went to elementary school and it was an interesting situation because where I grew up it wasn't extremely culturally diverse.</p>
+                        <p>When I was much younger my mom actually tried to speak almost exclusively Spanish with me at home. I was fluent as a little kid, under the age of 10 can get right. And I got pretty comfortable with the language for a long time. And then I went to elementary school and it was an interesting situation because where I grew up it wasn't extremely culturally diverse.</p>
                         <b className='extra-bolded'>So when my mom was the only one speaking to me in Spanish, I started to feel uncomfortable. And as a kid, that's when you wanna step back. You wanna fit in. And, one of my biggest regrets to this day is, one day I said to my mom, please don't talk to me like that, when she was talking to me in Spanish. </b>
                         <p>None of my friends talked to their parents like that. I feel odd, I feel weird, I feel left out. And so, ultimately at that point I pulled away from learning Spanish as a child and ended up losing all of that, fluency I had built up to that point.</p> 
                         <b className='extra-bolded'>On the Gujarati side my dad actually never spoke growing up it was much of the chagrin of my grandparents. Definitely. They speak they speak pretty often at home, but, he, basically had the fluency of a eighth grader, I would say. He could talk, communicate all the time, but never really taught us, and me and my siblings actually my grandparents almost exclusively speak it at home.</b>
