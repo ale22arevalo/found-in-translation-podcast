@@ -14,7 +14,7 @@ import jared_family8 from '../images/jared/jared_family8.jpg'
 import jared_china from '../images/jared/jared_china.jpg'
 import jared_china2 from '../images/jared/jared_china2.jpg'
 import daddy_yankee from '../images/jared/daddy_yankee.jpg'
-import haunting_bookcover from '../images/jared/haunting_bookcover.jpg'
+// import haunting_bookcover from '../images/jared/haunting_bookcover.jpg'
 import hamilton from '../images/jared/hamilton.jpg'
 import jared_chinafriends from '../images/jared/jared_chinafriends.jpg'
 
@@ -46,9 +46,8 @@ const Jared = () => {
         <main> 
             <Navbar />
             <section id="topper" className="topper">
-                <h1>
-                    <span className="changing-word">How an Aspirational/Aspiring Polyglot</span>
-                    <span className="static-title">Mastered Mandarin</span>
+                <h1 style={{padding:'1rem'}}>
+                    <span style={{fontSize:'3rem'}}>How an Aspirational/Aspiring Polyglot Mastered Mandarin</span>
                 </h1>
             </section>
 
@@ -79,8 +78,6 @@ const Jared = () => {
                 </section>
 
                 <div className='cue'>~ interview begins ~</div>
-
-                </section>
 
                 <section className="section-wrapper">
                     <div className="name-wrapper">
