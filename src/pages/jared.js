@@ -57,7 +57,7 @@ const Jared = () => {
                 <section className='section-wrapper'>
                     <iframe 
                         style={{borderRadius:'12px'}} 
-                        src="https://open.spotify.com/embed/episode/YOUR_EPISODE_LINK" 
+                        src="https://open.spotify.com/embed/episode/0GEi31ozdrZKNEMl21XjvL" 
                         width="100%" 
                         height="152" 
                         frameBorder="0" 
