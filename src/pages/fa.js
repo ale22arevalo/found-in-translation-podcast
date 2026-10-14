@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from '../components/layout';
 import { Speaker, Passage, Photo, SpotifyPlayer } from '../components/transcript';
 import Seo from '../components/seo';
+import EpisodeFooter from '../components/episode-footer';
 import useFadeIn from '../hooks/useFadeIn';
 import { getEpisode } from '../data/episodes';
 
@@ -175,7 +176,6 @@ const Fa = () => {
               <p>In a way, maybe it feels like Bengali culture is like a little more mainstream or like people actually recognize Bangladesh as a country. And maybe, that&#x27;s something that&#x27;s influencing me to want to, you know, know more Bengali songs or like, you know, shows or movies.<br /></p>
             </Speaker>
                 <p><b className='extra-bolded'>Have you been back to Bangladesh in the last few years? Are you looking forward to doing that sometime soon?</b><br /></p>
-              </div>
             <Speaker name="Fareeha">
               <p>I actually went back a couple months ago [Production Note: We recorded this in 2022, so Fareeha is referring to traveling to Bangladesh in early 2022]. And that was kind of the first time in more than two years because we used to go back pretty often, like winters and summers. But when I started college in the US, that was a little less frequent because it&#x27;s so far and expensive. And then COVID happened.<br /></p>
               <div className='text-photo'>
@@ -223,6 +223,8 @@ const Fa = () => {
             <Speaker name="Guru">
               <b className="bolded">And that is a wrap on our season! And we will roll the credits. I'm your host Guru Ramanathan. This is Found in Translation. Created, executive produced, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc., and do all the things that will help us go viral. We have greatly appreciated your support from the beginning to the end of the season.</b>
             </Speaker>
+        <EpisodeFooter slug="fa" />
+      </div>
     </Layout>
   )
 }

@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from '../components/layout';
 import { Speaker, Photo, SpotifyPlayer } from '../components/transcript';
 import Seo from '../components/seo';
+import EpisodeFooter from '../components/episode-footer';
 import useFadeIn from '../hooks/useFadeIn';
 import { getEpisode } from '../data/episodes';
 
@@ -310,6 +311,7 @@ const Cristina = () => {
                 <Speaker name="Guru">
                     <p>Yeah. Okay, cool. We can call that a wrap.</p>
                 </Speaker>
+                <EpisodeFooter slug="cristina" />
             </div>
         </Layout>
     )
