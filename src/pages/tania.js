@@ -1,44 +1,21 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
-import Navbar from '../components/navbar';
-import BackTop from '../components/backtop';
-import "../styles.css"
+import Layout from '../components/layout';
+import Seo from '../components/seo';
+import useFadeIn from '../hooks/useFadeIn';
+import { getEpisode } from '../data/episodes';
 
 const Tania = () => {
-    useEffect(() => {
-        const parentDivs = document.querySelectorAll('.section-wrapper');
-        
-        parentDivs.forEach(parentDiv => {
-            const fadeDiv = parentDiv.querySelector('.p-wrapper');
+    useFadeIn();
 
-            if (parentDiv && fadeDiv) {
-                const observer = new IntersectionObserver(entries => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            fadeDiv.classList.add('fade');
-                        } else {
-                            fadeDiv.classList.remove('fade');
-                        }
-                    });
-                });
-
-                observer.observe(parentDiv);
-                return () => observer.disconnect();
-            }
-        });
-    }, []);
-    
     return (
-        <main> 
-            <Navbar />
+        <Layout>
             <section id="topper" className="topper">
                 <h1>
                     <span className="changing-word">Russian</span>
                     <span className="static-title">Globetrotter</span>
                 </h1>
             </section>
-
-            <BackTop />
 
             <div className="main-body">
                 <section className='section-wrapper'>
@@ -732,10 +709,14 @@ const Tania = () => {
                     </div>
                 </section>
             </div>
-        </main>
+        </Layout>
     )
 }
 
 export default Tania
 
-export const Head = () => <title>Tania Varganova Interview</title>
+const episode = getEpisode('tania');
+
+export const Head = () => (
+    <Seo title={`${episode.fullName}: ${episode.title}`} description={`${episode.fullName}${episode.blurb[0]}`} />
+)

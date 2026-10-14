@@ -1,53 +1,21 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
-import Navbar from '../components/navbar';
-import BackTop from '../components/backtop';
-import "../styles.css"
+import Layout from '../components/layout';
+import Seo from '../components/seo';
+import useFadeIn from '../hooks/useFadeIn';
+import { getEpisode } from '../data/episodes';
 
 const Cy = () => {
-            useEffect(() => {
-                // Get all elements with class 'section-wrapper'
-                const parentDivs = document.querySelectorAll('.section-wrapper');
-            
-                // Iterate over each 'section-wrapper' element
-                parentDivs.forEach(parentDiv => {
-                    // Get the corresponding 'p-wrapper side' element within each 'section-wrapper'
-                    const fadeDiv = parentDiv.querySelector('.p-wrapper');
-            
-                    // Check if both elements are found in the DOM
-                    if (parentDiv && fadeDiv) {
-                        // Set up the Intersection Observer for the current 'section-wrapper'
-                        const observer = new IntersectionObserver(entries => {
-                            entries.forEach(entry => {
-                                if (entry.isIntersecting) {
-                                    fadeDiv.classList.add('fade');
-                                } else {
-                                    fadeDiv.classList.remove('fade');
-                                }
-                            });
-                        });
-            
-                        // Start observing the current 'section-wrapper'
-                        observer.observe(parentDiv);
-            
-                        // Clean up observer when component unmounts
-                        return () => observer.disconnect();
-                    }
-                });
-            }, []);
-            
-              
+  useFadeIn();
+
   return (
-    <main> 
-      <Navbar />
+    <Layout>
       <section id="topper" className="topper">
         <h1>
           <span className="changing-word">Signature</span>
           <span className="static-title">Moves</span>
         </h1>
       </section>
-
-      <BackTop />
 
     <div className="main-body">
             <section className='section-wrapper'>
@@ -597,10 +565,14 @@ const Cy = () => {
               </div>
             </section>
       </div>
-    </main>
+    </Layout>
   )
 }
 
 export default Cy
 
-export const Head = () => <title>Cynthia</title>
+const episode = getEpisode('cy');
+
+export const Head = () => (
+    <Seo title={`${episode.fullName}: ${episode.title}`} description={`${episode.fullName}${episode.blurb[0]}`} />
+)
