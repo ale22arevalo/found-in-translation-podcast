@@ -11,7 +11,7 @@ export const Speaker = ({ name, label, fullName, full = false, children }) => (
   <section className="section-wrapper">
     <div className="name-wrapper">
       {fullName ? (
-        <h3>{label}<br /><span className="first-name">{fullName}</span></h3>
+        <h2 className="speaker-heading">{label}<br /><span className="first-name">{fullName}</span></h2>
       ) : (
         <div className="bolded-name">{name}</div>
       )}
