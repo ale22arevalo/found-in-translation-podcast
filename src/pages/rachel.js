@@ -39,7 +39,7 @@ const Rachel = () => {
 
           {/* Interview Begins */}
             <Passage>
-              <h3 className="cue">~ interview begins ~</h3>
+              <div className="cue">~ interview begins ~</div>
               <p>Thank you, Rachel, for coming on to the podcast. We really appreciate it. What was your connection with Korean in your childhood?</p>
             </Passage>
 
@@ -207,7 +207,7 @@ const Rachel = () => {
               <p>I wanted to bond with my other grandparents who hadn&#x27;t passed yet before it was too late. I wanted to maybe be a translator. And, as someone who has a foot in both worlds, as you said, like, how can I help someone else that may be struggling because...<b></b></p>
               <p>I felt like I understood the frustration of not being understood.</p>
               <p>And so, I had gone on Netflix and I was looking at a Korean show to watch. And as I was scrolling through, I saw on Netflix that they had a reality show called &quot;Real GOT7.&quot; I had started to watch because I was trying to have the Korean captions on. Because I could understand some things, I wanted to associate sound with what I was seeing or reading and starting to recognize words.</p>
-              <iframe title="YouTube video related to Real GOT7" className="embed-video" src="https://www.youtube.com/embed/RL_Dxu4Dli0?si=4_uQvYygAeOtuOjK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe title="YouTube video related to Real GOT7" className="embed-video" src="https://www.youtube.com/embed/RL_Dxu4Dli0?si=4_uQvYygAeOtuOjK" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               <p>That itself was not that successful. But it propelled me into wanting to learn how to read and write more. But what it really did was help me understand and sort of educate myself on my own culture, especially because K-pop stars train so much in singing and dancing, and I also felt like I could relate to that as an artist and someone who was dancing 24/7.</p>
               <p>So, I became obsessed with them and that sort of propelled me to then become passionate and determined to learn the language more.</p>
             </Passage>
@@ -305,7 +305,7 @@ const Rachel = () => {
               <p>Whether it is super on the nose and the work is about that or not.</p>
             </Passage>
             <div className="section-wrapper">
-              <iframe title="YouTube video of Rachel dancing" width="100%" height="400px" src="https://www.youtube.com/embed/PQCnFBhjPGw?si=WLMtyU4OGH5H7Vj_" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe title="YouTube video of Rachel dancing" width="100%" height="400px" src="https://www.youtube.com/embed/PQCnFBhjPGw?si=WLMtyU4OGH5H7Vj_" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
             <Speaker name="Guru">
               <p>That makes perfect sense. I know that you&#x27;re using your full name now, right? Please, share with our audience what that name is, but also how that shift happened, too.</p>

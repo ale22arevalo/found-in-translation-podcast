@@ -33,7 +33,7 @@ const Michael = () => {
                   <p>So, hope you enjoy!<br /></p>
             </Speaker>
               <Passage className="full center">
-                  <h3 className="cue">~ interview begins ~</h3>
+                  <div className="cue">~ interview begins ~</div>
                   <b className='extra-bolded'> How does it feel to be a guest instead of one of the hosts?</b>
               </Passage>
               
@@ -255,9 +255,9 @@ const Michael = () => {
                     </div>
                     <iframe title="YouTube video of David Gborie doing stand-up" width="315" height="560"
                         src="https://www.youtube.com/embed/3gI3fBK-dCE"
-                        frameborder="0"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
+                        allowFullScreen
                         style={{margin: '1rem', display: 'block'}}
                         >
                     </iframe>

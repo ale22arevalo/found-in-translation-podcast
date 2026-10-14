@@ -41,11 +41,17 @@ h2 {
     font-family: 'Quicksand', sans-serif;
 }
 
-h3 {
+/* .speaker-heading: "The Host" / "The Guest" are h2s for heading order but look like h3s */
+h3,
+.speaker-heading {
     color: #D81B60; /* Raspberry pink */
     font-size: 1.8rem;
     font-family: 'Contrail One', sans-serif;
     margin: 0;
+}
+
+.speaker-heading {
+    text-align: inherit;
 }
 
 h4 {
@@ -79,7 +85,8 @@ b {
     h2 {
         font-size: 1.5rem;
     }
-    h3 {
+    h3,
+    .speaker-heading {
         font-size: 1.5rem;
         margin-bottom: 1rem;
         text-align: left;
@@ -238,7 +245,7 @@ b {
 }
 
 .changing-word {
-    color: #1E88E5; /* Dodger blue */
+    color: #1976D2; /* Blue, dark enough for 3:1 contrast on the beige background */
     height: 100px;
 }
 
@@ -390,7 +397,7 @@ a:hover {
 }
 
 .extra-bolded {
-    color: #1E88E5; /* Dodger blue */
+    color: #1976D2; /* Blue, dark enough for 3:1 contrast on the beige background */
     font-size: 1.5rem;
     font-family: 'Noto Sans', sans-serif;
     margin: 0;

@@ -34,7 +34,7 @@ const Fa = () => {
               </Photo>
             </Speaker>
             <Passage>
-              <h3 className="cue">~ interview begins ~</h3>
+              <div className="cue">~ interview begins ~</div>
               <p>Going back to just your early childhood, you know growing up in Dhaka, <b className="extra-bolded">what was your connection to Bengali, or how did it play out when you were growing up?</b></p>
             </Passage>
             <Speaker label="The Guest" fullName="Fareeha Mahmood">
