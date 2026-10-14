@@ -1,20 +1,8 @@
 import React, {useEffect} from 'react'
+import { StaticImage } from "gatsby-plugin-image"
 import Navbar from '../components/navbar';
 import BackTop from '../components/backtop';
 import "../styles.css"
-import tim_sister from '../images/tim/tim_sister.jpg';
-import tim_mom_highschool from '../images/tim/tim_mom_highschool.jpg';
-import lumpia from '../images/tim/lumpia.jpg';
-import longanisa from '../images/tim/longanisa.jpg';
-import tim_family from '../images/tim/tim_family.jpg';
-import young_tim from '../images/tim/young_tim.jpg';
-import tim_family_pics from '../images/tim/tim_family_pics.jpg';
-import tim_greece from '../images/tim/tim_greece.jpg';
-import jose_rizal from '../images/tim/jose_rizal.jpg';
-import tim_travel from '../images/tim/tim_travel.jpg';
-import tim_sister_mom from '../images/tim/tim_sister_mom.jpg';
-import tim_japan from '../images/tim/tim_japan.jpg';
-import tim_wedding from '../images/tim/tim_wedding.jpg';
 
 
 
@@ -56,7 +44,7 @@ const Tim = () => {
 
             <div className="main-body">
                  <section className='section-wrapper'>
-                    <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/episode/1KTiEBo7wHVLhFvT1hnKV7?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe title="Spotify player: Talking Tagalog and Existential Crises" style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/episode/1KTiEBo7wHVLhFvT1hnKV7?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </section>
 
                 <section className='section-wrapper'>
@@ -95,12 +83,12 @@ const Tim = () => {
                     </div>
                 </section>
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tim's mom in high school</p>
-                        </div>
-                            <img className="vertical-photo" src={tim_mom_highschool} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tim/tim_mom_highschool.jpg" alt="Black-and-white yearbook portrait labeled Doris J. Aguilar" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -127,12 +115,12 @@ const Tim = () => {
                     </div>
                 </section>
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tim and his sister</p>
-                        </div>
-                            <img className="vertical-photo" src={tim_sister} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tim/tim_sister.jpg" alt="A framed formal portrait of a teenage girl and boy" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -198,13 +186,13 @@ const Tim = () => {
                     </div>
                 </section>
                  <section className="section-wrapper">
-                          <div className='text-photo'>
-                        <div className='text-arrow'>
+                          <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Lumpia and longanisa</p>
-                        </div>
-                            <img className="vertical-photo" src={lumpia} alt="" loading="lazy" />
-                            <img className="vertical-photo" src={longanisa} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tim/lumpia.jpg" alt="A plate of fried lumpia with dipping sauces" height={400} />
+                            <StaticImage className="vertical-photo" src="../images/tim/longanisa.jpg" alt="A plate of longanisa sausages, fried eggs and garlic rice" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -225,12 +213,12 @@ const Tim = () => {
                     </div>
                 </section>
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tim's family</p>
-                        </div>
-                            <img className="horizontal-photo" src={tim_family} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/tim/tim_family.jpg" alt="A large group of relatives posing together at an event" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -273,12 +261,12 @@ const Tim = () => {
                 </section>
 
                  <section className="section-wrapper">
-                <div className='text-photo'>
-                    <div className='text-arrow'>
+                <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                         <p className='handwriting'>Young Tim</p>
-                    </div>
-                        <img className="vertical-photo" src={young_tim} alt="" loading="lazy" />
-                </div>
+                    </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/tim/young_tim.jpg" alt="School portrait of Tim as a teenager in a white T-shirt" height={400} />
+                </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -327,12 +315,12 @@ const Tim = () => {
                     </div>
                 </section>
                  <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tim's family photos</p>
-                        </div>
-                            <img className="vertical-photo" src={tim_family_pics} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tim/tim_family_pics.jpg" alt="Two snapshots of Tim as a teen sitting with his grandmother" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -356,12 +344,12 @@ const Tim = () => {
                     </div>
                 </section>
                  <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tim and his wife Julie in Greece</p>
-                        </div>
-                            <img className="vertical-photo" src={tim_greece} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tim/tim_greece.jpg" alt="Tim and Julie crouch on a whitewashed rooftop beside a blue-domed church" height={400} />
+                    </figure>
                 </section>
                 <section className="section-wrapper">
                     <div className='p-wrapper full'>
@@ -402,12 +390,12 @@ const Tim = () => {
                     </div>
                 </section>
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>José Rizal</p>
-                        </div>
-                            <img className="vertical-photo" src={jose_rizal} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tim/jose_rizal.jpg" alt="Black-and-white portrait of José Rizal in a dark suit" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -535,12 +523,12 @@ const Tim = () => {
                     </div>
                 </section>
                  <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tim in Singapore</p>
-                        </div>
-                            <img className="vertical-photo" src={tim_travel} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tim/tim_travel.jpg" alt="Selfie of Tim in a cap and sunglasses flashing a peace sign on a colorful street" height={400} />
+                    </figure>
                 </section>
                 <section className="section-wrapper">
                     <div className='p-wrapper full'>
@@ -556,12 +544,12 @@ const Tim = () => {
                     </div>
                 </section>
                    <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tim with his mom and sister</p>
-                        </div>
-                            <img className="horizontal-photo" src={tim_sister_mom} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/tim/tim_sister_mom.jpg" alt="Tim, his mom and his sister smiling together" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -583,12 +571,12 @@ const Tim = () => {
                     </div>
                 </section>
                   <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tim and Julie in Japan</p>
-                        </div>
-                            <img className="vertical-photo" src={tim_japan} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tim/tim_japan.jpg" alt="Tim and Julie kneel by a lake with snow-capped Mount Fuji behind them" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -695,12 +683,12 @@ const Tim = () => {
                     </div>
                 </section>
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tim and Julie at their wedding</p>
-                        </div>
-                            <img className="vertical-photo" src={tim_wedding} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tim/tim_wedding.jpg" alt="Tim and Julie with their wedding party in front of a wall of greenery" height={400} />
+                    </figure>
                 </section>
 
 

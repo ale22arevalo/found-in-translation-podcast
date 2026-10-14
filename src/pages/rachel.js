@@ -1,14 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react'
+import { StaticImage } from "gatsby-plugin-image"
 import Navbar from '../components/navbar';
 import BackTop from '../components/backtop';
-import rachel_headshot from '../images/rachel/rachel_headshot.webp';
-import parents from '../images/rachel/parents.webp';
-import preschool_rachel from '../images/rachel/preschool_rachel.webp';
-import dads_family from '../images/rachel/dads_family.webp';
-import rachel_hanbok from '../images/rachel/rachel_hanbok.webp';
-import korean_dance from '../images/rachel/korean_dance.webp';
-import grandparents_momside from '../images/rachel/grandparents_momside.webp';
-import texts from '../images/rachel/texts.webp';
 import "../styles.css"
 
 const Rachel = () => {
@@ -96,7 +89,7 @@ const Rachel = () => {
 
       <div className="main-body">
         <section className='section-wrapper'>
-          <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/episode/0zTTVVqz56JDLyBtCWxh31?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe title="Spotify player: Korean Whispers" style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/episode/0zTTVVqz56JDLyBtCWxh31?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </section>
         {/* Podcast Intro */}
             <section className="section-wrapper">
@@ -108,13 +101,13 @@ const Rachel = () => {
               <div className="p-wrapper side">
                   <p> Hello and welcome to <b>Found in Translation</b>. I'm your host Guru Ramanathan.</p>
                   <p> And this is a podcast where first/second generation and immigrant people come on to talk about their relationship with their cultural language and how that has influenced their connection to their culture, family, friends, and more.</p>
-                  <p> This week&#x27;s guest, and our first guest ever, is the lovely and endlessly talented <a href="https://www.rachelhaeunlee.com/" target='_blank' className="hoverable-link">RACHEL LEE</a>, who is one of my best friends and an incredible Korean American dancer-marketer-photographer-podcaster-artist extraordinaire. I&#x27;m the head of her <b>fan club</b>.</p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <p> This week&#x27;s guest, and our first guest ever, is the lovely and endlessly talented <a href="https://www.rachelhaeunlee.com/" target="_blank" rel="noopener noreferrer" className="hoverable-link">RACHEL LEE</a>, who is one of my best friends and an incredible Korean American dancer-marketer-photographer-podcaster-artist extraordinaire. I&#x27;m the head of her <b>fan club</b>.</p>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is Rachel</p>
-                    </div>
-                    <img className="vertical-photo" src={rachel_headshot} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="vertical-photo" src="../images/rachel/rachel_headshot.webp" alt="Rachel smiles in a red top against a light background" height={400} />
+                  </figure>
                   <p>Kidding, but she should definitely have her own fan club at this point. Rachel and I actually met each other at NYU and some of the conversations we&#x27;ve had with each other over the years about our respective relationships to Korean and Tamil have inspired this podcast.</p>
                   <p>So, we're very grateful that she can be the inaugural episode and that we can share her story of:</p>
                   <p><b className="list">A) </b>what it was like to navigate coming around to learning Korean while growing up in Dallas‍<br /><b className="list">B) </b>how that affected her relationship with her relatives, school peers, and church <br /><b className="list">C)</b> how her artistic identity was influenced by this journey she was going on. </p>
@@ -122,7 +115,6 @@ const Rachel = () => {
               </div>
             </section>
           
-          <BackTop />
 
           {/* Interview Begins */}
             <section className="section-wrapper">
@@ -138,34 +130,20 @@ const Rachel = () => {
                 <h3>The Guest<br /> <span className="first-name">Rachel Ha-Eun Lee</span></h3>
               </div>
               <div className="p-wrapper side">
-                  <div className='text-photo' style={{flexDirection:'column'}}>
-                    <div className='text-arrow'>
+                  <figure className='text-photo' style={{flexDirection:'column'}}>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>Rachel's parents when they were young</p>
-                      {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                          <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                            <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                            <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                              <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                              </marker></defs>
-                      </svg> */}
-                    </div>
-                    <img className="horizontal-photo" src={parents} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="horizontal-photo" src="../images/rachel/parents.webp" alt="A young couple, arms around each other, at the edge of a lake" width={400} />
+                  </figure>
                   <p>Both of my parents are from South Korea. And my dad had moved to the States when he was 11 or 12, and my mom came by herself when she was 18 or so. So, my dad had gone through ESL and grew up in the American schooling system, so had a bit more of a grasp on English than my mother did. </p>
                   <p>When I was born, my parents pretty much only spoke Korean at home and to each other. That was almost my first language in a way. And then I went to preschool and the Korean language disappeared from me.</p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>Pre-school-age Rachel</p>
-                      {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                            <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                              <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                              <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                                <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                                </marker></defs>
-                      </svg> */}
-                    </div>
-                    <img className="vertical-photo" src={preschool_rachel} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="vertical-photo" src="../images/rachel/preschool_rachel.webp" alt="A small girl in a plaid skirt dances with classmates in a ballet studio" height={400} />
+                  </figure>
                   <p>My grandma on my mom's side, also, was living with us in Texas in my early years and she doesn't speak any English. I think my dad was very persistent because he had trouble growing up in the American schooling system with English as a second language. So, he did implement English-language books a lot for me to read and get that going while all I really heard though was Korean. </p>
                   <p>A lot of my peers did attend hangul hakgyo (한글 학교), which is like Korean school. It was usually on a weekend and they learned to read and write and speak, etc. But, my parents never forced me to attend.</p>
               </div>
@@ -175,19 +153,12 @@ const Rachel = () => {
               <div className="p-wrapper">
                 <p><b>I wouldn&#x27;t have wanted to go anyway </b> because I was so set on being as <b>American</b> as possible and <b>no trace of Korean</b> in Rachel Lee. And so, yeah, I think I grew up mostly just understanding, but as I got older, I could understand <b className="smaller">less and less</b>.</p>
                 {/* Parents photo */}
-                <div className='text-photo'>
-                  <div className='text-arrow'>
+                <figure className='text-photo'>
+                  <figcaption className='text-arrow'>
                     <p className='handwriting'>Rachel's family from her dad's side</p>
-                        {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                              <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                                <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                                <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                                  <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                                  </marker></defs>
-                        </svg> */}
-                  </div>
-                  <img className="horizontal-photo" src={dads_family} alt="" loading="lazy" />
-                </div>
+                  </figcaption>
+                  <StaticImage className="horizontal-photo" src="../images/rachel/dads_family.webp" alt="Formal family portrait of three generations, with a baby on a woman's lap" width={400} />
+                </figure>
                 <p>It broke a lot of possible relationships for me because my whole dad's side was in Texas, and so I would visit my grandparents on my dad&#x27;s side and that family who were always speaking Korean, and I couldn&#x27;t understand them. That really:</p>
                 <p>A) disappointed them, because in their minds I was Korean and <b>didn&#x27;t know how to speak</b><b> the language.</b></p>
                 <p>B) it had me resent them because I was <b>not a good enough</b> <b>Korean granddaughter.</b></p>
@@ -268,19 +239,12 @@ const Rachel = () => {
                   <p>I think it was more of like--selfish way of thinking--but they&#x27;re not catering to me or they&#x27;re not making it accessible to me, especially because I was younger. </p>
               </div>
             </div>
-            <div className='text-photo'>
-                <div className='text-arrow'>
+            <figure className='text-photo'>
+                <figcaption className='text-arrow'>
                   <p className='handwriting'>Rachel and her grandparents from her mom's side</p>
-                  {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                      <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                        <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                        <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                          <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                          </marker></defs>
-                  </svg> */} 
-                </div>
-                <img className="horizontal-photo" src={grandparents_momside} alt="" loading="lazy" />
-            </div>
+                </figcaption>
+                <StaticImage className="horizontal-photo" src="../images/rachel/grandparents_momside.webp" alt="A toddler blows out birthday candles at a low table while her family claps" width={400} />
+            </figure>
             <div className="section-wrapper">
               <div className="name-wrapper">
                 <div className='bolded-name'>Guru</div>
@@ -312,19 +276,12 @@ const Rachel = () => {
             </div>
             <div className="section-wrapper">
               <div className="p-wrapper">
-              <div className='text-photo'>
-                    <div className='text-arrow'>
+              <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>Rachel and her mom</p>
-                      {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                              <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                                <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                                <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                                  <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                                  </marker></defs>
-                        </svg> */}
-                    </div>
-                    <img className="vertical-photo" src={rachel_hanbok} loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="vertical-photo" src="../images/rachel/rachel_hanbok.webp" alt="Rachel as a girl and her mom, both wearing hanbok, smiling in a classroom" height={400} />
+                  </figure>
                   <p>Especially growing up in Texas, and being in a smaller town, it was like all the Koreans around the area was at church. I think it was interesting because there was like my parents&#x27; generation in this Korean church and then everyone that was my age that was also going through what I was going through. But then in school there was nobody, you know? It was mostly white kids. </p>
                   <p>When I got to third grade, I had moved schools and there was one other Korean girl and one Indian boy and two Korean boys. And that was the entire elementary school.</p>
               </div>
@@ -374,19 +331,12 @@ const Rachel = () => {
                 <p>I remember they were trying to teach the class with as little words as possible because they were struggling.</p>
               </div>
             </div>
-            <div className='text-photo'>
-                    <div className='text-arrow'>
+            <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>Rachel with South Korean dance company</p>
-                      {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                              <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                                <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                                <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                                  <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                                  </marker></defs>
-                        </svg> */}
-                    </div>
-                    <img className="vertical-photo" src={korean_dance} loading="lazy" />
-            </div>
+                    </figcaption>
+                    <StaticImage className="vertical-photo" src="../images/rachel/korean_dance.webp" alt="Dancers holding open pink-flowered fans pose in a dance studio" height={400} />
+            </figure>
             <div className="section-wrapper">
               <div className="p-wrapper">
                 <p>I almost had this sense of frustration for them because I feel like it made other students sort of disrespect them more, like they weren&#x27;t as attentive or wanting to impress. </p>
@@ -424,26 +374,13 @@ const Rachel = () => {
                   <p>And I had this friend who was obsessed with all things K-pop at the time. And I consider her like my cousin, or like my god-sister.</p>
                   <p>So she was going through a phase where every time I would come over, she would show me hours and hours of K-pop music videos. And I was like, &quot;You&#x27;re weird. This is weird. This is not what I want. Like, the boys are wearing more makeup than I am.&quot; Like ooh gender roles, right? That was embedded in me as a child.</p>
                   <p>Or like, ooh the girls either act like they&#x27;re trying to be cute, or they&#x27;re on the other end of the spectrum and trying to be overly sexy. So, I was just hating on K-pop.</p>
-                {/* <div className='text-photo' style={{marginTop:0}}>
-                  <div className='text-arrow'>
-                    <p className='handwriting'>Rachel and Sarah</p>
-                    {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                      <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                        <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                          <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                            <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                              </marker></defs>
-                    </svg> 
-                     <img className="horizontal-photo" src={rachel_sarah} loading="lazy" />
-                  </div>
-                </div> */}
               </div>
             </div>
             <div className="section-wrapper">
               <div className="p-wrapper">
                 <b>And, I remember she had shown me this one group called GOT7 and the music video was a little bit tamer.</b>
-                <div><img src="images/got7.webp" loading="lazy" sizes="(max-width: 479px) 89vw, (max-width: 767px) 43vw, (max-width: 991px) 45vw, 46vw" srcset="images/got7-p-500.webp 500w, images/got7-p-800.webp 800w, images/got7.webp 900w" alt="" className="image-416" /></div>
-                <p>It was a song called <a href="https://www.youtube.com/watch?v=vrdk3IGcau8" target="_blank">&quot;Just Right.&quot;</a></p>
+                
+                <p>It was a song called <a href="https://www.youtube.com/watch?v=vrdk3IGcau8" target="_blank" rel="noopener noreferrer">&quot;Just Right.&quot;</a></p>
                 <p>And the concept is like, there&#x27;s this girl who&#x27;s sad about herself and like the way she looks.</p>
                 <p>And then these little people AKA the members of GOT7 are singing: &quot;No, you&#x27;re just right!&quot; Like you're whatever.</p>
                 <p>So, it was kinda cute and they were kind of good dancers.</p>
@@ -452,7 +389,7 @@ const Rachel = () => {
                 <p>I wanted to bond with my other grandparents who hadn&#x27;t passed yet before it was too late. I wanted to maybe be a translator. And, as someone who has a foot in both worlds, as you said, like, how can I help someone else that may be struggling because...<b></b></p>
                 <p>I felt like I understood the frustration of not being understood.</p>
                 <p>And so, I had gone on Netflix and I was looking at a Korean show to watch. And as I was scrolling through, I saw on Netflix that they had a reality show called &quot;Real GOT7.&quot; I had started to watch because I was trying to have the Korean captions on. Because I could understand some things, I wanted to associate sound with what I was seeing or reading and starting to recognize words.</p>
-                <iframe className="embed-video" src="https://www.youtube.com/embed/RL_Dxu4Dli0?si=4_uQvYygAeOtuOjK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe title="YouTube video related to Real GOT7" className="embed-video" src="https://www.youtube.com/embed/RL_Dxu4Dli0?si=4_uQvYygAeOtuOjK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <p>That itself was not that successful. But it propelled me into wanting to learn how to read and write more. But what it really did was help me understand and sort of educate myself on my own culture, especially because K-pop stars train so much in singing and dancing, and I also felt like I could relate to that as an artist and someone who was dancing 24/7.</p>
                 <p>So, I became obsessed with them and that sort of propelled me to then become passionate and determined to learn the language more.</p>
               </div>
@@ -506,57 +443,9 @@ const Rachel = () => {
                   <p>So, I think it&#x27;s given her also more comfort as someone who has trouble spelling in English. So yeah, it definitely changed a lot for my familial relationships.</p>
               </div>
             </div>
-            {/* <div className="section-wrapper" style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
-              <div className='text-message'>
-                <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
-                  <img src={rachel_hanbok} alt="Young Rachel and her mother" style={{borderRadius:'50%', width:'100px', height:'100px'}} />
-                  <span>엄마</span>
-                </div>
-                <div className='message-left'>
-                  <span>
-                    집에 있어? 
-                  </span>
-                </div>
-                <div className='message-right'>
-                  <span>
-                  yes just took a nap
-                  </span>
-                </div>
-                <div className='message-left'>
-                  <span>
-                    오늘 오디션 안 갔어?
-                  </span>
-                </div>
-                <div className='message-right'>
-                  <span>
-                    yeah i decided to rest
-                  </span>
-                </div>
-                <div className='message-left'>
-                  <span>
-                    ㅇㅋ 몸은 어때?
-                  </span>
-                </div>
-                <div className='message-right'>
-                  <span>
-                    just a little stuffy but finally leaving the house today to get dinner with serena
-                  </span>
-                </div>
-                <div className='message-left'>
-                  <span>
-                    ㅇㅋ 조심 하고 영양가 있는거 먹어 오일리 한거 먹지 말고
-                  </span>
-                </div>
-                <div className='message-right'>
-                  <span>
-                    ok
-                  </span>
-                </div>
-              </div>
-            </div> */}
             <div className="section-wrapper">
               <div className='p-wrapper full'>
-                <img className='text-message' src={texts} alt="Text messages"/></div>
+                <StaticImage className="text-message" src="../images/rachel/texts.webp" alt={`Text conversation with Rachel's mom. Mom, in Korean: "Are you home?" Rachel: "yes just took a nap". Mom: "Didn't you go to your audition today?" Rachel: "yeah i decided to rest". Mom: "OK, how are you feeling?" Rachel: "just a little stuffy but finally leaving the house today to get dinner with serena". Mom: "OK, be careful and eat something nutritious, nothing oily." Rachel: "okay"`} layout="fullWidth" /></div>
             </div>
             <div className="section-wrapper">
               <div className='name-wrapper'>
@@ -572,7 +461,7 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                 <div>
-                  <p>Yeah, I didn&#x27;t consider taking elementary Korean until my last year of college, which was my third year, because I had only attended school for three years. Because the first two years I was so focused on the dancing thing, and I was so focused on just moving to New York and what is life and what am I doing, all this stuff.</p><img src="images/RachelAtNYUNotTisch.jpg" loading="lazy" sizes="(max-width: 479px) 89vw, 45vw" srcset="images/RachelAtNYUNotTisch-p-500.jpg 500w, images/RachelAtNYUNotTisch-p-800.jpg 800w, images/RachelAtNYUNotTisch-p-1080.jpg 1080w, images/RachelAtNYUNotTisch.jpg 1170w" alt="" className="image-414 phot-fader right-in" />
+                  <p>Yeah, I didn&#x27;t consider taking elementary Korean until my last year of college, which was my third year, because I had only attended school for three years. Because the first two years I was so focused on the dancing thing, and I was so focused on just moving to New York and what is life and what am I doing, all this stuff.</p>
                   <p>But I remember spending a lot of time in K-Town and there&#x27;s a little bookstore and they have like these books that are like, talk to me in Korean or whatever. So I had purchased them to learn.</p>
                   <p>I took Elementary 1 and 2.</p>
                   <p>There was a course for advanced speakers and it was for Korean Americans like me who had Korean spoken to them at home, but didn&#x27;t know the reading and writing basics, and it was sort of accelerated. And I could have taken that course, but I just wanted a fresh start from the beginning.</p>
@@ -588,8 +477,8 @@ const Rachel = () => {
               </div>
               <div className="p-wrapper side">
                   <p>So, one thing about the K-pop/K-drama thing. I actually have multiple questions about this. One, I feel like K-pop, and now K-dramas, have really exploded in the international scene, but especially in the West. Now with the advent of Netflix and Amazon Prime, I feel like are the two biggest streaming services that have a lot of international content.</p>
-                  <div className="info-p"><img src="images/squidgame.jpg" loading="lazy" alt="" /></div>
-                  <p><a href="https://www.nytimes.com/2022/09/12/arts/television/lee-jung-jae-squid-game-emmys.html" target="_blank">&quot;Squid Game&quot;</a>, that&#x27;s definitely a huge cultural zeitgeist. And <a href="https://time.com/5779940/parasite-best-picture-oscars/" target="_blank">&quot;Parasite&quot;</a> in 2020 won so many Oscars. It&#x27;s really cool to see this Korean content become more of the mainstream. Do you have any thoughts on how it&#x27;s being adopted, accepted, appropriated in an American context now that so much of the content from across multiple mediums is really blowing up?</p>
+                  
+                  <p><a href="https://www.nytimes.com/2022/09/12/arts/television/lee-jung-jae-squid-game-emmys.html" target="_blank" rel="noopener noreferrer">&quot;Squid Game&quot;</a>, that&#x27;s definitely a huge cultural zeitgeist. And <a href="https://time.com/5779940/parasite-best-picture-oscars/" target="_blank" rel="noopener noreferrer">&quot;Parasite&quot;</a> in 2020 won so many Oscars. It&#x27;s really cool to see this Korean content become more of the mainstream. Do you have any thoughts on how it&#x27;s being adopted, accepted, appropriated in an American context now that so much of the content from across multiple mediums is really blowing up?</p>
               </div>
             </div>
             <div className="section-wrapper quote">
@@ -655,8 +544,7 @@ const Rachel = () => {
               </div>
             </div>
             <div className="section-wrapper">
-              {/* <div style={{padding:'56.25%', position:'relative'}}><iframe src="https://player.vimeo.com/video/956842730?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay" style={{position:'absolute',top:'0',left:'0', width:'100%',height:'100%'}} title="Rachel dancing"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> */}
-              <iframe width="100%" height="400px" src="https://www.youtube.com/embed/PQCnFBhjPGw?si=WLMtyU4OGH5H7Vj_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe title="YouTube video of Rachel dancing" width="100%" height="400px" src="https://www.youtube.com/embed/PQCnFBhjPGw?si=WLMtyU4OGH5H7Vj_" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div className="section-wrapper">
               <div className="name-wrapper">
@@ -703,8 +591,8 @@ const Rachel = () => {
                 <div className='bolded-name'>Rachel</div>
               </div>
               <div className="p-wrapper side">
-                  <p>You can find me on the interwebs at <a href="http://rachelhaeunlee.com" target="_blank">rachelhaeunlee.com</a>.</p>
-                  <p> My Instagram is <a href="https://www.instagram.com/rleeforever/" target="_blank">rleeforever.</a></p>
+                  <p>You can find me on the interwebs at <a href="http://rachelhaeunlee.com" target="_blank" rel="noopener noreferrer">rachelhaeunlee.com</a>.</p>
+                  <p> My Instagram is <a href="https://www.instagram.com/rleeforever/" target="_blank" rel="noopener noreferrer">rleeforever.</a></p>
                   <p>Thanks for having me!</p>
               </div>
             </div>

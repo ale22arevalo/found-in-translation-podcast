@@ -1,15 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
+import { StaticImage } from "gatsby-plugin-image"
 import Navbar from '../components/navbar';
 import "../styles.css"
 import BackTop from '../components/backtop';
-import michael_headshot from '../images/michael/michael_headshot.webp';
-import michael_family from '../images/michael/michael_family.webp';
-import michael_birthday from '../images/michael/michael_birthday.webp';
-import baby_michael from '../images/michael/baby_michael.webp';
-import michael_siblings from '../images/michael/michael_siblings.webp';
-import michael_mom from '../images/michael/michael_mom.webp';
-import michael_college from '../images/michael/michael_college.webp';
-import michael_crew from '../images/michael/michael_crew.webp';
 
 const Michael = () => {
   
@@ -75,19 +68,13 @@ const Michael = () => {
               <span className="changing-word">A Comedy of Errors</span>
               <span className="static-title">and Education (in Yoruba)</span>
             </h1>
-            {/* <iframe width="315" height="560"
-              src="https://youtube.com/embed/3gI3fBK-dCE?si=1SNNq7Q_Ci_hSj--&rel=0&amp;modestbranding=1"
-              title="YouTube video player"
-              frameborder="0">
-            </iframe> */}
-          {/* </div> */}
           </section>
         
         <BackTop />
 
         <section className="main-body">
           <section className='section-wrapper'>
-            <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/episode/0PSfqaMO2ftb9SJHTHHQeB?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe title="Spotify player: A Comedy of Errors and Education (in Yoruba)" style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/episode/0PSfqaMO2ftb9SJHTHHQeB?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           </section>
             <section className="section-wrapper">
               <div className="name-wrapper">
@@ -98,19 +85,12 @@ const Michael = () => {
                     <p>And this is a podcast where people who are first/second generation and/or immigrants come on to talk about their relationship with their cultural language and how that&#x27;s influenced their connection to their culture, family, friends, and more.<br /></p>
                     <p>This week&#x27;s guest is Michael Oluokun, a close friend and one of the funniest writers and comedians that I know. Michael and I were in the same program at NYU and even co-hosted a podcast for a few years with some other friends of ours.<br />
                     </p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is Michael</p>
-                      {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                        <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                          <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                          <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                            <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                            </marker></defs>
-                      </svg> */}
-                    </div>
-                    <img className="vertical-photo" src={michael_headshot} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="vertical-photo" src="../images/michael/michael_headshot.webp" alt="Close-up selfie of Michael in a red jacket against a white tiled wall" height={400} />
+                  </figure>
                     <p> But now he&#x27;s on the other side of the mic, and here to talk about <br /></p>
                     <p><b>A)</b>navigating his Nigerian identity<br />‍<b>B)</b> hilariously uncovering Nigerian customs at family parties<br /><b>C)</b> learning the language Yoruba in college<br /><b>D)</b> and how his writing and performances have been shaped by this journey.<br/></p>
                     <p>So, hope you enjoy!<br /></p>
@@ -156,19 +136,12 @@ const Michael = () => {
               </div>
 
               <div className="section-wrapper center">
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is baby Michael</p>
-                      {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                        <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                          <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                          <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                            <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                            </marker></defs>
-                      </svg> */}
-                  </div>
-                    <img className="vertical-photo" src={baby_michael} alt="" loading="lazy" />
-                  </div>
+                  </figcaption>
+                    <StaticImage className="vertical-photo" src="../images/michael/baby_michael.webp" alt="A baby in a striped onesie sits on a bed" height={400} />
+                  </figure>
                 </div>
               <div className="section-wrapper">
                 <div className="p-wrapper full">
@@ -193,19 +166,12 @@ const Michael = () => {
                     <p>We had a lot of relatives who were in the States, so a lot of them kind of congregated in the D.C. area. There&#x27;s a pretty big Nigerian community in the Maryland-D.C. area, and so I had a lot of aunts and uncles who lived there. <br /></p>
                     <p>We would go to Maryland for a week for holiday. There would be a big party where there&#x27;s a bunch of Nigerians invited. <br /></p>
                     <p>And, you know, the two levels of the party were adults, who are usually from Nigeria, and then their children. Some might have been born in Nigeria and then moved to the States at a young age. And then some were born in the States, but they might have had some level of fluency in Yoruba. So it&#x27;s interesting, each person&#x27;s experience was a little different.<br /></p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is Michael's Family</p>
-                      {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                        <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                          <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                          <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                            <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                            </marker></defs>
-                      </svg> */}
-                    </div>
-                    <img className="horizontal-photo" src={michael_family} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="horizontal-photo" src="../images/michael/michael_family.webp" alt="A large family group of adults and children posing in a living room" width={400} />
+                  </figure>
                 </div>
               </div>
               <div className="section-wrapper">
@@ -234,15 +200,8 @@ const Michael = () => {
                     <div className='text-photo top'>
                     <div className='text-arrow'>
                       <p className='handwriting'>Michael and his family at his grandma's 80th birthday party</p>
-                      {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                        <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                          <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                          <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                            <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                            </marker></defs>
-                      </svg> */}
                     </div>
-                    <img className="horizontal-photo" src={michael_birthday} alt="" loading="lazy" />
+                    <StaticImage className="horizontal-photo" src="../images/michael/michael_birthday.webp" alt="Five young adults in matching blue Nigerian outfits and white caps or headwraps" width={400} />
                   </div>
                     <p>I remember one time we went to an aunt&#x27;s house and like, there&#x27;s a custom with certain Nigerians where you&#x27;re supposed to bow upon entry. That&#x27;s a custom in a lot of different cultures.<br /></p>
                     <p>And we had one aunt in particular who was really stringent about that. But, you know, all of us as children didn&#x27;t know that. And the phrase for you to bow is called &quot;dobale.&quot; We show up to the house and we&#x27;re just like,<br /></p>
@@ -276,19 +235,12 @@ const Michael = () => {
                   </div>
                   <p>I think I get it more now that I&#x27;m older. I feel like people just love to be able to talk about a group as a whole. They&#x27;re like, &quot;Man, I&#x27;ve seen at least three people do this. So I&#x27;ve got the data set I need, you know?&quot; Part of me thinks one of the reasons she decided to move from Maryland-D.C. was almost to get away from large numbers of Nigerians.</p>
                   <p>She&#x27;s expressed this to me that like, you know, sometimes being around very traditional Nigerians can be very frustrating to her. And especially if you, like, really, really grew up with it, you just want something different, you know. My two oldest siblings have been in Nigeria, but me and my brother closest to me have never been.</p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is Michael and his siblings</p>
-                      {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                        <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                          <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                          <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                            <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                            </marker></defs>
-                      </svg> */}
-                    </div>
-                    <img className="vertical-photo" src={michael_siblings} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="vertical-photo" src="../images/michael/michael_siblings.webp" alt="Four siblings in their Sunday best stand on a city sidewalk" height={400} />
+                  </figure>
                   <p>They actually spent a whole year in Nigeria and went to school there for a year, and then came back. I&#x27;ve never actually asked my two oldest siblings about how that experience was for them. Sometimes my mom would talk about it and was like, &quot;They came back with a chip on their shoulder. Now, they&#x27;re not Black, they&#x27;re Nigerians, you know?&quot;</p>
                    <div className="name-wrapper">
                     <div className='bolded-name'>Guru</div>
@@ -320,19 +272,12 @@ const Michael = () => {
                 <div className="p-wrapper side">
                     <p>It kind of was a distant thing of like, this is this thing my mom does. When I was a kid, especially being the youngest kid, there are a lot of people telling you, &quot;Don&#x27;t ask a question about this.&quot; And I&#x27;m like, &quot;Okay.&quot;<br /></p>
                     <p>Since the only person that knew it was my mom, and like, you know, my mom was kind of someone that like, &quot;Why are you asking me questions?&quot; Like unless you were like, &quot;I need to go to the hospital,&quot; she&#x27;s like, &quot;Don&#x27;t ask me.&quot; You know? And even then she would be like, &quot;I&#x27;m a doctor. Let me see.&quot;<br /></p>
-                    <div className='text-photo'>
-                      <div className='text-arrow'>
+                    <figure className='text-photo'>
+                      <figcaption className='text-arrow'>
                         <p className='handwriting'>This is Michael's mom</p>
-                        {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                          <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                            <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                            <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                              <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                              </marker></defs>
-                        </svg> */}
-                        </div>
-                        <img className="vertical-photo" src={michael_mom} alt="" loading="lazy" />
-                      </div>
+                        </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/michael/michael_mom.webp" alt="Printed portrait of Michael's mom smiling in scrubs with a stethoscope" height={400} />
+                      </figure>
                     </div>
               </div>
               <div className="section-wrapper">
@@ -353,19 +298,12 @@ const Michael = () => {
                     <p>But then I was looking at French courses and I&#x27;d almost signed up for this six-credit French intensive. And I was like, you know, &quot;I&#x27;m just gonna really learn French.&quot; And then I saw that they offered a Yoruba class. I never even thought of the idea that I would be able to take an elementary Yoruba class.<br /></p>
                     <p>It fit with my schedule and it was four credits, so it was like, &quot;Oh, I wouldn&#x27;t have to really just kill myself to take this foreign language.&quot; The six credit one, it would&#x27;ve been, like, every Monday through Friday we had to meet.<br /></p>
                     <p>I was like, &quot;You know what? When am I ever gonna get the chance again to take an elementary Yoruba class?&quot; So, I decided to sign up for Yoruba 1, and it was cool. It was cool to have a class of mostly Nigerians, but there were also a few non-Nigerians. Because, interestingly enough, there is a Yoruba diaspora in Latin America, and so there was a non-Black Latino in the class who was from the Yoruba diaspora, which was interesting.<br /></p>
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                           <p className='handwriting'>This is Michael in college</p>
-                          {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                            <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                              <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                              <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                                <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                                </marker></defs>
-                          </svg> */}
-                        </div>
-                        <img className="vertical-photo" src={michael_college} alt="" loading="lazy" />
-                      </div>
+                        </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/michael/michael_college.webp" alt="Michael in a vest and captain's hat strikes a dramatic pose holding a baby doll" height={400} />
+                      </figure>
                     </div>
               </div>
                 <div className="section-wrapper">
@@ -425,15 +363,8 @@ const Michael = () => {
                     <div className='text-photo top'>
                       <div className='text-arrow'>
                           <p className='handwriting'>This is Michael and his comedy crew</p>
-                          {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-                            <g strokeWidth="10" stroke="hsl(240, 54%, 47%)" fill="none" strokeLinecap="round" strokeLinejoin="round" transform="matrix(1,0,0,1,-18,-220)">
-                              <path d="M261.13715744018555 249.81211853027344Q154.13715744018555 560.8121185302734 561.1371574401855 549.8121185302734 " markerEnd="url(#SvgjsMarker1249)"></path></g>
-                              <defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1249">
-                                <polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(240, 54%, 47%)"></polygon>
-                                </marker></defs>
-                          </svg> */}
                         </div>
-                        <img className="vertical-photo" src={michael_crew} alt="" loading="lazy" />
+                        <StaticImage className="vertical-photo" src="../images/michael/michael_crew.webp" alt="A comedy troupe striking exaggerated poses, pointing up at the sky" height={400} />
                       </div>
                     </div>
               </div>
@@ -523,9 +454,8 @@ const Michael = () => {
                       <p>Yeah, I feel like it&#x27;s definitely influenced the way I write and the way I do stand up, too. One of the interesting things about Yoruba as a language is that it is a tonal language. And so, the way you say things influences the actual meaning of it.</p>
                       <p>I just remembered another Nigerian comic. His name is, I think, David Gborie. And I noticed it when I was watching his standup. The way that he used the tone of his voice was very dynamic. I wonder if that&#x27;s a function of him being Nigerian. Even if you don&#x27;t speak Yoruba, there&#x27;s an animated way of speaking that Nigerian people often use that influences you even if you don&#x27;t speak the language.<b className="bolded"><br /></b></p>
                     </div>
-                    <iframe width="315" height="560"
+                    <iframe title="YouTube video of David Gborie doing stand-up" width="315" height="560"
                         src="https://www.youtube.com/embed/3gI3fBK-dCE"
-                        title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen

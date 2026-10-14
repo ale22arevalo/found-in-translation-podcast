@@ -1,23 +1,9 @@
 import React, {useEffect} from 'react'
+import { StaticImage } from "gatsby-plugin-image"
 import Navbar from '../components/navbar';
 import BackTop from '../components/backtop';
 import "../styles.css"
-import jared_family1 from '../images/jared/jared_family1.jpg'
-import jared_family2 from '../images/jared/jared_family2.jpg'
-import jared_chinesesign from '../images/jared/jared_chinesesign.jpg'
-// import jared_family3 from '../images/jared/jared_family3.jpg'
-import jared_family4 from '../images/jared/jared_family4.jpg'
-import jared_family5 from '../images/jared/jared_family5.jpg'
-import jared_family6 from '../images/jared/jared_family6.jpg'
-import jared_family7 from '../images/jared/jared_family7.jpg'
-import jared_family8 from '../images/jared/jared_family8.jpg'
-import jared_china from '../images/jared/jared_china.jpg'
-import jared_china2 from '../images/jared/jared_china2.jpg'
-import daddy_yankee from '../images/jared/daddy_yankee.jpg'
-// import haunting_bookcover from '../images/jared/haunting_bookcover.jpg'
-import hamilton from '../images/jared/hamilton.jpg'
-import jared_chinafriends from '../images/jared/jared_chinafriends.jpg'
-
+// // 
 const Jared = () => {
     useEffect(() => {
         const parentDivs = document.querySelectorAll('.section-wrapper');
@@ -55,7 +41,7 @@ const Jared = () => {
 
             <div className="main-body">
                 <section className='section-wrapper'>
-                    <iframe 
+                    <iframe title="Spotify player: How an Aspirational/Aspiring Polyglot Mastered Mandarin" 
                         style={{borderRadius:'12px'}} 
                         src="https://open.spotify.com/embed/episode/0GEi31ozdrZKNEMl21XjvL" 
                         width="100%" 
@@ -101,12 +87,12 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Jared's family photos</p>
-                        </div>
-                            <img className="vertical-photo" src={jared_family1} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/jared/jared_family1.jpg" alt="Two printed photos: five children sitting in a row, and a family posing in front of a resort" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -139,12 +125,12 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Jared's family photo</p>
-                        </div>
-                            <img className="horizontal-photo" src={jared_family2} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/jared/jared_family2.jpg" alt="A woman with five children posing together, washed out by camera flash" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -249,12 +235,12 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Jared with a sign in Chinese</p>
-                        </div>
-                            <img className="vertical-photo" src={jared_chinesesign} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/jared/jared_chinesesign.jpg" alt="Jared takes a selfie in front of a lit-up 2019 Happy New Year sign with Chinese characters" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -278,12 +264,12 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Jared's family photo</p>
-                        </div>
-                            <img className="horizontal-photo" src={jared_family4} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/jared/jared_family4.jpg" alt="Photo on a laptop screen of a man standing behind five children on a bench" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -337,12 +323,12 @@ const Jared = () => {
                 </section>
                 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Jared's family photo</p>
-                        </div>
-                            <img className="vertical-photo" src={jared_family4} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/jared/jared_family4.jpg" alt="Photo on a laptop screen of a man standing behind five children on a bench" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -365,12 +351,12 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Jared in China</p>
-                        </div>
-                            <img className="vertical-photo" src={jared_china} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/jared/jared_china.jpg" alt="Jared leans against a red wooden building with carved lattice doors" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -388,12 +374,12 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Jared's family photo</p>
-                        </div>
-                            <img className="horizontal-photo" src={jared_family5} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/jared/jared_family5.jpg" alt="Selfie of family members in colorful South Asian clothes seated at an outdoor celebration" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -426,12 +412,12 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Daddy Yankee</p>
-                        </div>
-                            <img className="horizontal-photo" src={daddy_yankee} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/jared/daddy_yankee.jpg" alt="Daddy Yankee in sunglasses and chains against a yellow background" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -445,12 +431,12 @@ const Jared = () => {
                 </section>
 
                  <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Hamilton</p>
-                        </div>
-                            <img className="vertical-photo" src={hamilton} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/jared/hamilton.jpg" alt="The Hamilton: An American Musical logo, a silhouette standing atop a black star" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -474,12 +460,12 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Jared's family photo</p>
-                        </div>
-                            <img className="horizontal-photo" src={jared_family6} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/jared/jared_family6.jpg" alt="Family members in South Asian dress gathered around an elderly couple on a patio" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -541,12 +527,12 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Jared's family photo</p>
-                        </div>
-                            <img className="horizontal-photo" src={jared_family7} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/jared/jared_family7.jpg" alt="A family poses on a wooden boardwalk by a lagoon" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -560,12 +546,12 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Jared and his friends in Shanghai</p>
-                        </div>
-                            <img className="vertical-photo" src={jared_chinafriends} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/jared/jared_chinafriends.jpg" alt="A crowded, laughing group selfie of friends" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -579,12 +565,12 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Jared in China</p>
-                        </div>
-                            <img className="vertical-photo" src={jared_china2} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/jared/jared_china2.jpg" alt="Jared stands in a narrow brick alley lined with shops" height={400} />
+                    </figure>
                 </section>
 
 
@@ -608,12 +594,12 @@ const Jared = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Jared's family photo</p>
-                        </div>
-                            <img className="horizontal-photo" src={jared_family8} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/jared/jared_family8.jpg" alt="A large family gathered around a couch in a living room" width={400} />
+                    </figure>
                 </section>
 
 

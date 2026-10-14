@@ -1,21 +1,8 @@
 import React, {useEffect} from 'react'
+import { StaticImage } from "gatsby-plugin-image"
 import Navbar from '../components/navbar';
 import BackTop from '../components/backtop';
 import "../styles.css"
-import fareeha_headshot from '../images/fareeha/fareeha_headshot.jpg'
-import big_family from '../images/fareeha/big_family.webp'
-import elem_school from '../images/fareeha/elem_school.webp'
-import jakarta from '../images/fareeha/jakarta.webp'
-import fareeha_mom from '../images/fareeha/fareeha_mom.webp'
-import young_fareeha from '../images/fareeha/young_fareeha.webp'
-import middle_school from '../images/fareeha/middle_school.webp'
-import younger_parents1 from '../images/fareeha/younger_parents1.webp'
-import younger_parents2 from '../images/fareeha/younger_parents2.webp'
-import pohela_boishakh from '../images/fareeha/pohela_boishakh.webp'
-import uae from '../images/fareeha/uae.webp'
-import big_family2 from '../images/fareeha/big_family2.webp'
-import family1 from '../images/fareeha/family1.webp'
-import college_friends from '../images/fareeha/college_friends.webp'
 
 const Fa = () => {
 
@@ -63,7 +50,7 @@ const Fa = () => {
       <BackTop />
       <div className="main-body">
           <section className='section-wrapper'>
-            <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/episode/1fgnXhMBJz6bEU6XunT28p?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe title="Spotify player: Third Culture Living" style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/episode/1fgnXhMBJz6bEU6XunT28p?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           </section>
             <section className='section-wrapper'>
               <div className='name-wrapper'>
@@ -79,12 +66,12 @@ const Fa = () => {
                   </p>
                   <p><b className="list">A) </b>growing up in Bangladesh and how the history of that country influenced her passion for the language<br /><b className="list">B) </b>she also discusses attending international schools and how that affected her knowledge of Bengali.<br /><b className="list">C) </b>and, we discussed the concept of language as a form of self-identification, especially in the United States.<br /></p>
                   <p>So, I hope you enjoy!</p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is Fareeha</p>
-                    </div>
-                    <img className="vertical-photo" src={fareeha_headshot} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="vertical-photo" src="../images/fareeha/fareeha_headshot.jpg" alt="Fareeha smiles on a boat with the Lower Manhattan skyline behind her" height={400} />
+                  </figure>
               </div>
             </section>
             <div className='section-wrapper'>
@@ -101,35 +88,35 @@ const Fa = () => {
                   <p>So in Bangladesh, you have Bangla medium schools and you have English medium schools. So in Bangla medium schools, all of your subjects and courses, everything&#x27;s taught in Bengali. But in English medium schools, it&#x27;s taught in English.<br /></p>
                   <p>So, I went to an English medium school. But I remember I would still speak Bengali with my friends. So, that was always kind of like the primary language in which I thought. And obviously we spoke English in school and that&#x27;s where I learned it.<br /></p>
                   <p>Because we didn&#x27;t speak English at home, I didn&#x27;t really recognize myself or my language is different because, for the most part also, Bangladesh is more or less a homogenous country, you know?<br /></p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is little Fareeha and her family</p>
-                    </div>
-                    <img className="horizontal-photo" src={big_family} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="horizontal-photo" src="../images/fareeha/big_family.webp" alt="A large family of children and young adults in traditional South Asian dress" width={400} />
+                  </figure>
                   <p>Most people do speak Bengali and, of course there&#x27;s other dialects and, like, languages here and there, but, for the most part, I wasn&#x27;t really confused about who I was.<br /></p>
                   <p>I guess it was definitely easier because I was six. So I didn&#x27;t have to think much about this, but... So it was definitely just Bengali through and through.<br /></p>
                   <p>As an eight-year-old, me and my family, we moved to Jakarta, where we lived for three years. We moved to Dubai, where I was there from fifth grade till high school graduation. <br /></p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is Fareeha in elementary school</p>
-                    </div>
-                    <img className="horizontal-photo" src={elem_school} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="horizontal-photo" src="../images/fareeha/elem_school.webp" alt="A young girl in a striped shirt leans on a colorful playground railing by a lake" width={400} />
+                  </figure>
                   <p>So, I&#x27;d say most of my growing up and formative years were in Dubai. That&#x27;s where, like, I didn&#x27;t necessarily find myself, but I think that&#x27;s where I became more comfortable with myself. I found my friends. And then, finally, I came to New York. And yeah, I&#x27;ve been in New York City ever since college.<br /></p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is Fareeha in Jakarta</p>
-                    </div>
-                    <img className="horizontal-photo" src={jakarta} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="horizontal-photo" src="../images/fareeha/jakarta.webp" alt="Four girls eating fast food at a Lollipop's restaurant" width={400} />
+                  </figure>
               </div>
             </section>
             <div className='section-wrapper'>
                 <div className='name-wrapper'>
                   <div className='bolded-name'>Guru</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                   <p>I guess first moving to Jakarta. <b className='extra-bolded'>What was that initial transition like when you had to enter a new environment? </b><br /></p>
                   <p>Sorry, literally a new country, I should say, where the primary language of your people, the first language you ever knew, suddenly wasn&#x27;t anymore.<br /></p>
                 </div>
@@ -138,17 +125,17 @@ const Fa = () => {
                 <div className='name-wrapper'>
                   <div className='bolded-name'>Fareeha</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                   <p>That was kind of like the first time that I became aware of the fact that I&#x27;m Bengali and I&#x27;m from Bangladesh and I&#x27;m different. And that&#x27;s not necessarily like a, you know, good or bad thing.<br /></p>
                   <p>Sometimes I felt a little awkward communicating with my parents in Bengali in front of my other friends, or if, like, my friends were over and my mom was watching a Bengali or a Hindi show, I would feel a little, oh, like, I don&#x27;t want her to think that we&#x27;re different, you know? <br /></p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is little Fareeha and her mom</p>
-                    </div>
-                    <img className="horizontal-photo" src={fareeha_mom} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="horizontal-photo" src="../images/fareeha/fareeha_mom.webp" alt="A young girl in green sits beside her mother, who wears a salwar kameez" width={400} />
+                  </figure>
                   <p>And so I think that&#x27;s kind of the first time I started becoming aware of who I actually was and how I&#x27;m not, you know, white or American or English speaking.<br /></p>
-                  <p>All of a sudden I wasn&#x27;t speaking in Bengali with my friends, it was English. And with my teachers, it was in English. And so, I think, like, the English speaking part of my life became a lot more dominant because I was spending, you know, a lot more hours in school.</p><img class="image-414 phot-fader" src="images/youngmombabyfareeha.jpg" alt="" sizes="100vw" data-w-id="33426a22-c68f-3114-f33c-e86cbadcba02" loading="lazy" srcset="images/youngmombabyfareeha-p-500.jpg 500w, images/youngmombabyfareeha-p-800.jpg 800w, images/youngmombabyfareeha-p-1080.jpg 1080w, images/youngmombabyfareeha-p-1600.jpg 1600w, images/youngmombabyfareeha.jpg 1632w" />
+                  <p>All of a sudden I wasn&#x27;t speaking in Bengali with my friends, it was English. And with my teachers, it was in English. And so, I think, like, the English speaking part of my life became a lot more dominant because I was spending, you know, a lot more hours in school.</p>
                   <p>And so that's... And also, like, when I was growing up in Dhaka, we actually had to take Bengali classes. So, that&#x27;s how we officially learned the language and, like, you know, reading stories in Bengali poetry, etc. And, I lost that after like second grade when I moved to Jakarta.</p>
                 </div>
             </div>
@@ -158,7 +145,7 @@ const Fa = () => {
                 <p><b className="bolded">Basically my knowledge of Bengali was pretty much at a second grade level, and I think it still kind of is.</b></p>
                 <p>But, we still spoke Bengali at home, and I spoke English at school and with my friends. But I think the, you know, my relationship with my mother tongue definitely changed and made me feel... bit of like an outsider. Which is also funny to think about because it was an international school.</p>
                 <div className='text-photo'>
-                    <img className="horizontal-photo" src={young_fareeha} alt="" loading="lazy" />
+                    <StaticImage className="horizontal-photo" src="../images/fareeha/young_fareeha.webp" alt="Faded photo of two young girls standing side by side" width={400} />
                 </div>
                 <p>And so we literally had like kids from all over the world, but I still felt different. And, I&#x27;m still trying to figure out like why that was the case, even though everyone around me spoke different languages, and you know, had like various ethnic backgrounds, etc. But yeah, I think that&#x27;s kind of where it started to change for me in terms of my... how I think about Bengali and how it relates to me.</p>
               </div>
@@ -167,7 +154,7 @@ const Fa = () => {
                 <div className='name-wrapper'>
                   <div className='bolded-name'>Guru</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                   <p>Yeah, and actually, going back to the Bangla medium and English medium schools. <b>Was there any extra stratification, I guess, when it came to who was able to attend those kinds of schools?</b><br /></p>
                   <p>Or, I guess, another way of saying it is like, if someone&#x27;s gonna know English and Bangla, was that kind of something where it&#x27;s like, oh, if you&#x27;re middle, upper middle class or higher, those kids are getting that.</p>
                   <p>And then, <b className='extra-bolded'>what was the role of English in Dhaka?</b><br /></p>
@@ -177,7 +164,7 @@ const Fa = () => {
                 <div className='name-wrapper'>
                   <div className='bolded-name'>Fareeha</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                   <p>Yeah, totally. I mean, for the most part, I think you&#x27;re spot on. I feel like, maybe it&#x27;s different now and because I haven&#x27;t lived in Bangladesh, I might not be as aware of how it&#x27;s playing out currently. But at least when I was growing up, I think mostly middle class, upper middle class kids, you&#x27;d see them going to English medium schools.<br /></p>
                   <p>And for the most part, these schools were private schools. And so you had to pay a tuition. And that&#x27;s kind of the group of people that would be able to afford it. Whereas with Bangla medium schools, I&#x27;m pretty sure there were private schools and a lot of government schools as well.</p>
                   <p>And so, I think the difference between being funded by the government versus being a private school definitely played a role in the demographics, or like the students that I would be, you know, spending my time with during the day.</p>
@@ -185,19 +172,19 @@ const Fa = () => {
                   <p>I know in the past maybe, like, even some of my cousins who might have gone to like a big a Bangla medium school, that transition to university might have been like a little more harder to them. Because, I mean, now they&#x27;re, like, being taught in like a completely different language.</p>
                   <p>Obviously they, you know, might have been aware of English and they did speak it, but I think they would&#x27;ve been more confident in Bengali. And you could say the same for me. If all of a sudden I was just, yes, I speak Bengali at home, but all my life I&#x27;ve been going to English medium schools.</p>
                   <p>And if I, all of a sudden, had to go to a Bangla medium, like, taught university, then it would it would not be good. It would be super hard. And so, yeah, but I guess, like, that&#x27;s not necessarily as applicable to me because, anyways, I was going to an English medium school in Dhaka. I mean, the primary language spoken in my school in Jakarta and Dubai were English. And so, yeah, I feel like I didn&#x27;t have to, especially because I was younger, I wasn&#x27;t like as aware of what was really going on.</p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is Fareeha in middle school</p>
-                    </div>
-                    <img className="horizontal-photo" src={middle_school} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="horizontal-photo" src="../images/fareeha/middle_school.webp" alt="Fareeha, a woman in a blue hijab and a young boy stand inside a restaurant" width={400} />
+                  </figure>
                 </div>
             </div>
             <div className='section-wrapper'>
               <div className='name-wrapper'>
                   <div className='bolded-name'>Guru</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                   <p>Yeah, I mean, I don&#x27;t think anyone would expect a six year old to know everything about the working class, unless you&#x27;re like Greta Thunberg or something.<br /></p>
                   <p>But, I don't know, it&#x27;s just so interesting... Tamil is like one of the oldest languages in the world, you know?<br /></p>
                   <p>And like, there are so many languages that are derived from like Sanskrit and other stuff, like so many languages, like in that part of the world especially, go back like thousands of years or, or something, or even hundreds of years.<br /></p>
@@ -215,16 +202,16 @@ const Fa = () => {
                 <p>I think the other interesting thing about Bengali is, I mean, when you look back at history-- So basically after, you know, Partition and basically us being divided by majority Muslim or majority Hindu, in terms of like India being majority Hindu, and then West Pakistan and East Pakistan being majority Muslim.<b><br /></b></p>
                   <p>Basically at that time, even though it was technically independence for India and Pakistan, it was not independence for what we now know today as Bangladesh because we were under West Pakistan&#x27;s rule.<br /></p>
                   <p>And kind of, with that, a lot of the stipulations, one of them being we had to speak Urdu. So we couldn&#x27;t speak Bengali, basically. So like when you would, if you were to talk to like my dad, I mean he was like pretty young, but his like older siblings, they will tell me, like, &quot;Oh, you know, we literally had to learn Urdu in school and that&#x27;s what we spoke at school and we couldn&#x27;t speak Bengali.&quot; <br /></p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>These are Fareeha's parents</p>
-                    </div>
-                    <img className="horizontal-photo" src={younger_parents1} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="horizontal-photo" src="../images/fareeha/younger_parents1.webp" alt="Wedding photo of a groom in a suit and a bride in a red sari" width={400} />
+                  </figure>
                   <p>And because language is such an important part of your identity, like at that time, they couldn&#x27;t really use Bengali. It wasn&#x27;t necessarily allowed to be a part of their identity.<br /></p>
                   <p>But, essentially, there was like a whole fight for, you know, like our own mother language. And to this day we still like commemorate a lot of the martyrs that fought, that actually physically fought, to be able to speak Bengali.<br /></p>
                   <div className='text-photo'>
-                    <img className="vertical-photo" src={younger_parents2} alt="" loading="lazy" />
+                    <StaticImage className="vertical-photo" src="../images/fareeha/younger_parents2.webp" alt="Two vintage photos: a couple sitting on a pile of stones, and three people outside a house" height={400} />
                   </div>
                   <p>Because a lot of people died in that fight that ensued. And so, and I don&#x27;t know if like everyone would know, but February 21st is actually National Mother Tongue or Mother Language Day. And that&#x27;s because of the fight that happened in Bangladesh. And so, and also like after kind of we got independence of our language, that&#x27;s what showed people, you know, maybe we can actually be an independent nation as well.<br /></p>
                   <p>And then in 1971, we finally were, after a lot of things happened. Because of how Bangla actually came to be like the official language, people also have like a lot of pride in the language because, you know, like we, like, we had to fight for it.<br /></p>
@@ -236,7 +223,7 @@ const Fa = () => {
                 <div className='name-wrapper'>
                   <div className='bolded-name'>Guru</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                   <p>I would say the same thing about Tamil speakers. Truly have not met another population on this planet that is as proud of their language than Tamil. And I think part of it does have to do with, like, just how old it is.<br /></p>
                   <p>But even in, like, movies they&#x27;re just throwing in like a language anthem. They just need to have like a quick segue, to be like, yes, Tamil&#x27;s ruling the world, it is the best thing ever.<br /></p>
                   <p>Going back to what you were saying, there&#x27;s something integral to your identity there because knowing the language, it is a tool, but then that tool gives you access to such a wealth of things.<br /></p>
@@ -251,33 +238,33 @@ const Fa = () => {
                 <div className='name-wrapper'>
                   <div className='bolded-name'>Fareeha</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                   <p>Yeah, so, different experience, both in Jakarta and Dubai. So in Jakarta, I remember like, I don&#x27;t exactly know if this is how it played out, but we lived in a sort of compound. So it was like five different buildings, and so a bunch of different people, and you kind of just have, like, you know, parks and whatever in between.<br /></p>
                   <p>And I remember I was just like out on a walk with my parents, and maybe my brother, who was just like two or three at the time. But I guess we were speaking Bengali and there was like an older, you know, auntie. I mean, she wasn&#x27;t old. Maybe she was like, whatever. She was just an auntie.<br /></p>
                   <p>But she basically approached us because she heard us speak Bengali and she was like, &quot;Oh, you guys are, you know, speaking Bengali. Are you from Bangladesh? When did you guys get here?&quot; <br /></p>
                   <p>And basically a whole conversation started. And that auntie introduced us to a whole other Bengali community in Jakarta. And so in some of, and, you know, in like a funny way, some of them were actually like related to us, which we didn&#x27;t know, but that&#x27;s just, you kind of find that out if you're brown I feel like.<br /></p>
                   <p>And so, we celebrated things like Eid and Pohela Boishakh, which is like the Bengali New Year. And did all these Bengali celebrations with one another. <br /></p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is Fareeha celebrating Pohela Boishakh</p>
-                    </div>
-                    <img className="horizontal-photo" src={pohela_boishakh} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="horizontal-photo" src="../images/fareeha/pohela_boishakh.webp" alt="Two girls in red and orange saris sit side by side" width={400} />
+                  </figure>
                   <p>In Dubai, we didn&#x27;t have a big Bengali community. Like yes, we had some relatives here and there, but it was maybe just like two or three families at most. Whereas in Jakarta it was a bunch. And so, I didn&#x27;t really find the friendships that I had found in like a Bengali community in Dubai. And in that way it was different. <br /></p>
                   <p>Looking back, I also felt a little bad that like my parents didn&#x27;t have the community that they had back in Jakarta. And so it was a little hard that way. In terms of schools, so again, and also what I&#x27;ve noticed in like international schools, you&#x27;ll very rarely find a lot of Bengali kids there.<br /></p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is Fareeha and her family in the UAE</p>
-                    </div>
-                    <img className="horizontal-photo" src={uae} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="horizontal-photo" src="../images/fareeha/uae.webp" alt="A family of five stands on a waterfront promenade with high-rise towers behind them" width={400} />
+                  </figure>
                 </div>
             </div>
             <div className='section-wrapper'>
             <div className='name-wrapper'>
                   <div className='bolded-name'>Guru</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                   <p>So at an international school, when we&#x27;re talking about people coming from all these different backgrounds, were they predominantly people that were coming from other parts of Asia or they&#x27;re like, like European kids there, or South American kids, African kids. I guess like, how diverse was it ultimately?<br /></p>
                 </div>
             </div>
@@ -285,7 +272,7 @@ const Fa = () => {
                 <div className='name-wrapper'>
                   <div className='bolded-name'>Fareeha</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                   <p>Yeah, no, that&#x27;s a good point. So yes, like we would have kids from, you know, 70-80 different countries, but the number of kids from each of these countries would obviously differ. I remember in Jakarta, there was like a really big American and Australian population as well as Indian and South Korean.<br /></p>
                   <p>In Dubai, I think it was predominantly South Asia, mainly India, and then predominantly Middle East.<br /></p>
                 </div>
@@ -294,7 +281,7 @@ const Fa = () => {
               <div className='name-wrapper'>
                   <div className='bolded-name'>Guru</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                   <p>Because you weren&#x27;t speaking Bengali as much, or if you&#x27;re an international school, the cultural experience is getting a little, I&#x27;m assuming a little homogenized, to some degree.<br /></p>
                   <p>How was that affecting, or was it affecting, your relationship with your, like your direct relationship with your parents or your other relatives and such? <br /></p>
                 </div>
@@ -303,15 +290,15 @@ const Fa = () => {
               <div className='name-wrapper'>
                   <div className='bolded-name'>Fareeha</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                   <p>So, I mean, the short answer is yes. I remember, you know, on our trips back, like in the winter or summer, more and more I started to recognize that my Bengali was not as great. And I was like growing different and sometimes, you know, my cousins or my uncles or aunts would point out like, &quot;Oh, you speak Bengali with an American accent.&quot; <br /></p>
                   <p>Or, &quot;Your English sounds different. You sound totally American.&quot; I don&#x27;t think they mentioned in like a negative way. I think that like, their comments were valid and true. But I did, again, feel different. <br /></p>
-                  <div className='text-photo'>
-                    <div className='text-arrow'>
+                  <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is Fareeha's family</p>
-                    </div>
-                    <img className="horizontal-photo" src={big_family2} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="horizontal-photo" src="../images/fareeha/big_family2.webp" alt="A large extended family gathered in a living room in festive clothes" width={400} />
+                  </figure>
                   <p>I remember I was coming back from a wedding with some of my extended relatives and they started playing Bengali songs in their car. So, I was sitting next to one of my other younger cousins. She&#x27;s like 10 or something, or maybe like 12, you know, like in her teens I guess. <br /></p>
                   <p>I was like, &quot;Oh, I&#x27;ve never heard this before.&quot; And she was like, &quot;Oh, how come you&#x27;ve never heard this before? Like, you&#x27;re not even Bengali.&quot; You know, like, it was just like a fun, small comment. And I was like, oh, yikes. Like a 13 year old girl, who grew up in the US, knew this Bengali song and I didn&#x27;t. And like, I literally lived in Bangladesh, you know? <br /></p>
                   <p>And so, just small things like that, like make me realize, even though I speak Bengali all the time, maybe I&#x27;m not as close as I could be.<br /></p>
@@ -330,16 +317,16 @@ const Fa = () => {
               <div className='p-wrapper side'>
                 <p>I actually went back a couple months ago [Production Note: We recorded this in 2022, so Fareeha is referring to traveling to Bangladesh in early 2022]. And that was kind of the first time in more than two years because we used to go back pretty often, like winters and summers. But when I started college in the US, that was a little less frequent because it&#x27;s so far and expensive. And then COVID happened.<br /></p>
                 <div className='text-photo'>
-                    <img className="horizontal-photo" src={family1} alt="" loading="lazy" />
+                    <StaticImage className="horizontal-photo" src="../images/fareeha/family1.webp" alt="Four family members in traditional South Asian clothes stand in a doorway at home" width={400} />
                   </div>
                 <p>So, I basically didn&#x27;t see my parents or my brother for a little over two years. And so I went back earlier in the year, and yeah, it was really nice. We still live in that-- so after we moved back, we went back to that apartment that I essentially grew up in, in like the same apartment building with my other, you know, family members.<br /></p>
                 <p>The number of family members in that building has definitely kind of waned and like died down. So, it&#x27;s a little more quiet, but yeah, it was nice being back. Especially like after a while.<br /></p>
-                <div className='text-photo'>
-                    <div className='text-arrow'>
+                <figure className='text-photo'>
+                    <figcaption className='text-arrow'>
                       <p className='handwriting'>This is Fareeha and her college friends</p>
-                    </div>
-                    <img className="horizontal-photo" src={college_friends} alt="" loading="lazy" />
-                  </div>
+                    </figcaption>
+                    <StaticImage className="horizontal-photo" src="../images/fareeha/college_friends.webp" alt="Selfie of three smiling friends in a park" width={400} />
+                  </figure>
               </div>
             </div>
             <div className='section-wrapper'>
@@ -372,7 +359,7 @@ const Fa = () => {
               <div className='name-wrapper'>
                   <div className='bolded-name'>Guru</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                 <p>And where can people-- Like is it on Amazon or where can people find it, or buy it?</p>
               </div>
             </div>
@@ -380,15 +367,15 @@ const Fa = () => {
                 <div className='name-wrapper'>
                   <div className='bolded-name'>Fareeha</div>
                 </div>
-              <div class="p-wrapper side">
-                <p>Yeah, it&#x27;s on the <a href="https://www.barnesandnoble.com/w/the-impact-mind-fareeha-mahmood/1137453608" target='_blank'>Barnes & Noble</a>, the website, <a href='https://www.amazon.com/Impact-Mind-Unlocking-Ability-Create-ebook/dp/B08DXTXDS9' target='_blank'>Amazon</a>. I think it should be, like, on all the major sites. <b><br /></b></p>
+              <div className="p-wrapper side">
+                <p>Yeah, it&#x27;s on the <a href="https://www.barnesandnoble.com/w/the-impact-mind-fareeha-mahmood/1137453608" target="_blank" rel="noopener noreferrer">Barnes & Noble</a>, the website, <a href='https://www.amazon.com/Impact-Mind-Unlocking-Ability-Create-ebook/dp/B08DXTXDS9' target="_blank" rel="noopener noreferrer">Amazon</a>. I think it should be, like, on all the major sites. <b><br /></b></p>
               </div>
             </div>
             <div className='section-wrapper'>
               <div className='name-wrapper'>
                   <div className='bolded-name'>Guru</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                 <p>Well, I hope everyone checks out your book. I&#x27;ll have to check out your book now as well. So, yeah, I mean, thank you again for coming on to our, our little podcast here. And, also you are closing out season one.</p>
               </div>
             </div>
@@ -404,7 +391,7 @@ const Fa = () => {
               <div className='name-wrapper'>
                   <div className='bolded-name'>Guru</div>
                 </div>
-              <div class="p-wrapper side">
+              <div className="p-wrapper side">
                 <p> You're the season finale of this venture into this whole world. But yeah, thank you again. </p>
               </div>
             </div>

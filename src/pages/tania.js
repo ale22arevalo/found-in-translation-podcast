@@ -1,23 +1,8 @@
 import React, {useEffect} from 'react'
+import { StaticImage } from "gatsby-plugin-image"
 import Navbar from '../components/navbar';
 import BackTop from '../components/backtop';
 import "../styles.css"
-import tania_profile from '../images/tania/tania_profile.jpg';
-import tania_baby from '../images/tania/tania_baby.jpg';
-import tania_outdoors from '../images/tania/tania_outdoors.jpg';
-import tania_highschool from '../images/tania/tania_highschool.png';
-import tania_friends from '../images/tania/tania_friends.png';
-import tania_movie_poster from '../images/tania/tania_movie_poster.jpg';
-import tania_standing from '../images/tania/tania_standing.png';
-import tania_nyc from '../images/tania/tania_nyc.png';
-import tania_titanic from '../images/tania/tania_titanic.jpg';
-import tania_ny from '../images/tania/tania_ny.jpg';
-import tania_russian from '../images/tania/tania_russian.jpg';
-import tania_texts from '../images/tania/tania_texts.jpg';
-import tania_nycsnow from '../images/tania/tania_nycsnow.jpg';
-import tania_europe from '../images/tania/tania_europe.jpg';
-import tania_crimepunishment from '../images/tania/tania_crimepunishment.jpg';
-import tania_ahero from '../images/tania/tania_ahero.jpg'
 
 const Tania = () => {
     useEffect(() => {
@@ -57,7 +42,7 @@ const Tania = () => {
 
             <div className="main-body">
                 <section className='section-wrapper'>
-                    <iframe 
+                    <iframe title="Spotify player: Russian Globetrotter" 
                         style={{borderRadius:'12px'}} 
                         src="https://open.spotify.com/embed/episode/71rdRrFm8kcW4rK7150g1m" 
                         width="100%" 
@@ -80,12 +65,12 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tania</p>
-                        </div>
-                            <img className="vertical-photo" src={tania_profile} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_profile.jpg" alt="Tania stands in the snow on a mountaintop under a cloudy sky" height={400} />
+                    </figure>
                 </section>
 
                 <div className='cue'>~ interview begins ~</div>
@@ -110,12 +95,12 @@ const Tania = () => {
                     </div>
                 </section>
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Baby Tania</p>
-                        </div>
-                            <img className="horizontal-photo" src={tania_baby} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/tania/tania_baby.jpg" alt="A baby lies on a patterned couch next to a cat and a doll" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -146,12 +131,12 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>One of Tania's travels</p>
-                        </div>
-                            <img className="horizontal-photo" src={tania_outdoors} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/tania/tania_outdoors.jpg" alt="Tania stands in front of an overgrown, abandoned concrete building" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -181,12 +166,12 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tania's graduation from English First</p>
-                        </div>
-                            <img className="vertical-photo" src={tania_highschool} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_highschool.png" alt="A group of students in navy graduation gowns and caps" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -273,12 +258,12 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tania and her friends in St. Petersburg </p>
-                        </div>
-                            <img className="vertical-photo" src={tania_friends} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_friends.png" alt="Selfie of five young women at a cafe table" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -320,12 +305,12 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>New York Minute</p>
-                        </div>
-                            <img className="vertical-photo" src={tania_movie_poster} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_movie_poster.jpg" alt="Movie poster for New York Minute starring Mary-Kate and Ashley Olsen" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -358,12 +343,12 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tania</p>
-                        </div>
-                            <img className="vertical-photo" src={tania_standing} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_standing.png" alt="Tania leans against a pink wall beside a shop window with a closed sign" height={400} />
+                    </figure>
                 </section>
 
 
@@ -379,12 +364,12 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tania</p>
-                        </div>
-                            <img className="vertical-photo" src={tania_nyc} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_nyc.png" alt="Tania poses on the red steps in a crowded Times Square" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -481,12 +466,12 @@ const Tania = () => {
                 </section>
                             
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Titanic</p>
-                        </div>
-                            <img className="vertical-photo" src={tania_titanic} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_titanic.jpg" alt="Movie poster for Titanic with Leonardo DiCaprio and Kate Winslet at the ship's bow" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -509,12 +494,12 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tania in New York</p>
-                        </div>
-                            <img className="vertical-photo" src={tania_ny} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_ny.jpg" alt="Tania in a long white coat among snow-dusted trees in front of city towers" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -563,12 +548,12 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tania and Russian food</p>
-                        </div>
-                            <img className="vertical-photo" src={tania_russian} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_russian.jpg" alt="Tania laughs, crouched under a table spread with homemade dishes" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -584,12 +569,12 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tania's text messages in Russian </p>
-                        </div>
-                            <img className="vertical-photo" src={tania_texts} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_texts.jpg" alt="Screenshot of a text conversation in Russian about a dinner with huge portions and burrata" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -624,12 +609,12 @@ const Tania = () => {
                     </div>
                 </section>
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tania in winter</p>
-                        </div>
-                            <img className="vertical-photo" src={tania_nycsnow} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_nycsnow.jpg" alt="Tania in a knit hat and scarf at an outdoor dining shed on a snowy street, with orange juice" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -690,12 +675,12 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tania in Europe</p>
-                        </div>
-                            <img className="vertical-photo" src={tania_europe} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_europe.jpg" alt="Selfie of Tania on a bike path through green alpine meadows" height={400} />
+                    </figure>
                 </section>
 
 
@@ -720,13 +705,13 @@ const Tania = () => {
                 </section>
 
                 <section className="section-wrapper">
-                        <div className='text-photo'>
-                        <div className='text-arrow'>
+                        <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Tania's favorite books: "Crime and Punishment" and "A Hero of Our Time"</p>
-                        </div>
-                            <img className="vertical-photo" src={tania_crimepunishment} alt="" loading="lazy" />
-                            <img className="vertical-photo" src={tania_ahero} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_crimepunishment.jpg" alt="Book cover of Crime and Punishment by Fyodor Dostoevsky" height={400} />
+                            <StaticImage className="vertical-photo" src="../images/tania/tania_ahero.jpg" alt="Penguin Classics cover of A Hero of Our Time by Mikhail Lermontov" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
