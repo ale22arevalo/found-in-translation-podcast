@@ -9,7 +9,7 @@ const EpisodeCard = ({ episode, side }) => {
 
   const art = (
     <div className="ai2html g-box">
-      <div className="g-artboard" style={{ maxWidth: "569px", maxHeight: "809px" }}>
+      <div className="g-artboard">
         <Illustration />
       </div>
       <Link to={`/${episode.slug}/`} className="ep-btn">Experience the podcast visually</Link>

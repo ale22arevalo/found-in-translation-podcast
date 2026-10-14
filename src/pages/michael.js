@@ -11,9 +11,9 @@ const Michael = () => {
     useFadeIn();
 
     return (
-      <Layout className="page-style">
-        <section className="topper" style={{padding:'1rem'}}>
-            <h1 className="site-hero" id="topper"> 
+      <Layout>
+        <section className="topper padded-topper">
+            <h1 id="topper">
               <span className="changing-word">A Comedy of Errors</span>
               <span className="static-title">and Education (in Yoruba)</span>
             </h1>
@@ -249,7 +249,7 @@ const Michael = () => {
                   <div className="name-wrapper">
                     <div className='bolded-name'>Michael</div>
                   </div>
-                  <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                  <div className="video-embed">
                     <div>
                       <p>Yeah, I feel like it&#x27;s definitely influenced the way I write and the way I do stand up, too. One of the interesting things about Yoruba as a language is that it is a tonal language. And so, the way you say things influences the actual meaning of it.</p>
                       <p>I just remembered another Nigerian comic. His name is, I think, David Gborie. And I noticed it when I was watching his standup. The way that he used the tone of his voice was very dynamic. I wonder if that&#x27;s a function of him being Nigerian. Even if you don&#x27;t speak Yoruba, there&#x27;s an animated way of speaking that Nigerian people often use that influences you even if you don&#x27;t speak the language.<b className="bolded"><br /></b></p>
@@ -259,7 +259,6 @@ const Michael = () => {
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
-                        style={{margin: '1rem', display: 'block'}}
                         >
                     </iframe>
                   </div>

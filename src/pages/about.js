@@ -11,7 +11,7 @@ const About = () => {
     <Layout>
       <div className="main-body">
         <div id="topper" className="topper">
-          <h1 className="site-hero">About</h1>
+          <h1>About</h1>
           <h2>The story behind the podcast and the team</h2>
         </div>
 
@@ -63,7 +63,6 @@ const About = () => {
           <div className="ai2html g-box">
             <div
               className="g-artboard"
-              style={{ maxWidth: "569px", maxHeight: "809px" }}
               data-aspect-ratio="0.754"
               data-min-width="0"
             >
@@ -76,7 +75,6 @@ const About = () => {
           <div className="ai2html g-box">
               <div
                 className="g-artboard"
-                style={{ maxWidth: "569px", maxHeight: "809px" }}
                 data-aspect-ratio="0.754"
                 data-min-width="0"
               >
