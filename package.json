@@ -12,10 +12,11 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "lint": "eslint .",
+    "test:a11y": "node scripts/check-a11y.js"
   },
   "dependencies": {
-    "@rive-app/react-canvas": "^4.8.3",
     "gatsby": "^5.13.3",
     "gatsby-plugin-image": "^3.16.0",
     "gatsby-plugin-sharp": "^5.16.0",
@@ -23,5 +24,15 @@
     "gatsby-transformer-sharp": "^5.16.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "axe-core": "^4.14.0",
+    "eslint": "^9.39.5",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.13.0",
+    "playwright": "^1.56.1"
   }
 }

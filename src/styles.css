@@ -829,3 +829,42 @@ text {
 .skip-link:focus {
     transform: translateY(0);
 }
+
+/* 404 page */
+.topper.not-found {
+    /* unlike other toppers, this holds the whole page, so it can't shrink on phones */
+    box-sizing: border-box;
+    height: auto;
+    min-height: 100vh;
+    padding: 6rem 1rem 2rem;
+    justify-content: center;
+    text-align: center;
+
+    p {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    /* the shared button is nudged up 60px to overlap the illustrations; not here */
+    .ep-btn {
+        margin-top: 2rem;
+    }
+
+    .ep-btn:not(:hover) {
+        transform: none;
+    }
+
+    .ep-btn:hover {
+        transform: scale(1.1);
+    }
+}
+
+.not-found-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

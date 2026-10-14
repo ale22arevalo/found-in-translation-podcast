@@ -37,6 +37,9 @@ const Navbar = () => {
             <div className="navbar-track" aria-hidden="true" />
             <div className="navbar-progress" aria-hidden="true" style={{ width: `${scrollPercent}%` }} />
             <Link to="/" className="navbar-home">Found in Translation</Link>
+            {/* The button is the real control; these handlers on its wrapper add hover-to-open
+                and close the menu on Escape or when focus leaves it */}
+            {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions */}
             <div
                 className="navbar-episodes"
                 ref={menuRef}
