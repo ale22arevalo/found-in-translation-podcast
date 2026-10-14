@@ -1105,12 +1105,31 @@ text {
         font-size: inherit;
     }
 
-    .topper.long-title {
-        height: auto;
-        padding-top: 5rem;
-    }
-
     .video-embed {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 728px) {
+    /* Keep page titles clear of the fixed navbar (73px tall). Titles that fit
+       sit at the bottom of a 200px area as before; longer ones push it taller. */
+    .topper:not(.not-found) {
+        box-sizing: border-box;
+        height: auto;
+        min-height: 200px;
+        padding-top: 90px;
+    }
+}
+
+@media (max-width: 374px) {
+    /* Keep the navbar on one line on small phones (it wraps below 375px) */
+    .navbar-home {
+        font-size: 1.5rem;
+        margin-left: 12px;
+    }
+
+    .navbar-episodes,
+    .navbar-link {
+        margin-left: 12px;
     }
 }
