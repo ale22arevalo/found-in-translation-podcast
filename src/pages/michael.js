@@ -1,76 +1,21 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
-import Navbar from '../components/navbar';
-import "../styles.css"
-import BackTop from '../components/backtop';
+import Layout from '../components/layout';
+import Seo from '../components/seo';
+import useFadeIn from '../hooks/useFadeIn';
+import { getEpisode } from '../data/episodes';
 
 const Michael = () => {
-  
-  useEffect(() => {
-    // Get all elements with class 'section-wrapper'
-    const parentDivs = document.querySelectorAll('.section-wrapper');
-
-    const photoDivs = document.querySelectorAll('.text-photo');
-
-    // Iterate over each 'section-wrapper' element
-    parentDivs.forEach(parentDiv => {
-        // Get the corresponding 'p-wrapper' element within each 'section-wrapper'
-        const fadeDiv = parentDiv.querySelector('.p-wrapper');
-
-        // Check if both elements are found in the DOM
-        if (parentDiv && fadeDiv) {
-            // Set up the Intersection Observer for the current 'section-wrapper'
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        fadeDiv.classList.add('fade');
-                    } else {
-                        fadeDiv.classList.remove('fade');
-                    }
-                });
-            });
-
-            // Start observing the current 'section-wrapper'
-            observer.observe(parentDiv);
-
-            // Clean up observer when component unmounts
-            return () => observer.disconnect();
-        }
-    })
-
-    photoDivs.forEach(photoDiv => {
-        const photo = photoDiv.querySelector('.text-photo');
-
-        if (photoDiv && photo) {
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        photo.classList.add('fade');
-                    } else {
-                        photo.classList.remove('fade');
-                    }
-                });
-            });
-
-            observer.observe(photoDiv);
-
-            return () => observer.disconnect();
-        }
-    } )
-
-}, []);
+    useFadeIn();
 
     return (
-      <main className="page-style">  
-        <Navbar />
+      <Layout className="page-style">
         <section className="topper" style={{padding:'1rem'}}>
             <h1 className="site-hero" id="topper"> 
               <span className="changing-word">A Comedy of Errors</span>
               <span className="static-title">and Education (in Yoruba)</span>
             </h1>
           </section>
-        
-        <BackTop />
 
         <section className="main-body">
           <section className='section-wrapper'>
@@ -564,11 +509,14 @@ const Michael = () => {
                 </div>
               </div>
         </section>
-      </main>
+      </Layout>
     )
   }
   
   export default Michael
-  
-  export const Head = () => <title>Michael</title>
-  
+
+const episode = getEpisode('michael');
+
+export const Head = () => (
+    <Seo title={`${episode.fullName}: ${episode.title}`} description={`${episode.fullName}${episode.blurb[0]}`} />
+)

@@ -1,54 +1,20 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
-import Navbar from "../components/navbar"
-import BackTop from "../components/backtop"
-import "../styles.css"
+import Layout from '../components/layout';
+import Seo from '../components/seo';
+import useFadeIn from '../hooks/useFadeIn';
 
 const About = () => {
-         
-  useEffect(() => {
-    // Get all elements with class 'section-wrapper'
-    const parentDivs = document.querySelectorAll('.episode-wrapper');
-
-    // Iterate over each 'section-wrapper' element
-    parentDivs.forEach(parentDiv => {
-        // Get the corresponding 'p-wrapper' element within each 'section-wrapper'
-        const fadeDiv = parentDiv.querySelector('.text-wrapper');
-
-        // Check if both elements are found in the DOM
-        if (parentDiv && fadeDiv) {
-            // Set up the Intersection Observer for the current 'section-wrapper'
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        fadeDiv.classList.add('fade');
-                    } else {
-                        fadeDiv.classList.remove('fade');
-                    }
-                });
-            });
-
-            // Start observing the current 'section-wrapper'
-            observer.observe(parentDiv);
-
-            // Clean up observer when component unmounts
-            return () => observer.disconnect();
-        }
-    });
-}, []);
-
+  useFadeIn(".episode-wrapper .text-wrapper");
 
   return (
-    <main>
-      <Navbar />
-
+    <Layout>
       <div className="main-body">
         <div id="topper" className="topper">
           <h1 className="site-hero">About</h1>
           <h2>The story behind the podcast and the team</h2>
         </div>
 
-        <BackTop />
 
         {/* Episodes */}
         <div className="episode-wrapper left">
@@ -94,7 +60,7 @@ const About = () => {
                 </a>
             </div>
           </div>
-          <div id="g-box" className="ai2html">
+          <div className="ai2html g-box">
             <div
               className="g-artboard"
               style={{ maxWidth: "569px", maxHeight: "809px" }}
@@ -107,7 +73,7 @@ const About = () => {
         </div>
 
         <div className="episode-wrapper right">
-          <div id="g-box" className="ai2html">
+          <div className="ai2html g-box">
               <div
                 className="g-artboard"
                 style={{ maxWidth: "569px", maxHeight: "809px" }}
@@ -157,10 +123,12 @@ const About = () => {
         </div>
 
       </div>
-    </main>
+    </Layout>
   );
 }
 
 export default About
 
-export const Head = () => <title>About the podcast</title>
+export const Head = () => (
+  <Seo title="About" description="The story behind the Found in Translation podcast and the team that makes it." />
+)

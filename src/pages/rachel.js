@@ -1,91 +1,23 @@
-import React, { useEffect, useState, useRef } from 'react'
+import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
-import Navbar from '../components/navbar';
-import BackTop from '../components/backtop';
-import "../styles.css"
+import Layout from '../components/layout';
+import Seo from '../components/seo';
+import useFadeIn from '../hooks/useFadeIn';
+import { getEpisode } from '../data/episodes';
+import useRotatingWord from '../hooks/useRotatingWord';
 
 const Rachel = () => {
+  const text = useRotatingWord(["Korean", "한국어"]);
+  useFadeIn();
 
-  // Changing title word
-  const [text, setText] = useState("Korean");
-
-              useEffect(() => {
-                const words = ["Korean", "한국어"];
-                let currentIndex = 0;
-
-                const interval = setInterval(() => {
-                  currentIndex = (currentIndex + 1) % words.length;
-                  setText(words[currentIndex]);
-                }, 2000);
-                return () => clearInterval(interval);
-              }, []);  
-              
-              useEffect(() => {
-                // Get all elements with class 'section-wrapper'
-                const parentDivs = document.querySelectorAll('.section-wrapper');
-            
-                const photoDivs = document.querySelectorAll('.text-photo');
-
-                // Iterate over each 'section-wrapper' element
-                parentDivs.forEach(parentDiv => {
-                    // Get the corresponding 'p-wrapper' element within each 'section-wrapper'
-                    const fadeDiv = parentDiv.querySelector('.p-wrapper');
-            
-                    // Check if both elements are found in the DOM
-                    if (parentDiv && fadeDiv) {
-                        // Set up the Intersection Observer for the current 'section-wrapper'
-                        const observer = new IntersectionObserver(entries => {
-                            entries.forEach(entry => {
-                                if (entry.isIntersecting) {
-                                    fadeDiv.classList.add('fade');
-                                } else {
-                                    fadeDiv.classList.remove('fade');
-                                }
-                            });
-                        });
-            
-                        // Start observing the current 'section-wrapper'
-                        observer.observe(parentDiv);
-            
-                        // Clean up observer when component unmounts
-                        return () => observer.disconnect();
-                    }
-                });
-
-                photoDivs.forEach(photoDiv => {
-                  const photo = photoDiv.querySelector('.text-photo');
-          
-                  if (photoDiv && photo) {
-                      const observer = new IntersectionObserver(entries => {
-                          entries.forEach(entry => {
-                              if (entry.isIntersecting) {
-                                  photo.classList.add('fade');
-                              } else {
-                                  photo.classList.remove('fade');
-                              }
-                          });
-                      });
-          
-                      observer.observe(photoDiv);
-          
-                      return () => observer.disconnect();
-                  }
-              } )
-
-            }, []);
-  
-                 
   return (
-    <main> 
-      <Navbar />
+    <Layout>
       <section id="topper" className="topper">
         <h1>
           <span className="changing-word">{text}</span>
           <span className="static-title">Whispers</span>
         </h1>
       </section>
-
-      <BackTop />
 
       <div className="main-body">
         <section className='section-wrapper'>
@@ -605,10 +537,14 @@ const Rachel = () => {
               </div>
             </div>
         </div>
-    </main>
+    </Layout>
   )
 }
 
 export default Rachel
 
-export const Head = () => <title>Rachel</title>
+const episode = getEpisode('rachel');
+
+export const Head = () => (
+    <Seo title={`${episode.fullName}: ${episode.title}`} description={`${episode.fullName}${episode.blurb[0]}`} />
+)

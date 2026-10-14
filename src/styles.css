@@ -311,7 +311,7 @@ b {
     }
 }
 
-.p-wrapper * {
+.js .p-wrapper * {
     opacity: 0;
 }
 
@@ -680,14 +680,14 @@ text {
 }
 
 /* illos */
-#g-box {
+.g-box {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#g-box .g-aiImg {
+.g-box .g-aiImg {
     width: 100%;
 }
 
@@ -702,6 +702,14 @@ text {
     animation: fadeInAnimation 2s ease-in forwards;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .js .p-wrapper *,
+    .fade * {
+        opacity: 1;
+        animation: none;
+    }
+}
+
 @keyframes fadeInAnimation {
     from {
         opacity: 0;
@@ -711,6 +719,60 @@ text {
     }
 }
 
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: #FCF5E5;
+    z-index: 1000;
+}
+
+.navbar-track,
+.navbar-progress {
+    position: fixed;
+    top: 60px;
+    height: 10px;
+}
+
+.navbar-track {
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+.navbar-progress {
+    background: linear-gradient(to right, #f249d6, #FFC000, #4992f2);
+}
+
+.navbar-home,
+.navbar-link {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar-home {
+    font-size: 2rem;
+}
+
+.navbar-link {
+    font-size: 1rem;
+}
+
+.navbar-home:hover,
+.navbar-link:hover {
+    color: #3737ba;
+}
+
+.navbar-episodes {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .dropdown{
     position: absolute;
     top: 100%;
@@ -718,6 +780,8 @@ text {
     background-color: #FCF5E5;
     padding: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    list-style: none;
 
         a {
             display: block;
@@ -736,11 +800,33 @@ text {
         cursor: pointer;
         font-size: 1rem;
         font-family: 'Bebas Neue', cursive;
-        outline: none;
         color: #121212;
         text-decoration: none;
+        padding: 0;
 
         &:hover{
             color: #3737ba;
         }
+
+        &:focus-visible{
+            outline: 2px solid #3737ba;
+            outline-offset: 2px;
+        }
     }
+
+/* Visually hidden until focused, so keyboard users can jump past the navbar */
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    z-index: 1100;
+    padding: 0.5rem 1rem;
+    background-color: #FCF5E5;
+    color: #121212;
+    font-size: 1rem;
+    transform: translateY(-120%);
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}

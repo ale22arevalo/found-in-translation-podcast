@@ -1,129 +1,70 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import { Link } from 'gatsby';
+import episodes from '../data/episodes';
 
 const Navbar = () => {
     const [scrollPercent, setScrollPercent] = useState(0);
-    const [showDropdown, setShowDropdown] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
+    const menuRef = useRef(null);
+    const buttonRef = useRef(null);
 
     useEffect(() => {
-        let isMounted = true;
-
         const handleScroll = () => {
-            const windowHeight = window.innerHeight;
-            const documentHeight = document.documentElement.scrollHeight;
-            const scrollTop = window.scrollY || document.documentElement.scrollTop;
-            const newScrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
-            if (isMounted) {
-                setScrollPercent(newScrollPercent);
-            }
+            const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+            setScrollPercent(scrollable > 0 ? (window.scrollY / scrollable) * 100 : 0);
         };
 
-        if (typeof window !== 'undefined') {
-            window.addEventListener('scroll', handleScroll);
-        }
-
-        return () => {
-            isMounted = false;
-            if (typeof window !== 'undefined') {
-                window.removeEventListener('scroll', handleScroll);
-            }
-        };
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const handleDropdownToggle = () => {
-        setShowDropdown(!showDropdown);
+    const closeOnEscape = (event) => {
+        if (event.key === 'Escape' && menuOpen) {
+            setMenuOpen(false);
+            buttonRef.current.focus();
+        }
+    };
+
+    // Close the menu once keyboard focus moves outside of it
+    const closeOnBlur = (event) => {
+        if (!menuRef.current.contains(event.relatedTarget)) {
+            setMenuOpen(false);
+        }
     };
 
     return (
-        <>
-            <nav
-                style={{
-                    position: 'fixed',
-                    top: '0',
-                    height: '60px',
-                    width: '100%',
-                    backgroundColor: '#FCF5E5',
-                    opacity: '1',
-                    zIndex: '1000',
-                    paddingTop: '10px',
-                }}
+        <nav className="navbar" aria-label="Main">
+            <div className="navbar-track" aria-hidden="true" />
+            <div className="navbar-progress" aria-hidden="true" style={{ width: `${scrollPercent}%` }} />
+            <Link to="/" className="navbar-home">Found in Translation</Link>
+            <div
+                className="navbar-episodes"
+                ref={menuRef}
+                onMouseEnter={() => setMenuOpen(true)}
+                onMouseLeave={() => setMenuOpen(false)}
+                onKeyDown={closeOnEscape}
+                onBlur={closeOnBlur}
             >
-                <div
-                    style={{
-                        height: '10px',
-                        width: '100%',
-                        position: 'fixed',
-                        top: '60px',
-                        borderBottom: '3px solid black',
-                    }}
-                />
-                <div
-                    style={{
-                        height: '10px',
-                        width: `${scrollPercent}%`,
-                        position: 'fixed',
-                        top: '60px',
-                        background: 'linear-gradient(to right, #f249d6, #FFC000, #4992f2)',
-                    }}
-                />
-                <a
-                    href="/#topper"
-                    style={{
-                        textDecoration: 'none',
-                        color: 'black',
-                        fontSize: '2rem',
-                        marginLeft: '20px',
-                        transition: 'color 0.3s',
-                    }}
-                    onMouseOver={(e) => {
-                        e.target.style.color = '#3737ba';
-                    }}
-                    onMouseOut={(e) => {
-                        e.target.style.color = 'black';
-                    }}
+                <button
+                    type="button"
+                    className="epbutton"
+                    ref={buttonRef}
+                    aria-expanded={menuOpen}
+                    aria-controls="episode-menu"
+                    onClick={() => setMenuOpen(!menuOpen)}
                 >
-                    Found in Translation
-                </a>
-                <div
-                    style={{
-                        position: 'relative',
-                        display: 'inline-block',
-                        marginLeft: '20px',
-                    }}
-                    onMouseEnter={handleDropdownToggle}
-                    onMouseLeave={handleDropdownToggle}
-                >
-                    {showDropdown && (
-                        <div
-                            className='dropdown'
-                        >
-                             <a
-                                href="/rachel#topper"
-                            >
-                                Rachel
-                            </a>
-                        </div>
-                    )}
-                </div>
-                <a
-                    href="/about#topper"
-                    style={{
-                        textDecoration: 'none',
-                        color: 'black',
-                        fontSize: '1rem',
-                        marginLeft: '20px',
-                        transition: 'color 0.3s',
-                    }}
-                    onMouseOver={(e) => {
-                        e.target.style.color = '#3737ba';
-                    }}
-                    onMouseOut={(e) => {
-                        e.target.style.color = 'black';
-                    }}
-                >
-                    About
-                </a>
-            </nav>
-        </>
+                    Episodes
+                </button>
+                <ul id="episode-menu" className="dropdown" hidden={!menuOpen}>
+                    {episodes.map(episode => (
+                        <li key={episode.slug}>
+                            <Link to={`/${episode.slug}/`}>{episode.name}</Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+            <Link to="/about/" className="navbar-link">About</Link>
+        </nav>
     );
 };
 

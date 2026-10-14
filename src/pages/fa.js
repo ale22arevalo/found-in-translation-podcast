@@ -1,45 +1,16 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
-import Navbar from '../components/navbar';
-import BackTop from '../components/backtop';
-import "../styles.css"
+import Layout from '../components/layout';
+import Seo from '../components/seo';
+import useFadeIn from '../hooks/useFadeIn';
+import { getEpisode } from '../data/episodes';
 
 const Fa = () => {
 
-  useEffect(() => {
-    // Get all elements with class 'section-wrapper'
-    const parentDivs = document.querySelectorAll('.section-wrapper');
-
-    // Iterate over each 'section-wrapper' element
-    parentDivs.forEach(parentDiv => {
-        // Get the corresponding 'p-wrapper side' element within each 'section-wrapper'
-        const fadeDiv = parentDiv.querySelector('.p-wrapper');
-
-        // Check if both elements are found in the DOM
-        if (parentDiv && fadeDiv) {
-            // Set up the Intersection Observer for the current 'section-wrapper'
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        fadeDiv.classList.add('fade');
-                    } else {
-                        fadeDiv.classList.remove('fade');
-                    }
-                });
-            });
-
-            // Start observing the current 'section-wrapper'
-            observer.observe(parentDiv);
-
-            // Clean up observer when component unmounts
-            return () => observer.disconnect();
-        }
-    });
-}, []);
+  useFadeIn();
 
   return (
-    <main>
-      <Navbar />
+    <Layout>
       <section id="topper" className="topper">
         <h1>
           <span className="changing-word">Third Culture</span>
@@ -47,7 +18,6 @@ const Fa = () => {
         </h1>
       </section>
 
-      <BackTop />
       <div className="main-body">
           <section className='section-wrapper'>
             <iframe title="Spotify player: Third Culture Living" style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/episode/1fgnXhMBJz6bEU6XunT28p?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -404,10 +374,14 @@ const Fa = () => {
                 <b className="bolded">And that is a wrap on our season! And we will roll the credits. I'm your host Guru Ramanathan. This is Found in Translation. Created, executive produced, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc., and do all the things that will help us go viral. We have greatly appreciated your support from the beginning to the end of the season.</b>
               </div>
         </div>
-    </main>
+    </Layout>
   )
 }
 
 export default Fa
 
-export const Head = () => <title>Fareeha</title>
+const episode = getEpisode('fa');
+
+export const Head = () => (
+    <Seo title={`${episode.fullName}: ${episode.title}`} description={`${episode.fullName}${episode.blurb[0]}`} />
+)
