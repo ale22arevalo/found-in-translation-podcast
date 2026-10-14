@@ -13,6 +13,10 @@ const Seo = ({ title, description = SITE_DESCRIPTION }) => {
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
+      <meta name="theme-color" content="#F9DCC4" />
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+      <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     </>
   )
 }
