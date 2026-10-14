@@ -19,5 +19,17 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    // Interview transcripts: one MDX file per episode in src/episodes,
+    // turned into pages by gatsby-node.js
+    `gatsby-plugin-mdx`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: { name: `episodes`, path: `${__dirname}/src/episodes` },
+    },
+    // Photos used in the transcripts, looked up by path from the MDX files
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: { name: `images`, path: `${__dirname}/src/images` },
+    },
   ],
 }

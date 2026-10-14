@@ -17,8 +17,10 @@
     "test:a11y": "node scripts/check-a11y.js"
   },
   "dependencies": {
+    "@mdx-js/react": "^2.3.0",
     "gatsby": "^5.13.3",
     "gatsby-plugin-image": "^3.16.0",
+    "gatsby-plugin-mdx": "^5.16.0",
     "gatsby-plugin-sharp": "^5.16.0",
     "gatsby-source-filesystem": "^5.16.0",
     "gatsby-transformer-sharp": "^5.16.0",
