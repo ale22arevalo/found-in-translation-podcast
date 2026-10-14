@@ -92,11 +92,6 @@ const Navbar = () => {
                     onMouseEnter={handleDropdownToggle}
                     onMouseLeave={handleDropdownToggle}
                 >
-                    {/* <button
-                        className='epbutton'
-                    >
-                        Episodes
-                    </button> */}
                     {showDropdown && (
                         <div
                             className='dropdown'
@@ -106,39 +101,6 @@ const Navbar = () => {
                             >
                                 Rachel
                             </a>
-                            {/* <a
-                                href="/cy"
-                                style={{
-                                    display: 'block',
-                                    textDecoration: 'none',
-                                    color: 'black',
-                                    marginBottom: '5px',
-                                }}
-                            >
-                                cy.js
-                            </a>
-                            <a
-                                href="/fa"
-                                style={{
-                                    display: 'block',
-                                    textDecoration: 'none',
-                                    color: 'black',
-                                    marginBottom: '5px',
-                                }}
-                            >
-                                fa.js
-                            </a>
-                            <a
-                                href="/michael"
-                                style={{
-                                    display: 'block',
-                                    textDecoration: 'none',
-                                    color: 'black',
-                                    marginBottom: '5px',
-                                }}
-                            >
-                                micheal.js
-                            </a> */}
                         </div>
                     )}
                 </div>

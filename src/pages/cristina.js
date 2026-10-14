@@ -1,25 +1,8 @@
 import React, {useEffect} from 'react'
+import { StaticImage } from "gatsby-plugin-image"
 import Navbar from '../components/navbar';
 import BackTop from '../components/backtop';
 import "../styles.css"
-import cristina_family from '../images/cristina/cristina_family.jpg'
-import cristina_germangrandparents from '../images/cristina/cristina_germangrandparents.jpg'
-import cristina_germanfriends from '../images/cristina/cristina_germanfriends.jpg'
-import cristina_filipinofamily from '../images/cristina/cristina_filipinofamily.jpg'
-import cristina_germanfriends2 from '../images/cristina/cristina_germanfriends2.jpg'
-import cristina_sistergermany from '../images/cristina/cristina_sistergermany.jpg'
-import cristina_germanfood from '../images/cristina/cristina_germanfood.jpg'
-import cristina_germanemail from '../images/cristina/cristina_germanemail.png'
-import cristina_joselyn from '../images/cristina/cristina_joselyn.jpg'
-import cristina_joselyn2 from '../images/cristina/cristina_joselyn2.jpg'
-import cristina_philippines from '../images/cristina/cristina_philippines.jpg'
-import cristina_filipinofamily2 from '../images/cristina/cristina_filipinofamily2.jpg'
-import cristina_postdam from '../images/cristina/cristina_postdam.jpg'
-import cristina_sd from '../images/cristina/cristina_sd.jpg'
-import cristina_sister from '../images/cristina/cristina_sister.jpg'
-import cristina_sdfamily from '../images/cristina/cristina_sdfamily.jpg'
-import cristina_trip from '../images/cristina/cristina_trip.jpg'
-import cristina_trip2 from '../images/cristina/cristina_trip2.jpg'
 
 const Cristina = () => {
     useEffect(() => {
@@ -59,7 +42,7 @@ const Cristina = () => {
 
             <div className="main-body">
                 <section className='section-wrapper'>
-                    <iframe 
+                    <iframe title="Spotify player: Diving into Deutschland (and the Philippines!)" 
                         style={{borderRadius:'12px'}} 
                         src="https://open.spotify.com/embed/episode/16PSCArTjHxPm2UB9eicUO" 
                         width="100%" 
@@ -112,12 +95,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina's family</p>
-                        </div>
-                            <img className="horizontal-photo" src={cristina_family} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/cristina/cristina_family.jpg" alt="Black-and-white portrait of a mother, father and two young daughters sitting on a lawn" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -132,12 +115,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina with her German grandparents</p>
-                        </div>
-                            <img className="vertical-photo" src={cristina_germangrandparents} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/cristina/cristina_germangrandparents.jpg" alt="Two young girls in satin shirts stand with their grandparents in a living room" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -151,12 +134,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina with her German friends</p>
-                        </div>
-                            <img className="vertical-photo" src={cristina_germanfriends} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/cristina/cristina_germanfriends.jpg" alt="Selfie of four young adults sitting on a bench in a leafy forest" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -182,12 +165,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina with her Filipino-side of her family</p>
-                        </div>
-                            <img className="horizontal-photo" src={cristina_filipinofamily} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/cristina/cristina_filipinofamily.jpg" alt="A large family in matching navy T-shirts poses on a deck with two dogs" width={400} />
+                    </figure>
                 </section>
 
 
@@ -249,12 +232,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina with her German friends and teacher</p>
-                        </div>
-                            <img className="horizontal-photo" src={cristina_germanfriends2} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/cristina/cristina_germanfriends2.jpg" alt="Four people stand together smiling at an evening event" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -268,12 +251,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina and her sister in Germnay</p>
-                        </div>
-                            <img className="vertical-photo" src={cristina_sistergermany} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/cristina/cristina_sistergermany.jpg" alt="Two young girls in rain jackets on a bridge, with Neuschwanstein Castle behind them" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -289,12 +272,12 @@ const Cristina = () => {
                 </section>
 
                  <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>German food</p>
-                        </div>
-                            <img className="horizontal-photo" src={cristina_germanfood} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/cristina/cristina_germanfood.jpg" alt="A plate of potato salad, a soft pretzel and white sausages" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -321,12 +304,12 @@ const Cristina = () => {
                 </section>
 
                  <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina's German email</p>
-                        </div>
-                            <img className="vertical-photo" src={cristina_germanemail} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/cristina/cristina_germanemail.png" alt={`Screenshot of an email Cristina wrote in German, titled "Re: Hallo!"`} height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -349,12 +332,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina and her sister with their Spanish teacher</p>
-                        </div>
-                            <img className="vertical-photo" src={cristina_joselyn} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/cristina/cristina_joselyn.jpg" alt="Selfie of three smiling young women outdoors under palm trees" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -378,12 +361,12 @@ const Cristina = () => {
 
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina and her sister with their Spanish teacher</p>
-                        </div>
-                            <img className="vertical-photo" src={cristina_joselyn2} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/cristina/cristina_joselyn2.jpg" alt="Selfie with two women cooking a large pot of rice over an open fire" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -406,12 +389,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Young Cristina in the Philippines</p>
-                        </div>
-                            <img className="horizontal-photo" src={cristina_philippines} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/cristina/cristina_philippines.jpg" alt="A young girl smiles on a hilltop overlooking a lake with a volcanic island" width={400} />
+                    </figure>
                 </section>
 
 
@@ -425,12 +408,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina's Filipino-side of her family</p>
-                        </div>
-                            <img className="horizontal-photo" src={cristina_filipinofamily2} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/cristina/cristina_filipinofamily2.jpg" alt="A large extended family poses on the front steps of a house" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -443,12 +426,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Postdam</p>
-                        </div>
-                            <img className="vertical-photo" src={cristina_postdam} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/cristina/cristina_postdam.jpg" alt="A Tudor-style manor house with a red star planted in flowers on the front lawn" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -461,12 +444,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina in San Diego</p>
-                        </div>
-                            <img className="vertical-photo" src={cristina_sd} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/cristina/cristina_sd.jpg" alt={`A hand holds an instant photo of four friends at dinner, framed with the word "Cesarina"`} height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -499,12 +482,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina and her sister</p>
-                        </div>
-                            <img className="vertical-photo" src={cristina_sister} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="vertical-photo" src="../images/cristina/cristina_sister.jpg" alt="Selfie of two smiling sisters in summer dresses" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -520,12 +503,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina and her family when she moved to San Diego</p>
-                        </div>
-                            <img className="horizontal-photo" src={cristina_sdfamily} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/cristina/cristina_sdfamily.jpg" alt="Cristina's family stands together on a cliff above the ocean" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -587,12 +570,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>One of Cristina's trips</p>
-                        </div>
-                            <img className="horizontal-photo" src={cristina_trip} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/cristina/cristina_trip.jpg" alt="Cristina in a red bucket hat and backpack at a mountain lake" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -616,12 +599,12 @@ const Cristina = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                             <p className='handwriting'>Cristina</p>
-                        </div>
-                            <img className="horizontal-photo" src={cristina_trip2} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                            <StaticImage className="horizontal-photo" src="../images/cristina/cristina_trip2.jpg" alt="Cristina stands in a whitewashed stone doorway" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">

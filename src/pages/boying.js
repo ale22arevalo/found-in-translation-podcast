@@ -1,23 +1,8 @@
 import React, {useEffect} from 'react'
+import { StaticImage } from "gatsby-plugin-image"
 import Navbar from '../components/navbar';
 import BackTop from '../components/backtop';
 import "../styles.css"
-import boying_babymom from '../images/boying/boying_babymom.jpg';
-import boying_textdad from '../images/boying/boying_textdad.png';
-import boying_toddler from '../images/boying/boying_toddler.jpg';
-import boying_preschool from '../images/boying/boying_preschool.jpg';
-import boying_elementary from '../images/boying/boying_elementary.jpg';
-import boying_chinesestar1 from '../images/boying/boying_chinesestar1.jpg';
-import boying_chinesestar2 from '../images/boying/boying_chinesestar2.png';
-import boying_grandpasister from '../images/boying/boying_grandpasister.jpg';
-import boying_paternalfamily from '../images/boying/boying_paternalfamily.jpg';
-import boying_birthday from '../images/boying/boying_birthday.jpg';
-import boying_badminton from '../images/boying/boying_badminton.png';
-import boying_steambuns from '../images/boying/boying_steambuns.jpg';
-import boying_chinesetv from '../images/boying/boying_chinesetv.jpg';
-import boying_shangchi from '../images/boying/boying_shangchi.jpg';
-import boying_disney from '../images/boying/boying_disney.jpg';
-import boying_seattle from '../images/boying/boying_seattlefriends.jpg';
 
 const Boying = () => {
     useEffect(() => {
@@ -57,7 +42,7 @@ const Boying = () => {
 
             <div className="main-body">
                 <section className='section-wrapper'>
-                    <iframe 
+                    <iframe title="Spotify player: China(town) Chronicles" 
                         style={{borderRadius:'12px'}} 
                         src="https://open.spotify.com/embed/episode/3mtnx8OFlLi5XjlNtzUlYE" 
                         width="100%" 
@@ -92,13 +77,13 @@ const Boying = () => {
                 </section>
 
                   <section className="section-wrapper">
-                        <div className='text-photo'>
-                            <div className='text-arrow'>
+                        <figure className='text-photo'>
+                            <figcaption className='text-arrow'>
                                 <p className='handwriting'>Baby picture with her mom</p>
-                            </div>
-                        <img className="vertical-photo" src={boying_babymom} alt="" loading="lazy" />
+                            </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/boying/boying_babymom.jpg" alt="A woman in a brown jacket holds a baby in front of a painted cartoon-rabbit backdrop" height={400} />
                         
-                        </div>
+                        </figure>
                     </section>
 
                 <section className="section-wrapper">
@@ -162,12 +147,12 @@ const Boying = () => {
                 </section>
 
                 <section className="section-wrapper">
-                        <div className='text-photo'>
-                            <div className='text-arrow'>
+                        <figure className='text-photo'>
+                            <figcaption className='text-arrow'>
                                 <p className='handwriting'>Text messages with her dad</p>
-                            </div>
-                        <img className="vertical-photo" src={boying_textdad} alt="" loading="lazy" />
-                        </div>
+                            </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/boying/boying_textdad.png" alt="Screenshot of a phone chat in Chinese with shared photos and short replies" height={400} />
+                        </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -189,13 +174,13 @@ const Boying = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                              <p className='handwriting'>Toddler in China + Preschool in America</p>
-                        </div>
-                        <img className="vertical-photo" src={boying_toddler} alt="" loading="lazy" />
-                        <img className="vertical-photo" src={boying_preschool} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/boying/boying_toddler.jpg" alt="A toddler in a green shirt and red shorts stands next to an inflatable toy" height={400} />
+                        <StaticImage className="vertical-photo" src="../images/boying/boying_preschool.jpg" alt="Studio portrait of a little girl in a pink jacket behind a pastel picket fence" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -222,12 +207,12 @@ const Boying = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                            <div className='text-arrow'>
+                    <figure className='text-photo'>
+                            <figcaption className='text-arrow'>
                                 <p className='handwriting'>Elementary school</p>
-                            </div>
-                        <img className="horizontal-photo" src={boying_elementary} alt="" loading="lazy" />
-                    </div>
+                            </figcaption>
+                        <StaticImage className="horizontal-photo" src="../images/boying/boying_elementary.jpg" alt="A young girl in a striped sweater sticks out her tongue in front of a wall of cartoon drawings" width={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -287,13 +272,13 @@ const Boying = () => {
                 </section>
 
                 <section className="section-wrapper">
-                    <div className='text-photo'>
-                        <div className='text-arrow'>
+                    <figure className='text-photo'>
+                        <figcaption className='text-arrow'>
                              <p className='handwriting'>Chinese stars</p>
-                        </div>
-                        <img className="vertical-photo" src={boying_chinesestar1} alt="" loading="lazy" />
-                        <img className="vertical-photo" src={boying_chinesestar2} alt="" loading="lazy" />
-                    </div>
+                        </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/boying/boying_chinesestar1.jpg" alt="An actress in a pink period costume with her hair in looped buns, standing before a temple" height={400} />
+                        <StaticImage className="vertical-photo" src="../images/boying/boying_chinesestar2.png" alt="Still from a Chinese TV drama showing an actress in profile, with cast credits in Chinese" height={400} />
+                    </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -318,13 +303,13 @@ const Boying = () => {
                 </section>
 
                 <section className="section-wrapper">
-                        <div className='text-photo'>
-                            <div className='text-arrow'>
+                        <figure className='text-photo'>
+                            <figcaption className='text-arrow'>
                                 <p className='handwriting'>Boying with her grandpa and sister</p>
-                            </div>
-                        <img className="vertical-photo" src={boying_grandpasister} alt="" loading="lazy" />
+                            </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/boying/boying_grandpasister.jpg" alt="Selfie of an older man and two young women smiling indoors" height={400} />
                         
-                        </div>
+                        </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -347,13 +332,13 @@ const Boying = () => {
                 </section>
 
                 <section className="section-wrapper">
-                        <div className='text-photo'>
-                            <div className='text-arrow'>
+                        <figure className='text-photo'>
+                            <figcaption className='text-arrow'>
                                 <p className='handwriting'>Boying with her paternal family</p>
-                            </div>
-                        <img className="vertical-photo" src={boying_paternalfamily} alt="" loading="lazy" />
+                            </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/boying/boying_paternalfamily.jpg" alt="A family group gathered around a round table at a Chinese restaurant" height={400} />
                         
-                        </div>
+                        </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -433,12 +418,12 @@ const Boying = () => {
                 </section>
 
                 <section className="section-wrapper">
-                        <div className='text-photo'>
-                            <div className='text-arrow'>
+                        <figure className='text-photo'>
+                            <figcaption className='text-arrow'>
                                 <p className='handwriting'>Boying's birthday</p>
-                            </div>
-                        <img className="horizontal-photo" src={boying_birthday} alt="" loading="lazy" />
-                        </div>
+                            </figcaption>
+                        <StaticImage className="horizontal-photo" src="../images/boying/boying_birthday.jpg" alt="A little girl in a red sweater clasps her hands in front of a birthday cake with lit candles" width={400} />
+                        </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -462,12 +447,12 @@ const Boying = () => {
                     </div>
                 </section>
                 <section className="section-wrapper">
-                        <div className='text-photo'>
-                            <div className='text-arrow'>
+                        <figure className='text-photo'>
+                            <figcaption className='text-arrow'>
                                 <p className='handwriting'>Boying's high school badminton team</p>
-                            </div>
-                        <img className="horizontal-photo" src={boying_badminton} alt="" loading="lazy" />
-                        </div>
+                            </figcaption>
+                        <StaticImage className="horizontal-photo" src="../images/boying/boying_badminton.png" alt="Selfie of teenage girls in matching blue team shirts in a school locker hallway" width={400} />
+                        </figure>
                 </section>
                 <section className="section-wrapper">
                     <div className="name-wrapper">
@@ -530,12 +515,12 @@ const Boying = () => {
                 </section>
 
                 <section className="section-wrapper">
-                        <div className='text-photo'>
-                            <div className='text-arrow'>
+                        <figure className='text-photo'>
+                            <figcaption className='text-arrow'>
                                 <p className='handwriting'>Making steam buns</p>
-                            </div>
-                        <img className="vertical-photo" src={boying_steambuns} alt="" loading="lazy" />
-                        </div>
+                            </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/boying/boying_steambuns.jpg" alt="Boying smiles in a kitchen holding a bamboo steamer full of homemade buns" height={400} />
+                        </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -561,13 +546,13 @@ const Boying = () => {
                 </section>
 
                 <section className="section-wrapper">
-                        <div className='text-photo'>
-                            <div className='text-arrow'>
+                        <figure className='text-photo'>
+                            <figcaption className='text-arrow'>
                                 <p className='handwriting'>K.O. 3an Guo</p>
-                            </div>
-                        <img className="vertical-photo" src={boying_chinesetv} alt="" loading="lazy" />
+                            </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/boying/boying_chinesetv.jpg" alt="Promotional image for the show K.O.3an Guo: five young men in white jackets on stone steps" height={400} />
                         
-                        </div>
+                        </figure>
                     </section>
 
 
@@ -590,13 +575,13 @@ const Boying = () => {
                 </section>
 
                 <section className="section-wrapper">
-                        <div className='text-photo'>
-                            <div className='text-arrow'>
+                        <figure className='text-photo'>
+                            <figcaption className='text-arrow'>
                                 <p className='handwriting'>Shang-Chi and the Legend of the Ten Rings</p>
-                            </div>
-                        <img className="vertical-photo" src={boying_shangchi} alt="" loading="lazy" />
+                            </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/boying/boying_shangchi.jpg" alt="Movie poster for Shang-Chi and the Legend of the Ten Rings" height={400} />
                         
-                        </div>
+                        </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -636,13 +621,13 @@ const Boying = () => {
                     </div>
                 </section>
                   <section className="section-wrapper">
-                        <div className='text-photo'>
-                            <div className='text-arrow'>
+                        <figure className='text-photo'>
+                            <figcaption className='text-arrow'>
                                 <p className='handwriting'>Boying and her friends at Disney Shanghai</p>
-                            </div>
-                        <img className="vertical-photo" src={boying_disney} alt="" loading="lazy" />
+                            </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/boying/boying_disney.jpg" alt="On-ride photo from Pirates of the Caribbean: Battle for the Sunken Treasure showing a boat full of riders" height={400} />
                         
-                        </div>
+                        </figure>
                 </section>
 
                 <section className="section-wrapper">
@@ -708,13 +693,13 @@ const Boying = () => {
                 </section>
 
                 <section className="section-wrapper">
-                        <div className='text-photo'>
-                            <div className='text-arrow'>
+                        <figure className='text-photo'>
+                            <figcaption className='text-arrow'>
                                 <p className='handwriting'>Boying and her Seattle friends</p>
-                            </div>
-                        <img className="vertical-photo" src={boying_seattle} alt="" loading="lazy" />
+                            </figcaption>
+                        <StaticImage className="vertical-photo" src="../images/boying/boying_seattlefriends.jpg" alt="Close-up selfie of three smiling friends" height={400} />
                         
-                        </div>
+                        </figure>
                 </section>
 
                 <section className="section-wrapper">
