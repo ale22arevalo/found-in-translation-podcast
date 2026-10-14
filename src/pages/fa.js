@@ -28,7 +28,7 @@ const Fa = () => {
               <p>
                 This episode's guest is Fareeha Mahmood, and it's actually the final episode of the season. Fareeha, who came in way of Alejandra, is living in New York City right now, but is actually here to talk about:  <br />
               </p>
-              <p><b className="list">A) </b>growing up in Bangladesh and how the history of that country influenced her passion for the language<br /><b className="list">B) </b>she also discusses attending international schools and how that affected her knowledge of Bengali.<br /><b className="list">C) </b>and, we discussed the concept of language as a form of self-identification, especially in the United States.<br /></p>
+              <p><b>A) </b>growing up in Bangladesh and how the history of that country influenced her passion for the language<br /><b>B) </b>she also discusses attending international schools and how that affected her knowledge of Bengali.<br /><b>C) </b>and, we discussed the concept of language as a form of self-identification, especially in the United States.<br /></p>
               <p>So, I hope you enjoy!</p>
               <Photo caption="This is Fareeha">
                 <StaticImage className="vertical-photo" src="../images/fareeha/fareeha_headshot.jpg" alt="Fareeha smiles on a boat with the Lower Manhattan skyline behind her" height={400} />

@@ -9,7 +9,7 @@ const BackTop = () => {
 
     useEffect(() => {
         const scrollListener = () => {
-            setVisible(window.scrollY > 10 && window.innerWidth > 1080);
+            setVisible(window.scrollY > 10);
         };
 
         window.addEventListener('scroll', scrollListener);

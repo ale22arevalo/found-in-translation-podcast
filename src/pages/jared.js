@@ -12,9 +12,9 @@ const Jared = () => {
 
     return (
         <Layout>
-            <section id="topper" className="topper">
-                <h1 style={{padding:'1rem'}}>
-                    <span style={{fontSize:'3rem'}}>How an Aspirational/Aspiring Polyglot Mastered Mandarin</span>
+            <section id="topper" className="topper long-title">
+                <h1>
+                    <span>How an Aspirational/<wbr />Aspiring Polyglot Mastered Mandarin</span>
                 </h1>
             </section>
 

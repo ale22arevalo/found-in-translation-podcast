@@ -27,13 +27,13 @@ const Rachel = () => {
             <Speaker label="The Host" fullName="Guru Ramanathan">
               <p> Hello and welcome to <b>Found in Translation</b>. I'm your host Guru Ramanathan.</p>
               <p> And this is a podcast where first/second generation and immigrant people come on to talk about their relationship with their cultural language and how that has influenced their connection to their culture, family, friends, and more.</p>
-              <p> This week&#x27;s guest, and our first guest ever, is the lovely and endlessly talented <a href="https://www.rachelhaeunlee.com/" target="_blank" rel="noopener noreferrer" className="hoverable-link">RACHEL LEE</a>, who is one of my best friends and an incredible Korean American dancer-marketer-photographer-podcaster-artist extraordinaire. I&#x27;m the head of her <b>fan club</b>.</p>
+              <p> This week&#x27;s guest, and our first guest ever, is the lovely and endlessly talented <a href="https://www.rachelhaeunlee.com/" target="_blank" rel="noopener noreferrer">RACHEL LEE</a>, who is one of my best friends and an incredible Korean American dancer-marketer-photographer-podcaster-artist extraordinaire. I&#x27;m the head of her <b>fan club</b>.</p>
               <Photo caption="This is Rachel">
                 <StaticImage className="vertical-photo" src="../images/rachel/rachel_headshot.webp" alt="Rachel smiles in a red top against a light background" height={400} />
               </Photo>
               <p>Kidding, but she should definitely have her own fan club at this point. Rachel and I actually met each other at NYU and some of the conversations we&#x27;ve had with each other over the years about our respective relationships to Korean and Tamil have inspired this podcast.</p>
               <p>So, we're very grateful that she can be the inaugural episode and that we can share her story of:</p>
-              <p><b className="list">A) </b>what it was like to navigate coming around to learning Korean while growing up in Dallas‍<br /><b className="list">B) </b>how that affected her relationship with her relatives, school peers, and church <br /><b className="list">C)</b> how her artistic identity was influenced by this journey she was going on. </p>
+              <p><b>A) </b>what it was like to navigate coming around to learning Korean while growing up in Dallas‍<br /><b>B) </b>how that affected her relationship with her relatives, school peers, and church <br /><b>C)</b> how her artistic identity was influenced by this journey she was going on. </p>
               <p>And so much more. So, hope you enjoy!</p>
             </Speaker>
           
@@ -46,7 +46,7 @@ const Rachel = () => {
 
           {/* Rachel Q1 Answer */}
             <Speaker label="The Guest" fullName="Rachel Ha-Eun Lee">
-              <Photo caption="Rachel's parents when they were young" style={{flexDirection:'column'}}>
+              <Photo caption="Rachel's parents when they were young" stacked>
                 <StaticImage className="horizontal-photo" src="../images/rachel/parents.webp" alt="A young couple, arms around each other, at the edge of a lake" width={400} />
               </Photo>
               <p>Both of my parents are from South Korea. And my dad had moved to the States when he was 11 or 12, and my mom came by herself when she was 18 or so. So, my dad had gone through ESL and grew up in the American schooling system, so had a bit more of a grasp on English than my mother did. </p>
@@ -182,13 +182,12 @@ const Rachel = () => {
             <Passage>
               <p>And so, that happened.</p>
               <p>And at the same time, while this was happening, my mother was doing this thing, because her and my father text in Korean. And she&#x27;d be driving me and picking me up from school, and she&#x27;d be like, &quot;Oh, what did dad say?&quot;</p>
-              <div className="image-414 phot-fader"></div>
               <p>And I&#x27;m staring at the phone and being like, &quot;Yeah, I can&#x27;t read this. I don&#x27;t know what he&#x27;s saying.&quot;</p>
               <p>And at the time, there were other Asians at my arts high school, but, I feel like I still didn&#x27;t want to accept myself and I still wanted to be part of this like Eurocentric vibe.</p>
             </Passage>
             <Speaker name="Guru">
               <p>That interaction with the company, it&#x27;s humorous.</p>
-              <p className="speech-center fader heading-8">But, I think it&#x27;s also very interesting that they kind of looked to you as a savior in the situation because they saw you as the person who actually had a foot in both worlds. And so, did that interaction change the way you looked at your relationship with Korean or your Asian identity afterwards? </p>
+              <p>But, I think it&#x27;s also very interesting that they kind of looked to you as a savior in the situation because they saw you as the person who actually had a foot in both worlds. And so, did that interaction change the way you looked at your relationship with Korean or your Asian identity afterwards? </p>
             </Speaker>
             <Speaker name="Rachel">
               <p>That interaction with the Korean company, added with my mother wanting me to read her text messages from my dad and I couldn&#x27;t, plus my grandpa on my dad&#x27;s side had passed my freshman year of high school. And I had some regrets of not being able to have a better relationship with him because of my lack of knowledge in the Korean language. So these little things added up.</p>

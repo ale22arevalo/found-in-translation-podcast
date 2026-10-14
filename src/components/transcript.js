@@ -45,10 +45,11 @@ export const Quote = ({ speaker, children }) => (
 
 // A captioned photo: the handwritten caption next to one or more images,
 // passed as children (StaticImage needs a literal src, so it can't be a prop).
-// `standalone` puts it in its own row between transcript sections.
-export const Photo = ({ caption, standalone = false, style, children }) => {
+// `standalone` puts it in its own row between transcript sections; `stacked` puts
+// the caption above the photo instead of beside it.
+export const Photo = ({ caption, standalone = false, stacked = false, children }) => {
   const figure = (
-    <figure className="text-photo" style={style}>
+    <figure className={stacked ? "text-photo stacked" : "text-photo"}>
       <figcaption className="text-arrow">
         <p className="handwriting">{caption}</p>
       </figcaption>
@@ -63,7 +64,7 @@ export const SpotifyPlayer = ({ episodeId, title }) => (
   <section className="section-wrapper">
     <iframe
       title={`Spotify player: ${title}`}
-      style={{ borderRadius: "12px" }}
+      className="spotify-player"
       src={`https://open.spotify.com/embed/episode/${episodeId}?utm_source=generator`}
       width="100%"
       height="152"

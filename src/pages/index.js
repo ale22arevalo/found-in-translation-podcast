@@ -54,9 +54,9 @@ const IndexPage = () => {
 
         <div id="about" className="episode-wrapper">
             <div className="text-wrapper">
-                  <h3 style={{marginBottom:'2rem'}}>About</h3>
+                  <h3>About</h3>
                   <b className="bolded">“FOUND IN TRANSLATION”</b>
-                  <p style={{fontStyle:'italic'}}>noun</p>
+                  <p className="part-of-speech">noun</p>
                   <p>
                   1. A visual essay podcast co-created by Alejandra Arevalo and Guru Ramanathan where first/second generation Americans and immigrants discuss their relationship with their cultural language and how that has influenced their connection to their culture, family, friends, and more. Ex: “Found in Translation is the worst podcast ever”; “My life was changed after being a guest on Found in Translation.”
                   </p>
