@@ -1,13 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import illustrations from "./illustrations"
-import { AmazonIcon, AppleIcon, SpotifyIcon } from "./icons"
-
-const PLATFORMS = [
-  { key: "spotify", label: "Spotify", Icon: SpotifyIcon },
-  { key: "apple", label: "Apple Podcasts", Icon: AppleIcon },
-  { key: "amazon", label: "Amazon Music", Icon: AmazonIcon },
-]
+import { PLATFORMS } from "./icons"
 
 const EpisodeCard = ({ episode, side }) => {
   const Illustration = illustrations[episode.slug]

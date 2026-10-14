@@ -1,9 +1,11 @@
-// One entry per episode, in the order they appear on the home page.
+// One entry per episode, in the order they appear on the home page (newest season first).
+// `number` is the episode's place in release order, used for previous/next links.
 // `slug` is the page under src/pages, `anchor` is the section id on the home page.
 // The first blurb paragraph follows the guest's bolded full name.
 const episodes = [
   {
     slug: "tim",
+    number: 5,
     anchor: "tim",
     name: "Tim",
     fullName: "Tim Bumatay",
@@ -22,6 +24,7 @@ const episodes = [
   },
   {
     slug: "tania",
+    number: 6,
     anchor: "tania",
     name: "Tania",
     fullName: "Tania Varganova",
@@ -40,6 +43,7 @@ const episodes = [
   },
   {
     slug: "cristina",
+    number: 7,
     anchor: "cristina",
     name: "Cristina",
     fullName: "Cristina Hain",
@@ -58,6 +62,7 @@ const episodes = [
   },
   {
     slug: "boying",
+    number: 8,
     anchor: "boying",
     name: "Boying",
     fullName: "Boying Tang",
@@ -76,6 +81,7 @@ const episodes = [
   },
   {
     slug: "jared",
+    number: 9,
     anchor: "jared",
     name: "Jared",
     fullName: "Jared Patel",
@@ -93,6 +99,7 @@ const episodes = [
   },
   {
     slug: "rachel",
+    number: 1,
     anchor: "rachel",
     name: "Rachel",
     fullName: "Rachel Lee",
@@ -111,6 +118,7 @@ const episodes = [
   },
   {
     slug: "michael",
+    number: 2,
     anchor: "michael",
     name: "Michael",
     fullName: "Michael Oluokun",
@@ -129,6 +137,7 @@ const episodes = [
   },
   {
     slug: "cy",
+    number: 3,
     anchor: "cynthia",
     name: "Cynthia",
     fullName: "Cynthia Mojica",
@@ -147,6 +156,7 @@ const episodes = [
   },
   {
     slug: "fa",
+    number: 4,
     anchor: "fareeha",
     name: "Fareeha",
     fullName: "Fareeha Mahmood",
@@ -166,5 +176,14 @@ const episodes = [
 ]
 
 export const getEpisode = slug => episodes.find(episode => episode.slug === slug)
+
+// The episodes released just before and after this one (either may be undefined)
+export const getAdjacentEpisodes = slug => {
+  const { number } = getEpisode(slug)
+  return {
+    previous: episodes.find(episode => episode.number === number - 1),
+    next: episodes.find(episode => episode.number === number + 1),
+  }
+}
 
 export default episodes

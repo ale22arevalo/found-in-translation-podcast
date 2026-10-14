@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from '../components/layout';
 import { Speaker, Photo, SpotifyPlayer } from '../components/transcript';
 import Seo from '../components/seo';
+import EpisodeFooter from '../components/episode-footer';
 import useFadeIn from '../hooks/useFadeIn';
 import { getEpisode } from '../data/episodes';
 // // 
@@ -327,6 +328,7 @@ const Jared = () => {
                 <Speaker name="Guru">
                     <p>Okay, awesome. Thank you.</p>
                 </Speaker>
+                <EpisodeFooter slug="jared" />
             </div>
         </Layout>
     )

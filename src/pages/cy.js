@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from '../components/layout';
 import { Speaker, Passage, Quote, Photo, SpotifyPlayer } from '../components/transcript';
 import Seo from '../components/seo';
+import EpisodeFooter from '../components/episode-footer';
 import useFadeIn from '../hooks/useFadeIn';
 import { getEpisode } from '../data/episodes';
 
@@ -321,6 +322,7 @@ const Cy = () => {
                 <p>Thank you so much for listening to episode three! Now we will roll the credits! I'm your host Guru Ramanathan. This is Found in Translation. Created, executive produced, and edited by Alejandra Arevalo and myself. And music by Lux the Lightbulb. Thank you so much again for listening and embarking on this journey with us. Please like, share, comment, etc., and do all the things to help us go viral. And stay tuned for the next and last episode of this season. We greatly appreciate your support. </p>
               </div>
             </Speaker>
+            <EpisodeFooter slug="cy" />
       </div>
     </Layout>
   )
