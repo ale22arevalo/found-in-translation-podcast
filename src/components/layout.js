@@ -1,6 +1,7 @@
 import React from "react"
 import Navbar from "./navbar"
 import BackTop from "./backtop"
+import "../fonts.css"
 import "../styles.css"
 
 const Layout = ({ children, className, showNavbar = true }) => (
