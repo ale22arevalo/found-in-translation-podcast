@@ -18,11 +18,10 @@ once, and again after Playwright is updated.
 Every pull request runs lint, build and the accessibility check in GitHub Actions.
 The site builds with Node 22 (see `.nvmrc`).
 
-Dependabot opens pull requests once a month to update dependencies and the CI
-actions; merge them once CI and the deploy preview look good. The `overrides`
-in `package.json` force patched versions of some packages Gatsby depends on,
-for security fixes Gatsby hasn't picked up yet. When a Gatsby update includes
-them, the override can be removed.
+The `overrides` in `package.json` force patched versions of some packages
+Gatsby depends on, for security fixes Gatsby hasn't picked up yet. When a
+Gatsby update includes them, the override can be removed. Dependencies aren't
+updated automatically; `npm audit` lists any new security problems.
 
 The site's address is `siteUrl` in `gatsby-config.js`. Link previews,
 canonical links and the sitemap (`/sitemap-index.xml`, listed in
