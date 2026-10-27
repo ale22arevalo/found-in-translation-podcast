@@ -8,7 +8,7 @@ import Image, { TranscriptImages } from "../components/transcript-image"
 import { Passage, Photo, PullQuote, Quote, Speaker, SpotifyPlayer } from "../components/transcript"
 import { getEpisode } from "../data/episodes"
 import useFadeIn from "../hooks/useFadeIn"
-import useRotatingWord from "../hooks/useRotatingWord"
+import RotatingWord from "../components/rotating-word"
 
 // Everything a transcript can use without importing it
 const components = {
@@ -25,10 +25,10 @@ const components = {
 const spotifyId = episode => episode.links.spotify.match(/episode\/(\w+)/)[1]
 
 // The page title: two lines with the first in blue (optionally rotating through
-// `title_rotate`), or one long line for `title_full`. "/" may wrap on phones.
+// `title_rotate`, with each word's language in `title_rotate_lang`), or one long
+// line for `title_full`. "/" may wrap on phones.
 const EpisodeTitle = ({ frontmatter }) => {
-  const { title_top, title_bottom, title_rotate, title_full, title_style } = frontmatter
-  const rotating = useRotatingWord(title_rotate || [title_top])
+  const { title_top, title_bottom, title_rotate, title_rotate_lang, title_full, title_style } = frontmatter
   const className = ["topper", title_style === "long" && "long-title", title_style === "padded" && "padded-topper"]
     .filter(Boolean)
     .join(" ")
@@ -44,7 +44,11 @@ const EpisodeTitle = ({ frontmatter }) => {
           </span>
         ) : (
           <>
-            <span className="changing-word">{title_rotate ? rotating : title_top}</span>
+            {title_rotate ? (
+              <RotatingWord words={title_rotate.map((text, index) => ({ text, lang: title_rotate_lang?.[index] }))} />
+            ) : (
+              <span className="changing-word">{title_top}</span>
+            )}
             <span className="static-title">{title_bottom}</span>
           </>
         )}
@@ -94,6 +98,7 @@ export const query = graphql`
         title_top
         title_bottom
         title_rotate
+        title_rotate_lang
         title_full
         title_style
       }

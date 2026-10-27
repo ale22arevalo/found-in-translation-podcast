@@ -3,19 +3,22 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import episodes from "../data/episodes"
-import useRotatingWord from "../hooks/useRotatingWord"
+import RotatingWord from "../components/rotating-word"
 
 // "Lost" in English, Spanish, German and Tagalog
-const TITLE_WORDS = ["Lost", "Perdido", "Verloren", "Nawala"]
+const TITLE_WORDS = [
+  { text: "Lost", lang: "en" },
+  { text: "Perdido", lang: "es" },
+  { text: "Verloren", lang: "de" },
+  { text: "Nawala", lang: "tl" },
+]
 
 const NotFoundPage = () => {
-  const word = useRotatingWord(TITLE_WORDS)
-
   return (
     <Layout className="main-body">
       <section id="topper" className="topper not-found">
         <h1>
-          <span className="changing-word">{word}</span>
+          <RotatingWord words={TITLE_WORDS} />
           <span className="static-title">in Translation</span>
         </h1>
         <p>This page doesn't exist, but these stories do:</p>

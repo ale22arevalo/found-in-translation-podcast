@@ -5,21 +5,26 @@ import Seo from "../components/seo"
 import EpisodeCard from "../components/episode-card"
 import { InfoIcon } from "../components/icons"
 import episodes from "../data/episodes"
-import useRotatingWord from "../hooks/useRotatingWord"
+import RotatingWord from "../components/rotating-word"
 
-const TITLE_WORDS = ["Found", "Encontrado", "পাইলাম", "찾았다", "Ri"]
+// "Found" in English, Spanish, Bengali, Korean and Yoruba
+const TITLE_WORDS = [
+  { text: "Found", lang: "en" },
+  { text: "Encontrado", lang: "es" },
+  { text: "পাইলাম", lang: "bn" },
+  { text: "찾았다", lang: "ko" },
+  { text: "Ri", lang: "yo" },
+]
 
 // Bars for the decorative animated waveform under each guest link
 const waveBars = Array.from({ length: 36 }, (_, i) => i)
 
 const IndexPage = () => {
-  const word = useRotatingWord(TITLE_WORDS)
-
   return (
     <Layout className="main-body" showNavbar={false}>
       <div className="home-intro" id="topper">
           <h1>
-            <span className="changing-word">{word}</span>
+            <RotatingWord words={TITLE_WORDS} />
             <span className="static-title">in Translation</span>
           </h1>
           <div className="subhead">
