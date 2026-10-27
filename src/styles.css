@@ -16,6 +16,13 @@ body {
     overflow-x: hidden;
 }
 
+/* Gatsby focuses this wrapper after each page change. Keep the first element's
+   top margin inside it, so the wrapper starts at the top of the page and
+   focusing it doesn't scroll the page down. */
+#gatsby-focus-wrapper {
+    display: flow-root;
+}
+
 /* Text styling */
 h1 {
     color: #D81B60; /* Raspberry pink */

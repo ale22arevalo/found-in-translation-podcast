@@ -42,7 +42,7 @@ const EpisodeFooter = ({ slug }) => {
           <li className="episode-nav-previous">{previous && <EpisodeLink episode={previous} direction="previous" />}</li>
           <li className="episode-nav-next">{next && <EpisodeLink episode={next} direction="next" />}</li>
         </ul>
-        <Link to={`/#${episode.anchor}`} className="episode-nav-all">See all episodes</Link>
+        <Link to="/" className="episode-nav-all">See all episodes</Link>
       </nav>
     </footer>
   )
