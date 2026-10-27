@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useRef, useState } from "react"
 
 // Building blocks for the interview transcript pages. Each one renders the same
 // markup the pages used to spell out by hand, so styles.css and useFadeIn
@@ -60,18 +60,48 @@ export const Photo = ({ caption, standalone = false, stacked = false, children }
 }
 
 // The episode's Spotify player, shown at the top of each transcript page.
-export const SpotifyPlayer = ({ episodeId, title }) => (
-  <section className="section-wrapper">
-    <iframe
-      title={`Spotify player: ${title}`}
-      className="spotify-player"
-      src={`https://open.spotify.com/embed/episode/${episodeId}?utm_source=generator`}
-      width="100%"
-      height="152"
-      frameBorder="0"
-      allowFullScreen
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"
-    />
-  </section>
-)
+// Spotify's player is heavy and sets cookies, so the page first shows a light
+// stand-in of the same size; the real player loads in its place when someone
+// presses play. Without JavaScript the stand-in is a link to the episode.
+export const SpotifyPlayer = ({ episodeId, title, url, color }) => {
+  const [loaded, setLoaded] = useState(false)
+  const player = useRef(null)
+
+  useEffect(() => {
+    if (loaded) player.current.focus()
+  }, [loaded])
+
+  const load = event => {
+    // Let ctrl/cmd/shift-click open Spotify in a new tab as usual
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
+    event.preventDefault()
+    setLoaded(true)
+  }
+
+  return (
+    <section className="section-wrapper">
+      {loaded ? (
+        <iframe
+          ref={player}
+          title={`Spotify player: ${title}`}
+          className="spotify-player"
+          src={`https://open.spotify.com/embed/episode/${episodeId}?utm_source=generator`}
+          width="100%"
+          height="152"
+          frameBorder="0"
+          allowFullScreen
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        />
+      ) : (
+        <a className="spotify-player spotify-standin" href={url} style={{ backgroundColor: color }} onClick={load}>
+          <span className="spotify-standin-play" aria-hidden="true" />
+          <span className="spotify-standin-text">
+            <span className="spotify-standin-show">Found in Translation</span>
+            <span className="spotify-standin-title">{title}</span>
+            <span className="spotify-standin-action">Play on Spotify</span>
+          </span>
+        </a>
+      )}
+    </section>
+  )
+}
