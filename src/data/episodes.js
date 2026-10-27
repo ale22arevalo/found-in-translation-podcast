@@ -19,7 +19,7 @@ const episodes = [
     links: {
       spotify: "https://open.spotify.com/episode/1KTiEBo7wHVLhFvT1hnKV7?si=KHVcpzw5SA6g4DBeX3-Xuw",
       apple: "https://podcasts.apple.com/us/podcast/episode-5-talking-tagalog-and-existential-crises/id1752322799?i=1000732913792",
-      amazon: "https://music.amazon.com/podcasts/48ecb0b7-af78-4191-a8bc-dbf45dc5acdf/found-in-translation",
+      amazon: "https://music.amazon.com/podcasts/48ecb0b7-af78-4191-a8bc-dbf45dc5acdf/episodes/0d07c451-211f-4500-866d-9d977ba2425d/found-in-translation-episode-5-talking-tagalog-and-existential-crises",
     },
   },
   {
@@ -93,8 +93,8 @@ const episodes = [
     ],
     links: {
       spotify: "https://open.spotify.com/episode/0GEi31ozdrZKNEMl21XjvL?si=04f66e008ca048e3",
-      apple: "https://podcasts.apple.com/us/podcast/found-in-translation/id1752322799",
-      amazon: "https://music.amazon.com/podcasts/48ecb0b7-af78-4191-a8bc-dbf45dc5acdf/found-in-translation",
+      apple: "https://podcasts.apple.com/us/podcast/found-in-translation/id1752322799?i=1000741784512",
+      amazon: "https://music.amazon.com/podcasts/48ecb0b7-af78-4191-a8bc-dbf45dc5acdf/episodes/f1ab9bae-683e-412b-b9c8-719373e1f8b9/found-in-translation-episode-9-how-an-aspirationalaspiring-polyglot-mastered-mandarin",
     },
   },
   {

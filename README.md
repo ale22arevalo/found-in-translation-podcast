@@ -12,6 +12,9 @@ npm run build       # production build into public/
 npm run test:a11y   # accessibility check of the built site (run after build)
 ```
 
+The accessibility check needs a browser: run `npx playwright install chromium`
+once, and again after Playwright is updated.
+
 Every pull request runs lint, build and the accessibility check in GitHub Actions.
 The site builds with Node 22 (see `.nvmrc`).
 

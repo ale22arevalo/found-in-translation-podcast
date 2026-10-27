@@ -24,6 +24,22 @@ const components = {
 
 const spotifyId = episode => episode.links.spotify.match(/episode\/(\w+)/)[1]
 
+// Links that go to this episode itself (not just the show's page)
+const isEpisodeLink = link => /\/episode\/|\/episodes\/|[?&]i=\d/.test(link)
+
+// The episode, for search engines
+const podcastEpisode = (episode, description) => ({ siteUrl, url, image }) => ({
+  "@type": "PodcastEpisode",
+  name: episode.title,
+  description,
+  url,
+  image,
+  episodeNumber: episode.number,
+  partOfSeason: { "@type": "PodcastSeason", seasonNumber: episode.season },
+  partOfSeries: { "@type": "PodcastSeries", name: "Found in Translation", url: `${siteUrl}/` },
+  sameAs: Object.values(episode.links).filter(isEpisodeLink),
+})
+
 // The page title: two lines with the first in blue (optionally rotating through
 // `title_rotate`, with each word's language in `title_rotate_lang`), or one long
 // line for `title_full`. "/" may wrap on phones.
@@ -87,12 +103,14 @@ export default EpisodePage
 
 export const Head = ({ data, location }) => {
   const episode = getEpisode(data.mdx.frontmatter.slug)
+  const description = `${episode.fullName}${episode.blurb[0]}`
   return (
     <Seo
       title={`${episode.fullName}: ${episode.title}`}
-      description={`${episode.fullName}${episode.blurb[0]}`}
+      description={description}
       pathname={location.pathname}
       image={data.illustration.childImageSharp.resize.src}
+      schema={podcastEpisode(episode, description)}
     />
   )
 }

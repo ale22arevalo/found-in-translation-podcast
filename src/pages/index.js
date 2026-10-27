@@ -75,4 +75,19 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = ({ location }) => <Seo pathname={location.pathname} />
+// The show itself, for search engines
+const podcastSeries = ({ url, image }) => ({
+  "@type": "PodcastSeries",
+  name: "Found in Translation",
+  description:
+    "A visual essay podcast where first- and second-generation Americans and immigrants talk about their relationship with their cultural language.",
+  url,
+  image,
+  sameAs: [
+    "https://open.spotify.com/show/6A1zTR3NTLufUCFBeArKu5",
+    "https://podcasts.apple.com/us/podcast/found-in-translation/id1752322799",
+    "https://music.amazon.com/podcasts/48ecb0b7-af78-4191-a8bc-dbf45dc5acdf/found-in-translation",
+  ],
+})
+
+export const Head = ({ location }) => <Seo pathname={location.pathname} schema={podcastSeries} />
