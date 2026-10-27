@@ -100,7 +100,10 @@ b {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* fills the screen, but grows instead of clipping the title on short windows */
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 4rem 0;
 
     h1{
         display: flex;
@@ -111,7 +114,8 @@ b {
 
     @media(max-width: 728px){
        margin: 4rem 0 3rem 0;
-       height: auto;
+       min-height: 0;
+       padding: 0;
     }
 }
 

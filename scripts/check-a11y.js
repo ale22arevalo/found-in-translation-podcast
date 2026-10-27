@@ -30,13 +30,18 @@ const server = http.createServer((req, res) => {
 
 server.listen(0, async () => {
   const { port } = server.address()
+  const origin = `http://localhost:${port}`
   const browser = await chromium.launch()
   let failures = 0
 
   for (const width of WIDTHS) {
     for (const page of pages) {
       const tab = await browser.newPage({ viewport: { width, height: 900 } })
-      await tab.goto(`http://localhost:${port}${page}`, { waitUntil: "networkidle" })
+      // Skip the Spotify and YouTube players: axe checks only this site's own markup
+      // (the iframes stay in the page), and they can keep the network busy for long
+      // enough to time out the "networkidle" wait
+      await tab.route(url => url.origin !== origin, route => route.abort())
+      await tab.goto(`${origin}${page}`, { waitUntil: "networkidle" })
       // Reveal fade-in transcript text so contrast is checked on its final colors
       await tab.addStyleTag({ content: ".js .p-wrapper *, .fade * { opacity: 1 !important; animation: none !important; }" })
       await tab.addScriptTag({ content: AXE })
