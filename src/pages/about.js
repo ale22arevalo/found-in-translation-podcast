@@ -127,6 +127,10 @@ const About = () => {
 
 export default About
 
-export const Head = () => (
-  <Seo title="About" description="The story behind the Found in Translation podcast and the team that makes it." />
+export const Head = ({ location }) => (
+  <Seo
+    title="About"
+    description="The story behind the Found in Translation podcast and the team that makes it."
+    pathname={location.pathname}
+  />
 )

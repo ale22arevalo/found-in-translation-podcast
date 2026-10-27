@@ -85,13 +85,20 @@ const EpisodePage = ({ data, children }) => {
 
 export default EpisodePage
 
-export const Head = ({ data }) => {
+export const Head = ({ data, location }) => {
   const episode = getEpisode(data.mdx.frontmatter.slug)
-  return <Seo title={`${episode.fullName}: ${episode.title}`} description={`${episode.fullName}${episode.blurb[0]}`} />
+  return (
+    <Seo
+      title={`${episode.fullName}: ${episode.title}`}
+      description={`${episode.fullName}${episode.blurb[0]}`}
+      pathname={location.pathname}
+      image={data.illustration.childImageSharp.resize.src}
+    />
+  )
 }
 
 export const query = graphql`
-  query EpisodePage($id: String!, $vertical: [String], $horizontal: [String], $full: [String]) {
+  query EpisodePage($id: String!, $vertical: [String], $horizontal: [String], $full: [String], $illustration: String!) {
     mdx(id: { eq: $id }) {
       frontmatter {
         slug
@@ -101,6 +108,14 @@ export const query = graphql`
         title_rotate_lang
         title_full
         title_style
+      }
+    }
+    # The guest's illustration on the site's beige, sized for link previews
+    illustration: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: $illustration }) {
+      childImageSharp {
+        resize(width: 1200, height: 630, fit: CONTAIN, background: "#F9DCC4", toFormat: JPG, quality: 85) {
+          src
+        }
       }
     }
     vertical: allFile(filter: { sourceInstanceName: { eq: "images" }, relativePath: { in: $vertical } }) {
