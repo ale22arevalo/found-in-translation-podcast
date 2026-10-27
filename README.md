@@ -75,5 +75,7 @@ Building blocks you can use in a transcript (see `src/components/transcript.js`)
 | `<Image src="folder/file.jpg" className="…" alt="…" />` | A photo from `src/images`. `className` sets the size: `vertical-photo` (400px tall), `horizontal-photo` (400px wide) or `text-message` (full width). Always write `alt` text describing the photo. |
 
 Title options in the header: `title_rotate: ["Korean", "한국어"]` cycles the
-first line through several words; `title_full: "…"` with `title_style: "long"`
-shows one long title instead of two lines.
+first line through several words once, ending on the first, with
+`title_rotate_lang: ["en", "ko"]` giving each word's language code;
+`title_full: "…"` with `title_style: "long"` shows one long title instead of
+two lines.

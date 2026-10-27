@@ -263,13 +263,35 @@ b {
     letter-spacing: 2px;
 }
 
+/* Read by screen readers but not shown */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
 .changing-word {
     color: #1976D2; /* Blue, dark enough for 3:1 contrast on the beige background */
     height: 100px;
 }
 
 @media (max-width: 728px) {
-    .changing-word {
+    /* Read by screen readers but not shown */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+.changing-word {
         height: 50px;
     }
 }
