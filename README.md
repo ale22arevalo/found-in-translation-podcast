@@ -21,6 +21,12 @@ in `package.json` force patched versions of some packages Gatsby depends on,
 for security fixes Gatsby hasn't picked up yet. When a Gatsby update includes
 them, the override can be removed.
 
+The site's address is `siteUrl` in `gatsby-config.js`. Link previews,
+canonical links and the sitemap (`/sitemap-index.xml`, listed in
+`static/robots.txt`) use it, so if the site moves to a custom domain, change it
+there and in `robots.txt`. The preview image for the home and about pages is
+`static/social-card.png`.
+
 Security headers, including the Content Security Policy, are in
 `static/_headers`. Embedding content from a new site (a player other than
 Spotify or YouTube, for example) means adding that site to `frame-src` there,
@@ -35,13 +41,15 @@ or the browser will block it.
    the Spotify / Apple Podcasts / Amazon Music links. This drives the home page,
    the navbar's episode list and the previous/next links.
 3. **Illustration**: add one line for the guest to
-   `src/components/illustrations.js`.
+   `src/components/illustrations.js`. The transcript's `illustration` (below)
+   points at the same file and becomes the page's link preview image.
 4. **Transcript**: create `src/episodes/<slug>.mdx`. The `slug` must match the
    one in `episodes.js`; the page will live at `/<slug>/`.
 
 ```mdx
 ---
 slug: "maria"
+illustration: "maria/maria_illo.png"
 title_top: "First line of the title"
 title_bottom: "Second line"
 ---

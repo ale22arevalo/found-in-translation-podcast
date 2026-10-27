@@ -75,4 +75,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <Seo />
+export const Head = ({ location }) => <Seo pathname={location.pathname} />

@@ -14,7 +14,8 @@ const VARIANTS = {
 /**
  * One page per transcript in src/episodes, at /<slug>/. The photos each
  * transcript uses are collected here so the page query only processes those
- * images, at the size their class needs.
+ * images, at the size their class needs; the guest's `illustration` becomes the
+ * page's link preview image.
  * @type {import('gatsby').GatsbyNode['createPages']}
  */
 exports.createPages = async ({ graphql, actions, reporter }) => {
@@ -26,6 +27,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           body
           frontmatter {
             slug
+            illustration
           }
           internal {
             contentFilePath
@@ -40,6 +42,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 
   for (const node of result.data.allMdx.nodes) {
+    const { illustration } = node.frontmatter
+    if (!illustration || !fs.existsSync(path.join("src/images", illustration))) {
+      reporter.panicOnBuild(`${node.internal.contentFilePath}: illustration needs to be the guest's illustration in src/images, like "maria/maria_illo.png" (got ${JSON.stringify(illustration)})`)
+      return
+    }
+
     const images = { vertical: [], horizontal: [], full: [] }
     for (const [tag] of node.body.matchAll(/<Image\b[^>]*>/g)) {
       const src = tag.match(/src="([^"]+)"/)?.[1]
@@ -54,7 +62,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     actions.createPage({
       path: `/${node.frontmatter.slug}/`,
       component: `${TEMPLATE}?__contentFilePath=${node.internal.contentFilePath}`,
-      context: { id: node.id, ...images },
+      context: { id: node.id, illustration: node.frontmatter.illustration, ...images },
     })
   }
 }
