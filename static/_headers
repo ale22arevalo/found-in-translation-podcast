@@ -1,9 +1,10 @@
 # Security headers for every page, applied by Netlify.
 # Gatsby inlines small scripts and styles into each page, so CSP allows
 # 'unsafe-inline' for those. The only third-party content is the Spotify and
-# YouTube players, which are allowed as frames.
+# YouTube players, which are allowed as frames, and Spotify's player API
+# script, which an episode page loads when someone presses play.
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://open.spotify.com https://www.youtube.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://open.spotify.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://open.spotify.com https://www.youtube.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin

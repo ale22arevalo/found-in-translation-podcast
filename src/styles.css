@@ -1088,6 +1088,24 @@ text {
     border-radius: 12px;
 }
 
+/* The stand-in covers the spot where Spotify's player is loaded */
+.spotify-slot {
+    position: relative;
+    width: 100%;
+    min-height: 152px;
+
+    /* Spotify's iframe: no border, and no gap below it as an inline element */
+    iframe {
+        display: block;
+        border: 0;
+    }
+
+    .spotify-standin {
+        position: absolute;
+        inset: 0;
+    }
+}
+
 /* Stands in for the Spotify player until someone presses play; same size, so
    nothing moves when the real player loads */
 .spotify-standin {
