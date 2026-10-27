@@ -1,0 +1,19 @@
+# Opens pull requests for dependency updates once a month; CI and the Netlify
+# deploy preview run on each one before it's merged.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    # Minor and patch updates arrive together in one PR; major versions get
+    # their own PR, since those can need code changes
+    groups:
+      minor-and-patch:
+        update-types: [minor, patch]
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
