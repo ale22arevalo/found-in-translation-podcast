@@ -13,6 +13,12 @@ npm run test:a11y   # accessibility check of the built site (run after build)
 ```
 
 Every pull request runs lint, build and the accessibility check in GitHub Actions.
+The site builds with Node 22 (see `.nvmrc`).
+
+Security headers, including the Content Security Policy, are in
+`static/_headers`. Embedding content from a new site (a player other than
+Spotify or YouTube, for example) means adding that site to `frame-src` there,
+or the browser will block it.
 
 ## Adding an episode
 
