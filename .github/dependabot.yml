@@ -6,11 +6,23 @@ updates:
     directory: /
     schedule:
       interval: monthly
-    # Minor and patch updates arrive together in one PR; major versions get
-    # their own PR, since those can need code changes
     groups:
+      # react and react-dom must always be the same version
+      react:
+        patterns: [react, react-dom]
+      # Other minor and patch updates arrive together in one PR; major versions
+      # get their own PR, since those can need code changes
       minor-and-patch:
         update-types: [minor, patch]
+    ignore:
+      # gatsby-plugin-mdx 5 only works with @mdx-js/react 2
+      - dependency-name: "@mdx-js/react"
+        update-types: [version-update:semver-major]
+      # The React and accessibility lint plugins don't support ESLint 10 yet
+      - dependency-name: eslint
+        update-types: [version-update:semver-major]
+      - dependency-name: "@eslint/js"
+        update-types: [version-update:semver-major]
     open-pull-requests-limit: 5
 
   - package-ecosystem: github-actions
