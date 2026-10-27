@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react"
+import React from "react"
 
 // Building blocks for the interview transcript pages. Each one renders the same
 // markup the pages used to spell out by hand, so styles.css and useFadeIn
@@ -59,128 +59,19 @@ export const Photo = ({ caption, standalone = false, stacked = false, children }
   return standalone ? <section className="section-wrapper">{figure}</section> : figure
 }
 
-// Spotify's iFrame API, loaded once and only after someone presses play
-const SPOTIFY_API = "https://open.spotify.com/embed/iframe-api/v1"
-let spotifyApi
-const loadSpotifyApi = () => {
-  spotifyApi ??= new Promise((resolve, reject) => {
-    window.onSpotifyIframeApiReady = resolve
-    const script = document.createElement("script")
-    script.src = SPOTIFY_API
-    script.async = true
-    script.onerror = () => {
-      spotifyApi = undefined
-      reject(new Error("Spotify's player API didn't load"))
-    }
-    document.body.appendChild(script)
-  })
-  return spotifyApi
-}
-
-// How long to wait for Spotify's player before showing it the plain way
-const SPOTIFY_TIMEOUT = 8000
-
 // The episode's Spotify player, shown at the top of each transcript page.
-// Spotify's player is heavy and sets cookies, so the page first shows a light
-// stand-in of the same size. Pressing it loads the real player through
-// Spotify's iFrame API and starts the episode, so one tap plays it. Browsers
-// that block audio not started inside the player itself (iPhones, sometimes)
-// just show the player ready for a second tap. If the API doesn't load, the
-// plain embed is shown instead. Without JavaScript the stand-in is a link.
-export const SpotifyPlayer = ({ episodeId, title, url, color }) => {
-  // idle: stand-in; loading: waiting for Spotify; ready: API player;
-  // plain: the embed without the API
-  const [state, setState] = useState("idle")
-  const slot = useRef(null)
-  const plain = useRef(null)
-
-  useEffect(() => {
-    if (state !== "loading") return
-    let done = false
-    const fallBack = () => {
-      if (!done) setState("plain")
-      done = true
-    }
-    const timer = setTimeout(fallBack, SPOTIFY_TIMEOUT)
-
-    loadSpotifyApi()
-      .then(api => {
-        if (done) return
-        // The API replaces this element with its iframe
-        const target = document.createElement("div")
-        slot.current.replaceChildren(target)
-        api.createController(target, { uri: `spotify:episode:${episodeId}`, width: "100%", height: 152 }, controller => {
-          controller.addListener("ready", () => {
-            if (done) return
-            done = true
-            clearTimeout(timer)
-            const iframe = slot.current.querySelector("iframe")
-            iframe.title = `Spotify player: ${title}`
-            iframe.className = "spotify-player"
-            setState("ready")
-            controller.play()
-            iframe.focus()
-          })
-        })
-      })
-      .catch(fallBack)
-
-    return () => {
-      done = true
-      clearTimeout(timer)
-    }
-  }, [state, episodeId, title])
-
-  useEffect(() => {
-    if (state === "plain") plain.current.focus()
-  }, [state])
-
-  const load = event => {
-    // Let ctrl/cmd/shift-click open Spotify in a new tab as usual
-    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
-    event.preventDefault()
-    if (state === "idle") setState("loading")
-  }
-
-  if (state === "plain") {
-    return (
-      <section className="section-wrapper">
-        <iframe
-          ref={plain}
-          title={`Spotify player: ${title}`}
-          className="spotify-player"
-          src={`https://open.spotify.com/embed/episode/${episodeId}?utm_source=generator`}
-          width="100%"
-          height="152"
-          frameBorder="0"
-          allowFullScreen
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        />
-      </section>
-    )
-  }
-
-  return (
-    <section className="section-wrapper">
-      <div className="spotify-slot">
-        <div ref={slot} />
-        {state !== "ready" && (
-          <a
-            className="spotify-player spotify-standin"
-            href={url}
-            style={{ backgroundColor: color }}
-            onClick={load}
-            aria-busy={state === "loading"}
-          >
-            <span className="spotify-standin-play" aria-hidden="true" />
-            <span className="spotify-standin-text">
-              <span className="spotify-standin-show">Found in Translation</span>
-              <span className="spotify-standin-title">{title}</span>
-              <span className="spotify-standin-action">{state === "loading" ? "Loading…" : "Play on Spotify"}</span>
-            </span>
-          </a>
-        )}
-      </div>
-    </section>
-  )
-}
+export const SpotifyPlayer = ({ episodeId, title }) => (
+  <section className="section-wrapper">
+    <iframe
+      title={`Spotify player: ${title}`}
+      className="spotify-player"
+      src={`https://open.spotify.com/embed/episode/${episodeId}?utm_source=generator`}
+      width="100%"
+      height="152"
+      frameBorder="0"
+      allowFullScreen
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    />
+  </section>
+)

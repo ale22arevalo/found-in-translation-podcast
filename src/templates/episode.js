@@ -89,7 +89,7 @@ const EpisodePage = ({ data, children }) => {
     <Layout>
       <EpisodeTitle frontmatter={frontmatter} />
       <div className="main-body">
-        <SpotifyPlayer episodeId={spotifyId(episode)} title={episode.title} url={episode.links.spotify} color={episode.color} />
+        <SpotifyPlayer episodeId={spotifyId(episode)} title={episode.title} />
         <TranscriptImages.Provider value={images}>
           <MDXProvider components={components}>{children}</MDXProvider>
         </TranscriptImages.Provider>
